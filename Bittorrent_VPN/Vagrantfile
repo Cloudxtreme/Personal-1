@@ -1,12 +1,18 @@
-
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/trusty64"
   config.vm.hostname = "bittorrentVPN"
   config.vm.network "forwarded_port", guest: 51413, host: 51413
   config.vm.network "forwarded_port", guest: 9091, host: 9091
-  config.vm.network "public_network"
+  config.vm.network "public_network", bridge: "eth0"
 
-  config.vm.synced_folder "./", "/synced", create: true
+  config.vm.synced_folder "/home/adamschoonover/Downloads/", "/opt/Downloads/", 
+	create: true,
+	owner: "debian-transmission",
+	mount_options: ["dmode=777, fmode=777"]
+  config.vm.synced_folder "/home/adamschoonover/Dropbox/Usenet-Watched/", "/opt/Usenet-Watched/", 
+	create: true,
+	owner: "debian-transmission",
+	mount_options: ["dmode=777, fmode=777"]
 
   config.vm.provision "shell", inline: "apt-get update"
 end
