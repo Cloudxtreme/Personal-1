@@ -1,0 +1,15 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.hostname = "borgbackuptest"
+  #config.vm.network "forwarded_port", guest: 80, host: 8080
+  config.vm.network "public_network"
+  config.vm.synced_folder "/Users/adamschoonover/Downloads", "/synced", create: true
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo apt-get update
+    cd /tmp
+    wget https://github.com/borgbackup/borg/releases/download/1.0.0/borg-linux64
+    sudo cp borg-linux64 /usr/local/bin/borg
+    sudo chown root:root /usr/local/bin/borg
+    sudo chmod 755 /usr/local/bin/borg
+SHELL
+end

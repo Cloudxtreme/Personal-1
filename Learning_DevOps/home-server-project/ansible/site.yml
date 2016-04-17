@@ -1,0 +1,33 @@
+---
+
+-
+  hosts: all
+  become: True
+  tasks:
+      - name: Transfer the ssh config
+        copy: src=/roles/ssh/ssh_config dest=/etc/ssh/ssh_config mode=0777
+      - name: Transfer the snmpd config
+        copy: src=/roles/snmp/snmp.conf dest=/etc/snmp/snmp.conf
+
+      - name: ensure sshd is at the latest version
+        apt: name=ssh state=latest
+
+      - name: write the sshd config file
+        template: src=roles/ssh_config dest=/etc/ssh/ssh_config
+        notify:
+        - restart ssh
+
+      - name: ensure snmpd is at the latest version
+        apt:
+          name=snmpd
+          state=latest
+      - name: write the snmp config file
+        template:
+          src=/roles/snmp/snmp.conf
+          dest=/etc/snmp/snmp.conf
+      - name: write the snmpd config file
+        template:
+          src=/roles/snmp/snmpd.conf
+          dest=/etc/snmp/snmpd.conf
+        notify:
+        - restart snmp

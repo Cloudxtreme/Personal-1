@@ -1,0 +1,1 @@
+{"virtualbox":{"/synced":{"create":true,"guestpath":"/synced","hostpath":"/Users/adamschoonover/Git/Personal/Bittorrent_VPN","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/adamschoonover/Git/Personal/Bittorrent_VPN","disabled":false,"__vagrantfile":true}}}
