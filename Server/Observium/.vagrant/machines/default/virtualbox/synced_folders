@@ -1,0 +1,1 @@
+{"virtualbox":{"/opt/mnt/NAS":{"create":true,"guestpath":"/opt/mnt/NAS","hostpath":"/mnt/NAS","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/adamschoonover/Git/Personal/Server/Observium","disabled":false,"__vagrantfile":true}}}
