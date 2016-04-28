@@ -5,14 +5,9 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port", guest: 9091, host: 9091
   config.vm.network "public_network", bridge: "eth0"
 
-  config.vm.synced_folder "/home/adamschoonover/Downloads/", "/opt/Downloads/", 
-	create: true,
-	owner: "debian-transmission"
-#	mount_options: ["dmode=777, fmode=777"]
-  config.vm.synced_folder "/home/adamschoonover/Dropbox/Usenet-Watched/", "/opt/Usenet-Watched/", 
-	create: true,
-	owner: "debian-transmission"
-#	mount_options: ["dmode=777, fmode=777"]
+  config.vm.synced_folder "/mnt/NAS/Downloads/", "/opt/Downloads/", create: true, owner: "debian-transmission"
+  config.vm.synced_folder "/home/adamschoonover/Dropbox/Usenet-Watched/", "/opt/Usenet-Watched/", create: true, owner: "debian-transmission"
 
   config.vm.provision "shell", inline: "apt-get update"
+  config.vm.provision "shell", inline: "sudo bash /vagrant/OpenVPN/openvpn.sh"
 end
