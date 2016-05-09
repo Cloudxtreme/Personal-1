@@ -25,7 +25,7 @@
 0 0,12 * * * /home/adamschoonover/Git/Personal/Server/Cronjobs/borg_backup.sh >> /home/adamschoonover/Dropbox/Logs/Borg_Backup.txt
 
 # every morning #
-0 5 * * * /home/adamschoonover/Git/Personal_Scripts/cronjobs/crontab_backup.sh
+0 5 * * * /home/adamschoonover/Git/Personal/Server/Cronjobs/cron_and_bash_backup.sh
 0 6 * * * /home/adamschoonover/Git/Personal_Scripts/cronjobs/HD-health-state.sh
 0 7 * * * /home/adamschoonover/Git/Personal_Scripts/cronjobs/usenet_programs_configs_backup.sh
 0 8 * * * /home/adamschoonover/Git/Personal_Scripts/cronjobs/public-ip-check.sh
