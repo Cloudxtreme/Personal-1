@@ -34,5 +34,3 @@
 ## Copy last 100 lines of Crashplan backup to check if it's working.
 
 0 9 * * * tail -n 100 /usr/local/crashplan/log/backup_files.log.0 > /home/adamschoonover/Dropbox/Logs/crashplan_backup.txt
-
-
