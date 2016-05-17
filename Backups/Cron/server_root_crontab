@@ -21,16 +21,20 @@
 # 
 # m h  dom mon dow   command
 
+PS="/home/adamschoonover/Git/Personal/Server/Cronjobs"
+
 # every 1 hour #
-0 0,12 * * * /home/adamschoonover/Git/Personal/Server/Cronjobs/borg_backup.sh >> /home/adamschoonover/Dropbox/Logs/Borg_Backup.txt
+0 0,12 * * * $PS/borg_backup.sh >> /home/adamschoonover/Dropbox/Logs/Borg_Backup.txt
 
 # every morning #
-0 5 * * * /home/adamschoonover/Git/Personal/Server/Cronjobs/cron_and_bash_backup.sh
-0 6 * * * /home/adamschoonover/Git/Personal_Scripts/cronjobs/HD-health-state.sh
-0 7 * * * /home/adamschoonover/Git/Personal_Scripts/cronjobs/usenet_programs_configs_backup.sh
-0 8 * * * /home/adamschoonover/Git/Personal_Scripts/cronjobs/public-ip-check.sh
-0 9 * * * /home/adamschoonover/Git/Personal_Scripts/cronjobs/mysql-booksread-backup.sh
+0 5 * * * $PS/cron_and_bash_backup.sh
+0 6 * * * $PS/HD-health-state.sh
+#0 7 * * * $PS/usenet_programs_configs_backup.sh
+0 8 * * * $PS/public-ip-check.sh
+0 9 * * * $PS/mysql-booksread-backup.sh
 
-## Copy last 100 lines of Crashplan backup to check if it's working.
+## Copy last 25 lines of Crashplan backup to check if it's working.
+0 9 * * * tail -n 25 /usr/local/crashplan/log/backup_files.log.0 > /home/adamschoonover/Dropbox/Logs/crashplan_backup.txt
 
-0 9 * * * tail -n 100 /usr/local/crashplan/log/backup_files.log.0 > /home/adamschoonover/Dropbox/Logs/crashplan_backup.txt
+# Change recursively owner for downloads folder
+1/2 * * * * chown -R adamschoonover /mnt/NAS/Downloads/

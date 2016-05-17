@@ -31,6 +31,9 @@ alias imac="ssh adamschoonover@10.0.0.10"
 alias imagebackups='cd /mnt/NAS/Archive/Image\ Backups/ & ls'
 alias sonarr='mono --debug /opt/NzbDrone/NzbDrone.exe'
 alias dump='sudo dump -0a -f /mnt/ImageBackups/server-backup-$NOW.dump /'
+alias usenet="cd ~/Git/Personal/Server/Usenet && ls"
+alias sevone='ssh root@10.0.0.60'
+
 
 ### COLORS ###
 
