@@ -16,6 +16,6 @@ cp /home/adamschoonover/.bashrc $DIR/Bash/server_bashrc
 
 cd $DIR
 
-sudo git add -A .
-sudo git commit -m "updates $NOW"
-sudo git push
+git add -A .
+git commit -m "updates $NOW"
+git push
