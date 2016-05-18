@@ -1,0 +1,39 @@
+16-5-13 02:35:55.5|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.4146
+16-5-15 20:41:29.8|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.4146
+16-5-15 21:05:04.1|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.4146
+16-5-15 21:08:28.6|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.4146
+16-5-15 21:08:28.9|Error|PidFileProvider|Unable to write PID file: /home/vagrant/.config/NzbDrone/nzbdrone.pid
+
+[v2.0.0.4146] System.UnauthorizedAccessException: Access to the path "/home/(removed)/.config/NzbDrone/nzbdrone.pid" is denied.
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) <0x7f5d73157240 + 0x005ed> in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, System.String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost) <0x7f5d73157190 + 0x0004d> in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions,string,bool,bool,bool)
+  at System.IO.StreamWriter.CreateFile (System.String path, Boolean append, Boolean checkHost) <0x7f5d72fc9d50 + 0x00095> in <filename unknown>:0 
+  at System.IO.StreamWriter..ctor (System.String path, Boolean append, System.Text.Encoding encoding, Int32 bufferSize, Boolean checkHost) <0x7f5d72fc9a10 + 0x00073> in <filename unknown>:0 
+  at System.IO.StreamWriter..ctor (System.String path, Boolean append, System.Text.Encoding encoding, Int32 bufferSize) <0x7f5d72fc99d0 + 0x00035> in <filename unknown>:0 
+  at System.IO.StreamWriter..ctor (System.String path, Boolean append, System.Text.Encoding encoding) <0x7f5d72fc9990 + 0x0002b> in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter:.ctor (string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) <0x7f5d73155930 + 0x0003d> in <filename unknown>:0 
+  at System.IO.File.WriteAllText (System.String path, System.String contents) <0x7f5d73155900 + 0x00022> in <filename unknown>:0 
+  at NzbDrone.Common.Processes.PidFileProvider.Write () [0x0001e] in M:\BuildAgent\work\6c3239faf2b92630\src\NzbDrone.Common\Processes\PidFileProvider.cs:36 
+
+16-5-15 21:08:28.9|Fatal|ConsoleApp|EPIC FAIL!
+
+[v2.0.0.4146] System.UnauthorizedAccessException: Access to the path "/home/(removed)/.config/NzbDrone/nzbdrone.pid" is denied.
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) <0x7f5d73157240 + 0x005ed> in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, System.String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost) <0x7f5d73157190 + 0x0004d> in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions,string,bool,bool,bool)
+  at System.IO.StreamWriter.CreateFile (System.String path, Boolean append, Boolean checkHost) <0x7f5d72fc9d50 + 0x00095> in <filename unknown>:0 
+  at System.IO.StreamWriter..ctor (System.String path, Boolean append, System.Text.Encoding encoding, Int32 bufferSize, Boolean checkHost) <0x7f5d72fc9a10 + 0x00073> in <filename unknown>:0 
+  at System.IO.StreamWriter..ctor (System.String path, Boolean append, System.Text.Encoding encoding, Int32 bufferSize) <0x7f5d72fc99d0 + 0x00035> in <filename unknown>:0 
+  at System.IO.StreamWriter..ctor (System.String path, Boolean append, System.Text.Encoding encoding) <0x7f5d72fc9990 + 0x0002b> in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter:.ctor (string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) <0x7f5d73155930 + 0x0003d> in <filename unknown>:0 
+  at System.IO.File.WriteAllText (System.String path, System.String contents) <0x7f5d73155900 + 0x00022> in <filename unknown>:0 
+  at NzbDrone.Common.Processes.PidFileProvider.Write () [0x0001e] in M:\BuildAgent\work\6c3239faf2b92630\src\NzbDrone.Common\Processes\PidFileProvider.cs:36 
+
+16-5-15 21:09:25.0|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.4146
+16-5-15 21:14:23.4|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.4146
+16-5-18 01:06:07.8|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.4146
+16-5-18 01:06:22.8|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.4146
+16-5-18 01:06:34.5|Info|Bootstrap|Starting Sonarr - /opt/NzbDrone/NzbDrone.exe - Version 2.0.0.4146
