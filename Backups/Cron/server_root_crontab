@@ -1,0 +1,40 @@
+# Edit this file to introduce tasks to be run by cron.
+# 
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+# 
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').# 
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+# 
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+# 
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+# 
+# For more information see the manual pages of crontab(5) and cron(8)
+# 
+# m h  dom mon dow   command
+
+PS="/home/adamschoonover/Git/Personal/Server/Cronjobs"
+
+# every 1 hour #
+0 0,12 * * * $PS/borg_backup.sh >> /home/adamschoonover/Dropbox/Logs/Borg_Backup.txt
+
+# every morning #
+0 5 * * * $PS/cron_and_bash_backup.sh
+0 6 * * * $PS/HD-health-state.sh
+#0 7 * * * $PS/usenet_programs_configs_backup.sh
+0 8 * * * $PS/public-ip-check.sh
+0 9 * * * $PS/mysql-booksread-backup.sh
+
+## Copy last 25 lines of Crashplan backup to check if it's working.
+0 9 * * * tail -n 25 /usr/local/crashplan/log/backup_files.log.0 > /home/adamschoonover/Dropbox/Logs/crashplan_backup.txt
+
+# Change recursively owner for downloads folder
+1/2 * * * * chown -R adamschoonover /mnt/NAS/Downloads/
