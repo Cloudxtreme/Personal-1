@@ -8,12 +8,14 @@ import mysql.connector
 import time
 import os
 
+apikey = "AIzaSyDozlghDCtPzYu9ckvt1jhkjinZpM3vhJQ"
+
 cnx = mysql.connector.connect(user='root', database='booksread', buffered=True)
 cursor = cnx.cursor()
 
 url = 'https://www.googleapis.com/books/v1/volumes?q=isbn:'
 
-print "#################\n"
+print "#################\n"d
 print "Book Database\n"
 print "#################\n\n"
 
@@ -42,7 +44,7 @@ print "Name: " + Name
 print "AuthorName: " + AuthorName
 print "Date Finished: " + DateFinished
 print "Pages of book: %s" % Pages
- 
+
 book_data = {
   'Name': Name,
   'AuthorName': AuthorName,
@@ -52,8 +54,6 @@ book_data = {
   'ISBN': ISBN,
   'NOTES': NOTES,
 }
-
-#print "Name: %(Name)r" + "AuthorName: %(AuthorName)r" + "Rating: %(Rating)r" + "DateFinished: %(DateFinished)r" + "Pages: %(Pages)r" + "ISBN: %(ISBN)r" + "Notes: %(Notes)r" % (Name, AuthorName, Rating, DateFinished, Pages, ISBN, NOTES)
 
 add_book = ("INSERT INTO booksread "
             "(Name,AuthorName,Rating,DateFinished,Pages,ISBN,NOTES) "
@@ -68,4 +68,3 @@ print "Information entered into the database.\n\n"
 cnx.commit()
 cursor.close()
 cnx.close()
-
