@@ -61,6 +61,7 @@ apps=(
   launchcontrol
   istat-menus
   iterm2
+  path-finder
   remote-desktop-manager
   sonos
   superduper
@@ -122,15 +123,14 @@ masapps=(
 
 mas install ${masapps[@a]}
 
-## ADD SPOTIFY TO DOCK
-defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/Spotify.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>'
+# git
 
-## ADD ATOM TO DOCK
-defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/Atom.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>'
-
-killall Dock
+mkdir /Users/adamschoonover/Git
+cd /Users/adamschoonover/Git/
+git clone git@github.com:nonstopflights/Personal.git
 
 brew cleanups
+
 
 read HOSTNAME
 echo "Choose a hostname:"
@@ -196,3 +196,23 @@ echo "-----> DISABLE SEND AND REPLY ANIMATIONS IN MAIL.APP"
 defaults write com.apple.mail DisableReplyAnimations -bool true
 defaults write com.apple.mail DisableSendAnimations -bool true
 fi
+
+########################
+# DOC UTIL
+# https://github.com/kcrawford/dockutil
+########################
+
+cd /Users/adamschoonover/Git/Personal/Post-install-scripts/OSX/dockutil/scripts
+
+cp dockutil /usr/local/bin
+chown root:wheel /usr/local/bin/dockutil
+chmod 755 /usr/local/bin/dockutil
+
+APP="/Applications"
+CASKROOM="/opt/homebrew-cask/Caskroom"
+dockutil --add $APP/Path@20Finder.app --position 1
+dockutil --add $CASKROOM/google-chrome/latest/Google@20Chrome.app --after 'Safari'
+docktuil --add $APP/Messages.app --position 6
+docktuil --add $APP/iTerm.app --after 'Messages'
+docktuil --add $APP/Quiver.app --after 'iTerm'
+docktuil --add $CASKROOM/atom/1.5.4/Atom.app --after 'Quiver'
