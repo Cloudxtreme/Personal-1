@@ -6,11 +6,6 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port", guest: 8090, host: 8090
   config.vm.network "public_network", ip: "10.0.0.56", bridge: "eth0"
 
-  config.vm.synced_folder "/mnt/NAS/Downloads/", "/opt/Downloads/", create: true, owner: "adamschoonover"
-  config.vm.synced_folder "/mnt/NAS/", "/opt/NAS/", create: true, owner: "adamschoonover"
-  #config.vm.synced_folder "/mnt/NAS/Movies/", "/opt/Movies", create: true, owner: "debian-transmission"
-  #config.vm.synced_folder "/home/adamschoonover/Dropbox/Usenet-Watched/", "/opt/Usenet-Watched/", create: true, owner: "debian-transmission"
-
-  config.vm.provision "shell", inline: "apt-get update"
-  config.vm.provision "shell", inline: "sudo bash /vagrant/Usenet_bootstrap.sh"
+  config.vm.synced_folder "/mnt/NAS/Downloads/", "/opt/Downloads/", create: true, owner: "vagrant"
+  config.vm.synced_folder "/mnt/NAS/", "/opt/NAS/", create: true, owner: "vagrant"
 end
