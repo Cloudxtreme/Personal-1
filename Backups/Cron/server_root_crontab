@@ -38,3 +38,6 @@ PS="/home/adamschoonover/Git/Personal/Server/Cronjobs"
 
 # Change recursively owner for downloads folder
 1/2 * * * * chown -R adamschoonover /mnt/NAS/Downloads/
+1/2 * * * * chown -R adamschoonover /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
+1/2 * * * * chmod -R 775 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
+
