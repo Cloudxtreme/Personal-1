@@ -38,7 +38,7 @@ fi
 #checks crontab
 if [[ $crontabBackupHash != $crontabHash ]]; then
 	crontab -u root -l > $DIR/Cron/server_root_crontab
-   printf "\n Updated Crontab conf - $now\n" >> $dbDirectory/systemconf_backups.txt
+   printf "\n Updated Crontab conf - $NOW\n" >> $dbDirectory/systemconf_backups.txt
 
    counter+=1 
 fi
