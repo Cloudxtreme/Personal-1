@@ -13,10 +13,6 @@ TMP="/tmp/UsenetBackup"
 mkdir $TMP
 chown adamschoonover $TMP
 
-cp -r $HOME/.ssh/ $TMP/ssh/
-
-cp -r $HOME/.bashrc $TMP/bashrc_backup.txt
-
 cp -r $HOME/.sabnzbd/ $TMP/sabnzbd/
 
 cp -r $HOME/.couchpotato/ $TMP/couchpotato/
