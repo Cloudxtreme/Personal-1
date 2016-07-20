@@ -13,7 +13,7 @@ haproxyCFG=$(md5sum /etc/haproxy/haproxy.cfg | awk '{print $1;}')
 haproxyBACKUP=$(md5sum /home/adamschoonover/Git/Personal/Backups/Haproxy/haproxy.cfg | awk '{print $1;}')
  
 git_add() {
-
+  cd /home/adamschoonover/Git/Personal/
   git add -A .
   git commit -m "updates $NOW"
   git push
