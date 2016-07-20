@@ -6,8 +6,8 @@
 
 NOW=$(date +"%m-%d-%Y")
 DIR='/home/adamschoonover/Git/Personal/Backups'
-haproxHash=$()
-gitHAProxHash=$(
+#haproxHash=$()
+#gitHAProxHash=$(
 logFile="/home/adamschoonover/Dropbox/Logs/config_backups.txt"
 dbDirectory="/home/adamschoonover/Dropbox/Logs"
 
@@ -33,9 +33,4 @@ crontab -u root -l > $DIR/Cron/server_root_crontab
 
 cp /home/adamschoonover/.bashrc $DIR/Bash/server_bashrc
 
-
-## HAPROXY backup
-
-
-
-cd $DIR
+git_add
