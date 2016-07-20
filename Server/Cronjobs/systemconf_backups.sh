@@ -6,11 +6,12 @@
 
 NOW=$(date +"%m-%d-%Y")
 DIR='/home/adamschoonover/Git/Personal/Backups'
-#haproxHash=$()
-#gitHAProxHash=$(
 logFile="/home/adamschoonover/Dropbox/Logs/config_backups.txt"
 dbDirectory="/home/adamschoonover/Dropbox/Logs"
 
+haproxyCFG=$(md5sum /etc/haproxy/haproxy.cfg | awk '{print $1;}')
+haproxyBACKUP=$(md5sum /home/adamschoonover/Git/Personal/Backups/Haproxy/haproxy.cfg | awk '{print $1;}')
+ 
 git_add() {
 
   git add -A .
@@ -20,7 +21,7 @@ git_add() {
 }
 
 
-if [[ "$(md5sum /etc/haproxy/haproxy.cfg | awk '{print $1;}')" -ne "$(md5sum /home/adamschoonover/Git/Personal/Backups/Haproxy/haproxy.cfg | awk '{print $1;}')" ]]; then
+if [[ $haproxyCFG != $haproxyBACKUP ]]; then
     cp /etc/haproxy/haproxy.cfg $DIR/Haproxy/
 
     printf "\n Updated HAPROXY conf - $NOW\n" >> $dbDirectory/systemconf_backups.txt
