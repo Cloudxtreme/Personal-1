@@ -21,8 +21,7 @@ git_add() {
 
 
 if [[ #10$haproxHash -ne #10$gitHAProxHash ]]; then
-    cp /etc/haproxy/haproxy.cfg \
-    $DIR/Haproxy/
+    cp /etc/haproxy/haproxy.cfg $DIR/Haproxy/
 
     printf "\n Updated HAPROXY conf - $NOW\n" >> $dbDirectory/systemconf_backups.txt
 
