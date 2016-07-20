@@ -15,7 +15,7 @@ cursor = cnx.cursor()
 
 url = 'https://www.googleapis.com/books/v1/volumes?q=isbn:'
 
-print "#################\n"d
+print "#################\n"
 print "Book Database\n"
 print "#################\n\n"
 

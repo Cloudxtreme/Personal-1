@@ -6,6 +6,9 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port", guest: 8090, host: 8090
   config.vm.network "public_network", ip: "10.0.0.56", bridge: "eth0"
 
-  config.vm.synced_folder "/mnt/NAS/Downloads/", "/opt/Downloads/", create: true, owner: "vagrant"
-  config.vm.synced_folder "/mnt/NAS/", "/opt/NAS/", create: true, owner: "vagrant"
+  config.vm.synced_folder "/mnt/NAS/Downloads/", "/opt/Downloads/", create: true, 
+	owner: "vagrant", group: "root"
+  config.vm.synced_folder "/mnt/NAS/", "/opt/NAS/", create: true, 
+	owner: "vagrant",
+	group: "vagrant"
 end
