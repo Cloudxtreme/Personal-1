@@ -20,7 +20,7 @@ git_add() {
 }
 
 
-if [[ $(md5sum /etc/haproxy/haproxy.cfg | awk '{print $1;}') -ne $(md5sum /home/adamschoonover/Git/Personal/Backups/Haproxy/haproxy.cfg | awk '{print $1;}') ]]; then
+if [[ "$(md5sum /etc/haproxy/haproxy.cfg | awk '{print $1;}')" -ne "$(md5sum /home/adamschoonover/Git/Personal/Backups/Haproxy/haproxy.cfg | awk '{print $1;}')" ]]; then
     cp /etc/haproxy/haproxy.cfg $DIR/Haproxy/
 
     printf "\n Updated HAPROXY conf - $NOW\n" >> $dbDirectory/systemconf_backups.txt
