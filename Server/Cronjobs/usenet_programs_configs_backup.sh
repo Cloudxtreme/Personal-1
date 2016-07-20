@@ -18,7 +18,7 @@ git_add() {
 
 
 ### CouchPotato ###
-couchpotatoDBBackupFile=$(ls -t /home/vagrant/Git/CouchPotatoServer/db_backup/ | head -n 1)
+couchpotatoDBBackupFile=$(ssh $sshIP ls -t /home/vagrant/Git/CouchPotatoServer/db_backup/ | head -n 1)
 couchpotatoDBBackupDIR="/home/vagrant/Git/CouchPotatoServer/db_backup"
 couchpotatoSettings="/home/vagrant/Git/CouchPotatoServer/settings.conf"
 
@@ -26,7 +26,7 @@ couchpotatoSettings="/home/vagrant/Git/CouchPotatoServer/settings.conf"
 sabnzbdSettings="/home/vagrant/.sabnzbd/sabnzbd.ini"
 
 ### NzbDrone ###
-nzbdroneBackup=$(ls -t /home/vagrant/.config/NzbDrone/Backups/scheduled | head -n 1)
+nzbdroneBackup=$(ssh $sshIP ls -t /home/vagrant/.config/NzbDrone/Backups/scheduled | head -n 1)
 nzbdroneBackupDIR="/home/vagrant/.config/NzbDrone/Backups/scheduled"
 
 #
