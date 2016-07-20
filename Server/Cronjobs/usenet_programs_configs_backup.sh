@@ -1,33 +1,37 @@
 #! /bin/bash
 
-# This script will backup .bashrc,.ssh,.sabnzbd,.couchpotato,/home/adamschoonover/Git/my-sickbeard-install
-# It copies the whole source folder to the destination folder
-# tar's them and deletes the folders
+# This script will backup couch, sab and nzbdrone settings
 #
-# V. 0.1 Changed save destination to NAS Archive
+# V. 0.2 Total update
 
 NOW=$(date +"%m-%d-%Y")
 HOME="/home/adamschoonover"
-TMP="/tmp/UsenetBackup"
+backupDIR="/home/adamschoonover/Git/Personal/Backups/Usenet"
+sshIP="vagrant@10.0.0.56"
 
-mkdir $TMP
-chown adamschoonover $TMP
+git_add() {
+    cd /home/adamschoonover/Git/Personal/
+    git add -A .
+    git commit -m "usenet backup update - $NOW"
+    git push
+}
 
-cp -r $HOME/.sabnzbd/ $TMP/sabnzbd/
 
-cp -r $HOME/.couchpotato/ $TMP/couchpotato/
+### CouchPotato ###
+couchpotatoDBBackupFile=$(ls -t /home/vagrant/Git/CouchPotatoServer/db_backup/ | head -n 1)
+couchpotatoDBBackupDIR="/home/vagrant/Git/CouchPotatoServer/db_backup"
+couchpotatoSettings="/home/vagrant/Git/CouchPotatoServer/settings.conf"
 
-cp -r /opt/NzbDrone/ $TMP/NzbDrone/
+### Sabnzbd ###
+sabnzbdSettings="/home/vagrant/.sabnzbd/sabnzbd.ini"
 
-cd /mnt/NAS/Archive/Usenet\ Programs/
+### NzbDrone ###
+nzbdroneBackup=$(ls -t /home/vagrant/.config/NzbDrone/Backups/scheduled | head -n 1)
+nzbdroneBackupDIR="/home/vagrant/.config/NzbDrone/Backups/scheduled"
 
-tar rf Usenet_backups.tar \
-$TMP/ssh/ \
-$TMP/bashrc_backup.txt \
-$TMP/sabnzbd/ \
-$TMP/couchpotato/ \
-$TMP/NzbDrone/
+#
+scp $sshIP:$couchpotatoDBBackupDIR/$couchpotatoDBBackupFile $backupDIR/CouchPotato
 
-chown adamschoonover cd /mnt/NAS/Archive/Usenet\ Programs/Usenet_backups.tar
 
-rm -r $TMP
+#$backupDIR/NzbDrone
+#$backupDIR/Sabnzbd
