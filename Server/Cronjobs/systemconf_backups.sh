@@ -20,7 +20,7 @@ git_add() {
 }
 
 
-if [[ $haproxHash -n $gitHAProxHash ]]; do
+if [[ #10$haproxHash -ne #10$gitHAProxHash ]]; then
     cp /etc/haproxy/haproxy.cfg \
     $DIR/Haproxy/
 
