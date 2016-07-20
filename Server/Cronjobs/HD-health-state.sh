@@ -1,19 +1,30 @@
-#! /bin/bash
+
 
 # Script to check btrfs raid status.
 # Also runs ~/HDSentinel. A free HD check
 # http://www.hdsentinel.com/hard_disk_sentinel_linux.php
 
-LogsPath="/home/adamschoonover/Dropbox/Logs"
+LogPath="/home/adamschoonover/Dropbox/Logs/HD-health-state.txt"
+hdState=$(cat $LogPath | grep "Health" | tail -n 6 | awk '{print $3;}')
+counter=0
 
-echo "BTRFS Check:" > $LogsPath/HD-health-state.txt
-echo "" 
+printf "BTRFS Check:\n\n" > $LogPath
 
-sudo btrfs device stats /mnt >> $LogsPath/HD-health-state.txt
+btrfs device stats /mnt >> $LogPath
 
-echo "" >> $LogsPath/HD-health-state.txt
-echo "HDSentienel: " >> $LogsPath/HD-health-state.txt
-echo "" >> $LogsPath/HD-health-state.txt
+printf "\nHDSentienel:\n\n" >> $LogPath
 
-/home/adamschoonover/HDSentinel/HDSentinel >> $LogsPath/HD-health-state.txt
-chown adamschoonover $LogsPath/HD-health-state.txt
+HDSentinel >> $LogPath
+
+for i in $hdState; do 
+	if [ $i != 100 ]; then
+		cat $LogPath | mail -s "HD Raid Status" adam@elchert.net
+	else
+		counter=$((counter+1))
+	fi
+done
+
+if [ $counter -gt 0 ]; then
+	printf "\nNo Email Needed\n\n" >> $LogPath
+fi
+
