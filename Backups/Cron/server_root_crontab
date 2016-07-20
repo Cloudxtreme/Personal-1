@@ -27,7 +27,7 @@ PS="/home/adamschoonover/Git/Personal/Server/Cronjobs"
 0 0,12 * * * $PS/borg_backup.sh >> /home/adamschoonover/Dropbox/Logs/Borg_Backup.txt
 
 # every morning #
-0 5 * * * $PS/cron_and_bash_backup.sh
+0 5 * * * $PS/systemconf_backups.sh
 0 6 * * * $PS/HD-health-state.sh
 #0 7 * * * $PS/usenet_programs_configs_backup.sh
 0 8 * * * $PS/public-ip-check.sh
