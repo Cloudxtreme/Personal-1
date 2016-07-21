@@ -4,6 +4,9 @@ NOW=$(date +"%m-%d-%Y")
 FILE=$(find /home/adamschoonover/Dropbox/Logs/ -iname borg*)
 EMAIL='adam@elchert.net'
 lastBorgBackup=$(borg list /mnt/Backups/ | awk '{print $1;}' | tail -n 1)
+resetLog=$(echo "" > $FILE)
+
+$resetLog
 
 # Backup all of /home and /var/www except a few
 # excluded directories
