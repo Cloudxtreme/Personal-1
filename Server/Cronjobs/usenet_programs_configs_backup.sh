@@ -29,9 +29,11 @@ sabnzbdSettings="/home/vagrant/.sabnzbd/sabnzbd.ini"
 nzbdroneBackup=$(ssh $sshIP ls -t /home/vagrant/.config/NzbDrone/Backups/scheduled | head -n 1)
 nzbdroneBackupDIR="/home/vagrant/.config/NzbDrone/Backups/scheduled"
 
-#
-scp $sshIP:$couchpotatoDBBackupDIR/$couchpotatoDBBackupFile $backupDIR/CouchPotato
+### Couch DB Backup
+scp $sshIP:{$couchpotatoDBBackupDIR/$couchpotatoDBBackupFile, $couchpotatoSettings} $backupDIR/CouchPotato
 
+### SAB BACKUP ###
+scp $sshIP:$sabnzbdSettings $backupDIR/Sabnzbd
 
-#$backupDIR/NzbDrone
-#$backupDIR/Sabnzbd
+### NzbDrone ###
+scp $sshIP:$nzbdroneBackupDIR/$nzbdroneBackup $backupDIR/NzbDrone
