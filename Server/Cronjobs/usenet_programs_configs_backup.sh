@@ -30,10 +30,13 @@ nzbdroneBackup=$(ssh $sshIP ls -t /home/vagrant/.config/NzbDrone/Backups/schedul
 nzbdroneBackupDIR="/home/vagrant/.config/NzbDrone/Backups/scheduled"
 
 ### Couch DB Backup
-scp $sshIP:{$couchpotatoDBBackupDIR/$couchpotatoDBBackupFile, $couchpotatoSettings} $backupDIR/CouchPotato
+scp $sshIP:$couchpotatoDBBackupDIR/$couchpotatoDBBackupFile $backupDIR/CouchPotato
+scp $sshIP:$couchpotatoSettings $backupDIR/CouchPotato
 
 ### SAB BACKUP ###
 scp $sshIP:$sabnzbdSettings $backupDIR/Sabnzbd
 
 ### NzbDrone ###
 scp $sshIP:$nzbdroneBackupDIR/$nzbdroneBackup $backupDIR/NzbDrone
+
+git_add
