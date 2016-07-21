@@ -23,13 +23,13 @@
 
 PS="/home/adamschoonover/Git/Personal/Server/Cronjobs"
 
-# every 1 hour #
-0 0,12 * * * $PS/borg_backup.sh >> /home/adamschoonover/Dropbox/Logs/Borg_Backup.txt
+# every midnight #
+0 00 * * * $PS/borg_backup.sh >> /home/adamschoonover/Dropbox/Logs/Borg_Backup.txt
 
 # every morning #
 0 5 * * * $PS/systemconf_backups.sh
 0 6 * * * $PS/HD-health-state.sh
-#0 7 * * * $PS/usenet_programs_configs_backup.sh
+#0 7 * * * $PS/usenet_config_backups.sh
 0 8 * * * $PS/public-ip-check.sh
 0 9 * * * $PS/mysql-booksread-backup.sh
 
@@ -37,7 +37,7 @@ PS="/home/adamschoonover/Git/Personal/Server/Cronjobs"
 0 9 * * * tail -n 25 /usr/local/crashplan/log/backup_files.log.0 > /home/adamschoonover/Dropbox/Logs/crashplan_backup.txt
 
 # Change recursively owner for downloads folder
-1/2 * * * * chown -R adamschoonover /mnt/NAS/Downloads/
-1/2 * * * * chown -R adamschoonover /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
-1/2 * * * * chmod -R 775 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
+1/2 * * * * chown -R adamschoonover /mnt/NAS/Downloads
+1/2 * * * * chown -R adamschoonover /mnt/NAS/Movies /mnt/NAS/TV\ Shows
+1/2 * * * * chmod -R 777 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
 
