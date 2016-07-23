@@ -10,6 +10,7 @@ counter=0
 
 printf "BTRFS Check:\n\n" > $LogPath
 
+# Have to have sudo..even though run as root
 sudo btrfs device stats /mnt >> $LogPath
 
 printf "\nHDSentienel:\n\n" >> $LogPath
