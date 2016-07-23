@@ -29,9 +29,9 @@ PS="/home/adamschoonover/Git/Personal/Server/Cronjobs"
 # every morning #
 0 5 * * * $PS/systemconf_backups.sh
 0 6 * * * $PS/HD-health-state.sh
-#0 7 * * * $PS/usenet_config_backups.sh
-0 8 * * * $PS/public-ip-check.sh
-0 9 * * * $PS/mysql-booksread-backup.sh
+0 7 * * * $PS/usenet_config_backups.sh
+0 8 * * * $PS/public-ip-check.sh >> /dev/null
+0 9 * * * $PS/mysql-booksread-backup.sh >> /dev/null
 
 ## Copy last 25 lines of Crashplan backup to check if it's working.
 0 9 * * * tail -n 25 /usr/local/crashplan/log/backup_files.log.0 > /home/adamschoonover/Dropbox/Logs/crashplan_backup.txt
