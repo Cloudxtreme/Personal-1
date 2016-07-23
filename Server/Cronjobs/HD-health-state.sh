@@ -10,7 +10,7 @@ counter=0
 
 printf "BTRFS Check:\n\n" > $LogPath
 
-btrfs device stats /mnt >> $LogPath
+sudo btrfs device stats /mnt >> $LogPath
 
 printf "\nHDSentienel:\n\n" >> $LogPath
 
