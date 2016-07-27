@@ -18,11 +18,6 @@ crontabHash=$(crontab -u root -l | md5sum | awk '{print $1;}')
 bashrcLocation="/home/adamschoonover/.bashrc"
 bashrcBackup="/home/adamschoonover/Git/Personal/Backups/Bash/server_bashrc" 
 
-imacSSH="adamschoonover@10.0.0.10"
-imacPath="/Users/adamschoonover/.bash_profile"
-imacBKPath="/home/adamschoonover/Git/Personal/Backups/Bash/imac_bashprofile"
-imacBashCheck=$(ssh $imacSSH $imacPath)
-
 counter=0
 
 git_add() {
@@ -54,14 +49,6 @@ if [[ $(cmp -s $bashrcLocation $bashrcBackup) == 1 ]]; then
 	printf "\n Updated Bashrc backup - $NOW\n" >> $dbDirectory/systemconf_backups.txt
    counter+=1
 fi
-
-# Grab a copy of iMac bash profile
-#if [[ $(cmp -s $imacBashcheck $imacBKPath) == 1 ]]; then
-#	ssh $imacSSH; cp $imacPath /Users/adamschoonover/Downloads; scp $imacSSH:/Users/adamschoonover/Downloads/.bash_profile $imacBKPath
-#	printf "\n Updated iMac Bash Profile - $NOW\n" >> $dbDirectory/sysemconf_backups.txt
-#	counter+=1
-#fi
-
 
 ######
 # If anything is updated, push it to GIT
