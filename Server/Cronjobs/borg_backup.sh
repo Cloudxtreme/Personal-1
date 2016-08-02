@@ -31,4 +31,16 @@ borg prune --stats -v $REPOSITORY --prefix `hostname`- \
 ###########
 
 cat $FILE | mail -s "Borg Backup - $NOW" $EMAIL
-printf "\n ##### EMAILED $NOW - $EMAIL ######\n" >> $File
+printf "\n ##### EMAILED $NOW - $EMAIL ######\n" >> $FILE
+
+
+borg create -v --stats 							\
+	--exclude "/dev/*" --exclude "/sys/*" --exclude "/proc/*" 	\
+	/mnt/ImageBackups/repo::`hostname`-`date +%Y-%m-%d`  		\
+	/
+
+borg pruce --stats -v /mnt/ImageBackups/repo --prefix `hostname`- \
+	--keep-daily=7 --keep-weekly=4 --keep-monthly=6 >> $FILE
+
+echo "" >> $FILE
+echo "Finished root backup. $(date)" >> $FILE
