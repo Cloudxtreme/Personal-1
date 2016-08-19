@@ -13,10 +13,10 @@ haproxyCFG=$(md5sum /etc/haproxy/haproxy.cfg | awk '{print $1;}')
 haproxyBACKUP=$(md5sum /home/adamschoonover/Git/Personal/Backups/Haproxy/haproxy.cfg | awk '{print $1;}')
 
 crontabBackupHash=$(md5sum $DIR/Cron/server_root_crontab | awk '{print $1;}')
-crontabHash=$(crontab -u root -l | md5sum | awk '{print $1;}')
+crontabHash=$(crontab -u root -l | md5sum)
 
-bashrcLocation="/home/adamschoonover/.bashrc"
-bashrcBackup="/home/adamschoonover/Git/Personal/Backups/Bash/server_bashrc" 
+bashrcHash=$(md5sum /home/adamschoonover/.bashrc | awk '{print $1;}')
+bashrcBackupHash=$(md5sum /home/adamschoonover/Git/Personal/Backups/Bash/server_bashrc | awk '{print $1;}')
 
 counter=0
 
@@ -39,14 +39,13 @@ fi
 if [[ $crontabBackupHash != $crontabHash ]]; then
 	crontab -u root -l > $DIR/Cron/server_root_crontab
    printf "\n Updated Crontab conf - $NOW\n" >> $dbDirectory/systemconf_backups.txt
-
-   counter+=1 
+   counter+=1
 fi
 
 #checks if bashrc is backed up
-if [[ $(cmp -s $bashrcLocation $bashrcBackup) == 1 ]]; then
-	cp $bashrcLocation $bashrcBackup
-	printf "\n Updated Bashrc backup - $NOW\n" >> $dbDirectory/systemconf_backups.txt
+if [[ $bashrcLocation != $bashrcBackupHash ]]; then
+	cp /home/adamschoonover/.bashrc $DIR/Bash/server_bashrc
+	printf "\n Updated Bashrc - $NOW\n" >> $dbDirectory/systemconf_backups.txt
    counter+=1
 fi
 
@@ -61,5 +60,3 @@ else
 fi
 
 # imac bashprofile
-
-
