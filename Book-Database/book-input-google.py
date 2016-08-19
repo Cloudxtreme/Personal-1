@@ -57,8 +57,7 @@ add_book = ("INSERT INTO booksread "
 #enter the data into the database
 cursor.execute(add_book, book_data)
 
-print "\n"
-print "Information entered into the database.\n\n"
+print "\nInformation entered into the database.\n\n"
 
 cnx.commit()
 cursor.close()
