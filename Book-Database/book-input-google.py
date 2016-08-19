@@ -1,12 +1,7 @@
-#Pull page numbers via API
-#http://isbndb.com/api/v2/docs/books
-# API KEY HD45DAPU
+# Enter in an ISBN and get book information via Google books
+# and enter it into a local mysql database
 
-import urllib2
-import json
-import mysql.connector
-import time
-import os
+import urllib2 json mysql.connector time os
 
 apikey = "AIzaSyDozlghDCtPzYu9ckvt1jhkjinZpM3vhJQ"
 
@@ -62,8 +57,7 @@ add_book = ("INSERT INTO booksread "
 #enter the data into the database
 cursor.execute(add_book, book_data)
 
-print "\n"
-print "Information entered into the database.\n\n"
+print "\nInformation entered into the database.\n\n"
 
 cnx.commit()
 cursor.close()
