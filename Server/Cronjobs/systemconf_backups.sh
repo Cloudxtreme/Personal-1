@@ -58,5 +58,3 @@ if [[ $counter -ge 1 ]]; then
 else
 	echo "No updates"
 fi
-
-# imac bashprofile
