@@ -20,6 +20,13 @@ bashrcBackupHash=$(md5sum /home/adamschoonover/Git/Personal/Backups/Bash/server_
 
 counter=0
 
+check_file_length(){
+	fileLength=$(cat $logFile | wc -l)
+	if [[ $fileLength >= 50 ]]; then
+        	echo "" > $logFile
+	fi
+}
+
 git_add() {
   cd /home/adamschoonover/Git/Personal/
   git add -A .
@@ -27,6 +34,7 @@ git_add() {
   git push
 }
 
+check_file_length()
 
 # CHECK IF HAPROXY IS BACKED UP
 if [[ $haproxyCFG != $haproxyBACKUP ]]; then
@@ -58,3 +66,9 @@ if [[ $counter -ge 1 ]]; then
 else
 	echo "No updates"
 fi
+
+fileLength=$(cat $logFile | wc -l)
+if [[ $fileLength >= 50 ]]; then
+	echo "" > $logFile
+fi
+	
