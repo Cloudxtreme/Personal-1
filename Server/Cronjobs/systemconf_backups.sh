@@ -13,7 +13,7 @@ haproxyCFG=$(md5sum /etc/haproxy/haproxy.cfg | awk '{print $1;}')
 haproxyBACKUP=$(md5sum /home/adamschoonover/Git/Personal/Backups/Haproxy/haproxy.cfg | awk '{print $1;}')
 
 crontabBackupHash=$(md5sum $DIR/Cron/server_root_crontab | awk '{print $1;}')
-crontabHash=$(crontab -u root -l | md5sum)
+crontabHash=$(crontab -u root -l | md5sum | awk '{print $1;}')
 
 bashrcHash=$(md5sum /home/adamschoonover/.bashrc | awk '{print $1;}')
 bashrcBackupHash=$(md5sum /home/adamschoonover/Git/Personal/Backups/Bash/server_bashrc | awk '{print $1;}')
@@ -43,7 +43,7 @@ if [[ $crontabBackupHash != $crontabHash ]]; then
 fi
 
 #checks if bashrc is backed up
-if [[ $bashrcLocation != $bashrcBackupHash ]]; then
+if [[ $bashrcHash != $bashrcBackupHash ]]; then
 	cp /home/adamschoonover/.bashrc $DIR/Bash/server_bashrc
 	printf "\n Updated Bashrc - $NOW\n" >> $dbDirectory/systemconf_backups.txt
    counter+=1
