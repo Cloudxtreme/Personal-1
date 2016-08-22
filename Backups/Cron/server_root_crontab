@@ -43,3 +43,5 @@ PS="/home/adamschoonover/Git/Personal/Server/Cronjobs"
 
 #block china. update list once per week
 0 23 * * sat /home/adamschoonover/Git/Personal/Server/Cronjobs/country-block-iptables.sh
+
+0 23 * * * echo 'test'
