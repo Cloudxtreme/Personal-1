@@ -34,7 +34,7 @@ git_add() {
   git push
 }
 
-check_file_length()
+check_file_length
 
 # CHECK IF HAPROXY IS BACKED UP
 if [[ $haproxyCFG != $haproxyBACKUP ]]; then
