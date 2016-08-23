@@ -1,7 +1,7 @@
 # Enter in an ISBN and get book information via Google books
 # and enter it into a local mysql database
 
-import urllib2 json mysql.connector time os
+import urllib2, json, mysql.connector, time, os
 
 apikey = "AIzaSyDozlghDCtPzYu9ckvt1jhkjinZpM3vhJQ"
 cnx = mysql.connector.connect(user='root', database='booksread', buffered=True)
