@@ -24,7 +24,7 @@ borg info /mnt/Backups::$lastBorgBackup >> $FILE
 echo "" >> $FILE
 
 borg prune --stats -v $REPOSITORY --prefix `hostname`- \
-    --keep-daily=7 --keep-weekly=4 --keep-monthly=6 >> $FILE
+    --keep-daily=7 --keep-weekly=4 --keep-monthly=3 >> $FILE
 
 ###########
 # Email Log
@@ -39,7 +39,7 @@ borg create -p -v --stats \
 /mnt/ImageBackups/repo::`hostname`-`date +%Y-%m-%d` /
 \
 
-echo "slash back is done" | mail -s "done" adam@elchert.net
+#echo "slash back is done" | mail -s "done" adam@elchert.net
 
 borg prune --stats -v /mnt/ImageBackups/repo --prefix `hostname`- \
 	--keep-daily=7 --keep-weekly=4 --keep-monthly=6 >> $FILE
