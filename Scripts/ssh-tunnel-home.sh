@@ -6,7 +6,7 @@ NC='\033[0m' # No Color
 
 echo -e "
 
-######### SSH TUNNEL HOME
+######### SSH TUNNEL HOME ##########
 
 "
 
@@ -19,7 +19,7 @@ printf "${LG}PORT:9500${NC} - SevOne\n"
 
 echo ""
 
-ssh adamschoonover@nonstopflights.ddns.net -L \
+ssh adamschoonover@nonstopflights.ddns.net -p 9234 -L \
 9000:10.0.0.1:80 -L \
 9100:192.168.1.1:80 -L \
 9200:10.0.0.50:5900 -L \

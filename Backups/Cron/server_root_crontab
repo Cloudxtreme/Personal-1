@@ -41,3 +41,7 @@ PS="/home/adamschoonover/Git/Personal/Server/Cronjobs"
 1/2 * * * * chown -R adamschoonover /mnt/NAS/Movies /mnt/NAS/TV\ Shows
 1/2 * * * * chmod -R 777 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
 
+#block china. update list once per week
+0 23 * * sat /home/adamschoonover/Git/Personal/Server/Cronjobs/country-block-iptables.sh
+
+0 23 * * * echo 'test'

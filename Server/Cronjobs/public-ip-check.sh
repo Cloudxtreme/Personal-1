@@ -2,7 +2,25 @@
 # Get's the public IP and writes it /Dropbox/Logs/
 
 NOW=$(date +"%m-%d-%Y")
-
+filePath="/home/adamschoonover/Dropbox/Logs/server_public_ip.txt"
 IP=$(curl 'http://myexternalip.com/raw')
 
-echo $NOW "==>" $IP >> /home/adamschoonover/Dropbox/Logs/server_public_ip.txt
+getIP (){
+echo $NOW "==>" $IP >> $filePath
+}
+
+# run function
+getIP
+
+if [ $(cat $filePath | wc -l) -ge 20 ]; then
+	printf "#######\n\n Public IP Address\n\n#######\n\n" > $filePath
+	getIP
+else
+	exit 0
+fi
+
+ownerName=$(stat -c %U /home/adamschoonover/Git/Personal/Server/Cronjobs/public-ip-check.sh)
+
+if [ "$ownerName" != "adamschoonover" ]; then
+        chown adamschoonover $filePath
+fi

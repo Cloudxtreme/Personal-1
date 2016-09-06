@@ -15,15 +15,17 @@ haproxyBACKUP=$(md5sum /home/adamschoonover/Git/Personal/Backups/Haproxy/haproxy
 crontabBackupHash=$(md5sum $DIR/Cron/server_root_crontab | awk '{print $1;}')
 crontabHash=$(crontab -u root -l | md5sum | awk '{print $1;}')
 
-bashrcLocation="/home/adamschoonover/.bashrc"
-bashrcBackup="/home/adamschoonover/Git/Personal/Backups/Bash/server_bashrc" 
-
-imacSSH="adamschoonover@10.0.0.10"
-imacPath="/Users/adamschoonover/.bash_profile"
-imacBKPath="/home/adamschoonover/Git/Personal/Backups/Bash/imac_bashprofile"
-imacBashCheck=$(ssh $imacSSH $imacPath)
+bashrcHash=$(md5sum /home/adamschoonover/.bashrc | awk '{print $1;}')
+bashrcBackupHash=$(md5sum /home/adamschoonover/Git/Personal/Backups/Bash/server_bashrc | awk '{print $1;}')
 
 counter=0
+
+check_file_length(){
+	fileLength=$(cat $logFile | wc -l)
+	if [[ $fileLength >= 50 ]]; then
+        	echo "" > $logFile
+	fi
+}
 
 git_add() {
   cd /home/adamschoonover/Git/Personal/
@@ -32,6 +34,7 @@ git_add() {
   git push
 }
 
+check_file_length
 
 # CHECK IF HAPROXY IS BACKED UP
 if [[ $haproxyCFG != $haproxyBACKUP ]]; then
@@ -44,24 +47,15 @@ fi
 if [[ $crontabBackupHash != $crontabHash ]]; then
 	crontab -u root -l > $DIR/Cron/server_root_crontab
    printf "\n Updated Crontab conf - $NOW\n" >> $dbDirectory/systemconf_backups.txt
-
-   counter+=1 
-fi
-
-#checks if bashrc is backed up
-if [[ $(cmp -s $bashrcLocation $bashrcBackup) == 1 ]]; then
-	cp $bashrcLocation $bashrcBackup
-	printf "\n Updated Bashrc backup - $NOW\n" >> $dbDirectory/systemconf_backups.txt
    counter+=1
 fi
 
-# Grab a copy of iMac bash profile
-#if [[ $(cmp -s $imacBashcheck $imacBKPath) == 1 ]]; then
-#	ssh $imacSSH; cp $imacPath /Users/adamschoonover/Downloads; scp $imacSSH:/Users/adamschoonover/Downloads/.bash_profile $imacBKPath
-#	printf "\n Updated iMac Bash Profile - $NOW\n" >> $dbDirectory/sysemconf_backups.txt
-#	counter+=1
-#fi
-
+#checks if bashrc is backed up
+if [[ $bashrcHash != $bashrcBackupHash ]]; then
+	cp /home/adamschoonover/.bashrc $DIR/Bash/server_bashrc
+	printf "\n Updated Bashrc - $NOW\n" >> $dbDirectory/systemconf_backups.txt
+   counter+=1
+fi
 
 ######
 # If anything is updated, push it to GIT
@@ -73,6 +67,8 @@ else
 	echo "No updates"
 fi
 
-# imac bashprofile
-
-
+fileLength=$(cat $logFile | wc -l)
+if [[ $fileLength >= 50 ]]; then
+	echo "" > $logFile
+fi
+	

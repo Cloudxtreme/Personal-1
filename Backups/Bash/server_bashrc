@@ -14,6 +14,8 @@
 
 PS1='\[\e[0;33m\][Server]\[\e[m\] \u \[\e[1;34m\][$(date +%k:%M:%S)]\[\e[m\]\[\e[0;36m\] [\w]\[\e[m\]: '
 
+export GOPATH=$HOME/Go
+
 # GLOBAL VARIABLE
 NOW=$(date +"%m-%d-%Y")
 
@@ -33,7 +35,9 @@ alias sonarr='mono --debug /opt/NzbDrone/NzbDrone.exe'
 alias dump='sudo dump -0a -f /mnt/ImageBackups/server-backup-$NOW.dump /'
 alias usenet="cd ~/Git/Personal/Server/Usenet && ls && sudo vagrant ssh"
 alias sevone='ssh root@10.0.0.60'
-
+alias gitadd='git add -A . && git commit -m "updates" && git push'
+alias gitupdate='git fetch && git merge'
+alias cron='cd /home/adamschoonover/Git/Personal/Server/Cronjobs/ && ls -lh'
 
 ### COLORS ###
 
@@ -56,3 +60,17 @@ alias mysqlbooks='sudo MYSQL_PS1="mysql booksread> " mysql -u root booksread'
 
 ### Convert Flac to Apple Lossless ###
 alias flac='bash /home/adamschoonover/Git/Personal/Server/flac-conversion.sh'
+
+### Colorize Man Pages ###
+man() {
+    env \
+        LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+        LESS_TERMCAP_md=$(printf "\e[1;31m") \
+        LESS_TERMCAP_me=$(printf "\e[0m") \
+        LESS_TERMCAP_se=$(printf "\e[0m") \
+        LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+        LESS_TERMCAP_ue=$(printf "\e[0m") \
+        LESS_TERMCAP_us=$(printf "\e[1;32m") \
+            man "$@"
+}
+

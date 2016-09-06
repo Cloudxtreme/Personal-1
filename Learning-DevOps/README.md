@@ -1,1 +1,0 @@
-### Adam learns Dev Ops
