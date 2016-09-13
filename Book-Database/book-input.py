@@ -56,9 +56,6 @@ def enter_book_data(ISBN,Rating,NOTES):
 
     print "\nInformation entered into the database.\n\n"
 
-def inputs():
-
-
 def main():
     # User input for books
     ISBN = raw_input("Enter ISBN: ")
