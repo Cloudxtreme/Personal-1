@@ -44,6 +44,7 @@ def enter_book_data(ISBN,Rating,NOTES):
     cnx.commit()
     cursor.close()
     cnx.close()
+
     print "#################\n"
     print "Book Database\n"
     print "#################\n\n"
@@ -55,13 +56,49 @@ def enter_book_data(ISBN,Rating,NOTES):
 
     print "\nInformation entered into the database.\n\n"
 
+def inputs():
 
 
+def main():
+    # User input for books
+    ISBN = raw_input("Enter ISBN: ")
+    Rating = raw_input("Rating: ")
+    NOTES = raw_input("Notes: ")
 
-# User input for books
-ISBN = raw_input("Enter ISBN: ")
-Rating = raw_input("Rating: ")
-NOTES = raw_input("Notes: ")
+    enter_book_data(ISBN, Rating, NOTES)
 
+def notinDatabase():
+    print "Unfortunately you'll have to enter a few things again..\n\n"
 
-enter_book_data(ISBN, Rating, NOTES)
+    ISBN = raw_input("Enter ISBN: ")
+    AuthorName = raw_input("Enter Author's Name(First Name, Last Name): ")
+    Name = raw_input("Enter Name: ")
+    Rating = raw_input("Rating: ")
+    NOTES = raw_input("Notes: ")
+    DateFinished = time.strftime("%Y-%m-%d")
+    Pages = raw_input("Pages: ")
+
+    book_data = {
+      'Name': Name,
+      'AuthorName': AuthorName,
+      'Rating': Rating,
+      'DateFinished': DateFinished,
+      'Pages': Pages,
+      'ISBN': ISBN,
+      'NOTES': NOTES,
+    }
+
+    add_book = ("INSERT INTO booksread "
+                "(Name,AuthorName,Rating,DateFinished,Pages,ISBN,NOTES) "
+                "VALUES (%(Name)s, %(AuthorName)s, %(Rating)s, %(DateFinished)s, %(Pages)s, %(ISBN)s, %(NOTES)s)")
+
+    #enter the data into the database
+    cursor.execute(add_book, book_data)
+    cnx.commit()
+    cursor.close()
+    cnx.close()
+
+try:
+    main()
+except:
+    notinDatabase()
