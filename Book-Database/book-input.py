@@ -95,6 +95,17 @@ def notinDatabase():
     cursor.close()
     cnx.close()
 
+    print "#################\n"
+    print "Book Database\n"
+    print "#################\n\n"
+
+    print "Name: " + Name
+    print "AuthorName: " + AuthorName
+    print "Date Finished: " + DateFinished
+    print "Pages of book: %s" % Pages
+
+    print "\nInformation entered into the database.\n\n"
+
 try:
     main()
 except:
