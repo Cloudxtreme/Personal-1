@@ -45,9 +45,7 @@ def enter_book_data(ISBN,Rating,NOTES):
     cursor.close()
     cnx.close()
 
-    print "#################\n"
-    print "Book Database\n"
-    print "#################\n\n"
+
 
     print "Name: " + Name
     print "AuthorName: " + AuthorName
@@ -57,6 +55,11 @@ def enter_book_data(ISBN,Rating,NOTES):
     print "\nInformation entered into the database.\n\n"
 
 def main():
+
+    print "#################\n"
+    print "Book Database\n"
+    print "#################\n\n"
+
     # User input for books
     ISBN = raw_input("Enter ISBN: ")
     Rating = raw_input("Rating: ")
