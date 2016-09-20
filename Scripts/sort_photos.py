@@ -36,7 +36,7 @@ for file in os.listdir(source_dir):
         dateinfo = date_taken_info(filename)
 
         try:
-            out_filepath = dest_dir + os.sep + dateinfo[0] + dateinfo[1] + dateinfo[2]
+            out_filepath = dest_dir + os.sep + dateinfo[0] + os.sep + dateinfo[1] + os.sepdateinfo[2]
             out_filename = out_filepath + file
 
             if not os.path.exists(out_filepath):
