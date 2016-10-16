@@ -12,13 +12,15 @@ backupDIR="/home/adamschoonover/Git/Personal/Backups/Usenet"
 couch_backupDIR = backupDIR + os.sep + "CouchPotato"
 
 def couch_check():
+    remote_couchDB = os.system('ssh vagrant@10.0.0.56 ls -t /home/vagrant/Git/CouchPotatoServer/db_backup/ | head -n 1')
+    local_couchDB = os.system("ls -t /home/adamschoonover/Git/Personal/Backups/Usenet/CouchPotato *.tar.gz | head -n 1 | awk '{print $8;}'")
 
-    s = paramiko.SSHClient()
-    s.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    s.connect("10.0.0.56",22,username="vagrant",password='',timeout=4)
-    stdin, stdout, stderr = s.exec_command('ls -t /home/vagrant/Git/CouchPotatoServer/db_backup/ | head -n 1')
-    for newest_couch_backup_file in stdout.read().splitlines():
-        couch_backup_file_check = backupDIR + os.sep + "CouchPotato" + os.sep + newest_couch_backup_file
-        print filecmp.cmp(newest_couch_backup_file,couch_backup_file_check)
+    try:
+        if remote_couchDB == local_couchDB:
+            pass
+        else:
+            os.system('rsync vagrant@10.0.0.56:' + '/home/vagrant/Git/CouchPotatoServer/db_backup/' + remote_couchDB + " " + backupDIR + os.sep + CouchPotato)
+    except:
+        print "Did not work"
 
 print couch_check()
