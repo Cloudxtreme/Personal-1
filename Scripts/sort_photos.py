@@ -14,8 +14,8 @@ v1. A Script to take all CR2 files off the camera card
 
 # source_dir = raw_input("Source Directory: ").rstrip('/')
 # dest_dir = raw_input("Destination Directory: ").rstrip('/')
-source_dir = "/Users/aschoonover/Downloads"
-dest_dir = source_dir + os.sep + "Test"
+source_dir = "/Users/aschoonover/Downloads/photo-move-test"
+dest_dir = source_dir + os.sep + "post_move"
 
 def date_taken_info(filename):
 
@@ -49,16 +49,14 @@ for file in os.listdir(source_dir):
             # Look to see if Folders exists
             if not os.path.exists(out_filepath):
                 os.makedirs(out_filepath)
-
-            # compares if file is already in the destination
-            if filecmp.cmp(filename,out_filename) == True:
-                #if it already exsists
-                print "{} already exsists in {}".format(out_filename,out_filepath)
-                continue
             else:
-                print "{} has been copied to {}".format(out_filename, out_filepath)
-                # Copies file from (src, dest)
+                continue
+
+            if not os.path.exists(out_filename):
+                print "{} has been moved to {}".format(out_filename,out_filepath)
                 shutil.copy2(filename,out_filename)
+            else:
+                continue
 
         except:
-            None
+            print "There was an error"
