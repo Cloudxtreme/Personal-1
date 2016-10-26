@@ -6,12 +6,13 @@ from os.path import join
 v1. A Script to take all CR2 files off the camera card
     and move them to a folder in the Photos folder.
     Format for destination is [year]/[num_month - name_month]/[date]
+v2. Expanded files to be moved to jpgs, fixed bugs
 """
 
-# source_dir = raw_input("Source Directory: ").rstrip('/')
-# dest_dir = raw_input("Destination Directory: ").rstrip('/')
-source_dir = "/Users/adamschoonover/Desktop/Import to Stevens"
-dest_dir = "/Volumes/NAS/Photos/Steven"
+source_dir = raw_input("Source Directory: ").rstrip('/')
+dest_dir = raw_input("Destination Directory: ").rstrip('/')
+#source_dir = "/Users/adamschoonover/Desktop/Import to Stevens"
+#dest_dir = "/Volumes/NAS/Photos/Steven"
 
 def date_taken_info(filename):
 
