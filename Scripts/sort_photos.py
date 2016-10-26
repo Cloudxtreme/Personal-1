@@ -10,8 +10,8 @@ v1. A Script to take all CR2 files off the camera card
 
 # source_dir = raw_input("Source Directory: ").rstrip('/')
 # dest_dir = raw_input("Destination Directory: ").rstrip('/')
-source_dir = "/Volumes/EOS_DIGITAL/DCIM/100CANON"
-dest_dir = "/Volumes/NAS/Photos/Steven/2016/10\ \- October/20"
+source_dir = "/Users/aschoonover/Downloads/steven-test"
+dest_dir = "/Users/aschoonover/Downloads/steven-test/out"
 
 def date_taken_info(filename):
 
@@ -33,7 +33,10 @@ def date_taken_info(filename):
 
 
 for file in os.listdir(source_dir):
-    if file.endswith('.CR2'):
+
+    extensions = ['.CR2','.cr2','.jpg','.JPG']
+
+    if file.endswith(extensions):
 
         filename = join(source_dir, file)
         dateinfo = date_taken_info(filename)
@@ -56,3 +59,6 @@ for file in os.listdir(source_dir):
 
         except:
             print "There was an error"
+            break
+    else:
+        print "No files have {} extensions".format(extensions[0:])
