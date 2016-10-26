@@ -58,4 +58,4 @@ for file in os.listdir(source_dir):
                 print "{} was skipped because it already exsists in {}".format(file,out_filepath)
 
         except:
-            print "There was an error"
+            pass
