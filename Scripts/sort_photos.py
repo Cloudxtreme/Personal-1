@@ -36,7 +36,7 @@ for file in os.listdir(source_dir):
 
     extensions = ['.CR2','.cr2','.jpg','.JPG']
 
-    if file.endswith(extensions):
+    if file.endswith(tuple(extensions)):
 
         filename = join(source_dir, file)
         dateinfo = date_taken_info(filename)
