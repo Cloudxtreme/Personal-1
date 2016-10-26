@@ -10,8 +10,8 @@ v1. A Script to take all CR2 files off the camera card
 
 # source_dir = raw_input("Source Directory: ").rstrip('/')
 # dest_dir = raw_input("Destination Directory: ").rstrip('/')
-source_dir = "/Users/aschoonover/Downloads/steven-test"
-dest_dir = "/Users/aschoonover/Downloads/steven-test/out"
+source_dir = "/Users/adamschoonover/Desktop/Import to Stevens"
+dest_dir = "/Volumes/NAS/Photos/Steven"
 
 def date_taken_info(filename):
 
