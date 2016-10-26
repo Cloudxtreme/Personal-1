@@ -59,6 +59,3 @@ for file in os.listdir(source_dir):
 
         except:
             print "There was an error"
-            break
-    else:
-        print "No files have {} extensions".format(extensions[0:])

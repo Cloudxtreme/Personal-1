@@ -1,0 +1,5 @@
+- hosts: server
+  user: root
+  tasks:
+    - name: install curl
+      apt: pkg=curl state=present

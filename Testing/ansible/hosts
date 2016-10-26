@@ -1,0 +1,2 @@
+[server]
+nonstopflights.ddns.net	ansible_port=9234 ansible_user=adamschoonover
