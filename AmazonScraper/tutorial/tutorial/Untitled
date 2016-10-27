@@ -1,0 +1,7 @@
+response.xpath('//table/tr/td/h5').extract()
+
+for sel in response.xpath('//table/tr'):
+    name = sel.xpath('td/h5').extract()
+    author = response.xpath('//table/tr/td/span').re('<span> by.*')
+    price = response.xpath('//table/tr/td/span/text()').re('.\d\d.\d\d')
+    print title
