@@ -8,6 +8,8 @@ class amazonSpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        filename = response.url.split("/")[-2]
-        with open(filename, 'wb') as f:
-            f.write(response.body)
+        for sel in response:
+            #name = sel.xpath('td/h5').extract()
+            #author = response.xpath('td/span').re('<span> by.*')
+            price = response.xpath('//table/tr/td/span/text()').re('.\d\d.\d\d')
+            print price
