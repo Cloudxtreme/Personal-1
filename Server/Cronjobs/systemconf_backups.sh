@@ -22,7 +22,7 @@ counter=0
 
 check_file_length(){
 	fileLength=$(cat $logFile | wc -l)
-	if [[ $fileLength >= 50 ]]; then
+	if [[$fileLength >= "50"]]; then
         	echo "" > $logFile
 	fi
 }
