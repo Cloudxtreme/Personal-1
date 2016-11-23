@@ -41,7 +41,7 @@ checkFileLength
 
 # CHECK IF HAPROXY IS BACKED UP
 if [[ $nginxCFG != $nginxBACKUP ]]; then
-	cp /home/adamschoonover/Git/Personal/Backups/Nginx/default $DIR/Nginx
+	cp /etc/nginx/sites-enabled/default $DIR/Nginx
     	printf "\n Updated Nginx conf - $NOW" >> $logFile
     	counter+=1
 fi
