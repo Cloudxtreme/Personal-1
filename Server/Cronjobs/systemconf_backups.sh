@@ -9,8 +9,8 @@ DIR='/home/adamschoonover/Git/Personal/Backups'
 logFile="/home/adamschoonover/Dropbox/Logs/systemconf_backups.txt"
 dbDirectory="/home/adamschoonover/Dropbox/Logs"
 
-nginxCFG=$(md5sum /etc/nginx/sites-enabled/default | awk '{print $1;}')
-nginxBACKUP=$(md5sum /home/adamschoonover/Git/Personal/Backups/Nginx/default | awk '{print $1;}')
+nginxCFG=$(md5sum /etc/nginx/conf.d/default.conf | awk '{print $1;}')
+nginxBACKUP=$(md5sum /home/adamschoonover/Git/Personal/Backups/Nginx/default.conf | awk '{print $1;}')
 
 crontabBackupHash=$(md5sum $DIR/Cron/server_root_crontab | awk '{print $1;}')
 crontabHash=$(crontab -u root -l | md5sum | awk '{print $1;}')
@@ -41,7 +41,7 @@ checkFileLength
 
 # CHECK IF HAPROXY IS BACKED UP
 if [[ $nginxCFG != $nginxBACKUP ]]; then
-	cp /etc/nginx/sites-enabled/default $DIR/Nginx
+	cp /etc/nginx/conf.d/default.conf $DIR/Nginx
     	printf "\n Updated Nginx conf - $NOW" >> $logFile
     	counter+=1
 fi
