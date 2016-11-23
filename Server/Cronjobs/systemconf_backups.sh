@@ -66,9 +66,3 @@ if [[ $counter -ge 1 ]]; then
 else
 	echo "No updates"
 fi
-
-fileLength=$(cat $logFile | wc -l)
-if [[ $fileLength >= 50 ]]; then
-	echo "" > $logFile
-fi
-	
