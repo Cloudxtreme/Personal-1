@@ -37,8 +37,9 @@ server {
 ###########
 
 server {
-	root /opt/pydio-core/core/src/;
-	listen 8901;
+	root /opt/pydio;
+	listen 80;
+	server_name pydio.elchert.net;
 	index index.php;
 
 	location / {
@@ -78,7 +79,7 @@ server {
 	server_name sevone.elchert.net;
 
 	location / {
-		proxy_pass https://10.0.0.60:80;
+		proxy_pass http://10.0.0.60:80;
 	}
 }
 
@@ -93,6 +94,19 @@ server {
 	location / {
 		proxy_pass http://10.0.0.56:8989;
 	}
+}
+
+###########
+## RESILIO SYNC
+###########
+
+server {
+	server_name sync.elchert.net;
+
+        location / {
+		proxy_pass http://127.0.0.1:8888;
+        }
+
 }
 
 ###########
