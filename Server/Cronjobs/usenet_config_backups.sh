@@ -40,6 +40,6 @@ scp $sshIP:$sabnzbdSettings $backupDIR/Sabnzbd
 ### NzbDrone ###
 scp $sshIP:$nzbdroneBackupDIR/$nzbdroneBackup $backupDIR/NzbDrone
 
-git_add
-
 mail -s "Usenet Backup Complete - $NOW" $EMAIL
+
+git_add
