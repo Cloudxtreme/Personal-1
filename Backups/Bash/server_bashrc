@@ -38,6 +38,7 @@ alias sevone='ssh root@10.0.0.60'
 alias gitadd='git add -A . && git commit -m "updates" && git push'
 alias gitupdate='git fetch && git merge'
 alias cron='cd /home/adamschoonover/Git/Personal/Server/Cronjobs/ && ls -lh'
+alias bookupdate='python /home/adamschoonover/Git/Personal/Book-Database/book-input.py'
 
 ### COLORS ###
 

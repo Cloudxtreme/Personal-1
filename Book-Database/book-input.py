@@ -92,6 +92,12 @@ class book_data():
                              "VALUES (%(Name)s, %(AuthorName)s, %(Rating)s, %(DateFinished)s, %(Pages)s, %(Isbn)s, %(Notes)s)")
             cursor.execute(add_book, book_dict)
 
+            print "\n"
+            print "Entered into the database:\n\n"
+
+            print for k,v book_dict:
+                print k,v
+
             cnx.commit()
             cursor.close()
             cnx.close()

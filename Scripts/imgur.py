@@ -14,12 +14,10 @@ client = ImgurClient(client_id, client_secret)
 # items = client.gallery()
 account_info = client.get_account(nonstopflights)
 
-for i in account_info():
-    print i
-    # for item in items:
-    #     print(item.link)
-
+try:
+    for i in account_info:
+        print i
 
 except:
-        print(ImgurClientError.error_message)
-        print(ImgurClientError.status_code)
+    print(ImgurClientError.error_message)
+    print(ImgurClientError.status_code)
