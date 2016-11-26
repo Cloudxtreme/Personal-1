@@ -8,6 +8,7 @@ NOW=$(date +"%m-%d-%Y")
 HOME="/home/adamschoonover"
 backupDIR="/home/adamschoonover/Git/Personal/Backups/Usenet"
 sshIP="vagrant@10.0.0.56"
+EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
 
 git_add() {
     cd /home/adamschoonover/Git/Personal/
@@ -40,3 +41,5 @@ scp $sshIP:$sabnzbdSettings $backupDIR/Sabnzbd
 scp $sshIP:$nzbdroneBackupDIR/$nzbdroneBackup $backupDIR/NzbDrone
 
 git_add
+
+mail -s "Usenet Backup Complete - $NOW" $EMAIL

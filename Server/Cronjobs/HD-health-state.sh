@@ -7,6 +7,7 @@
 LogPath="/home/adamschoonover/Dropbox/Logs/HD-health-state.txt"
 hdState=$(cat $LogPath | grep "Health" | tail -n 6 | awk '{print $3;}')
 counter=0
+email="7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com"
 
 printf "BTRFS Check:\n\n" > $LogPath
 
@@ -17,9 +18,9 @@ printf "\nHDSentienel:\n\n" >> $LogPath
 
 HDSentinel >> $LogPath
 
-for i in $hdState; do 
+for i in $hdState; do
 	if [ $i != 100 ]; then
-		cat $LogPath | mail -s "HD Raid Status" adam@elchert.net
+		cat $LogPath | mail -s "HD Raid Status" $email
 	else
 		counter=$((counter+1))
 	fi
@@ -28,4 +29,3 @@ done
 if [ $counter -gt 0 ]; then
 	printf "\nNo Email Needed\n\n" >> $LogPath
 fi
-

@@ -2,7 +2,7 @@
 REPOSITORY="/mnt/Backups"
 NOW=$(date +"%m-%d-%Y")
 FILE=$(find /home/adamschoonover/Dropbox/Logs/ -iname borg*)
-EMAIL='adam@elchert.net'
+EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
 lastBorgBackup=$(borg list /mnt/Backups/ | awk '{print $1;}' | tail -n 1)
 resetLog=$(echo "" > $FILE)
 
@@ -39,7 +39,7 @@ borg create -p -v --stats \
 /mnt/ImageBackups/repo::`hostname`-`date +%Y-%m-%d` /
 \
 
-#echo "slash back is done" | mail -s "done" adam@elchert.net
+echo "slash back is done" | mail -s "Borg - slash backup - done" $EMAIL
 
 borg prune --stats -v /mnt/ImageBackups/repo --prefix `hostname`- \
 	--keep-daily=7 --keep-weekly=4 --keep-monthly=6 >> $FILE
