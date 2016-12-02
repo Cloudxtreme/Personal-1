@@ -5,6 +5,7 @@
 # Git folder and then updates Git
 
 NOW=$(date +"%m-%d-%Y")
+EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
 DIR='/home/adamschoonover/Git/Personal/Backups'
 logFile="/home/adamschoonover/Dropbox/Logs/systemconf_backups.txt"
 dbDirectory="/home/adamschoonover/Dropbox/Logs"
@@ -66,6 +67,8 @@ fi
 
 if [[ $counter -ge 1 ]]; then
 	git_add
+	echo "Sysconf Backup Complete w/ Git add- $NOW" | msmtp -t $EMAIL
 else
 	printf "\n No updates - $NOW" >> $logFile
+	echo "Sysconf Backup Complete - $NOW" | msmtp -t $EMAIL
 fi
