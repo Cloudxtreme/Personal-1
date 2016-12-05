@@ -1,18 +1,14 @@
 #!/usr/bin/env python
-import exifread, datetime, os, shutil, calendar, filecmp
+import exifread, datetime, os, shutil, calendar, filecmp, argparse
+from blessed import Terminal
 from os.path import join
 
-"""
-v1. A Script to take all CR2 files off the camera card
-    and move them to a folder in the Photos folder.
-    Format for destination is [year]/[num_month - name_month]/[date]
-v2. Expanded files to be moved to jpgs, fixed bugs
-"""
-
-source_dir = raw_input("Source Directory: ").rstrip('/')
-dest_dir = raw_input("Destination Directory: ").rstrip('/')
-#source_dir = "/Users/adamschoonover/Desktop/Import to Stevens"
-#dest_dir = "/Volumes/NAS/Photos/Steven"
+#v1. A Script to take all CR2 files off the camera card
+#    and move them to a folder in the Photos folder.
+#    Format for destination is [year]/[num_month - name_month]/[date]
+#v2. Expanded files to be moved to jpgs, fixed bugs
+#v3. Added argparse
+#
 
 def date_taken_info(filename):
 
@@ -32,6 +28,41 @@ def date_taken_info(filename):
         output = [year, month + " - " + month_num, day]
         return output
 
+# take arguments
+parser = argparse.ArgumentParser(
+    prog="Sorting Photos",
+    description="A simple script to move files from a flash drive, make the folders and move files",
+)
+
+parser.add_argument(
+    "-a","--adam",
+    help="Use to move images from Compact Flash to /mnt/NAS/Photos",
+    dest="person",
+    action="store_const",
+    const="Adam"
+)
+parser.add_argument(
+    "-s","--steven",
+    help="Use to move images from SD Card to /mnt/NAS/Photos/Steven",
+    dest="person",
+    action="store_const",
+    const="Steven"
+)
+
+args = parser.parse_args()
+
+if args.person.lower() == "adam":
+    print "add values to script"
+    exit()
+
+elif args.person.lower() == "steven":
+    source_dir = "/Volumes/EOS_DIGITAL/DCIM/100CANON"
+    dest_dir = "/Volumes/NAS/Photos/Steven"
+
+
+########
+# MAIN
+########
 
 for file in os.listdir(source_dir):
 
@@ -53,7 +84,7 @@ for file in os.listdir(source_dir):
 
             # If the file exsists in the destination, skip it.
             if not os.path.exists(out_filename):
-                print "File name: {} is being moved to {}".format(file, out_filepath)
+                print "{} is being moved to {}".format(file, out_filepath)
                 shutil.move(filename,out_filename)
             else:
                 print "{} was skipped because it already exsists in {}".format(file,out_filepath)
