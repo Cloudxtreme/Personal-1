@@ -40,6 +40,5 @@ scp $sshIP:$sabnzbdSettings $backupDIR/Sabnzbd
 ### NzbDrone ###
 scp $sshIP:$nzbdroneBackupDIR/$nzbdroneBackup $backupDIR/NzbDrone
 
-echo "Usenet Backup Complete - $NOW" | msmtp -f $EMAIL
-
-git_add
+echo "Usenet Backup Complete - $NOW" | msmtp -t $EMAIL
+echo "Usenet Backup Complete - $NOW" | msmtp -t adam@elchert.net
