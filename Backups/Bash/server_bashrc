@@ -62,6 +62,8 @@ alias mysqlbooks='sudo MYSQL_PS1="mysql booksread> " mysql -u root booksread'
 ### Convert Flac to Apple Lossless ###
 alias flac='bash /home/adamschoonover/Git/Personal/Server/flac-conversion.sh'
 
+alias nginxedit='sudo vim /etc/nginx/sites-enabled/default'
+
 ### Colorize Man Pages ###
 man() {
     env \
