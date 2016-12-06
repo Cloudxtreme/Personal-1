@@ -4,9 +4,13 @@ NOW=$(date +"%m-%d-%Y")
 LOGFILE=$(find /home/adamschoonover/Dropbox/Logs/ -iname borg*)
 EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
 lastBorgBackup=$(borg list /mnt/Backups/ | awk '{print $1;}' | tail -n 1)
-resetLog=$(echo "" > $LOGFILE)
 
-$resetLog
+resetLog() {
+    echo "" > $LOGFILE
+}
+
+#clear the log
+resetLog
 
 # Backup all of /home and /var/www except a few
 # excluded directories
@@ -32,7 +36,7 @@ borg prune --stats -v $REPOSITORY --prefix `hostname`- \
 
 echo "Borg Backup Complete - $NOW" | msmtp -t $EMAIL
 
-printf "\n ##### EMAILED $NOW - $EMAIL ######\n" >> $LOGFILE
+printf "\n EMAILED $NOW - $EMAIL \n" >> $LOGFILE
 
 borg create -p -v --stats \
 --exclude "/mnt/*" --exclude "/dev/*" --exclude "/sys/*" --exclude "/proc/*" \
@@ -43,6 +47,8 @@ echo "slash back is done" | mail -s "Borg - slash backup - done" $EMAIL
 
 borg prune --stats -v /mnt/ImageBackups/repo --prefix `hostname`- \
 	--keep-daily=7 --keep-weekly=4 --keep-monthly=6 >> $LOGFILE
+
+echo "Borg Prune Complete - $NOW" | msmtp -t $EMAIL
 
 echo "" >> $LOGFILE
 echo "Finished root backup. $(date)" >> $LOGFILE
