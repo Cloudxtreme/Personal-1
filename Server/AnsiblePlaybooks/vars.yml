@@ -1,4 +1,4 @@
 ---
-user: aElchert
-user_group: root
+userName: aElchert
+userGroup: admin
 server_name: server

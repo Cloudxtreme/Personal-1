@@ -5,37 +5,35 @@
     - vars.yml
 
   tasks:
-    - name: Make sure you are part of the group.
-      user: name={{ user }} group={{ user_group }} state=present
+    - name: Add group
+      group:
+        name: admin
+        state: present
+        system: yes
 
-    - name: Ensure nginx is installed
-      apt: pkg={{ item }} state=present
-      with_items:
-        - nginx
-        - python-passlib
-        - htop
+    - name: Add user
+      user:
+        name: "{{ userName }}"
+        group: admin
+        state: present
 
-    # Configure
-    - name: Configure nginx.config
-      template: src=/Users/aschoonover/Git/Personal/Server/AnsiblePlaybooks/Roles/nginx/templates/nginx.conf dest=/etc/nginx/nginx.conf
-                owner=root group=root mode=0644
+    - name: Add admin group to Sudoers
+      lineinfile:
+        dest: /etc/sudoers
+        state: present
+        regexp: '^admin'
+        line: 'admin ALL=(ALL:ALL) ALL'
 
-    - name: restart nginx
-      service: name=nginx state=restarted
+    - authorized_key:
+        user: "{{ userName }}"
+        key: "{{ lookup('file','/Users/aschoonover/.ssh/id_rsa.pub')}}"
 
-    - name: Copies newest templates from Git/Backups/Nginx
-      script: syncFromBackups.py
 
-    # looping over fileglob. This should reald all the available .conf files
-    # rather than naming them individually
+    - user: name=aelchert generate_ssh_key=yes ssh_key_bits=2048 ssh_key_file=.ssh/id_rsa
 
-    - name: Copy nginx configs from /Git/Personal/Backups to nginx
-      #file: dest=/etc/nginx/ state=directory
-      copy: src={{ item }} dest=/etc/nginx/conf.d/ owner=root mode=600
-      with_fileglob:
-        - /Users/aschoonover/Git/Personal/Server/AnsiblePlaybooks/Roles/nginx/templates/*.conf
-      notify:
-          - restart nginx
+
+
+
 
   #roles:
     # - nginx
