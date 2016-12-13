@@ -1,0 +1,33 @@
+---
+
+# Install
+
+- name: Ensure nginx is installed
+  apt: pkg={{ item }} state=present
+  with_items:
+    - nginx
+    - python-passlib
+    - htop
+
+# Configure
+- name: Configure nginx.config
+  template: src=nginx.conf dest=/etc/nginx/nginx.conf
+            owner=root group=root mode=0644
+  notify:
+    - restart nginx
+
+- name: Copies newest templates from Git/Backups/Nginx
+  script: syncFromBackups.py
+
+# looping over fileglob. This should reald all the available .conf files
+# rather than naming them individually
+
+- name: Copy nginx configs from /Git/Personal/Backups to nginx
+  file: dest=/etc/nginx/ state=directory
+  copy: src={{ item }} dest=/etc/nginx/conf.d/ owner=root mode=600
+  with_fileglob:
+    - /Users/aschoonover/Git/Personal/Server/AnsiblePlaybooks/Roles/nginx/templates/*.conf
+
+  with_items:
+  notify:
+      - restart nginx
