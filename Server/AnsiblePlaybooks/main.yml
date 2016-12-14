@@ -1,8 +1,10 @@
 ---
 - hosts: testing
 
-  vars_files:
-    - vars.yml
+  vars:
+    userName: aElchert
+    userGroup: admin
+    server_name: server
 
   tasks:
     - name: Add group
@@ -24,12 +26,13 @@
         regexp: '^admin'
         line: 'admin ALL=(ALL:ALL) ALL'
 
-    - authorized_key:
+    - name: copy pub key to remote machine
+      authorized_key:
         user: "{{ userName }}"
-        key: "{{ lookup('file','/Users/aschoonover/.ssh/id_rsa.pub')}}"
+        key: "{{ lookup('file', lookup('env','HOME') + '/.ssh/id_rsa.pub') }}"
 
-
-    - user: name=aelchert generate_ssh_key=yes ssh_key_bits=2048 ssh_key_file=.ssh/id_rsa
+  roles:
+    - git
 
 
 

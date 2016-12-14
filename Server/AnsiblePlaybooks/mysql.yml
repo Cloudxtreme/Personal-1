@@ -1,0 +1,9 @@
+---
+- hosts: testing
+  vars:
+    mysql_port: 3306
+    mysql_address: localhost
+    mysql_user: root
+    mysql_root_pass: "CuIeyy7j!!"
+  roles:
+      - mysql

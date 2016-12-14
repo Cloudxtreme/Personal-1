@@ -1,0 +1,28 @@
+---
+- name: Restart Nginx
+  action: service name=nginx state=restarted
+
+- name: Symlink the shared directories
+  file: path={{ app_location }}/current/log
+        src={{ app_location }}/shared/log
+        state=link
+        force=yes
+  sudo: yes
+  sudo_user: www-data
+  with_items:
+    - log
+    - uploads
+    - data
+
+- name: Modify permissions on uploads
+  file: path={{ app_location }}/shared/{{ item }}
+        state=directory
+        mode=0777
+  with_items:
+    - uploads
+    - uploads/thumb
+    - uploads/big
+    - uploads/import
+    - data
+  sudo: yes
+  sudo_user: www-data

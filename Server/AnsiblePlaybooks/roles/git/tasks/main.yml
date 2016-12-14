@@ -1,0 +1,19 @@
+---
+# tasks file for git
+
+- name: Install git package
+  become: yes
+  apt:
+    name: "{{ item }}"
+    state: present
+    update_cache: no
+  with_items:
+    - git
+
+
+- name: Clone into ~/Git
+  git:
+      repo: git://github.com/nonstopflights/Personal.git
+      dest: "/home/ex{{ userName }}/Git"
+      clone: yes
+      accept_hostkey: yes
