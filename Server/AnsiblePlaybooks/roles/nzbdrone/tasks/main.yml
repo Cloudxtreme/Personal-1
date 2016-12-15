@@ -1,0 +1,33 @@
+---
+- name: Ensure NZBDrone repository is present
+  apt_repository: repo="deb http://update.nzbdrone.com/repos/apt/debian master main"
+                  state=present
+- name: Ensure NZBDrone key is present
+  apt_key: url=http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xFDA5DFFC state=present
+  register: result
+- name: Update apt
+  apt: update_cache=yes
+  when: result|changed
+- name: Ensure NZBDrone dependencies are installed
+  apt: pkg={{ item }} state=installed
+  with_items:
+    - mono-runtime
+    - nzbdrone
+    - ufw
+- name: Ensure user group for the applications exists
+  group: name={{ user_group }} state=present
+- name: Ensure NZBDrone user is present
+  user: name={{ user }} group={{ user_group }}
+        home={{ nzbdrone_home }} state=present
+        comment="NZBDrone"
+- name: Ensure NZBDrone config dir exists.
+  file: path="{{ nzbdrone_home }}/.config/NzbDrone" state=directory
+- name: Ensure NZBDrone home permissions are set correctly
+  file: path={{ nzbdrone_home }} owner={{ user }}
+        group={{ user_group }} recurse=yes state=directory
+- name: Install NZBDrone config
+  template: src=config.xml.j2 dest="{{ nzbdrone_home }}/.config/NzbDrone/config.xml"
+- name: Install NZBDrone upstart script (ubuntu 14.04 or earlier)
+  template: src=nzbdrone.conf.j2 dest=/etc/init/nzbdrone.conf
+- name: Ensure NZBDrone is running
+  service: name=nzbdrone state=started

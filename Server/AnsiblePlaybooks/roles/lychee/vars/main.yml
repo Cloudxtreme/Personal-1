@@ -1,5 +1,5 @@
 ---
-app_location: "/var/www/lychee"
+app_location: "/opt/lychee"
 domain: lychee.elchert.net
 lychee_dbname: lychee
 lychee_dbuser: lychee

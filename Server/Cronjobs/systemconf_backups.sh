@@ -22,7 +22,7 @@ bashrcBackupHash=$(md5sum /home/adamschoonover/Git/Personal/Backups/Bash/server_
 counter=0
 checkFileLength() {
 	fileLength=$(cat $logFile | wc -l)
-	if [ "$fileLength" -gt "100" ]; then
+	if [ "$fileLength" -gt "50" ]; then
 		echo "" > $logFile
 		echo "#################" >> $logFile
 		echo "Sys Conf Backups" >> $logfile
