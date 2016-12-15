@@ -1,0 +1,82 @@
+### LOCAL ###
+
+########################################
+
+# NOTES ON HOW TO CHANGE PROMPT
+
+#You must wrap all escape sequences between \[ and \] in order for 'readline' 
+#to correctly calculate the prompt's visible length. Without them, 'readline' 
+#thinks the prompt is longer than it is, and doesn't know when the text reaches the margin.
+
+#PS1="\[\e[;31m\][\u@\h \W]\$ \[\e[m\]"
+
+#########################################
+
+PS1='\[\e[0;33m\][Server]\[\e[m\] \u \[\e[1;34m\][$(date +%k:%M:%S)]\[\e[m\]\[\e[0;36m\] [\w]\[\e[m\]: '
+
+export GOPATH=$HOME/Go
+
+# GLOBAL VARIABLE
+NOW=$(date +"%m-%d-%Y")
+git="/home/adamschoonover/Git/Personal/"
+gitserver="/home/adamschoonover/Git/Personal/Server/"
+
+
+alias nas='cd /mnt/NAS/ && ls'
+alias downloads='cd /mnt/NAS/Downloads/ && ls'
+alias netstat='sudo netstat -taupen'
+alias ls=' ls -lhG --color=auto'
+alias vnc='sudo x11vnc -forever -auth guess -display :0'
+alias serverip='cat ~/Dropbox/Logs/ipaddress.txt'
+alias router='ssh adamschoonover@10.0.0.1'
+alias backuplog='cat ~/Dropbox/Logs/server_backup.txt'
+alias c="clear"
+alias cl="clear"
+alias imac="ssh adamschoonover@10.0.0.10"
+alias imagebackups='cd /mnt/NAS/Archive/Image\ Backups/ & ls'
+alias sonarr='mono --debug /opt/NzbDrone/NzbDrone.exe'
+alias dump='sudo dump -0a -f /mnt/ImageBackups/server-backup-$NOW.dump /'
+alias usenet="cd ~/Git/Personal/Server/Usenet && ls && sudo vagrant ssh"
+alias sevone='ssh root@10.0.0.60'
+alias gitadd='git add -A . && git commit -m "updates" && git push'
+alias gitupdate='git fetch && git merge'
+alias cron='cd /home/adamschoonover/Git/Personal/Server/Cronjobs/ && ls -lh'
+alias bookupdate='python /home/adamschoonover/Git/Personal/Book-Database/book-input.py'
+
+### COLORS ###
+
+export TERM=xterm-color
+export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+
+### BASH EDITS ###
+
+alias bashedit='sudo nano ~/.bashrc'
+alias editbash='sudo nano ~/.bashrc'
+alias restartbash='source ~/.bashrc'
+alias bashrestart='source ~/.bashrc'
+
+### LOCAL DATABASES ###
+
+alias mysqlbooks='sudo MYSQL_PS1="mysql booksread> " mysql -u root booksread'
+
+### Convert Flac to Apple Lossless ###
+alias flac='bash /home/adamschoonover/Git/Personal/Server/flac-conversion.sh'
+
+alias nginxedit='sudo vim /etc/nginx/sites-enabled/default'
+
+### Colorize Man Pages ###
+man() {
+    env \
+        LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+        LESS_TERMCAP_md=$(printf "\e[1;31m") \
+        LESS_TERMCAP_me=$(printf "\e[0m") \
+        LESS_TERMCAP_se=$(printf "\e[0m") \
+        LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+        LESS_TERMCAP_ue=$(printf "\e[0m") \
+        LESS_TERMCAP_us=$(printf "\e[1;32m") \
+            man "$@"
+}
+
