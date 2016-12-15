@@ -15,10 +15,10 @@
   mysql_user:
     name: root
     host: "{{ item }}"
-    password: "{{ mysql_root_pass }}"
+    password: "{{ mysql_root_password }}"
     check_implicit_admin: yes
     login_user: root
-    login_password: "{{ mysql_root_pass }}"
+    login_password: "{{ mysql_root_password }}"
   with_items:
     - "{{ ansible_hostname }}"
     - localhost
@@ -30,26 +30,32 @@
   with_items:  mysql_users
   when:  mysql_users is defined
 
-- name: Adds required MySQL users
-  mysql_user: login_user=root login_password={{ mysql_root_password }} user="{{ item.name }}" password="{{ item.password }}" priv="{{ item.privs }}"
-  with_items:  mysql_users
-  when:  mysql_users is defined
-
-- name: create lychee username and password
+- name: Adds additional MySQL users
   mysql_user:
-    name: lychee
-    password: lychee
-    priv: "*.*:ALL"
-    state: present
     login_user: root
-    login_password: "{{ mysql_root_pass }}"
+    login_password: "{{ mysql_root_password }}"
+    user: "{{ item.name }}"
+    password: "{{ item.password}}"
+    priv: "{{ item.priv }}"
+  with_items:
+    - { name: 'booksread', password: 'booksread', priv: 'booksread.*:ALL' }
+    - { name: 'lychee', password: 'lychee', priv: 'lychee.*:ALL'}
+
+# - name: create lychee username and password
+#   mysql_user:
+#     name: lychee
+#     password: lychee
+#     priv: "*.*:ALL"
+#     state: present
+#     login_user: root
+#     login_password: "{{ mysql_root_password }}"
 
 - name: Create Booksread databases
   mysql_db:
     db: "{{ item }}"
     state: present
     login_user: root
-    login_password: "{{ mysql_root_pass }}"
+    login_password: "{{ mysql_root_password }}"
   with_items:
     - booksread
     - lychee
