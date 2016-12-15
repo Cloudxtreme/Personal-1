@@ -1,0 +1,46 @@
+---
+# tasks file for common
+- name: Install common packages
+  apt:
+    pkg: "{{ item }}"
+    state: present
+  with_items:
+    - htop
+    - git
+    - python3
+    - vim
+
+- name: Add group
+  group:
+    name: "{{ defaultAdminGroup }}"
+    state: present
+
+- name: Add user
+  user:
+    name: "{{ defaultUserName }}"
+    group: admin
+    state: present
+
+- name: Add admin group to Sudoers
+  lineinfile:
+    dest: /etc/sudoers
+    state: present
+    regexp: '^admin'
+    line: 'admin ALL=(ALL:ALL) ALL'
+
+- name: copy pub key to remote machine
+  authorized_key:
+    user: "{{ defaultUserName }}"
+    key: "{{ lookup('file', lookup('env','HOME') + '/.ssh/id_rsa.pub') }}"
+
+- name: copy bashrc to username root folder
+  copy:
+    src: /Users/aschoonover/.bash_profile
+    dest: /home/aelchert/.bashrc
+    mode: 0644
+
+- name: change hostname in bashrc
+  lineinfile:
+    dest: /home/aelchert/.bashrc
+    regexp: 'SevOne-MBP'
+    line: "PS1='\[\e[0;32m\][SevOne-MBP]\[\e[m\] [\u] \[\e[1;34m\][$(date +%k:%M:%S)]\[\e[m\] \[\e[0;36m\][\w]\[\e[m\]: '"
