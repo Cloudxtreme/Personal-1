@@ -1,0 +1,7 @@
+---
+# vars file for testVMsetup
+
+defaultUserName: aelchert
+hostname: aelchertVM
+ssh_port: 22
+defaultAdminGroup: admin
