@@ -1,0 +1,106 @@
+---
+# tasks file for testVMsetup
+
+- name: Add group
+  become: true
+  become_method: su
+  become_user: root
+  
+  group:
+    name: "{{ defaultAdminGroup }}"
+    state: present
+
+- name: Add user
+  user:
+    name: "{{ defaultdefaultUserName }}"
+    group: admin
+    state: present
+
+- name: Add admin group to Sudoers
+  lineinfile:
+    dest: /etc/sudoers
+    state: present
+    regexp: '^admin'
+    line: 'admin ALL=(ALL:ALL) ALL'
+
+
+- name: copy basic bashrc to defaultUserName root folder
+  copy:
+    src: /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/bashrc
+    dest: /home/aelchert/.bashrc
+    mode: 0644
+
+
+- name: Create ssh key directory
+  action:
+    file path: "/home/{{ defaultUserName }}/.ssh/"
+
+- name: copy pub key to remote machine
+  authorized_key:
+    user: "{{ defaultUserName }}"
+    key: "{{ lookup('file', lookup('env','HOME') + '/.ssh/id_rsa.pub') }}"
+
+
+- name: copy ssh key from host to server
+  authorized_key:
+    user: adamschoonover
+    key: "{{ lookup('file', '/home/adamschoonover/.ssh/id_rsa.pub')}}"
+
+- name: Set up authorized keys for new user
+  authorized_key:
+    user: aelchert
+    key: "{{ item }}"
+  with_file:
+    - /home/adamschoonover/id_rsa.pub
+
+# - name: Change ssh port
+#   lineinfile:
+#     dest: /etc/ssh/sshd_config
+#     regexp: '^Port\s'
+#     line: "Port {{ ssh_port }}"
+#     state: present
+#   notify: restart ssh
+
+# - name: Disable root login
+#   lineinfile:
+#     dest: /etc/ssh/sshd_config
+#     regexp: '^PermitRootLogin'
+#     line: "PermitRootLogin no"
+#     state: present
+#   notify: restart ssh
+
+# - name: Disable password authentication
+#   lineinfile:
+#     dest: /etc/ssh/sshd_config
+#     regexp: '^PasswordAuthentication'
+#     line: "PasswordAuthentication no"
+#     state: present
+#   notify: restart ssh
+
+# - name: Only allow SSH access for the newly created user
+#   lineinfile:
+#     dest: /etc/ssh/sshd_config
+#     insertafter: '^StrictModes'
+#     line: "AllowUsers {{ user }}"
+#     state: present
+#   notify: restart ssh
+
+######
+
+- name: Update all packages
+  apt:
+    update_cache: yes
+    upgrade: safe
+    autoremove: yes
+
+- name: Install essential packages
+  apt:
+    name: "{{ item }}"
+    update_cache: yes
+    cache_valid_time: 3600
+    state: latest
+  with_items:
+    - htop
+    - git
+    - ntp
+    - python3

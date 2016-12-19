@@ -18,9 +18,10 @@ export GOPATH=$HOME/Go
 
 # GLOBAL VARIABLE
 NOW=$(date +"%m-%d-%Y")
-git="~/Git/Personal/"
+git="/home/adamschoonover/Git/Personal/"
 gitserver="/home/adamschoonover/Git/Personal/Server/"
-
+alias gitadd='git add -A . && git commit -m "updates" && git push'
+alias gitupdate='git fetch && git merge'
 
 alias nas='cd /mnt/NAS/ && ls'
 alias downloads='cd /mnt/NAS/Downloads/ && ls'
