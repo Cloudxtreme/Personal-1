@@ -1,5 +1,5 @@
 [testing]
-172.16.177.170 ansible_user=root
+172.16.129.133 ansible_user=root
 
 #[rootVm]
 #10.0.0.50
