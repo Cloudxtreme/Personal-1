@@ -1,8 +1,11 @@
 [testing]
-172.16.177.170 ansible_user=root
+172.16.177.170 ansible_user=root ansible_pass="CuIeyy7j!!"
 
-#[rootVm]
-#10.0.0.50
+[rootVm]
+10.0.0.49 ansible_user=root ansible_pass="CuIeyy7j!!"
 
-#[usenet]
-#10.0.0.56
+[center]
+10.0.0.50 ansible_user=root ansible_pass="CuIeyy7j!!"
+
+[plex]
+10.0.0.51 ansible_user=root ansible_pass="CuIeyy7j!!"

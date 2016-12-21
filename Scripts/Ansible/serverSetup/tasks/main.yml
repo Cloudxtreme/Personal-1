@@ -1,11 +1,23 @@
 ---
 # tasks file for testVMsetup
+# - name: Install essential packages
+#   apt:
+#     name: "{{ item }}"
+#     update_cache: yes
+#     state: latest
+#     install_recommends: yes
+#   with_items:
+#     - htop
+#     - git
+#     - python3
+#     - python
+#     - sudo
 
 - name: Add group
   become: true
   become_method: su
   become_user: root
-  
+
   group:
     name: "{{ defaultAdminGroup }}"
     state: present
@@ -24,16 +36,12 @@
     line: 'admin ALL=(ALL:ALL) ALL'
 
 
-- name: copy basic bashrc to defaultUserName root folder
-  copy:
-    src: /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/bashrc
-    dest: /home/aelchert/.bashrc
-    mode: 0644
+# - name: copy basic bashrc to defaultUserName root folder
+#   copy:
+#     src: /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/bashrc
+#     dest: /home/aelchert/.bashrc
+#     mode: 0644
 
-
-- name: Create ssh key directory
-  action:
-    file path: "/home/{{ defaultUserName }}/.ssh/"
 
 - name: copy pub key to remote machine
   authorized_key:
@@ -61,13 +69,13 @@
 #     state: present
 #   notify: restart ssh
 
-# - name: Disable root login
-#   lineinfile:
-#     dest: /etc/ssh/sshd_config
-#     regexp: '^PermitRootLogin'
-#     line: "PermitRootLogin no"
-#     state: present
-#   notify: restart ssh
+- name: Disable root login
+  lineinfile:
+    dest: /etc/ssh/sshd_config
+    regexp: '^PermitRootLogin'
+    line: "PermitRootLogin no"
+    state: present
+  notify: restart ssh
 
 # - name: Disable password authentication
 #   lineinfile:
@@ -92,15 +100,3 @@
     update_cache: yes
     upgrade: safe
     autoremove: yes
-
-- name: Install essential packages
-  apt:
-    name: "{{ item }}"
-    update_cache: yes
-    cache_valid_time: 3600
-    state: latest
-  with_items:
-    - htop
-    - git
-    - ntp
-    - python3
