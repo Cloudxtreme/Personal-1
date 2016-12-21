@@ -1,40 +1,52 @@
 ---
 # tasks file for common
-- name: Install common packages
+
+- name: Install essential packages
   apt:
-    pkg: "{{ item }}"
-    state: present
+    name: "{{ item }}"
+    update_cache: yes
+    state: latest
+    install_recommends: yes
   with_items:
     - htop
     - git
     - python3
-    - vim
+    - python
+    - sudo
 
-- name: Add group
+- name: add group
   group:
-    name: "{{ defaultAdminGroup }}"
+    name: admin
     state: present
 
-- name: Add user
+- name: user/group
   user:
     name: "{{ defaultUserName }}"
-    group: admin
+    comment: "Adam Elchert"
+    groups: admin
+    shell: /bin/bash
     state: present
 
 - name: Add admin group to Sudoers
   lineinfile:
-    dest: /etc/sudoers
-    state: present
-    regexp: '^admin'
-    line: 'admin ALL=(ALL:ALL) ALL'
+      dest: /etc/sudoers
+      state: present
+      regexp: "{{ item.name }}"
+      line: "{{ item.line }}"
+  with_items:
+    - { name: '^admin', line: 'admin ALL=(ALL:ALL) ALL' }
+    - { name: '^aelchert', line: 'aelchert ALL=(ALL:ALL) ALL' }
 
-- name: copy pub key to remote machine
+- name: copy keys to aelchert
   authorized_key:
-    user: "{{ defaultUserName }}"
-    key: "{{ lookup('file', lookup('env','HOME') + '/.ssh/id_rsa.pub') }}"
+    user: "{{ item.name }}"
+    key: "{{ item.path }}"
+  with_file:
+    - { name: aelchert, path: templates/keys.keys }
+    - { name: root, path: templates/keys.keys }
 
 - name: copy basic bashrc to username root folder
   copy:
-    src: /Users/aschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/bashrc
+    src: /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/bashrc
     dest: /home/aelchert/.bashrc
     mode: 0644

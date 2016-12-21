@@ -1,5 +1,4 @@
 ---
-- hosts: testing
+- hosts: plex
   roles:
-    - mysql
-    #- common
+    - common

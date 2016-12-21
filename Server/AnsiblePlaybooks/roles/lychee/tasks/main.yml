@@ -27,6 +27,20 @@
     dest: "{{ app_location }}/data/config.php"
     mode: 755
 
+- lineinfile:
+    dest: /etc/php5/cli/php.ini
+    regexp: "{{ item.term }}"
+    line: "{{ item.replacement }}"
+    with_items:
+      - { term: '^max_execution_time =': replacement: 'max_execution_time = 200' }
+      - { term: '^post_max_size =': replacement: 'post_max_size = 100M' }
+      - { term: '^upload_max_size =': replacement: 'upload_max_size = 2000M' }
+      - { term: '^upload_max_filesize =': replacement: 'upload_max_filesize = 100M' }
+      - { term: '^memory_limit =': replacement: 'memory_limit = 256M' }
+
+
+
+
 # - lineinfile:
 #     dest: /etc/selinux/config
 #     regexp: '^SELINUX='
