@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [nginx]
 10.0.0.51 ansible_user=root ansible_pass="CuIeyy7j!!"
 
@@ -9,3 +10,8 @@
 
 [plex]
 10.0.0.52 ansible_user=root ansible_pass="CuIeyy7j!!"
+=======
+[server]
+10.0.0.222 ansible_user=root ansible_pass="CuIeyy7j!!"
+
+>>>>>>> 94a10f1856dfc787c2c8b9ba6f87a7b67ea1cc5a

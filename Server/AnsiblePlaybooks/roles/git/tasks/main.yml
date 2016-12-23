@@ -14,6 +14,10 @@
 - name: Clone into ~/Git
   git:
       repo: git://github.com/nonstopflights/Personal.git
+<<<<<<< HEAD
       dest: "/home/{{ userName }}/Git"
+=======
+      dest: "/home/aelchert/Git"
+>>>>>>> 94a10f1856dfc787c2c8b9ba6f87a7b67ea1cc5a
       clone: yes
       accept_hostkey: yes

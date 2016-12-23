@@ -1,4 +1,5 @@
 ---
-- hosts: plex
+- hosts: server
   roles:
     - common
+    - git
