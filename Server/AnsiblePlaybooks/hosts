@@ -1,5 +1,5 @@
-[testing]
-172.16.177.170 ansible_user=root ansible_pass="CuIeyy7j!!"
+[nginx]
+10.0.0.51 ansible_user=root ansible_pass="CuIeyy7j!!"
 
 [rootVm]
 10.0.0.49 ansible_user=root ansible_pass="CuIeyy7j!!"
@@ -8,4 +8,4 @@
 10.0.0.50 ansible_user=root ansible_pass="CuIeyy7j!!"
 
 [plex]
-10.0.0.51 ansible_user=root ansible_pass="CuIeyy7j!!"
+10.0.0.52 ansible_user=root ansible_pass="CuIeyy7j!!"

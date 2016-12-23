@@ -13,6 +13,7 @@
     - python3
     - python
     - sudo
+    - vim
 
 - name: add group
   group:
@@ -39,14 +40,32 @@
 
 - name: copy keys to aelchert
   authorized_key:
-    user: "{{ item.name }}"
-    key: "{{ item.path }}"
-  with_file:
-    - { name: aelchert, path: templates/keys.keys }
-    - { name: root, path: templates/keys.keys }
+    user: aelchert
+    state: present
+    key: "{{ lookup('file', '/Users/adamschoonover/.ssh/id_rsa.pub') }}"
+
+- name: copy root keys
+  authorized_key:
+    user: root
+    state: present
+    key: "{{ lookup('file', '/Users/adamschoonover/.ssh/id_rsa.pub') }}"
 
 - name: copy basic bashrc to username root folder
   copy:
     src: /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/bashrc
-    dest: /home/aelchert/.bashrc
+    dest: '{{ item }}'
     mode: 0644
+  with_items:
+    - /home/aelchert/.bashrc
+    - /root/.bashrc
+
+- name: update root password login
+  lineinfile:
+    dest: /etc/ssh/sshd_config
+    regexp: '^PermitRoot'
+    line: 'PermitRootLogin yes'
+
+- name: restart sshd
+  service:
+    name: sshd
+    state: restarted
