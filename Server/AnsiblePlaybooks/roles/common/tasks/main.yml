@@ -13,6 +13,8 @@
     - python3
     - python
     - sudo
+    - vim
+    - screen
 
 - name: add group
   group:
@@ -37,16 +39,32 @@
     - { name: '^admin', line: 'admin ALL=(ALL:ALL) ALL' }
     - { name: '^aelchert', line: 'aelchert ALL=(ALL:ALL) ALL' }
 
-- name: copy keys to aelchert
-  authorized_key:
-    user: "{{ item.name }}"
-    key: "{{ item.path }}"
-  with_file:
-    - { name: aelchert, path: templates/keys.keys }
-    - { name: root, path: templates/keys.keys }
-
 - name: copy basic bashrc to username root folder
   copy:
     src: /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/bashrc
     dest: /home/aelchert/.bashrc
     mode: 0644
+
+- name: copy basic bashrc to root
+  copy:
+    src: /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/bashrc
+    dest: /root/.bashrc
+    mode: 0644
+
+- name: copy keys to aelchert
+  copy:
+    src: "{{ item }}"
+    dest: /home/aelchert/.ssh/
+    mode: 0600
+  with_items:
+    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa
+    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa.pub
+
+- name: copy keys to root
+  copy:
+    src: "{{ item }}"
+    dest: /root/.ssh/
+    mode: 0600
+  with_items:
+    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa
+    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa.pub

@@ -6,8 +6,6 @@
   apt: update_cache=yes cache_valid_time=86400
   changed_when: false
 
-  
-
 - name: Ensure nginx is installed
   apt: pkg={{ item }} state=present
   with_items:
@@ -30,12 +28,10 @@
 # looping over fileglob. This should reald all the available .conf files
 # rather than naming them individually
 
-- name: Copy nginx configs from /Git/Personal/Backups to nginx
-  file: dest=/etc/nginx/ state=directory
-  copy: src={{ item }} dest=/etc/nginx/conf.d/ owner=root mode=600
-  with_fileglob:
-    - /Users/aschoonover/Git/Personal/Server/AnsiblePlaybooks/Roles/nginx/templates/*.conf
-
-  with_items:
-  notify:
-      - restart nginx
+# - name: Copy nginx configs from /Git/Personal/Backups to nginx
+#   file: dest=/etc/nginx/ state=directory
+#   copy: src={{ item }} dest=/etc/nginx/conf.d/ owner=root mode=600
+#   with_fileglob:
+#     - /Users/aschoonover/Git/Personal/Server/AnsiblePlaybooks/Roles/nginx/templates/*.conf
+#   notify:
+#       - restart nginx
