@@ -1,6 +1,6 @@
 ---
-- hosts: server
+- hosts: usenet
   roles:
     #- common
     #- git
-    - nginx
+     -  ansible-transmission
