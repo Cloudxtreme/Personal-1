@@ -1,37 +1,14 @@
 ---
-<<<<<<< HEAD:Server/AnsiblePlaybooks/roles/nginx/nginx_playbook.yml
-hosts: all
-handlers:
-  - name: restart nginx
-    action: service name=nginx pattern=/etc/init.d/nginx state=restarted enabled=yes
-
-tasks:
-
-  # Install
-
-  - name: Update apt cache.
-    apt: update_cache=yes cache_valid_time=86400
-    changed_when: false
-
-  - name: Ensure nginx is installed
-    apt: pkg={{ item }} state=present
-    with_items:
-      - nginx
-
-  # Configure
-  - name: Configure nginx.config
-    template:
-      src: Templates/nginx.conf
-      dest: /etc/nginx/nginx.conf owner=root group=root mode=0644
-    notify:
-      - restart nginx
-=======
-
-# Install
-
 - name: Update apt cache.
   apt: update_cache=yes cache_valid_time=86400
   changed_when: false
+
+- name: add nginx
+  user:
+    name: nginx
+    comment: nginx
+    groups: admin
+    state: present
 
 - name: Ensure nginx is installed
   apt: pkg={{ item }} state=present
@@ -44,22 +21,7 @@ tasks:
 # Configure
 - name: Configure nginx.config
   template:
-    src: /Users/adamschoonover/Git/Personal/Backups/Nginx/nginx.conf
-    dest: /etc/nginx/nginx.conf owner=root group=root mode=0644
+    src: /home/aelchert/Git/Backups/Nginx/nginx.conf
+    dest: /etc/nginx/nginx.conf owner=aelchert group=root mode=0644
   notify:
     - restart nginx
-
-- name: Copies newest templates from Git/Backups/Nginx
-  script: syncFromBackups.py
-
-# looping over fileglob. This should reald all the available .conf files
-# rather than naming them individually
-
-# - name: Copy nginx configs from /Git/Personal/Backups to nginx
-#   file: dest=/etc/nginx/ state=directory
-#   copy: src={{ item }} dest=/etc/nginx/conf.d/ owner=root mode=600
-#   with_fileglob:
-#     - /Users/aschoonover/Git/Personal/Server/AnsiblePlaybooks/Roles/nginx/templates/*.conf
-#   notify:
-#       - restart nginx
->>>>>>> 94a10f1856dfc787c2c8b9ba6f87a7b67ea1cc5a:Server/AnsiblePlaybooks/roles/nginx/tasks/main.yml

@@ -1,6 +1,6 @@
 ---
 - hosts: server
   roles:
-    - common
-    - git
+    #- common
+    #- git
     - nginx

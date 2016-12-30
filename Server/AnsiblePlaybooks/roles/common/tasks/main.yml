@@ -14,10 +14,9 @@
     - python
     - sudo
     - vim
-<<<<<<< HEAD
-=======
     - screen
->>>>>>> 94a10f1856dfc787c2c8b9ba6f87a7b67ea1cc5a
+    - x11vnc
+
 
 - name: add group
   group:
@@ -42,7 +41,7 @@
     - { name: '^admin', line: 'admin ALL=(ALL:ALL) ALL' }
     - { name: '^aelchert', line: 'aelchert ALL=(ALL:ALL) ALL' }
 
-<<<<<<< HEAD
+
 - name: copy keys to aelchert
   authorized_key:
     user: aelchert
@@ -55,14 +54,11 @@
     state: present
     key: "{{ lookup('file', '/Users/adamschoonover/.ssh/id_rsa.pub') }}"
 
-=======
->>>>>>> 94a10f1856dfc787c2c8b9ba6f87a7b67ea1cc5a
 - name: copy basic bashrc to username root folder
   copy:
     src: /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/bashrc
     dest: '{{ item }}'
     mode: 0644
-<<<<<<< HEAD
   with_items:
     - /home/aelchert/.bashrc
     - /root/.bashrc
@@ -77,7 +73,6 @@
   service:
     name: sshd
     state: restarted
-=======
 
 - name: copy basic bashrc to root
   copy:
@@ -102,4 +97,3 @@
   with_items:
     - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa
     - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa.pub
->>>>>>> 94a10f1856dfc787c2c8b9ba6f87a7b67ea1cc5a
