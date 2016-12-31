@@ -2,7 +2,7 @@
 # Get's the public IP and writes it /Dropbox/Logs/
 
 NOW=$(date +"%m-%d-%Y")
-filePath="/home/adamschoonover/Dropbox/Logs/server_public_ip.txt"
+filePath="/home/aelchert/Dropbox/Logs/server_public_ip.txt"
 IP=$(curl 'http://myexternalip.com/raw')
 
 getIP (){
@@ -21,7 +21,7 @@ else
 fi
 
 # check to see if owner of the file is correct
-ownerName=$(stat -c %U /home/adamschoonover/Git/Personal/Server/Cronjobs/public-ip-check.sh)
+ownerName=$(stat -c %U /home/aelchert/Git/Personal/Server/Cronjobs/public-ip-check.sh)
 
 if [ "$ownerName" != "adamschoonover" ]; then
         chown adamschoonover $filePath
