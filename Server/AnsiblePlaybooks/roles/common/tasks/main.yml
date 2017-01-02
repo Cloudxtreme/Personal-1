@@ -15,6 +15,7 @@
     - sudo
     - vim
     - screen
+    - libav-tools
 
 - name: add group
   group:
