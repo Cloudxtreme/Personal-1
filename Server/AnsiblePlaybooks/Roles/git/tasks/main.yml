@@ -16,4 +16,5 @@
       repo: git://github.com/nonstopflights/Personal.git
       dest: "/home/aelchert/Git"
       clone: yes
+      update: no
       accept_hostkey: yes

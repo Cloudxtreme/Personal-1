@@ -1,4 +1,10 @@
 ---
 - hosts: usenet
   roles:
+<<<<<<< HEAD
     - ansible-sabnzbd
+=======
+    #- common
+    #- git
+     -  ansible-transmission
+>>>>>>> e128629571fd704e2cace7f196b3ad8e7cd4988b

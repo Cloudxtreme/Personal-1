@@ -1,9 +1,9 @@
 #!/bin/sh
-REPOSITORY="/mnt/Backups"
+REPOSITORY="/mnt/Backup"
 NOW=$(date +"%m-%d-%Y")
-LOGFILE=$(find /home/adamschoonover/Dropbox/Logs/ -iname borg*)
+LOGFILE=$(find /home/aelchert/Dropbox/Logs/ | grep borg)
 EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
-lastBorgBackup=$(borg list /mnt/Backups/ | awk '{print $1;}' | tail -n 1)
+lastBorgBackup=$(borg list /mnt/Backup/ | awk '{print $1;}' | tail -n 1)
 
 resetLog() {
     echo "" > $LOGFILE
@@ -14,11 +14,11 @@ resetLog
 
 # Backup all of /home and /var/www except a few
 # excluded directories
-borg create -v --stats                          \
+borg create -v --list  --stats                          \
     $REPOSITORY::`hostname`-`date +%Y-%m-%d`    \
     /mnt/NAS
 
-borg info /mnt/Backups::$lastBorgBackup >> $LOGFILE
+borg info $RESPOSITORY::$lastBorgBackup >> $LOGFILE
 
 # Use the `prune` subcommand to maintain 7 daily, 4 weekly and 6 monthly
 # archives of THIS machine. --prefix `hostname`- is very important to
