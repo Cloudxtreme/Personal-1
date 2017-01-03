@@ -6,3 +6,6 @@
 
 [transmission]
 10.0.0.56 ansible_user=root ansible_pass="CuIeyy7j!!"
+
+[nginx]
+10.0.0.57 ansible_user=root ansible_pass="CuIeyy7j!!"
