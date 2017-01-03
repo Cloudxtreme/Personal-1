@@ -1,4 +1,4 @@
 ---
-- hosts: transmission
+- hosts: server
   roles:
-    - common
+    - mysql
