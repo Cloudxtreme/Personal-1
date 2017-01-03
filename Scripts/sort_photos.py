@@ -51,11 +51,11 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-if args.person.lower() == "adam":
+if args.person == "adam":
     print "add values to script"
     exit()
 
-elif args.person.lower() == "steven":
+elif args.person == "steven":
     source_dir = "/Volumes/EOS_DIGITAL/DCIM/100CANON"
     dest_dir = "/Volumes/NAS/Photos/Steven"
 
