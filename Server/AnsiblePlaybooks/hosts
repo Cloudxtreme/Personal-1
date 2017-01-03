@@ -2,4 +2,7 @@
 10.0.0.50 ansible_user=root ansible_pass="CuIeyy7j!!"
 
 [usenet]
+10.0.0.55 ansible_user=root
+
+[tranmssion]
 10.0.0.56 ansible_user=root
