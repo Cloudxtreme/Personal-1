@@ -15,12 +15,7 @@
     - sudo
     - vim
     - screen
-<<<<<<< HEAD:Server/AnsiblePlaybooks/roles/common/tasks/main.yml
-    - libav-tools
-=======
     - x11vnc
-
->>>>>>> e128629571fd704e2cace7f196b3ad8e7cd4988b:Server/AnsiblePlaybooks/Roles/common/tasks/main.yml
 
 - name: add group
   group:
@@ -72,11 +67,6 @@
     dest: /etc/ssh/sshd_config
     regexp: '^PermitRoot'
     line: 'PermitRootLogin yes'
-
-- name: restart sshd
-  service:
-    name: sshd
-    state: restarted
 
 - name: copy basic bashrc to root
   copy:
