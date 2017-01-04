@@ -2,6 +2,7 @@
 # and enter it into a local mysql database
 
 import urllib2, json, mysql.connector, time, os
+from blessed import Terminal
 
 apikey = "AIzaSyDozlghDCtPzYu9ckvt1jhkjinZpM3vhJQ"
 #cnx = mysql.connector.connect(user='root', database='booksread', buffered=True)
@@ -93,10 +94,10 @@ class book_data():
             cursor.execute(add_book, book_dict)
 
             print "\n"
-            print "Entered into the database:\n\n"
+            print (t.bold_red("Entered into the database:\n\n))"
 
             for k,v in book_dict.items():
-                print k,v
+                print (t.bold(k), v
 
             cnx.commit()
             cursor.close()
