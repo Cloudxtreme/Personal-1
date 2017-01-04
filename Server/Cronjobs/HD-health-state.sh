@@ -4,7 +4,7 @@
 # Also runs ~/HDSentinel. A free HD check
 # http://www.hdsentinel.com/hard_disk_sentinel_linux.php
 
-logPath="/home/adamschoonover/Dropbox/Logs/HD-health-state.txt"
+logPath="/home/aelchert/Dropbox/Logs/HD-health-state.txt"
 hdState=$(cat $logPath | grep "Health" | tail -n 6 | awk '{print $3;}' | grep -v -i unknown)
 btrfsState=$(head -n 25 $logPath | awk '{print $2}')
 counter=0
@@ -14,7 +14,7 @@ now=$(date +"%m-%d-%Y")
 printf "BTRFS Check:\n\n" > $logPath
 
 # Have to have sudo..even though run as root
-sudo btrfs device stats /mnt >> $logPath
+sudo btrfs device stats /mnt/NAS >> $logPath
 
 printf "\nHDSentienel:\n\n" >> $logPath
 
