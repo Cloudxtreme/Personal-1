@@ -95,7 +95,7 @@ class book_data():
             print "\n"
             print "Entered into the database:\n\n"
 
-            print for k,v book_dict:
+            for k,v in book_dict:
                 print k,v
 
             cnx.commit()
