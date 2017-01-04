@@ -1,4 +1,4 @@
 ---
-- hosts: transmission
+- hosts: serverRemote
   roles:
-    - common
+    - mysql

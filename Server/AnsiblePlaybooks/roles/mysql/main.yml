@@ -1,0 +1,43 @@
+---
+- hosts: serverRemote
+
+  vars:
+    user: root
+    password: CuIeyy7j!!
+
+  handlers:
+    - name: restart mysql
+      service: name={{ mysql_service }} state=restarted
+
+  tasks:
+    - name: Install MySQL packages
+      apt: pkg={{item}} state=installed
+      with_items:
+        - mysql-server
+        - mysql-client
+
+     - name: Remove the MySQL test database
+       action: mysql_db db=test state=absent
+
+    - name: Create databases
+      mysql_db: name={{item}} state=present collation=utf8_general_ci encoding=utf8
+      with_items:
+          - booksread
+          - lychee
+
+    - name: Add deploy DB user and allow access to news_* databases
+      mysql_user: name={{user}} password={{password}} host="%" priv=db1.*:ALL/db2.*:ALL,GRANT state=present
+
+
+    - name: Set root password
+      mysql_user: name=root password={{password}} host="{{item}}" priv=*.*:ALL,GRANT state=present
+      with_items:
+        - "{{ansible_hostname}}"
+        - 127.0.0.1
+        - ::1
+        - localhost
+
+    - name: copy my.cnf file
+      template: src=templates/my.cnf.j2 dest=/etc/mysql/my.cnf
+      notify:
+        - restart mysql
