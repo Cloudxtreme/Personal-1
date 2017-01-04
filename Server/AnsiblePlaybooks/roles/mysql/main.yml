@@ -1,5 +1,5 @@
 ---
-- hosts: server
+- hosts: serverRemote
 
   vars:
     user: root
@@ -13,17 +13,11 @@
     - name: Install MySQL packages
       apt: pkg={{item}} state=installed
       with_items:
-        - bundler
-        - mysql-server-core-5.5
-        - mysql-client-core-5.5
-        - libmysqlclient-dev
-        - python-mysqldb
         - mysql-server
         - mysql-client
-        - build-essential
 
-    - name: Remove the MySQL test database
-      action: mysql_db db=test state=absent
+     - name: Remove the MySQL test database
+       action: mysql_db db=test state=absent
 
     - name: Create databases
       mysql_db: name={{item}} state=present collation=utf8_general_ci encoding=utf8
@@ -45,18 +39,5 @@
 
     - name: copy my.cnf file
       template: src=templates/my.cnf.j2 dest=/etc/mysql/my.cnf
-
-    - name: Copy database dump file
-      copy:
-          src: templates/booksread_12-28-2016.sql
-          dest: /tmp
       notify:
-          - restart mysql
-
-    - name: Restore database
-      mysql_db:
-        name: booksread
-        state: import
-        target: /tmp/booksread_12-28-2016.sql
-      notify:
-          - restart mysql
+        - restart mysql
