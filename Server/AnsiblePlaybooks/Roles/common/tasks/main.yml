@@ -16,6 +16,7 @@
     - vim
     - screen
     - x11vnc
+    - openssh-server
 
 
 - name: add group

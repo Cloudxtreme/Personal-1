@@ -1,6 +1,4 @@
 ---
 - hosts: usenet
   roles:
-    #- common
-    #- git
-     -  ansible-transmission
+    - common

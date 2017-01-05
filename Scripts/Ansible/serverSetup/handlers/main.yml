@@ -1,7 +1,0 @@
----
-# handlers file for testVMsetup
----
-- name: restart ssh
-  service:
-    name: ssh
-    state: restarted
