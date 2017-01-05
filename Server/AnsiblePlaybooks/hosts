@@ -1,6 +1,9 @@
 [server]
 10.0.0.50 ansible_user=root ansible_pass="CuIeyy7j!!"
 
+[usenet]
+10.0.0.55 ansible_user=root ansible_pass="CuIeyy7j!!"
+
 [serverRemote]
 nonstopflights.ddns.net ansible_user=root ansible_pass="CuIeyy7j!!" ansible_port=9234
 

@@ -1,10 +1,3 @@
 ---
-# group sickbeard/sab/cp will be part of
-user: couchpotato
-user_group: "admin"
-couchpotato_port: 8020
-couchpotato_webroot: "/couchpotato"
-couchpotato_home: /opt/couchpotato
-config_file: "{{ couchpotato_home }}/config.ini"
-repo: git://github.com/RuudBurger/CouchPotatoServer.git
-source_location: "{{ couchpotato_home }}/.couchpotato"
+couchpotato_repo: https://github.com/RuudBurger/CouchPotatoServer.git
+couchpotato_init_script: couchpotato

@@ -1,4 +1,8 @@
 ---
 - hosts: lychee
   roles:
+<<<<<<< HEAD
+=======
+    - common
+>>>>>>> 4731d89bace4da5e1813dc6c75c90acb92ba426d
     - lychee
