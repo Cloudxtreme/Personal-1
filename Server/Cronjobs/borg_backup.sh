@@ -1,9 +1,9 @@
 #!/bin/sh
 REPOSITORY="/mnt/Backup"
 NOW=$(date +"%m-%d-%Y")
-LOGFILE=$(find /home/aelchert/Dropbox/Logs/ | grep borg)
+LOGFILE="/home/aelchert/Dropbox/Logs/borgBackup.txt"
 EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
-lastBorgBackup=$(borg list /mnt/Backup/ | awk '{print $1;}' | tail -n 1)
+lastBorgBackup=$(sudo borg list /mnt/Backup/ | awk '{print $1;}' | tail -n 1)
 
 resetLog() {
     echo "" > $LOGFILE
@@ -14,7 +14,7 @@ resetLog
 
 # Backup all of /home and /var/www except a few
 # excluded directories
-borg create -v --list  --stats                          \
+borg create -v --list --stats                          \
     $REPOSITORY::`hostname`-`date +%Y-%m-%d`    \
     /mnt/NAS
 
@@ -34,7 +34,7 @@ borg prune --stats -v $REPOSITORY --prefix `hostname`- \
 # Email Log
 ###########
 
-echo "Borg Backup Complete - $NOW" | msmtp -t $EMAIL
+#echo "Borg Backup Complete - $NOW" | msmtp -t $EMAIL
 
 # printf "\n EMAILED $NOW - $EMAIL \n" >> $LOGFILE
 #

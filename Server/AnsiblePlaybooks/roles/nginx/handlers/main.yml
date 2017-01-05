@@ -1,0 +1,15 @@
+---
+# handlers file for nginx
+- name: restart nginx
+  debug: msg="checking config first"
+  changed_when: True
+  notify:
+    - check nginx configuration
+    - restart nginx - after config check
+
+- name: reload nginx
+  debug: msg="checking config first"
+  changed_when: True
+  notify:
+    - check nginx configuration
+    - reload nginx - after config check
