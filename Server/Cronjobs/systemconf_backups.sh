@@ -6,18 +6,18 @@
 
 NOW=$(date +"%m-%d-%Y")
 EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
-DIR='/home/adamschoonover/Git/Personal/Backups'
-logFile="/home/adamschoonover/Dropbox/Logs/systemconf_backups.txt"
-dbDirectory="/home/adamschoonover/Dropbox/Logs"
+DIR='/home/aelchert/Git/Personal/Backups'
+logFile="/home/aelchert/Dropbox/Logs/systemconf_backups.txt"
+dbDirectory="/home/aelchert/Dropbox/Logs"
 
 nginxCFG=$(md5sum /etc/nginx/conf.d/*.conf | awk '{print $1;}')
-nginxBACKUP=$(md5sum /home/adamschoonover/Git/Personal/Backups/Nginx/*.conf | awk '{print $1;}')
+nginxBACKUP=$(md5sum /home/aelchert/Git/Personal/Backups/Nginx/*.conf | awk '{print $1;}')
 
 crontabBackupHash=$(md5sum $DIR/Cron/server_root_crontab | awk '{print $1;}')
 crontabHash=$(crontab -u root -l | md5sum | awk '{print $1;}')
 
-bashrcHash=$(md5sum /home/adamschoonover/.bashrc | awk '{print $1;}')
-bashrcBackupHash=$(md5sum /home/adamschoonover/Git/Personal/Backups/Bash/server_bashrc | awk '{print $1;}')
+bashrcHash=$(md5sum /home/aelchert/.bashrc | awk '{print $1;}')
+bashrcBackupHash=$(md5sum /home/aelchert/Git/Personal/Backups/Bash/server_bashrc | awk '{print $1;}')
 
 counter=0
 checkFileLength() {
@@ -31,7 +31,7 @@ checkFileLength() {
 }
 
 git_add() {
-  cd /home/adamschoonover/Git/Personal/
+  cd /home/aelchert/Git/Personal/
   git add -A .
   git commit -m "updates $NOW"
   git push
@@ -57,7 +57,7 @@ fi
 
 #checks if bashrc is backed up
 if [[ $bashrcHash != $bashrcBackupHash ]]; then
-	cp /home/adamschoonover/.bashrc $DIR/Bash/server_bashrc
+	cp /home/aelchert/.bashrc $DIR/Bash/server_bashrc
 	printf "\n Updated Bashrc - $NOW" >> $dbDirectory/systemconf_backups.txt
    	counter+=1
 fi

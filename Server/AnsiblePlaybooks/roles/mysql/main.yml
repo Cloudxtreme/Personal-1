@@ -7,7 +7,7 @@
 
   handlers:
     - name: restart mysql
-      service: name={{ mysql_service }} state=restarted
+      service: name=mysqld state=restarted
 
   tasks:
     - name: Install MySQL packages

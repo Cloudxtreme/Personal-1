@@ -1,4 +1,4 @@
 ---
-- hosts: serverRemote
+- hosts: lychee
   roles:
-    - mysql
+    - lychee
