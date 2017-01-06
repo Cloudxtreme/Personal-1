@@ -51,18 +51,23 @@ parser.add_argument(
 
 args = parser.parse_args()
 
+<<<<<<< HEAD:Scripts/sort_photos.py
+if args.person == "adam":
+    print "add values to script"
+=======
 
 # If no option is given at the command line, return warning and exit
 # Otherwise it provides the source and dest_dir
 
 if args.person == None:
     print "You must choose a person, --adam or --steven"
+>>>>>>> 3ed1e4d0a184dab37486dc080b48e256d2ccbc5f:Scripts/sortPhotos/sortPhotos.py
     exit()
 elif args.person.lower() == "adam":
     source_dir = "/Volumes/EOS_DIGITAL/DCIM/100CANON"
     dest_dir = "/Volumes/NAS/Photos/"
 
-elif args.person.lower() == "steven":
+elif args.person == "steven":
     source_dir = "/Volumes/EOS_DIGITAL/DCIM/100CANON"
     dest_dir = "/Volumes/NAS/Photos/Steven"
 

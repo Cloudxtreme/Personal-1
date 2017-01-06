@@ -1,4 +1,4 @@
 ---
-- hosts: serverRemote
+- hosts: usenet
   roles:
-    - mysql
+    - common

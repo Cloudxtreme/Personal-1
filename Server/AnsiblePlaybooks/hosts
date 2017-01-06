@@ -1,9 +1,11 @@
 [server]
 10.0.0.50 ansible_user=root ansible_pass="CuIeyy7j!!"
 
+[usenet]
+10.0.0.55 ansible_user=root ansible_pass="CuIeyy7j!!"
+
 [serverRemote]
 nonstopflights.ddns.net ansible_user=root ansible_pass="CuIeyy7j!!" ansible_port=9234
-
 
 [usenet]
 10.0.0.55 ansible_user=root ansible_pass="CuIeyy7j!!"
@@ -13,3 +15,6 @@ nonstopflights.ddns.net ansible_user=root ansible_pass="CuIeyy7j!!" ansible_port
 
 [nginx]
 10.0.0.57 ansible_user=root ansible_pass="CuIeyy7j!!"
+
+[lychee]
+10.0.0.58 ansible_user=root ansible_pass="CuIeyy7j!!"

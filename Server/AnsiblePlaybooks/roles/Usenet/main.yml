@@ -1,0 +1,24 @@
+---
+- hosts: usenet
+  tasks:
+    - name: add sabnzbd repo
+      apt_repository:
+        repo: 'ppa:jcfp/nobetas'
+        state: present
+
+    - name: Install sabnzbd
+      apt:
+        name: "{{ item }}"
+        update_cache: yes
+      with_items:
+        - sabnzbdplus
+
+    - name: add sonar source
+      apt_repository:
+          repo: 'deb http://apt.sonarr.tv/ master main'
+          state: present
+
+    - name: apt-get update / install nzbdrone
+      apt:
+        name: nzbdrone
+        update_cache: yes
