@@ -1,4 +1,8 @@
 ---
-- hosts: lychee
+- hosts: usenet
   roles:
+<<<<<<< HEAD
     - lychee
+=======
+    - snmp
+>>>>>>> 0269d75dab14b01b668f03648aef595ebe2656ef
