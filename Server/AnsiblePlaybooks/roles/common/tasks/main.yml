@@ -17,6 +17,7 @@
     - screen
     - x11vnc
     - openssh-server
+    - python-pip
 
 - name: add group
   group:
