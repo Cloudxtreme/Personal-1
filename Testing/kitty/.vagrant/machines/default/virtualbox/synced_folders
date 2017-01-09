@@ -1,1 +1,0 @@
-{"virtualbox":{"/opt/NAS":{"create":true,"guestpath":"/opt/NAS","hostpath":"/mnt/NAS","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/aelchert/Git/Personal/Testing/kitty","disabled":false,"__vagrantfile":true}}}
