@@ -1,5 +1,5 @@
 #!/bin/sh
-REPOSITORY="/mnt/Backup"
+REPOSITORY="/mnt/Backup/"
 NOW=$(date +"%m-%d-%Y")
 LOGFILE="/home/aelchert/Dropbox/Logs/borgBackup.txt"
 EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
