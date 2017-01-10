@@ -14,9 +14,7 @@ resetLog
 
 # Backup all of /home and /var/www except a few
 # excluded directories
-borg create -v --list --stats                          \
-    $REPOSITORY::`hostname`-`date +%Y-%m-%d`    \
-    /mnt/NAS
+sudo borg create -v --list --stats $REPOSITORY::`hostname`-`date +%Y-%m-%d` /mnt/NAS
 
 borg info $RESPOSITORY::$lastBorgBackup >> $LOGFILE
 
@@ -25,10 +23,10 @@ borg info $RESPOSITORY::$lastBorgBackup >> $LOGFILE
 # limit prune's operation to this machine's archives and not apply to
 # other machine's archives also.
 
-echo "" >> $LOGFILE
+#echo "" >> $LOGFILE
 
-borg prune --stats -v $REPOSITORY --prefix `hostname`- \
-    --keep-daily=7 --keep-weekly=4 >> $LOGFILE
+#borg prune --stats -v $REPOSITORY --prefix `hostname`- \
+#    --keep-daily=7 --keep-weekly=4 >> $LOGFILE
 
 ###########
 # Email Log
