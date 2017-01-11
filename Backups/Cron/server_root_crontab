@@ -29,7 +29,7 @@ PS="/home/aelchert/Git/Personal/Server/Cronjobs"
 #0 7 * * * $PS/usenet_config_backups.sh
 0 8 * * * $PS/public-ip-check.sh >> /dev/null
 0 9 * * * $PS/mysql-booksread-backup.sh
-0 0 * * * $PS/borg_backup.sh
+0 6,12 * * * $PS/borg_backup.sh
 
 
 * * * * * chown -R aelchert /mnt/NAS/Movies /mnt/NAS/TV\ Shows

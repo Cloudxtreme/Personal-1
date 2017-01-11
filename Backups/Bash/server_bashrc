@@ -17,7 +17,7 @@ alias cl="clear"
 alias imac="ssh adamschoonover@10.0.0.10"
 alias sevone='ssh root@10.0.0.60'
 alias usenet='ssh aelchert@10.0.0.55'
-alias trans='ssh aelchert@10.0.0.56'
+alias transmission='ssh aelchert@10.0.0.56'
 alias nginx='ssh aelchert@10.0.0.57'
 
 alias gitadd='git add -A . && git commit -m "updates" && git push'
