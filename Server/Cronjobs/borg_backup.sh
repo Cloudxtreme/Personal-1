@@ -14,7 +14,7 @@ resetLog
 
 # Backup all of /home and /var/www except a few
 # excluded directories
-sudo borg create -v --list --stats $REPOSITORY::`hostname`-`date +%Y-%m-%d` /mnt/NAS
+sudo borg create -v --stats $REPOSITORY::`hostname`-`date +%Y-%m-%d` /mnt/NAS
 
 borg info $RESPOSITORY::$lastBorgBackup >> $LOGFILE
 
@@ -25,8 +25,8 @@ borg info $RESPOSITORY::$lastBorgBackup >> $LOGFILE
 
 #echo "" >> $LOGFILE
 
-#borg prune --stats -v $REPOSITORY --prefix `hostname`- \
-#    --keep-daily=7 --keep-weekly=4 >> $LOGFILE
+borg prune --stats -v $REPOSITORY --prefix `hostname`- \
+    --keep-daily=7 --keep-weekly=4 >> $LOGFILE
 
 ###########
 # Email Log
