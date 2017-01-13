@@ -1,0 +1,1 @@
+{"virtualbox":{"/synced":{"create":true,"guestpath":"/synced","hostpath":"/home/aelchert/Git/Personal/Server/Koken","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/aelchert/Git/Personal/Server/Koken","disabled":false,"__vagrantfile":true}}}
