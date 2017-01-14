@@ -62,7 +62,7 @@ if args.person == None:
     print "You must choose a person, --adam or --steven"
     exit()
 elif args.person.lower() == "adam":
-    source_dir = "/Volumes/EOS_DIGITAL/DCIM/100CANON"
+    source_dir = "/Volumes/EOS_DIGITAL/DCIM/100EOS5D"
     dest_dir = "/Volumes/NAS/Photos/"
 
 elif args.person == "steven":
