@@ -84,13 +84,14 @@ class book_data():
             else:
                 book_dict = self.Isbn_false(Isbn)
 
-            cnx = mysql.connector.connect(user='root', password='CuIeyy7j!!', database='booksread', buffered=True)
+            cnx = mysql.connector.connect(host='10.0.0.50', user='root', password='CuIeyy7j!!', database='booksread', buffered=True)
             cursor = cnx.cursor()
 
             #enter the data into the database
             add_book = ("INSERT INTO booksread "
                              "(Name,AuthorName,Rating,DateFinished,Pages,Isbn,Notes) "
                              "VALUES (%(Name)s, %(AuthorName)s, %(Rating)s, %(DateFinished)s, %(Pages)s, %(Isbn)s, %(Notes)s)")
+
             cursor.execute(add_book, book_dict)
 
             print "\n"
