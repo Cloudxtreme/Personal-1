@@ -5,8 +5,6 @@ import urllib2, json, mysql.connector, time, os
 from blessed import Terminal
 
 apikey = "AIzaSyDozlghDCtPzYu9ckvt1jhkjinZpM3vhJQ"
-#cnx = mysql.connector.connect(user='root', database='booksread', buffered=True)
-#cursor = cnx.cursor()
 url = 'https://www.googleapis.com/books/v1/volumes?q=Isbn:'
 
 class book_data():
@@ -98,7 +96,7 @@ class book_data():
             print "Entered into the database:\n\n"
 
             for k,v in book_dict.items():
-                print t.bold(k), v
+                print k, v
 
             cnx.commit()
             cursor.close()
