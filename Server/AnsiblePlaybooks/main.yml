@@ -1,5 +1,4 @@
 ---
-- hosts: usenet
+- hosts: lychee
   roles:
-    - lychee
-    - snmp
+    - common
