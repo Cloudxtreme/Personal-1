@@ -55,13 +55,13 @@ if args.person == "adam":
     print "add values to script"
 
 
-# If no option is given at the command line, return warning and exit
-# Otherwise it provides the source and dest_dir
+If no option is given at the command line, return warning and exit
+Otherwise it provides the source and dest_dir
 
 if args.person == None:
     print "You must choose a person, --adam or --steven"
     exit()
-elif args.person.lower() == "adam":
+if args.person.lower() == "adam":
     source_dir = "/Volumes/EOS_DIGITAL/DCIM/100EOS5D"
     dest_dir = "/Volumes/NAS/Photos/"
 
