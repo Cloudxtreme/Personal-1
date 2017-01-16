@@ -26,7 +26,7 @@
 
 - name: user/group
   user:
-    name: "{{ defaultUserName }}"
+    name: aelchert
     comment: "Adam Elchert"
     groups: admin
     shell: /bin/bash
@@ -79,17 +79,15 @@
 - name: copy keys to aelchert
   copy:
     src: "{{ item }}"
-    dest: /home/aelchert/.ssh/
+    dest: /home/aelchert/.ssh/authorized_keys
     mode: 0600
   with_items:
-    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa
-    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa.pub
+    - templates/keys.keys
 
 - name: copy keys to root
   copy:
     src: "{{ item }}"
-    dest: /root/.ssh/
+    dest: /root/.ssh/authorized_keys
     mode: 0600
   with_items:
-    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa
-    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa.pub
+    - templates/keys.keys
