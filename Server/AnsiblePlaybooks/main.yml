@@ -1,5 +1,4 @@
 ---
-- hosts: usenet
+- hosts: koken
   roles:
-    - lychee
-    - snmp
+    - common

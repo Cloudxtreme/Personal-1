@@ -26,7 +26,7 @@
 
 - name: user/group
   user:
-    name: "{{ defaultUserName }}"
+    name: "aelchert"
     comment: "Adam Elchert"
     groups: admin
     shell: /bin/bash
