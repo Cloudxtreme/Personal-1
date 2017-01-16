@@ -18,3 +18,6 @@ nonstopflights.ddns.net ansible_user=root ansible_pass="CuIeyy7j!!" ansible_port
 
 [koken]
 10.0.0.58 ansible_user=root ansible_pass="CuIeyy7j!!"
+
+[lychee]
+10.0.0.59 ansible_user=root ansible_pass="CuIeyy7j!!"

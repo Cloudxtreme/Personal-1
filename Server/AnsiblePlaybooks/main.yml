@@ -1,4 +1,0 @@
----
-- hosts: koken
-  roles:
-    - common
