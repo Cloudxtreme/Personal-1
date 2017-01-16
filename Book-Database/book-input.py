@@ -94,10 +94,10 @@ class book_data():
             cursor.execute(add_book, book_dict)
 
             print "\n"
-            print (t.bold_red("Entered into the database:\n\n))"
+            print "Entered into the database:\n\n"
 
             for k,v in book_dict.items():
-                print (t.bold(k), v
+                print t.bold(k), v
 
             cnx.commit()
             cursor.close()
