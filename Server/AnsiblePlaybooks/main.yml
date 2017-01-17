@@ -1,4 +1,0 @@
----
-- hosts: lychee
-  roles:
-    - common

@@ -84,7 +84,7 @@ class book_data():
             else:
                 book_dict = self.Isbn_false(Isbn)
 
-            cnx = mysql.connector.connect(user='root', password='CuIeyy7j!!', database='booksread', buffered=True)
+            cnx = mysql.connector.connect(host='10.0.0.50', user='root', password='CuIeyy7j!!', database='booksread', buffered=True)
             cursor = cnx.cursor()
 
             #enter the data into the database
@@ -94,10 +94,10 @@ class book_data():
             cursor.execute(add_book, book_dict)
 
             print "\n"
-            print (t.bold_red("Entered into the database:\n\n))"
+            print "Entered into the database:\n\n"
 
             for k,v in book_dict.items():
-                print (t.bold(k), v
+                print k, v
 
             cnx.commit()
             cursor.close()

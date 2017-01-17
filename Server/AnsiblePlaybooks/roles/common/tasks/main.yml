@@ -26,7 +26,11 @@
 
 - name: user/group
   user:
+<<<<<<< HEAD
+    name: "aelchert"
+=======
     name: aelchert
+>>>>>>> 03ce6293c615e5e710a03ff2766ee6c7ff77ad0c
     comment: "Adam Elchert"
     groups: admin
     shell: /bin/bash
