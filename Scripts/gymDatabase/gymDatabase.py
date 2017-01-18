@@ -45,9 +45,6 @@ def main():
     data = questions()
     insertValues(data[0], data[1], data[2])
 
-    while data[0:2].lower() != 'q':
-        
-    else:
-        conn.close()
+    conn.close()
 
 main()
