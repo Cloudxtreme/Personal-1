@@ -41,10 +41,10 @@ def questions():
 
 
 def main():
-
     data = questions()
     insertValues(data[0], data[1], data[2])
 
-    conn.close()
+
 
 main()
+conn.close()
