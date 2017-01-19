@@ -14,7 +14,6 @@ dbName = "workouts"
 
 
 def getTime():
-
     i = datetime.datetime.now()
     #format for column 00-00-0000
     date = "{}-{}-{}".format(i.month,i.day,i.year)
@@ -46,7 +45,7 @@ def main():
     insertValues(data[0], data[1], data[2])
 
     while data[0:2].lower() != 'q':
-        
+
     else:
         conn.close()
 
