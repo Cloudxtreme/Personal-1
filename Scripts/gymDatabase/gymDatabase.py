@@ -40,13 +40,17 @@ def questions():
 
 
 def main():
-
     data = questions()
     insertValues(data[0], data[1], data[2])
 
+<<<<<<< HEAD
     while data[0:2].lower() != 'q':
 
     else:
         conn.close()
+=======
+
+>>>>>>> cb111f336ec8c8a0727cb4065dd1dadec830afc4
 
 main()
+conn.close()

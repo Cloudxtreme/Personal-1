@@ -23,7 +23,7 @@ alias nginx='ssh aelchert@10.0.0.57'
 alias gitadd='git add -A . && git commit -m "updates" && git push'
 alias gitupdate='git fetch && git merge'
 
-alias bookupdate='python /home/adamschoonover/Git/Personal/Book-Database/book-input.py'
+alias bookupdate='python /home/aelchert/Git/Personal/Book-Database/book-input.py'
 alias plex='cd /var/lib/plexmediaserver/Library/Application\ Support/Plex\ Media\ Server/'
 ### COLORS ###
 
