@@ -1,4 +1,0 @@
----
-- hosts: serverRemote
-  roles:
-    - mysql

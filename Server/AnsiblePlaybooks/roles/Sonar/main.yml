@@ -1,0 +1,55 @@
+---
+- hosts: usenet
+  tasks:
+    - name: add sabnzbd repo
+      apt_repository:
+        repo: 'ppa:jcfp/nobetas'
+        state: present
+
+    - name: Install sabnzbd
+      apt:
+        name: "{{ item }}"
+        update_cache: yes
+      with_items:
+        - sabnzbdplus
+        - git-core
+
+    - name: add sonar repo key
+      shell: apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FDA5DFFC
+
+
+    - name: add sonar source
+      apt_repository:
+          repo: 'deb http://apt.sonarr.tv/ master main'
+          state: present
+
+    - name: apt-get update / install ∑
+      apt:
+        name: nzbdrone
+        update_cache: yes
+
+    - name: change permissions
+      file:
+        path: /opt
+        recurse: yes
+        group: admin
+        owner: aelchert
+        mode: 777
+
+    - name: change user groups
+      user:
+        name: "{{ item.name}}"
+        group: "{{ item.groups }}"
+      with_items:
+        - {name: aelchert, groups: admin}
+        - {name: aelchert, groups: root}
+        - {name: couchpotato, groups: admin}
+        - {name: couchpotato, groups: root}
+
+    # - name: clone couch repo
+    #   git:
+    #     repo: https://github.com/CouchPotato/CouchPotatoServer.git
+    #     dest: /opt/CouchPotatoServer
+
+    - name: copy CP init file
+      shell: cp /opt/CouchPotatoServer/init/ubuntu /etc/init.d/couchpotato

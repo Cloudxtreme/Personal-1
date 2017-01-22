@@ -16,6 +16,8 @@
     - vim
     - screen
     - x11vnc
+    - openssh-server
+    - python-pip
 
 - name: add group
   group:
@@ -24,7 +26,11 @@
 
 - name: user/group
   user:
-    name: "{{ defaultUserName }}"
+<<<<<<< HEAD
+    name: "aelchert"
+=======
+    name: aelchert
+>>>>>>> 03ce6293c615e5e710a03ff2766ee6c7ff77ad0c
     comment: "Adam Elchert"
     groups: admin
     shell: /bin/bash
@@ -45,17 +51,17 @@
   authorized_key:
     user: aelchert
     state: present
-    key: "{{ lookup('file', '/Users/adamschoonover/.ssh/id_rsa.pub') }}"
+    key: "{{ lookup('file', 'templates/id_rsa.pub') }}"
 
 - name: copy root keys
   authorized_key:
     user: root
     state: present
-    key: "{{ lookup('file', '/Users/adamschoonover/.ssh/id_rsa.pub') }}"
+    key: "{{ lookup('file', 'templates/id_rsa.pub') }}"
 
 - name: copy basic bashrc to username root folder
   copy:
-    src: /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/bashrc
+    src: templates/bashrc
     dest: '{{ item }}'
     mode: 0644
   with_items:
@@ -68,26 +74,18 @@
     regexp: '^PermitRoot'
     line: 'PermitRootLogin yes'
 
-- name: copy basic bashrc to root
-  copy:
-    src: /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/bashrc
-    dest: /root/.bashrc
-    mode: 0644
-
 - name: copy keys to aelchert
   copy:
     src: "{{ item }}"
-    dest: /home/aelchert/.ssh/
+    dest: /home/aelchert/.ssh/authorized_keys
     mode: 0600
   with_items:
-    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa
-    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa.pub
+    - templates/keys.keys
 
 - name: copy keys to root
   copy:
     src: "{{ item }}"
-    dest: /root/.ssh/
+    dest: /root/.ssh/authorized_keys
     mode: 0600
   with_items:
-    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa
-    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/roles/common/templates/id_rsa.pub
+    - templates/keys.keys

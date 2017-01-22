@@ -4,22 +4,18 @@
     pkg: "{{ item }}"
     state: present
   with_items:
+    - mysql-client
     - php5
     - php5-cli
-    - php5-common
-    - php5-imagick
     - php5-gd
+    - php5-mysqlnd
+    - php5-curl
     - php5-json
-    - libphp-pclzip
 
-- name: Git Clone Lychee
-  git:
-    repo: https://github.com/electerious/Lychee.git
-    dest: "{{ app_location }}"
-    clone: yes
-  become: sudo
-  notify:
-    - Modify permissions on uploads
+# - name: Git Clone Lychee
+#   git:
+#     repo: https://github.com/electerious/Lychee.git
+#     dest: /opt/lychee
 
 - name: Generate the database config
   template:
@@ -27,21 +23,33 @@
     dest: "{{ app_location }}/data/config.php"
     mode: 755
 
+# - name: Add new database user
+#   mysql_user:
+#       name: lychee
+#       password: lychee
+#       host: 10.0.0.50
+#       login_user: root
+#       login_password: CuIeyy7j!!
+#       priv: '*.*:ALL,GRANT'
+#       state: present
+
+- name: Change folder permissions
+  file:
+      path: "{{ app_location }}/{{ item }}"
+      owner: aelchert
+      group: root
+      mode: 777
+  with_items:
+      - uploads
+      - data
+
 - lineinfile:
     dest: /etc/php5/cli/php.ini
     regexp: "{{ item.term }}"
     line: "{{ item.replacement }}"
     with_items:
-      - { term: '^max_execution_time =': replacement: 'max_execution_time = 200' }
-      - { term: '^post_max_size =': replacement: 'post_max_size = 100M' }
-      - { term: '^upload_max_size =': replacement: 'upload_max_size = 2000M' }
-      - { term: '^upload_max_filesize =': replacement: 'upload_max_filesize = 100M' }
-      - { term: '^memory_limit =': replacement: 'memory_limit = 256M' }
-
-
-
-
-# - lineinfile:
-#     dest: /etc/selinux/config
-#     regexp: '^SELINUX='
-#     line: 'SELINUX=enforcing'
+      - { term: '^max_execution_time =', replacement: 'max_execution_time = 200' }
+      - { term: '^post_max_size =', replacement: 'post_max_size = 100M' }
+      - { term: '^upload_max_size =', replacement: 'upload_max_size = 2000M' }
+      - { term: '^upload_max_filesize =', replacement: 'upload_max_filesize = 100M' }
+      - { term: '^memory_limit =', replacement: 'memory_limit = 256M' }

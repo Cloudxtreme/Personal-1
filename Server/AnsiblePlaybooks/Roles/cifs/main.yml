@@ -1,0 +1,29 @@
+---
+- hosts: usenet
+
+  vars:
+    name: NAS
+    mountpoint: /mnt/NAS
+    share_uri: //10.0.0.50/NAS # in samba-format
+
+    # local user and groups to hold ownership on mounted share
+    localuser: aelchert
+    localgroup: admin
+
+    # cifs authentication informations
+    cifs_domain:
+    cifs_username: aelchert
+    cifs_password: 'CuIeyy7j!!'
+
+  tasks:
+    - name: Install cifs-utils
+      apt: pkg=cifs-utils state=installed
+
+    - name: Ensure CIFS mount is present
+      mount:
+        name: /mnt/NAS
+        src: "//10.0.0.50/NAS"
+        fstype: cifs
+        opts: "credentials=/etc/fstab.{{ name }}.creds,iocharset=utf8,uid={{ localuser }},gid={{ localgroup }}"
+        state: mounted
+      with_items: cifs_mounts

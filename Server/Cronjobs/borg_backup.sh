@@ -1,5 +1,5 @@
 #!/bin/sh
-REPOSITORY="/mnt/Backup"
+REPOSITORY="/mnt/Backup/"
 NOW=$(date +"%m-%d-%Y")
 LOGFILE="/home/aelchert/Dropbox/Logs/borgBackup.txt"
 EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
@@ -14,9 +14,7 @@ resetLog
 
 # Backup all of /home and /var/www except a few
 # excluded directories
-borg create -v --list --stats                          \
-    $REPOSITORY::`hostname`-`date +%Y-%m-%d`    \
-    /mnt/NAS
+sudo borg create -v --stats $REPOSITORY::`hostname`-`date +%Y-%m-%d` /mnt/NAS
 
 borg info $RESPOSITORY::$lastBorgBackup >> $LOGFILE
 
@@ -25,7 +23,7 @@ borg info $RESPOSITORY::$lastBorgBackup >> $LOGFILE
 # limit prune's operation to this machine's archives and not apply to
 # other machine's archives also.
 
-echo "" >> $LOGFILE
+#echo "" >> $LOGFILE
 
 borg prune --stats -v $REPOSITORY --prefix `hostname`- \
     --keep-daily=7 --keep-weekly=4 >> $LOGFILE
