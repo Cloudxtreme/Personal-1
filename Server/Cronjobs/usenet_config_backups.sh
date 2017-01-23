@@ -31,7 +31,7 @@ nzbdroneBackupDIR="/home/aelchert/.config/NzbDrone/Backups/scheduled"
 nzbdroneBackup=$(ssh $sshIP ls -t $nzbdroneBackupDIR | head -n 1)
 
 ### Couch DB Backup
-scp $sshIP:$couchpotatoDBBackupDIR/$couchpotatoDBBackupFile $backupDIR/CouchPotato
+scp $sshIP:$couchpotatoDBBackupDIR/db_backup/$couchpotatoDBBackupFile $backupDIR/CouchPotato
 scp $sshIP:$couchpotatoSettings $backupDIR/CouchPotato
 
 ### SAB BACKUP ###
