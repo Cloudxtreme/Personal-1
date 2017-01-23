@@ -6,7 +6,7 @@
 
 NOW=$(date +"%m-%d-%Y")
 HOME="/home/aelchert"
-backupDIR="/home/aelchert/Git/Personal/Backups/Usenet/Usenet"
+backupDIR="/home/aelchert/Git/Personal/Backups/Usenet/"
 sshIP="aelchert@10.0.0.55"
 serverBackupDIR='/home/aelchert/Git/Personal/Backups/Usenet/'
 
@@ -40,5 +40,4 @@ scp $sshIP:$sabnzbdSettings $backupDIR/Sabnzbd
 ### NzbDrone ###
 scp $sshIP:$nzbdroneBackupDIR/$nzbdroneBackup $backupDIR/NzbDrone
 
-echo "Usenet Backup Complete - $NOW" | msmtp -t $EMAIL
-echo "Usenet Backup Complete - $NOW" | msmtp -t adam@elchert.net
+echo "Usenet Backup Complete - $NOW"
