@@ -5,13 +5,13 @@
 # V. 0.2 Total update
 
 NOW=$(date +"%m-%d-%Y")
-HOME="/home/adamschoonover"
+HOME="/home/aelchert"
 backupDIR="/home/adamschoonover/Git/Personal/Backups/Usenet"
-sshIP="vagrant@10.0.0.56"
-EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
+sshIP="vagrant@10.0.0.55"
+serverBackupDIR='/home/aelchert/Git/Personal/Backups/Usenet/'
 
 git_add() {
-    cd /home/adamschoonover/Git/Personal/
+    cd /home/aelchert/Git/Personal/
     git add -A .
     git commit -m "usenet backup update - $NOW"
     git push
@@ -19,16 +19,16 @@ git_add() {
 
 
 ### CouchPotato ###
-couchpotatoDBBackupFile=$(ssh $sshIP ls -t /home/vagrant/Git/CouchPotatoServer/db_backup/ | head -n 1)
-couchpotatoDBBackupDIR="/home/vagrant/Git/CouchPotatoServer/db_backup"
-couchpotatoSettings="/home/vagrant/Git/CouchPotatoServer/settings.conf"
+couchpotatoDBBackupDIR='/var/opt/couchpotato'
+couchpotatoDBBackupFile=$(ssh $sshIP ls -t $couchpotatoDBBackupDIR/db_backup/ | head -n 1)
+couchpotatoSettings="$couchpotatoDBBackupDIR/settings.conf "
 
 ### Sabnzbd ###
-sabnzbdSettings="/home/vagrant/.sabnzbd/sabnzbd.ini"
+sabnzbdSettings="/home/aelchert/.config/sabnzbd/sabnzbd.ini"
 
 ### NzbDrone ###
-nzbdroneBackup=$(ssh $sshIP ls -t /home/vagrant/.config/NzbDrone/Backups/scheduled | head -n 1)
-nzbdroneBackupDIR="/home/vagrant/.config/NzbDrone/Backups/scheduled"
+nzbdroneBackupDIR="/home/aelchert/.config/NzbDrone/Backups/scheduled"
+nzbdroneBackup=$(ssh $sshIP ls -t $nzbdroneBackupDIR | head -n 1)
 
 ### Couch DB Backup
 scp $sshIP:$couchpotatoDBBackupDIR/$couchpotatoDBBackupFile $backupDIR/CouchPotato
