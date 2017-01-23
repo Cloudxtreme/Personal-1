@@ -22,13 +22,13 @@ HDSentinel >> $logPath
 
 for i in $hdState; do
 	if [ $i != 100 ]; then
-		echo "Check HD Status Log - $now" | msmtp -t $email
+		echo "Check HD Status Log - $now"
 	fi
 done
 
 for x in $btrfsState; do
 	if [ $x != 0 ]; then
-		 echo "Check HD Status Log - BTRFS - $now" | msmtp -t $email
+		 echo "Check HD Status Log - BTRFS - $now"
 	fi
 done
 
