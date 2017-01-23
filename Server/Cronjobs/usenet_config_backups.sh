@@ -6,8 +6,8 @@
 
 NOW=$(date +"%m-%d-%Y")
 HOME="/home/aelchert"
-backupDIR="/home/adamschoonover/Git/Personal/Backups/Usenet"
-sshIP="vagrant@10.0.0.55"
+backupDIR="/home/aelchert/Git/Personal/Backups/Usenet/Usenet"
+sshIP="aelchert@10.0.0.55"
 serverBackupDIR='/home/aelchert/Git/Personal/Backups/Usenet/'
 
 git_add() {
