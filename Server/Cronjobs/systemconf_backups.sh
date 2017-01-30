@@ -40,13 +40,13 @@ git_add() {
 #empties log file after 100 lines
 checkFileLength
 
-# CHECK IF Nginx conf files IS BACKED UP
-if [[ $nginxCFG != $nginxBACKUP ]]; then
-	cp /etc/nginx/conf.d/*.conf $DIR/Nginx
-	cp /etc/nginx/nginx.conf $DIR/Nginx
-    	printf "\n Updated Nginx conf - $NOW" >> $logFile
-    	counter+=1
-fi
+# # CHECK IF Nginx conf files IS BACKED UP
+# if [[ $nginxCFG != $nginxBACKUP ]]; then
+# 	cp /etc/nginx/conf.d/*.conf $DIR/Nginx
+# 	cp /etc/nginx/nginx.conf $DIR/Nginx
+#     	printf "\n Updated Nginx conf - $NOW" >> $logFile
+#     	counter+=1
+# fi
 
 #checks crontab
 if [[ $crontabBackupHash != $crontabHash ]]; then
