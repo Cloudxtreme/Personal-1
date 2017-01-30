@@ -10,8 +10,8 @@ DIR='/home/aelchert/Git/Personal/Backups'
 logFile="/home/aelchert/Dropbox/Logs/systemconf_backups.txt"
 dbDirectory="/home/aelchert/Dropbox/Logs"
 
-nginxCFG=$(md5sum /etc/nginx/conf.d/*.conf | awk '{print $1;}')
-nginxBACKUP=$(md5sum /home/aelchert/Git/Personal/Backups/Nginx/*.conf | awk '{print $1;}')
+#nginxCFG=$(md5sum /etc/nginx/conf.d/*.conf | awk '{print $1;}')
+#nginxBACKUP=$(md5sum /home/aelchert/Git/Personal/Backups/Nginx/*.conf | awk '{print $1;}')
 
 crontabBackupHash=$(md5sum $DIR/Cron/server_root_crontab | awk '{print $1;}')
 crontabHash=$(crontab -u root -l | md5sum | awk '{print $1;}')
