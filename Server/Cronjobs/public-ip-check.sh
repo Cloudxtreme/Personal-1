@@ -12,7 +12,7 @@ echo $NOW "==>" $IP >> $filePath
 # run function
 getIP
 
-# If the log file is longer than 20 lines, clear it. 
+# If the log file is longer than 20 lines, clear it.
 if [ $(cat $filePath | wc -l) -ge 20 ]; then
 	printf "#######\n\n Public IP Address\n\n#######\n\n" > $filePath
 	getIP
@@ -23,6 +23,6 @@ fi
 # check to see if owner of the file is correct
 ownerName=$(stat -c %U /home/aelchert/Git/Personal/Server/Cronjobs/public-ip-check.sh)
 
-if [ "$ownerName" != "adamschoonover" ]; then
-        chown adamschoonover $filePath
+if [ "$ownerName" != "aelchert" ]; then
+        chown aelchert $filePath
 fi
