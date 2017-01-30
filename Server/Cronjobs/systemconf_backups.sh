@@ -68,8 +68,8 @@ fi
 
 if [[ $counter -ge 1 ]]; then
 	git_add
-	echo "Sysconf Backup Complete w/ Git add- $NOW" | msmtp -t $EMAIL
+	echo "Sysconf Backup Complete w/ Git add- $NOW"
 else
 	printf "\n No updates - $NOW" >> $logFile
-	echo "Sysconf Backup Complete - $NOW" | msmtp -t $EMAIL
+	echo "Sysconf Backup Complete - $NOW"
 fi
