@@ -6,7 +6,7 @@ nginxTempDIR="/tmp/nginxTempDIR"
 # CHECK IF Nginx conf files IS BACKED UP
 
 # make temp directory
-mkdir $nginxTempDIR
+# mkdir $nginxTempDIR
 # Fetch files to temp folder
 scp aelchert@10.0.0.57:/etc/nginx/conf.d/*.conf /home/aelchert/Git/Personal/Backups/Nginx/
 
