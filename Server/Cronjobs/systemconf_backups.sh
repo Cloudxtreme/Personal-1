@@ -10,11 +10,6 @@ DIR='/home/aelchert/Git/Personal/Backups'
 logFile="/home/aelchert/Dropbox/Logs/systemconf_backups.txt"
 dbDirectory="/home/aelchert/Dropbox/Logs"
 
-#nginxCFG=$(md5sum /etc/nginx/conf.d/*.conf | awk '{print $1;}')
-#nginxBACKUP=$(md5sum /home/aelchert/Git/Personal/Backups/Nginx/*.conf | awk '{print $1;}')
-nginxBackupDIR="/home/aelchert/Git/Personal/Backups/Nginx/"
-nginxTempDIR="/tmp/nginxTempDIR"
-
 crontabBackupHash=$(md5sum $DIR/Cron/server_root_crontab | awk '{print $1;}')
 crontabHash=$(crontab -u root -l | md5sum | awk '{print $1;}')
 
@@ -42,8 +37,8 @@ git_add() {
 #empties log file after 100 lines
 checkFileLength
 
-# Fetch files to temp folder
-scp aelchert@10.0.0.57:/etc/nginx/conf.d/*.conf /home/aelchert/Git/Personal/Backups/Nginx/
+# run python script for nginx conf
+python nginxBackup.py
 
 #checks crontab
 if [[ $crontabBackupHash != $crontabHash ]]; then
