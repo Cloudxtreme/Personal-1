@@ -42,7 +42,7 @@ alias bashrestart='source ~/.bashrc'
 
 ### LOCAL DATABASES ###
 
-alias mysqlbooks='sudo MYSQL_PS1="mysql booksread> " mysql -u root -p booksread'
+alias mysqlbooks='sudo MYSQL_PS1="mysql booksread> " mysql -u root -p'CuIeyy7j!!'  booksread'
 
 ### Convert Flac to Apple Lossless ###
 alias flac='bash /home/aelchert/Git/Personal/Server/flac-conversion.sh'
