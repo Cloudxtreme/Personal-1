@@ -1,3 +1,8 @@
+#! /bin/bash
+
+nginxBackupDIR="/home/aelchert/Git/Personal/Backups/Nginx/"
+nginxTempDIR="/tmp/nginxTempDIR"
+
 # compare files
 cd $nginxTempDIR
 for x in $(find . "*.conf" -type f); do
