@@ -1,24 +1,30 @@
 <!doctype html>
 <html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+</head>
    <body>
-
-      <table border = 1>
+      <table class="pure-table"1>
          <thead>
             <td>Machine</td>
             <td>Weight</td>
             <td>Reps</td>
          </thead>
-
+         <tbody>
          {% for row in rows %}
+
             <tr>
                <td>{{row["machineNumber"]}}</td>
                <td>{{row["weight"]}}</td>
                <td> {{ row["reps"]}}</td>
             </tr>
          {% endfor %}
+       </tbody>
       </table>
+          <a class="pure-button" href = "/">Home</a>
+    </div>
 
-      <a href = "/">Go back to home page</a>
+
 
    </body>
 </html>
