@@ -1,19 +1,37 @@
 <!doctype html>
-<htmL>
+<html>
+<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
 <head>
   <title>Gym - Data Collection</title>
 </head>
 <body>
-  <form action="{{ url_for('addrec') }}" method="POST">
-    <h3>Machine #: </h3>
-    <input type ="text" name="machine"></br>
 
-    <h3>Weight: </h3>
-    <input type="text" name="weight"></br>
+  <form class="pure-form pure-form-aligned" action="{{ url_for('addrec') }}" method="POST">
+    <fieldset>
+    <!-- <h3>Machine #: </h3> -->
+    <div class="pure-controls">
+      <label for="machine">Machine</label>
+      <input class="pure-input-1-4" name='machine' id='machine' type='text' placeholder='Number'>
+      <!-- <input type ="text" name="machine"></br> -->
+    </div>
 
-    <h3>Reps: </h3>
-    <input type="text" name="reps"></br>
-    <input type="submit" value="submit"></br>
+    <div class="pure-controls">
+      <label for="weight">Weights</label>
+      <input id='weight' name='weight' type='text' placeholder="Weight">
+      <!-- <input type='text' name='weight'> -->
+    </div>
+
+    <div class="pure-controls">
+      <label for='reps'>Reps</label>
+      <input id='reps' name='reps' type='text' placeholder='Reps'>
+      <!-- <input type='text' name='reps'> -->
+    </div>
+
+    <div class="pure-controls">
+      <button type="submit" class="pure-button pure-button-primary" value="submit">Submit</button>
+    </div>
+
+  </fieldset>
   </form>
 
 </body>
