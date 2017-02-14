@@ -12,26 +12,27 @@ import datetime
 # no need to check for databasefile. If it doesn't exsist
 # sqlite3 will create the database file for us.
 
-dbName = "workouts"
-
 def getTime():
     i = datetime.datetime.now()
     #format for column 00-00-0000
-    date = "{}-{}-{}".format(i.month,i.day,i.year)
+    date = "{}-{}-{}".format(i.month, i.day, i.year)
     return date
 
 
 def createTable():
-    c.execute('''CREATE TABLE if not exists workouts(id INTEGER PRIMARY KEY, time text, machineNumber TEXT, weight TEXT, reps TEXT)''')
-    print "==> Does not exist. Database created"
+    c.execute('''CREATE TABLE if not exists workouts(id INTEGER PRIMARY KEY,
+                 time text, machineNumber TEXT, weight TEXT, reps TEXT)''')
+    print "==> Tables did not exsist. Tables created"
 
-def insertValues(machineNumber,weight,reps):
+def insertValues(machineNumber, weight, reps):
     t = (getTime(), machineNumber, weight, reps)
-    c.execute('INSERT INTO workouts VALUES (NULL,?,?,?,?)',t)
+    c.execute('INSERT INTO workouts VALUES (NULL, ?, ?, ?, ?)', t)
     conn.commit()
-    print ("==> Data entered")
+    print "==> Data entered\n"
+    print "==============\n"
 
 def questions():
+    print "Gym - Data Input\n"
     machineNumber = raw_input("==> Machine Number: ")
     weight = raw_input("==> Weight: ")
     reps = raw_input("==> Reps: ")
@@ -42,12 +43,16 @@ conn = sqlite3.connect('gymDatabase.db')
 c = conn.cursor()
 
 try:
+    if os.path.getsize('gymDatabase.db') == 0:
+        createTable()
+
     data = questions()
-    while data[0].lower() != 'q':
-            insertValues(data[0], data[1], data[2])
-            questions()
-except as e:
-    print (e)
+
+    while str(data[0].lower()) != 'q':
+        insertValues(data[0], data[1], data[2])
+        questions()
+    else:
+        pass
 
 finally:
     conn.close()
