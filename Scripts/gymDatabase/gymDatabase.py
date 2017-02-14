@@ -9,39 +9,50 @@ import datetime
 #weight
 #reps
 
-dbName = "workouts"
-
+# no need to check for databasefile. If it doesn't exsist
+# sqlite3 will create the database file for us.
 
 def getTime():
     i = datetime.datetime.now()
     #format for column 00-00-0000
-    date = "{}-{}-{}".format(i.month,i.day,i.year)
+    date = "{}-{}-{}".format(i.month, i.day, i.year)
     return date
+
+
+def createTable():
+    c.execute('''CREATE TABLE if not exists workouts(id INTEGER PRIMARY KEY,
+                 time text, machineNumber TEXT, weight TEXT, reps TEXT)''')
+    print "==> Tables did not exsist. Tables created"
+
+def insertValues(machineNumber, weight, reps):
+    t = (getTime(), machineNumber, weight, reps)
+    c.execute('INSERT INTO workouts VALUES (NULL, ?, ?, ?, ?)', t)
+    conn.commit()
+    print "==> Data entered\n"
+    print "==============\n"
+
+def questions():
+    print "Gym - Data Input\n"
+    machineNumber = raw_input("==> Machine Number: ")
+    weight = raw_input("==> Weight: ")
+    reps = raw_input("==> Reps: ")
+    data = [machineNumber, weight, reps]
+    return data
 
 conn = sqlite3.connect('gymDatabase.db')
 c = conn.cursor()
 
-def createTable():
-    c.execute('''CREATE TABLE if not exists workouts(id INTEGER PRIMARY KEY, time text, machineNumber TEXT, weight TEXT, reps TEXT)''')
+try:
+    if os.path.getsize('gymDatabase.db') == 0:
+        createTable()
 
-def insertValues(machineNumber,weight,reps):
-    t = (getTime(), machineNumber, weight, reps)
-    c.execute('INSERT INTO workouts VALUES (NULL,?,?,?,?)',t)
-    conn.commit()
-    print ("==> Data entered")
-
-def questions():
-    machineNumber = input("==> Machine Number: ")
-    weight = input("==> Weight: ")
-    reps = input("==> Reps: ")
-    data = [machineNumber, weight, reps]
-    return data
-
-
-def main():
     data = questions()
-    insertValues(data[0], data[1], data[2])
 
+    while str(data[0].lower()) != 'q':
+        insertValues(data[0], data[1], data[2])
+        questions()
+    else:
+        pass
 
-main()
-conn.close()
+finally:
+    conn.close()
