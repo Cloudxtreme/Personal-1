@@ -33,7 +33,17 @@ def insertValues(machineNumber, weight, reps):
 
 def questions():
     print "Gym - Data Input\n"
+
+    # Display data of last visit
     machineNumber = raw_input("==> Machine Number: ")
+        dataQuery = c.execute('''select * from workouts where machineNumber=(?)
+                    order by time desc limit=1''', machineNumber)
+        prevData = dataQuery.split('|')
+        print "==> Last time: "
+        print "==> Date: {}".format(dataQuery[0])
+        print "==> Weight: {}".format(dataQuery[1])
+        print "==> Reps: {}\n".format(dataQuery[2])
+
     weight = raw_input("==> Weight: ")
     reps = raw_input("==> Reps: ")
     data = [machineNumber, weight, reps]
