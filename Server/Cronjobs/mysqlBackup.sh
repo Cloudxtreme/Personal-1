@@ -7,7 +7,7 @@ DIR="/home/aelchert/Dropbox/Backup"
 EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
 
 
-mysqldump -u root booksread > $DIR/booksread_$NOW.sql
+mysqldump -u root --password='CuIeyy7j!!' booksread > $DIR/booksread_$NOW.sql
 
 chown aelchert $DIR/*
 
