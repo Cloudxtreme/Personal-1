@@ -36,12 +36,12 @@ def questions():
 
     # Display data of last visit
     machineNumber = raw_input("==> Machine Number: ")
-    dataQuery = c.execute('select * from workouts where machineNumber=? order by time desc limit=1', machineNumber)
-    prevData = dataQuery.split('|')
-    print "==> Last time: "
-    print "==> Date: {}".format(dataQuery[0])
-    print "==> Weight: {}".format(dataQuery[1])
-    print "==> Reps: {}\n".format(dataQuery[2])
+    dataQuery = c.execute("select * from workouts where machineNumber={} order by time desc limit 1".format(machineNumber))
+    getData = c.fetchone()
+    print "\nLast time: "
+    print "==> Date: {}".format(getData[1])
+    print "==> Weight: {}".format(getData[3])
+    print "==> Reps: {}\n".format(getData[4])
 
     weight = raw_input("==> Weight: ")
     reps = raw_input("==> Reps: ")
