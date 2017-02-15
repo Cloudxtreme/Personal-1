@@ -10,12 +10,11 @@ removeLines = [
     'Unknown %'
     ]
 
-oldFileLocation = '/tmp/hds.txt'
+oldFileLocation = 'hds.txt'
 newFileLocation = '/home/aelchert/Dropbox/Logs/hardDriveReport.txt'
 
-
 # create report from HDSentienl and put in temp folder
-os.system('sudo HDSentinel > ~/tmp/hds.txt')
+os.system('sudo HDSentinel > hds.txt')
 
 # parse temp file for lines not needed and write new file without them
 with open(oldFileLocation, 'r') as raw:
@@ -23,3 +22,5 @@ with open(oldFileLocation, 'r') as raw:
         for line in raw:
             if not any(words in line for words in removeLines):
                 hds.write(line)
+
+os.remove(oldFileLocation)
