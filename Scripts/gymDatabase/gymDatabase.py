@@ -1,13 +1,4 @@
-import sqlite3
-import os
-import datetime
-
-#layout
-#id
-#time (unix)
-#machineNumber
-#weight
-#reps
+import sqlite3, re, os, datetime
 
 # no need to check for databasefile. If it doesn't exsist
 # sqlite3 will create the database file for us.
@@ -33,11 +24,50 @@ def insertValues(machineNumber, weight, reps):
 
 def questions():
     print "Gym - Data Input\n"
+
+    # Display data of last visit
     machineNumber = raw_input("==> Machine Number: ")
-    weight = raw_input("==> Weight: ")
-    reps = raw_input("==> Reps: ")
-    data = [machineNumber, weight, reps]
-    return data
+
+    # If you have done this machine before, what were the details
+    # of the last time
+
+    machineTest = c.execute("select * from workouts where machineNumber={} order by time desc limit 1".format(machineNumber))
+    getData = c.fetchone()
+    print "DEBUG: getData: " + str(getData)
+
+    try:
+        if getData:
+            # the execute does not need to be assigned to a variable object
+            # it does the query and keep it's in memory
+            # then fetchoen() or fetchall() then retrieves it
+
+            print "\nLast time: "
+            print "==> Date: {}".format(getData[1])
+            print "==> Weight: {}".format(getData[3])
+            ## print "==> Reps: {}\n".format(getData[4])
+
+            setReps = splitRepsCol(getData[4])
+            print "==> {} reps in {} sets\n".format(setReps[0], setReps[1])
+
+    except:
+        pass
+
+    finally:
+
+        weight = raw_input("==> Weight: ")
+        reps = raw_input("==> Reps: ")
+        data = [machineNumber, weight, reps]
+        return data
+
+# will split 2x15 into [2, 15]
+def splitRepsCol(reps):
+    sets = re.findall('^\d', reps)
+    reps = re.findall('\d\d$', reps)
+    split = sets[0], reps[0]
+    return split
+
+
+####################################################################
 
 conn = sqlite3.connect('gymDatabase.db')
 c = conn.cursor()
@@ -52,7 +82,7 @@ try:
         insertValues(data[0], data[1], data[2])
         questions()
     else:
-        pass
+        exit()
 
 finally:
     conn.close()

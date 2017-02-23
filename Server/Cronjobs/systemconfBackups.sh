@@ -1,8 +1,10 @@
 #! /bin/bash
 
-##
-# This script makes a backup of both crontabs and bash RC. Copies them to
-# Git folder and then updates Git
+# This script backs up server's:
+# 	crontab
+# 	bashrc
+#   nginx config from VM, via python script
+
 
 NOW=$(date +"%m-%d-%Y")
 EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
@@ -17,6 +19,7 @@ bashrcHash=$(md5sum /home/aelchert/.bashrc | awk '{print $1;}')
 bashrcBackupHash=$(md5sum /home/aelchert/Git/Personal/Backups/Bash/server_bashrc | awk '{print $1;}')
 
 counter=0
+
 checkFileLength() {
 	fileLength=$(cat $logFile | wc -l)
 	if [ "$fileLength" -gt "50" ]; then
