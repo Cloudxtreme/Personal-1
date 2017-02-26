@@ -48,17 +48,17 @@
   authorized_key:
     user: aelchert
     state: present
-    key: "{{ lookup('file', 'templates/id_rsa.pub') }}"
+    key: "{{ lookup('file', '/Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/Roles/common/templates/id_rsa.pub') }}"
 
 - name: copy root keys
   authorized_key:
     user: root
     state: present
-    key: "{{ lookup('file', 'templates/id_rsa.pub') }}"
+    key: "{{ lookup('file', '/Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/Roles/common/templates/id_rsa.pub') }}"
 
 - name: copy basic bashrc to username root folder
   copy:
-    src: templates/bashrc
+    src: /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/Roles/common/templates/bashrc
     dest: '{{ item }}'
     mode: 0644
   with_items:
@@ -77,7 +77,7 @@
     dest: /home/aelchert/.ssh/authorized_keys
     mode: 0600
   with_items:
-    - templates/keys.keys
+    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/Roles/common/templates/keys.keys
 
 - name: copy keys to root
   copy:
@@ -85,4 +85,4 @@
     dest: /root/.ssh/authorized_keys
     mode: 0600
   with_items:
-    - templates/keys.keys
+    - /Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/Roles/common/templates/keys.keys
