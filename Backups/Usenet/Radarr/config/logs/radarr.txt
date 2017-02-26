@@ -745,3 +745,18 @@
 
 17-2-26 15:35:09.7|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
  -- Unable to connect to indexer, check the log for more details
+17-2-26 15:36:21.6|Warn|Newznab|Unable to connect to indexer
+
+[v0.2.0.375] System.Net.WebException: The request timed out
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) <0x417c0ea0 + 0x0018b> in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () <0x417bc770 + 0x00053> in <filename unknown>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000fe] in C:\projects\radarr-usby1\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:61 
+
+17-2-26 15:38:01.6|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+17-2-26 16:31:22.7|Info|RssSyncService|Starting RSS Sync
+17-2-26 16:31:28.6|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-26 16:31:30.0|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-26 17:31:54.2|Info|RssSyncService|Starting RSS Sync
+17-2-26 17:32:06.2|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-26 17:32:07.6|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
