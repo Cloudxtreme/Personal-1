@@ -5,11 +5,12 @@
 # that works even if disks are added and removed. See fstab(5).
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
-# / was on /dev/sdb1 during installation
-UUID=1dd86278-dbbf-45ff-8e4e-c45a93f0b327 /               ext4    errors=remount-ro 0       1
-
-/dev/sdb /mnt/ 	btrfs rw 0 0
-
-/dev/sdg1 /mnt/ImageBackups/ ext3 defaults 0 0
-
-/dev/sda2 /mnt/Backups ext4 defaults 0 0
+# / was on /dev/sdb2 during installation
+UUID=601e8ae9-c3da-472e-ad7d-72d378b1dde1 /               ext4    errors=remount-ro 0       1
+# /boot/efi was on /dev/sdb1 during installation
+UUID=32CB-F45D  /boot/efi       vfat    umask=0077      0       1
+# swap was on /dev/sdb3 during installation
+UUID=40908ce3-0be6-47c9-a417-950e0a2179ab none            swap    sw              0       0
+/dev/sdd /mnt/NAS btrfs defaults 0 0
+/dev/sdf /mnt/Backups btrfs defaults 0 0
+/dev/sda3 /mnt/VMs btrfs defaults 0 0

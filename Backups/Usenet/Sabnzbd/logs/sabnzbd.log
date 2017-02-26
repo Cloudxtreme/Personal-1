@@ -1,0 +1,234 @@
+2017-02-26 11:05:15,271::INFO::[sabnzbdplus:1172] --------------------------------
+2017-02-26 11:05:15,271::INFO::[sabnzbdplus:1173] sabnzbdplus-1.2.1 (rev=d32cf57c7573ed43bcab40eb9b23a0853f1f7015)
+2017-02-26 11:05:15,271::INFO::[sabnzbdplus:1174] Full executable path = /usr/bin/sabnzbdplus
+2017-02-26 11:05:15,271::INFO::[sabnzbdplus:1186] Platform = posix
+2017-02-26 11:05:15,271::INFO::[sabnzbdplus:1187] Python-version = 2.7.12 (default, Nov 19 2016, 06:48:10) 
+[GCC 5.4.0 20160609]
+2017-02-26 11:05:15,271::INFO::[sabnzbdplus:1188] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2017-02-26 11:05:15,272::INFO::[sabnzbdplus:1190] Preferred encoding = ANSI_X3.4-1968
+2017-02-26 11:05:15,272::DEBUG::[sabnzbdplus:1200] My local IPv4 address = 172.17.0.2
+2017-02-26 11:05:15,420::DEBUG::[sabnzbdplus:1206] My public IPv4 address = 71.175.82.106
+2017-02-26 11:05:15,420::DEBUG::[sabnzbdplus:1214] Could not determine my IPv6 address
+2017-02-26 11:05:15,430::DEBUG::[sabnzbdplus:1220] CPU Pystone available performance is 123533
+2017-02-26 11:05:15,431::DEBUG::[sabnzbdplus:1225] CPU model name is Intel(R) Xeon(R) CPU X5660 @ 2.80GHz
+2017-02-26 11:05:15,431::INFO::[sabnzbdplus:1238] Read INI file /config/sabnzbd.ini
+2017-02-26 11:05:15,431::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:05:15,431::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:05:15,432::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:05:15,432::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:05:15,432::ERROR::[misc:1483] Cannot change permissions of /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:05:15,432::INFO::[misc:1484] Traceback: 
+Traceback (most recent call last):
+  File "/usr/share/sabnzbdplus/sabnzbd/misc.py", line 1479, in set_chmod
+    os.chmod(path, permissions)
+OSError: [Errno 2] No such file or directory: '/mnt/NAS/Downloads/Incomplete'
+2017-02-26 11:05:15,433::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:05:15,433::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:05:15,434::INFO::[__init__:993] Loading data for queue9.sab from /config/admin/queue9.sab
+2017-02-26 11:05:15,434::INFO::[__init__:996] /config/admin/queue9.sab missing
+2017-02-26 11:05:15,434::INFO::[__init__:993] Loading data for queue8.sab from /config/admin/queue8.sab
+2017-02-26 11:05:15,434::INFO::[__init__:996] /config/admin/queue8.sab missing
+2017-02-26 11:05:15,434::INFO::[__init__:993] Loading data for queue7.sab from /config/admin/queue7.sab
+2017-02-26 11:05:15,434::INFO::[__init__:996] /config/admin/queue7.sab missing
+2017-02-26 11:05:15,435::INFO::[__init__:993] Loading data for rss_data.sab from /config/admin/rss_data.sab
+2017-02-26 11:05:15,435::INFO::[__init__:996] /config/admin/rss_data.sab missing
+2017-02-26 11:05:15,435::INFO::[__init__:993] Loading data for totals10.sab from /config/admin/totals10.sab
+2017-02-26 11:05:15,435::INFO::[__init__:996] /config/admin/totals10.sab missing
+2017-02-26 11:05:15,435::INFO::[__init__:993] Loading data for totals9.sab from /config/admin/totals9.sab
+2017-02-26 11:05:15,435::INFO::[__init__:996] /config/admin/totals9.sab missing
+2017-02-26 11:05:15,435::DEBUG::[bpsmeter:158] Setting default BPS meter values
+2017-02-26 11:05:15,441::INFO::[postproc:92] Loading postproc queue
+2017-02-26 11:05:15,441::INFO::[__init__:993] Loading data for postproc2.sab from /config/admin/postproc2.sab
+2017-02-26 11:05:15,441::INFO::[__init__:996] /config/admin/postproc2.sab missing
+2017-02-26 11:05:15,441::INFO::[__init__:993] Loading data for queue10.sab from /config/admin/queue10.sab
+2017-02-26 11:05:15,441::INFO::[__init__:996] /config/admin/queue10.sab missing
+2017-02-26 11:05:15,441::INFO::[__init__:993] Loading data for queue9.sab from /config/admin/queue9.sab
+2017-02-26 11:05:15,442::INFO::[__init__:996] /config/admin/queue9.sab missing
+2017-02-26 11:05:15,442::DEBUG::[downloader:163] Initializing downloader/decoder
+2017-02-26 11:05:15,442::INFO::[__init__:993] Loading data for watched_data2.sab from /config/admin/watched_data2.sab
+2017-02-26 11:05:15,442::INFO::[__init__:996] /config/admin/watched_data2.sab missing
+2017-02-26 11:05:15,442::INFO::[__init__:993] Loading data for Rating.sab from /config/admin/Rating.sab
+2017-02-26 11:05:15,443::INFO::[__init__:996] /config/admin/Rating.sab missing
+2017-02-26 11:05:15,443::DEBUG::[scheduler:168] Scheduling RSS interval task every 60 min (delay=17)
+2017-02-26 11:05:15,443::INFO::[scheduler:180] Setting schedule for midnight BPS reset
+2017-02-26 11:05:15,443::DEBUG::[__init__:582] PAUSED_ALL inactive
+2017-02-26 11:05:15,451::INFO::[__init__:353] All processes started
+2017-02-26 11:05:15,451::INFO::[sabnzbdplus:305] Web dir is /usr/share/sabnzbdplus/interfaces/smpl
+2017-02-26 11:05:15,451::INFO::[sabnzbdplus:305] Web dir is /usr/share/sabnzbdplus/interfaces/smpl
+2017-02-26 11:05:15,451::INFO::[sabnzbdplus:305] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2017-02-26 11:05:15,466::DEBUG::[newsunpack:150] UNRAR binary version 5.30
+2017-02-26 11:05:15,466::INFO::[sabnzbdplus:420] _yenc module... found!
+2017-02-26 11:05:15,466::INFO::[sabnzbdplus:425] Cryptography module (v1.2.3)... found!
+2017-02-26 11:05:15,466::INFO::[sabnzbdplus:430] par2 binary... found (/usr/bin/par2)
+2017-02-26 11:05:15,466::INFO::[sabnzbdplus:435] par2cmdline binary... found (/usr/bin/par2)
+2017-02-26 11:05:15,467::INFO::[sabnzbdplus:438] UNRAR binary... found (/usr/bin/unrar)
+2017-02-26 11:05:15,467::INFO::[sabnzbdplus:444] unzip binary... found (/usr/bin/unzip)
+2017-02-26 11:05:15,467::INFO::[sabnzbdplus:449] 7za binary... found (/usr/bin/7za)
+2017-02-26 11:05:15,467::INFO::[sabnzbdplus:455] nice binary... found (/usr/bin/nice)
+2017-02-26 11:05:15,467::INFO::[sabnzbdplus:459] ionice binary... found (/usr/bin/ionice)
+2017-02-26 11:05:15,467::INFO::[sabnzbdplus:1292] SSL version OpenSSL 1.0.2g  1 Mar 2016
+2017-02-26 11:05:15,467::INFO::[sabnzbdplus:1293] SSL supported protocols ['TLS v1.2', 'TLS v1.1', 'TLS v1']
+2017-02-26 11:05:15,468::INFO::[sabnzbdplus:1432] Starting web-interface on 0.0.0.0:8080
+2017-02-26 11:05:15,468::INFO::[_cplogging:219] [26/Feb/2017:11:05:15] ENGINE Bus STARTING
+2017-02-26 11:05:15,472::INFO::[_cplogging:219] [26/Feb/2017:11:05:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-02-26 11:05:15,706::INFO::[_cplogging:219] [26/Feb/2017:11:05:15] ENGINE Serving on http://0.0.0.0:8080
+2017-02-26 11:05:15,707::INFO::[_cplogging:219] [26/Feb/2017:11:05:15] ENGINE Bus STARTED
+2017-02-26 11:05:15,707::DEBUG::[zconfig:89] Try to publish in Bonjour as "b389c215a3c8" (0.0.0.0:8080)
+2017-02-26 11:05:15,708::DEBUG::[zconfig:102] Failed to start Bonjour service
+2017-02-26 11:05:15,708::INFO::[sabnzbdplus:1470] Starting sabnzbdplus-1.2.1
+2017-02-26 11:05:15,708::DEBUG::[__init__:364] Starting postprocessor
+2017-02-26 11:05:15,708::DEBUG::[__init__:367] Starting assembler
+2017-02-26 11:05:15,709::DEBUG::[__init__:370] Starting downloader
+2017-02-26 11:05:15,709::DEBUG::[scheduler:192] Starting scheduler
+2017-02-26 11:05:15,710::DEBUG::[__init__:375] Starting dirscanner
+2017-02-26 11:05:15,711::INFO::[dirscanner:316] Dirscanner starting up
+2017-02-26 11:05:15,711::DEBUG::[__init__:380] Starting urlgrabber
+2017-02-26 11:05:15,712::INFO::[urlgrabber:72] URLGrabber starting up
+2017-02-26 11:05:15,727::DEBUG::[__init__:1205] Test IPv6: Cannot reach IPv6 test host. Disabling IPv6
+2017-02-26 11:05:15,727::DEBUG::[downloader:382] External IPv6 test result: False
+2017-02-26 11:05:15,769::DEBUG::[downloader:398] SSL verification test: True
+2017-02-26 11:05:16,213::DEBUG::[misc:633] Version check disabled by Debian/Ubuntu packaging
+2017-02-26 11:05:46,166::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:05:46,166::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:05:50,775::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:05:50,775::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:05:55,922::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:05:55,923::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:05:56,434::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:05:56,435::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:05:56,715::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:05:56,717::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:05:56,717::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:05:56,718::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:05:56,718::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:05:56,719::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:01,700::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:01,700::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:01,701::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:01,701::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:01,701::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:01,702::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:06,771::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:06,774::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:06,777::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:06,777::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:06,784::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:06,784::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:14,101::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:14,102::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:14,102::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:14,103::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:14,104::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:14,105::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:21,376::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:21,376::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:21,376::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:21,377::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:21,377::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:21,378::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:24,676::DEBUG::[interface:523] API-call from 10.0.0.55 [Sonarr/2.0.0.4472 (Linux 4.4)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'version'}
+2017-02-26 11:06:24,680::DEBUG::[interface:523] API-call from 10.0.0.55 [Sonarr/2.0.0.4472 (Linux 4.4)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-02-26 11:06:24,705::DEBUG::[interface:523] API-call from 10.0.0.55 [Sonarr/2.0.0.4472 (Linux 4.4)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-02-26 11:06:24,711::DEBUG::[interface:523] API-call from 10.0.0.55 [Sonarr/2.0.0.4472 (Linux 4.4)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-02-26 11:06:27,668::DEBUG::[interface:523] API-call from 10.0.0.55 [Sonarr/2.0.0.4472 (Linux 4.4)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-02-26 11:06:37,706::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:37,706::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:37,711::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:37,711::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:37,743::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:37,743::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:37,747::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:37,747::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:37,747::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:37,748::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:39,392::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:39,392::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:39,393::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:39,393::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:42,104::DEBUG::[interface:523] API-call from 10.0.0.55 [Sonarr/2.0.0.4472 (Linux 4.4)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-26 11:06:42,104::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:42,105::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:42,109::DEBUG::[interface:523] API-call from 10.0.0.55 [Sonarr/2.0.0.4472 (Linux 4.4)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-26 11:06:42,109::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:42,109::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:42,761::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:42,761::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:47,149::DEBUG::[interface:523] API-call from 10.0.0.55 [Sonarr/2.0.0.4472 (Linux 4.4)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-26 11:06:47,149::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:47,150::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:06:47,156::DEBUG::[interface:523] API-call from 10.0.0.55 [Sonarr/2.0.0.4472 (Linux 4.4)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-26 11:06:47,157::INFO::[misc:496] download_dir directory: /mnt/NAS/Downloads/Incomplete does not exist, try to create it
+2017-02-26 11:06:47,157::ERROR::[misc:498] Cannot create directory /mnt/NAS/Downloads/Incomplete
+2017-02-26 11:08:12,784::DEBUG::[interface:523] API-call from 10.0.0.55 [Sonarr/2.0.0.4472 (Linux 4.4)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-26 11:08:12,788::DEBUG::[interface:523] API-call from 10.0.0.55 [Sonarr/2.0.0.4472 (Linux 4.4)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-26 11:08:56,363::WARNING::[__init__:193] Signal 15 caught, saving and exiting...
+2017-02-26 11:08:56,363::INFO::[nzbqueue:254] Saving queue
+2017-02-26 11:08:56,363::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-02-26 11:08:56,364::INFO::[__init__:969] Saving data for totals10.sab in /config/admin/totals10.sab
+2017-02-26 11:08:56,364::INFO::[__init__:969] Saving data for rss_data.sab in /config/admin/rss_data.sab
+2017-02-26 11:08:56,364::INFO::[__init__:969] Saving data for watched_data2.sab in /config/admin/watched_data2.sab
+2017-02-26 11:08:56,364::INFO::[postproc:86] Saving postproc queue
+2017-02-26 11:08:56,365::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-02-26 11:14:12,891::INFO::[sabnzbdplus:1172] --------------------------------
+2017-02-26 11:14:12,891::INFO::[sabnzbdplus:1173] sabnzbdplus-1.2.1 (rev=d32cf57c7573ed43bcab40eb9b23a0853f1f7015)
+2017-02-26 11:14:12,891::INFO::[sabnzbdplus:1174] Full executable path = /usr/bin/sabnzbdplus
+2017-02-26 11:14:12,892::INFO::[sabnzbdplus:1186] Platform = posix
+2017-02-26 11:14:12,892::INFO::[sabnzbdplus:1187] Python-version = 2.7.12 (default, Nov 19 2016, 06:48:10) 
+[GCC 5.4.0 20160609]
+2017-02-26 11:14:12,892::INFO::[sabnzbdplus:1188] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2017-02-26 11:14:12,892::INFO::[sabnzbdplus:1190] Preferred encoding = ANSI_X3.4-1968
+2017-02-26 11:14:12,892::DEBUG::[sabnzbdplus:1200] My local IPv4 address = 172.17.0.2
+2017-02-26 11:14:13,045::DEBUG::[sabnzbdplus:1206] My public IPv4 address = 71.175.82.106
+2017-02-26 11:14:13,046::DEBUG::[sabnzbdplus:1214] Could not determine my IPv6 address
+2017-02-26 11:14:13,056::DEBUG::[sabnzbdplus:1220] CPU Pystone available performance is 131181
+2017-02-26 11:14:13,057::DEBUG::[sabnzbdplus:1225] CPU model name is Intel(R) Xeon(R) CPU X5660 @ 2.80GHz
+2017-02-26 11:14:13,057::INFO::[sabnzbdplus:1238] Read INI file /config/sabnzbd.ini
+2017-02-26 11:14:13,060::INFO::[__init__:993] Loading data for rss_data.sab from /config/admin/rss_data.sab
+2017-02-26 11:14:13,060::INFO::[__init__:993] Loading data for totals10.sab from /config/admin/totals10.sab
+2017-02-26 11:14:13,060::DEBUG::[bpsmeter:190] Read quota q=0.0 l=0.0 reset=0
+2017-02-26 11:14:13,060::INFO::[postproc:92] Loading postproc queue
+2017-02-26 11:14:13,061::INFO::[__init__:993] Loading data for postproc2.sab from /config/admin/postproc2.sab
+2017-02-26 11:14:13,061::INFO::[__init__:993] Loading data for queue10.sab from /config/admin/queue10.sab
+2017-02-26 11:14:13,061::DEBUG::[downloader:163] Initializing downloader/decoder
+2017-02-26 11:14:13,061::INFO::[__init__:993] Loading data for watched_data2.sab from /config/admin/watched_data2.sab
+2017-02-26 11:14:13,062::INFO::[__init__:993] Loading data for Rating.sab from /config/admin/Rating.sab
+2017-02-26 11:14:13,062::INFO::[__init__:996] /config/admin/Rating.sab missing
+2017-02-26 11:14:13,062::DEBUG::[scheduler:168] Scheduling RSS interval task every 60 min (delay=19)
+2017-02-26 11:14:13,062::INFO::[scheduler:180] Setting schedule for midnight BPS reset
+2017-02-26 11:14:13,062::DEBUG::[__init__:582] PAUSED_ALL inactive
+2017-02-26 11:14:13,063::INFO::[__init__:353] All processes started
+2017-02-26 11:14:13,063::INFO::[sabnzbdplus:305] Web dir is /usr/share/sabnzbdplus/interfaces/smpl
+2017-02-26 11:14:13,063::INFO::[sabnzbdplus:305] Web dir is /usr/share/sabnzbdplus/interfaces/smpl
+2017-02-26 11:14:13,063::INFO::[sabnzbdplus:305] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2017-02-26 11:14:13,083::DEBUG::[newsunpack:150] UNRAR binary version 5.30
+2017-02-26 11:14:13,084::INFO::[sabnzbdplus:420] _yenc module... found!
+2017-02-26 11:14:13,084::INFO::[sabnzbdplus:425] Cryptography module (v1.2.3)... found!
+2017-02-26 11:14:13,084::INFO::[sabnzbdplus:430] par2 binary... found (/usr/bin/par2)
+2017-02-26 11:14:13,084::INFO::[sabnzbdplus:435] par2cmdline binary... found (/usr/bin/par2)
+2017-02-26 11:14:13,084::INFO::[sabnzbdplus:438] UNRAR binary... found (/usr/bin/unrar)
+2017-02-26 11:14:13,084::INFO::[sabnzbdplus:444] unzip binary... found (/usr/bin/unzip)
+2017-02-26 11:14:13,084::INFO::[sabnzbdplus:449] 7za binary... found (/usr/bin/7za)
+2017-02-26 11:14:13,084::INFO::[sabnzbdplus:455] nice binary... found (/usr/bin/nice)
+2017-02-26 11:14:13,085::INFO::[sabnzbdplus:459] ionice binary... found (/usr/bin/ionice)
+2017-02-26 11:14:13,085::INFO::[sabnzbdplus:1292] SSL version OpenSSL 1.0.2g  1 Mar 2016
+2017-02-26 11:14:13,085::INFO::[sabnzbdplus:1293] SSL supported protocols ['TLS v1.2', 'TLS v1.1', 'TLS v1']
+2017-02-26 11:14:13,086::INFO::[sabnzbdplus:1432] Starting web-interface on 0.0.0.0:8080
+2017-02-26 11:14:13,086::INFO::[_cplogging:219] [26/Feb/2017:11:14:13] ENGINE Bus STARTING
+2017-02-26 11:14:13,089::INFO::[_cplogging:219] [26/Feb/2017:11:14:13] ENGINE Started monitor thread '_TimeoutMonitor'.
+2017-02-26 11:14:13,224::INFO::[_cplogging:219] [26/Feb/2017:11:14:13] ENGINE Serving on http://0.0.0.0:8080
+2017-02-26 11:14:13,224::INFO::[_cplogging:219] [26/Feb/2017:11:14:13] ENGINE Bus STARTED
+2017-02-26 11:14:13,225::DEBUG::[zconfig:89] Try to publish in Bonjour as "b389c215a3c8" (0.0.0.0:8080)
+2017-02-26 11:14:13,225::DEBUG::[zconfig:102] Failed to start Bonjour service
+2017-02-26 11:14:13,225::INFO::[sabnzbdplus:1470] Starting sabnzbdplus-1.2.1
+2017-02-26 11:14:13,226::DEBUG::[__init__:364] Starting postprocessor
+2017-02-26 11:14:13,226::DEBUG::[__init__:367] Starting assembler
+2017-02-26 11:14:13,227::DEBUG::[__init__:370] Starting downloader
+2017-02-26 11:14:13,227::DEBUG::[scheduler:192] Starting scheduler
+2017-02-26 11:14:13,228::DEBUG::[__init__:375] Starting dirscanner
+2017-02-26 11:14:13,229::INFO::[dirscanner:316] Dirscanner starting up
+2017-02-26 11:14:13,230::DEBUG::[__init__:380] Starting urlgrabber
+2017-02-26 11:14:13,230::INFO::[urlgrabber:72] URLGrabber starting up
+2017-02-26 11:14:13,261::DEBUG::[__init__:1205] Test IPv6: Cannot reach IPv6 test host. Disabling IPv6
+2017-02-26 11:14:13,261::DEBUG::[downloader:382] External IPv6 test result: False
+2017-02-26 11:14:13,315::DEBUG::[downloader:398] SSL verification test: True
+2017-02-26 11:14:13,731::DEBUG::[misc:633] Version check disabled by Debian/Ubuntu packaging
