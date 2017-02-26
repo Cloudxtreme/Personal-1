@@ -525,3 +525,223 @@
 17-2-26 11:31:13.8|Info|OwinHostController|  http://*:7878/
 17-2-26 11:31:13.9|Info|NancyBootstrapper|Starting NzbDrone API
 17-2-26 11:31:14.1|Info|ProfileService|Setting up default quality profiles
+17-2-26 12:31:16.4|Info|RssSyncService|Starting RSS Sync
+17-2-26 12:31:16.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+17-2-26 12:31:16.4|Info|DownloadDecisionMaker|No results found
+17-2-26 12:31:16.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+17-2-26 13:31:17.9|Info|RssSyncService|Starting RSS Sync
+17-2-26 13:31:17.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+17-2-26 13:31:17.9|Info|DownloadDecisionMaker|No results found
+17-2-26 13:31:17.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+17-2-26 14:31:19.7|Info|RssSyncService|Starting RSS Sync
+17-2-26 14:31:19.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+17-2-26 14:31:19.7|Info|DownloadDecisionMaker|No results found
+17-2-26 14:31:19.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+17-2-26 15:12:52.0|Error|Sabnzbd|Unable to connect to SABnzbd, please check your settings
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Unable to connect to SABnzbd, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) <0x417c2d10 + 0x0019b> in <filename unknown>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) <0x417c1890 + 0x0058b> in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) <0x417c0ea0 + 0x0019f> in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () <0x417bc770 + 0x00053> in <filename unknown>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000fe] in C:\projects\radarr-usby1\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:61 
+  --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0003a] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:175 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetVersion (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:70 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestConnectionAndVersion () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:351 
+
+17-2-26 15:12:52.0|Error|Sabnzbd|Test aborted due to exception
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Unable to connect to SABnzbd, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) <0x417c2d10 + 0x0019b> in <filename unknown>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) <0x417c1890 + 0x0058b> in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) <0x417c0ea0 + 0x0019f> in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () <0x417bc770 + 0x00053> in <filename unknown>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000fe] in C:\projects\radarr-usby1\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:61 
+  --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0003a] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:175 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestAuthentication () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:391 
+
+17-2-26 15:12:52.1|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to SABnzbd
+ -- Test was aborted due to an error: Unable to connect to SABnzbd, please check your settings
+17-2-26 15:12:58.5|Error|Sabnzbd|Test aborted due to exception
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Error response received from SABnzbd: Access denied
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.CheckForError (NzbDrone.Common.Http.HttpResponse response) [0x00098] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x00046] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:178 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestAuthentication () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:391 
+
+17-2-26 15:12:58.5|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Test was aborted due to an error: Error response received from SABnzbd: Access denied
+17-2-26 15:14:53.5|Error|Sabnzbd|Unable to connect to SABnzbd, please check your settings
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Unable to connect to SABnzbd, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) <0x417c2d10 + 0x0019b> in <filename unknown>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) <0x417c1890 + 0x0058b> in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) <0x417c0ea0 + 0x0019f> in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () <0x417bc770 + 0x00053> in <filename unknown>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000fe] in C:\projects\radarr-usby1\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:61 
+  --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0003a] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:175 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetVersion (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:70 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestConnectionAndVersion () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:351 
+
+17-2-26 15:14:53.5|Error|Sabnzbd|Test aborted due to exception
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Unable to connect to SABnzbd, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) <0x417c2d10 + 0x0019b> in <filename unknown>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) <0x417c1890 + 0x0058b> in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) <0x417c0ea0 + 0x0019f> in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () <0x417bc770 + 0x00053> in <filename unknown>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000fe] in C:\projects\radarr-usby1\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:61 
+  --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0003a] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:175 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestAuthentication () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:391 
+
+17-2-26 15:14:53.5|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to SABnzbd
+ -- Test was aborted due to an error: Unable to connect to SABnzbd, please check your settings
+17-2-26 15:17:08.4|Error|Sabnzbd|Test aborted due to exception
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Error response received from SABnzbd: Access denied
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.CheckForError (NzbDrone.Common.Http.HttpResponse response) [0x00098] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x00046] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:178 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestAuthentication () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:391 
+
+17-2-26 15:17:08.4|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Test was aborted due to an error: Error response received from SABnzbd: Access denied
+17-2-26 15:17:10.1|Error|Sabnzbd|Test aborted due to exception
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Error response received from SABnzbd: Access denied
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.CheckForError (NzbDrone.Common.Http.HttpResponse response) [0x00098] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x00046] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:178 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestAuthentication () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:391 
+
+17-2-26 15:17:10.1|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Test was aborted due to an error: Error response received from SABnzbd: Access denied
+17-2-26 15:17:12.5|Error|Sabnzbd|Test aborted due to exception
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Error response received from SABnzbd: Access denied
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.CheckForError (NzbDrone.Common.Http.HttpResponse response) [0x00098] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x00046] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:178 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestAuthentication () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:391 
+
+17-2-26 15:17:12.5|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Test was aborted due to an error: Error response received from SABnzbd: Access denied
+17-2-26 15:23:29.8|Error|Sabnzbd|Unable to connect to SABnzbd, please check your settings
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Unable to connect to SABnzbd, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) <0x417c2d10 + 0x0019b> in <filename unknown>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) <0x417c1890 + 0x0058b> in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) <0x417c0ea0 + 0x0019f> in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () <0x417bc770 + 0x00053> in <filename unknown>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000fe] in C:\projects\radarr-usby1\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:61 
+  --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0003a] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:175 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetVersion (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:70 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestConnectionAndVersion () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:351 
+
+17-2-26 15:23:29.8|Error|Sabnzbd|Test aborted due to exception
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Unable to connect to SABnzbd, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) <0x417c2d10 + 0x0019b> in <filename unknown>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) <0x417c1890 + 0x0058b> in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) <0x417c0ea0 + 0x0019f> in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () <0x417bc770 + 0x00053> in <filename unknown>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000fe] in C:\projects\radarr-usby1\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:61 
+  --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0003a] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:175 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestAuthentication () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:391 
+
+17-2-26 15:23:29.8|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to SABnzbd
+ -- Test was aborted due to an error: Unable to connect to SABnzbd, please check your settings
+17-2-26 15:23:37.8|Error|Sabnzbd|Test aborted due to exception
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Error response received from SABnzbd: Access denied
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.CheckForError (NzbDrone.Common.Http.HttpResponse response) [0x00098] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x00046] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:178 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestAuthentication () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:391 
+
+17-2-26 15:23:37.8|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Test was aborted due to an error: Error response received from SABnzbd: Access denied
+17-2-26 15:23:45.6|Error|Sabnzbd|Test aborted due to exception
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Error response received from SABnzbd: Access denied
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.CheckForError (NzbDrone.Common.Http.HttpResponse response) [0x00098] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x00046] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:178 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestAuthentication () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:391 
+
+17-2-26 15:23:45.6|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Test was aborted due to an error: Error response received from SABnzbd: Access denied
+17-2-26 15:23:49.6|Error|Sabnzbd|Test aborted due to exception
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Error response received from SABnzbd: Access denied
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.CheckForError (NzbDrone.Common.Http.HttpResponse response) [0x00098] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x00046] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:178 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestAuthentication () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:391 
+
+17-2-26 15:23:49.6|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Test was aborted due to an error: Error response received from SABnzbd: Access denied
+17-2-26 15:23:56.3|Error|Sabnzbd|Test aborted due to exception
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Error response received from SABnzbd: Access denied
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.CheckForError (NzbDrone.Common.Http.HttpResponse response) [0x00098] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:210 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x00046] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:178 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.TestAuthentication () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:391 
+
+17-2-26 15:23:56.3|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Test was aborted due to an error: Error response received from SABnzbd: Access denied
+17-2-26 15:31:21.1|Info|RssSyncService|Starting RSS Sync
+17-2-26 15:31:21.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+17-2-26 15:31:21.1|Info|DownloadDecisionMaker|No results found
+17-2-26 15:31:21.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+17-2-26 15:34:01.6|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Invalid Path
+17-2-26 15:34:17.0|Info|MovieService|Adding Movie [][Moonlight] Path: [/downloads/Moonlight (2016)]
+17-2-26 15:34:17.1|Info|MediaCoverService|Downloading Poster for [][Moonlight] http://image.tmdb.org/t/p/original/qAwFbszz0kRyTuXmMeKQZCX3Q2O.jpg
+17-2-26 15:34:17.1|Info|RefreshMovieService|Updating Info for Moonlight
+17-2-26 15:34:17.2|Info|DiskScanService|Scanning disk for Moonlight
+17-2-26 15:34:17.2|Info|MovieScannedHandler|[Moonlight] was recently added, performing post-add actions
+17-2-26 15:34:17.2|Info|NzbSearchService|Searching 2 indexers for [Moonlight]
+17-2-26 15:34:17.8|Info|MediaCoverService|Downloading Banner for [tt4975722][Moonlight] http://image.tmdb.org/t/p/original/1ytaxWeVHDYtb7KPkrn3GNtDJdF.jpg
+17-2-26 15:34:24.9|Info|DownloadDecisionMaker|Processing 9 releases
+17-2-26 15:34:25.6|Warn|Newznab|Unable to connect to indexer
+
+[v0.2.0.375] System.Net.WebException: The request timed out
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) <0x417c0ea0 + 0x0018b> in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () <0x417bc770 + 0x00053> in <filename unknown>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000fe] in C:\projects\radarr-usby1\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:61 
+
+17-2-26 15:34:27.7|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
+17-2-26 15:34:34.2|Info|Sabnzbd|Adding report [Moonlight.2016.1080p.BluRay.x264-SPARKS] to the queue.
+17-2-26 15:34:35.2|Info|DownloadService|Report sent to Sabnzbd. Moonlight.2016.1080p.BluRay.x264-SPARKS
+17-2-26 15:34:35.2|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+17-2-26 15:35:08.6|Warn|Newznab|Unable to connect to indexer
+
+[v0.2.0.375] System.Net.WebException: The request timed out
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) <0x417c0ea0 + 0x0018b> in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () <0x417bc770 + 0x00053> in <filename unknown>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000fe] in C:\projects\radarr-usby1\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:61 
+
+17-2-26 15:35:09.7|Warn|NzbDroneErrorPipeline|Invalid request Validation failed: 
+ -- Unable to connect to indexer, check the log for more details
