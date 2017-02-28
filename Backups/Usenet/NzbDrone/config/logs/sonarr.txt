@@ -4306,3 +4306,10 @@
 17-2-27 21:25:50.8|Info|RssSyncService|Starting RSS Sync
 17-2-27 21:25:52.1|Info|DownloadDecisionMaker|Processing 200 releases
 17-2-27 21:25:53.2|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-27 21:36:51.1|Info|SceneMappingService|Updating Scene mappings
+17-2-27 21:41:21.3|Info|RssSyncService|Starting RSS Sync
+17-2-27 21:41:22.6|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-27 21:41:23.6|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-27 21:56:51.7|Info|RssSyncService|Starting RSS Sync
+17-2-27 21:56:53.1|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-27 21:56:54.2|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0

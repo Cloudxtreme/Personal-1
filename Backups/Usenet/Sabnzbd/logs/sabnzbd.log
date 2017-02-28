@@ -26148,3 +26148,399 @@ All OK
 2017-02-27 21:26:17,747::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
 2017-02-27 21:26:17,862::DEBUG::[interface:107] Refused connection to 172.17.0.1
 2017-02-27 21:26:28,865::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:26:39,862::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:26:47,752::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:26:47,756::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:26:50,867::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:26:50,905::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:26:50,909::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:27:01,874::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:27:12,868::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:27:17,763::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:27:17,767::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:27:23,880::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:27:34,869::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:27:45,861::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:27:47,774::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:27:47,778::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:27:56,870::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:28:07,866::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:28:17,786::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:28:17,789::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:28:18,865::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:28:20,934::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:28:20,938::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:28:29,866::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:28:40,865::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:28:47,791::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:28:47,795::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:28:51,873::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:29:02,873::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:29:13,883::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:29:17,797::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:29:17,806::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:29:21,023::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:29:21,027::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:29:24,886::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:29:35,888::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:29:46,871::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:29:47,811::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:29:47,815::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:29:57,874::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:30:08,871::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:30:17,825::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:30:17,829::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:30:19,872::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:30:30,874::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:30:41,872::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:30:47,832::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:30:47,836::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:30:51,044::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:30:51,047::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:30:52,874::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:31:03,878::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:31:14,872::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:31:17,849::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:31:17,853::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:31:25,878::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:31:36,891::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:31:47,862::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:31:47,870::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:31:47,887::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:31:58,878::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:32:09,881::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:32:17,875::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:32:17,878::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:32:20,888::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:32:21,070::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:32:21,074::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:32:31,880::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:32:42,871::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:32:47,883::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:32:47,887::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:32:53,888::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:33:04,884::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:33:15,887::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:33:17,896::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:33:17,899::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:33:26,878::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:33:37,883::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:33:47,906::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:33:47,910::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:33:48,891::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:33:51,107::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:33:51,111::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:33:59,887::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:34:10,895::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:34:17,918::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:34:17,921::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:34:21,888::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:34:32,899::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:34:43,889::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:34:47,928::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:34:47,932::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:34:54,894::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:35:05,896::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:35:16,896::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:35:17,940::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:35:17,947::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:35:21,131::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:35:21,135::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:35:27,894::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:35:38,895::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:35:47,948::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:35:47,952::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:35:49,895::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:36:00,891::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:36:11,890::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:36:17,961::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:36:17,965::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:36:22,901::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:36:33,914::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:36:44,890::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:36:47,971::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:36:47,975::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:36:51,156::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:36:51,160::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:36:55,899::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:37:06,899::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:37:17,923::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:37:17,982::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:37:17,986::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:37:28,898::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:37:39,908::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:37:48,002::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:37:48,012::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:37:50,918::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:37:51,243::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:37:51,247::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:38:01,892::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:38:12,900::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:38:18,005::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:38:18,009::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:38:23,914::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:38:34,903::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:38:45,919::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:38:48,019::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:38:48,022::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:38:56,901::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:39:07,903::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:39:18,028::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:39:18,032::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:39:18,911::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:39:21,280::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:39:21,284::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:39:29,918::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:39:40,903::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:39:48,042::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:39:48,046::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:39:51,911::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:40:02,898::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:40:13,907::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:40:18,050::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:40:18,054::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:40:24,907::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:40:35,914::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:40:46,909::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:40:48,067::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:40:48,071::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:40:51,307::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:40:51,310::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:40:57,914::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:41:08,921::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:41:18,078::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:41:18,085::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:41:19,914::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:41:30,903::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:41:41,925::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:41:48,089::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:41:48,093::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:41:51,388::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:41:51,392::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:41:52,935::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:42:03,924::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:42:14,906::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:42:18,104::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:42:18,108::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:42:25,935::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:42:36,922::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:42:47,922::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:42:48,112::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:42:48,116::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:42:58,923::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:43:09,929::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:43:18,126::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:43:18,131::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:43:20,917::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:43:21,409::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:43:21,413::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:43:31,937::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:43:42,914::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:43:48,129::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:43:48,132::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:43:53,925::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:44:04,925::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:44:15,931::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:44:18,143::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:44:18,147::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:44:26,914::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:44:37,927::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:44:48,156::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:44:48,159::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:44:48,934::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:44:51,440::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:44:51,445::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:44:59,944::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:45:10,930::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:45:18,161::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:45:18,164::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:45:21,927::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:45:32,938::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:45:43,928::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:45:48,175::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:45:48,183::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:45:54,934::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:46:05,942::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:46:16,935::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:46:18,188::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:46:18,192::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:46:21,462::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:46:21,466::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:46:27,938::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:46:38,939::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:46:48,198::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:46:48,201::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:46:49,939::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:47:00,938::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:47:11,935::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:47:18,209::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:47:18,213::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:47:22,942::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:47:33,938::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:47:44,935::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:47:48,221::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:47:48,225::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:47:51,486::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:47:51,494::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:47:55,948::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:48:06,945::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:48:17,936::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:48:18,232::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:48:18,236::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:48:28,938::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:48:39,943::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:48:48,243::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:48:48,247::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:48:50,958::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:48:51,595::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:48:51,598::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:49:01,937::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:49:12,948::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:49:18,255::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:49:18,259::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:49:23,956::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:49:34,948::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:49:45,961::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:49:48,267::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:49:48,271::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:49:56,947::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:50:07,951::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:50:18,282::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:50:18,286::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:50:18,942::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:50:21,615::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:50:21,619::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:50:29,957::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:50:40,953::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:50:48,292::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:50:48,296::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:50:51,941::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:51:02,957::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:51:13,956::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:51:18,304::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:51:18,308::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:51:24,947::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:51:35,956::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:51:46,949::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:51:48,316::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:51:48,319::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:51:51,641::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:51:51,645::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:51:57,948::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:52:08,966::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:52:18,333::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:52:18,337::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:52:19,964::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:52:30,953::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:52:41,962::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:52:48,347::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:52:48,351::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:52:52,956::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:53:03,962::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:53:14,970::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:53:18,356::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:53:18,359::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:53:21,670::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:53:21,677::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:53:25,955::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:53:36,957::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:53:47,955::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:53:48,371::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:53:48,374::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:53:58,959::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:54:09,961::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:54:18,379::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:54:18,383::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:54:20,964::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:54:31,963::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:54:42,971::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:54:48,474::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:54:48,478::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:54:51,706::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:54:51,710::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:54:53,978::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:55:04,964::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:55:15,973::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:55:18,488::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:55:18,492::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:55:26,962::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:55:37,974::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:55:48,501::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:55:48,505::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:55:48,989::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:55:59,949::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:56:10,977::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:56:18,629::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:56:18,634::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:56:21,731::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:56:21,735::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:56:21,963::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:56:32,979::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:56:43,976::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:56:48,636::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:56:48,640::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:56:54,956::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:57:05,965::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:57:16,969::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:57:18,651::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:57:18,655::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:57:21,813::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:57:21,817::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:57:27,978::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:57:38,972::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:57:48,659::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:57:48,662::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:57:49,973::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:58:00,979::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:58:11,972::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:58:18,674::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:58:18,677::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:58:22,972::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:58:33,984::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:58:44,987::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:58:48,688::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:58:48,692::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:58:51,849::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:58:51,853::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:58:55,984::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:59:06,983::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:59:17,974::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:59:18,701::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:59:18,704::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:59:29,001::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:59:39,976::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 21:59:48,712::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 21:59:48,716::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 21:59:50,976::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:00:01,990::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:00:12,988::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:00:18,723::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 22:00:18,727::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 22:00:21,873::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 22:00:21,877::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 22:00:23,990::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:00:34,976::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:00:45,982::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:00:48,734::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 22:00:48,738::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 22:00:56,984::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:01:08,006::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:01:18,757::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 22:01:18,760::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 22:01:18,991::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:01:30,000::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:01:40,978::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:01:48,772::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 22:01:48,775::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 22:01:51,894::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 22:01:51,897::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 22:01:51,983::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:02:03,000::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:02:13,980::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:02:18,783::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 22:02:18,788::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-02-27 22:02:24,981::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:02:35,998::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:02:47,000::DEBUG::[interface:107] Refused connection to 172.17.0.1
+2017-02-27 22:02:48,795::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-02-27 22:02:48,799::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
