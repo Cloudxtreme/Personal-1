@@ -4303,3 +4303,6 @@
 17-2-27 21:10:20.1|Info|RssSyncService|Starting RSS Sync
 17-2-27 21:10:21.3|Info|DownloadDecisionMaker|Processing 200 releases
 17-2-27 21:10:22.3|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-27 21:25:50.8|Info|RssSyncService|Starting RSS Sync
+17-2-27 21:25:52.1|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-27 21:25:53.2|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
