@@ -2798,3 +2798,267 @@
 17-2-27 21:23:17.6|Info|RssSyncService|Starting RSS Sync
 17-2-27 21:23:21.1|Info|DownloadDecisionMaker|Processing 200 releases
 17-2-27 21:23:23.5|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-27 22:23:49.4|Info|RssSyncService|Starting RSS Sync
+17-2-27 22:23:52.6|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-27 22:23:55.0|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-27 23:24:21.4|Info|RssSyncService|Starting RSS Sync
+17-2-27 23:24:24.7|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-27 23:24:27.2|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-28 00:24:53.5|Info|RssSyncService|Starting RSS Sync
+17-2-28 00:24:56.7|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-28 00:24:59.2|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-28 13:13:21.1|Info|Bootstrap|Starting Radarr - /opt/radarr/Radarr.exe - Version 0.2.0.375
+17-2-28 13:13:21.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+17-2-28 13:13:21.7|Info|MigrationLogger|*** Migrating data source=/config/nzbdrone.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+17-2-28 13:13:21.9|Info|MigrationLogger|*** Migrating data source=/config/logs.db;cache size=-10485760;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+17-2-28 13:13:22.0|Info|Router|Application mode: Interactive
+17-2-28 13:13:22.0|Info|OwinHostController|Listening on the following URLs:
+17-2-28 13:13:22.0|Info|OwinHostController|  http://*:7878/
+17-2-28 13:13:22.1|Info|NancyBootstrapper|Starting NzbDrone API
+17-2-28 13:13:22.7|Error|TaskExtensions|Task Error
+
+[v0.2.0.375] NzbDrone.Core.Download.Clients.DownloadClientException: Unable to connect to SABnzbd, please check your settings ---> System.Net.WebException: Error getting response stream (ReadDone2): ReceiveFailure ---> System.Exception:   at System.Net.WebConnection.HandleError (WebExceptionStatus st, System.Exception e, System.String where) [0x00000] in <filename unknown>:0 
+  at System.Net.WebConnection.ReadDone (IAsyncResult result) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.SocketAsyncResult.<ExecuteWorkItem>m__1 (System.Object state) [0x00000] in <filename unknown>:0 
+  at System.Runtime.Remoting.Messaging.AsyncResult.Invoke (System.Runtime.Remoting.Messaging.AsyncResult ) [0x00000] in <filename unknown>:0 
+  at System.Runtime.Remoting.Messaging.AsyncResult.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem () [0x00000] in <filename unknown>:0 
+  at System.Threading.ThreadPoolWorkQueue.Dispatch () [0x00000] in <filename unknown>:0 
+  at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback () [0x00000] in <filename unknown>:0 
+  at System.Net.WebConnection.HandleError (WebExceptionStatus st, System.Exception e, System.String where) <0x412da380 + 0x0016f> in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetResponse (IAsyncResult asyncResult) <0x412ce2c0 + 0x001a7> in <filename unknown>:0 
+  at System.Net.HttpWebRequest.GetResponse () <0x412c8c90 + 0x0005a> in <filename unknown>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000fe] in C:\projects\radarr-usby1\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:61 
+  --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.ProcessRequest (NzbDrone.Common.Http.HttpRequestBuilder requestBuilder, NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0003a] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:175 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdProxy.GetConfig (NzbDrone.Core.Download.Clients.Sabnzbd.SabnzbdSettings settings) [0x0000d] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\SabnzbdProxy.cs:82 
+  at NzbDrone.Core.Download.Clients.Sabnzbd.Sabnzbd.GetStatus () [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\Download\Clients\Sabnzbd\Sabnzbd.cs:246 
+  at NzbDrone.Core.HealthCheck.Checks.ImportMechanismCheck+<>c.<Check>b__3_0 (IDownloadClient v) [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\HealthCheck\Checks\ImportMechanismCheck.cs:25 
+  at System.Linq.Enumerable+WhereSelectListIterator`2[TSource,TResult].MoveNext () <0x411597a0 + 0x001a0> in <filename unknown>:0 
+  at System.Collections.Generic.List`1[T]..ctor (IEnumerable`1 collection) <0x4108b5f0 + 0x00282> in <filename unknown>:0 
+  at System.Linq.Enumerable.ToList[TSource] (IEnumerable`1 source) <0x4108b540 + 0x00063> in <filename unknown>:0 
+  at NzbDrone.Core.HealthCheck.Checks.ImportMechanismCheck.Check () [0x0001c] in C:\projects\radarr-usby1\src\NzbDrone.Core\HealthCheck\Checks\ImportMechanismCheck.cs:25 
+  at NzbDrone.Core.HealthCheck.HealthCheckService+<>c.<PerformHealthCheck>b__7_0 (IProvideHealthCheck c) [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:58 
+  at System.Linq.Enumerable+WhereSelectEnumerableIterator`2[TSource,TResult].MoveNext () <0x410a2d00 + 0x00139> in <filename unknown>:0 
+  at System.Collections.Generic.List`1[T]..ctor (IEnumerable`1 collection) <0x4108b5f0 + 0x00282> in <filename unknown>:0 
+  at System.Linq.Enumerable.ToList[TSource] (IEnumerable`1 source) <0x4108b540 + 0x00063> in <filename unknown>:0 
+  at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck (System.Func`2 predicate) [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:57 
+  at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync (NzbDrone.Core.Lifecycle.ApplicationStartedEvent message) [0x00000] in C:\projects\radarr-usby1\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:84 
+  at NzbDrone.Core.Messaging.Events.EventAggregator+<>c__DisplayClass4_1`1[TEvent].<PublishEvent>b__0 () [0x00035] in C:\projects\radarr-usby1\src\NzbDrone.Core\Messaging\Events\EventAggregator.cs:72 
+  at System.Threading.Tasks.Task.InnerInvoke () <0x41283f80 + 0x0004a> in <filename unknown>:0 
+  at System.Threading.Tasks.Task.Execute () <0x41283e20 + 0x0005b> in <filename unknown>:0 
+
+17-2-28 13:13:52.8|Info|RefreshMovieService|Updating Info for The Bourne Identity
+17-2-28 13:13:52.8|Info|HousekeepingService|Running housecleaning tasks
+17-2-28 13:13:52.9|Info|Database|Vacuuming Log database
+17-2-28 13:13:53.0|Info|RssSyncService|Starting RSS Sync
+17-2-28 13:13:53.4|Info|DiskScanService|Scanning disk for The Bourne Identity
+17-2-28 13:13:53.4|Info|Database|Log database compressed
+17-2-28 13:13:53.4|Info|DiskScanService|Completed scanning disk for The Bourne Identity
+17-2-28 13:13:53.4|Info|RefreshMovieService|Updating Info for Brick
+17-2-28 13:13:53.5|Info|Database|Vacuuming Main database
+17-2-28 13:13:53.5|Info|Database|Main database compressed
+17-2-28 13:13:53.6|Info|DiskScanService|Scanning disk for Brick
+17-2-28 13:13:53.9|Info|DiskScanService|Completed scanning disk for Brick
+17-2-28 13:13:53.9|Info|RefreshMovieService|Updating Info for Fantastic Beasts and Where to Find Them
+17-2-28 13:13:54.1|Info|DiskScanService|Scanning disk for Fantastic Beasts and Where to Find Them
+17-2-28 13:13:54.1|Info|DiskScanService|Completed scanning disk for Fantastic Beasts and Where to Find Them
+17-2-28 13:13:54.1|Info|RefreshMovieService|Updating Info for Fences
+17-2-28 13:13:54.2|Info|DiskScanService|Scanning disk for Fences
+17-2-28 13:13:54.2|Info|DiskScanService|Completed scanning disk for Fences
+17-2-28 13:13:54.2|Info|RefreshMovieService|Updating Info for Fire at Sea
+17-2-28 13:13:54.3|Info|DiskScanService|Scanning disk for Fire at Sea
+17-2-28 13:13:54.3|Info|RefreshMovieService|Updating Info for Get Out
+17-2-28 13:13:54.4|Info|DiskScanService|Scanning disk for Get Out
+17-2-28 13:13:54.4|Info|RefreshMovieService|Updating Info for Hidden Figures
+17-2-28 13:13:54.5|Info|DiskScanService|Scanning disk for Hidden Figures
+17-2-28 13:13:54.5|Info|MediaCoverService|Downloading Poster for [tt5052448][Get Out] http://image.tmdb.org/t/p/original/1SwAVYpuLj8KsHxllTF8Dt9dSSX.jpg
+17-2-28 13:13:54.5|Info|RefreshMovieService|Updating Info for Jackie
+17-2-28 13:13:54.6|Info|DiskScanService|Scanning disk for Jackie
+17-2-28 13:13:54.6|Info|RefreshMovieService|Updating Info for John Wick: Chapter 2
+17-2-28 13:13:54.7|Info|DiskScanService|Scanning disk for John Wick: Chapter 2
+17-2-28 13:13:54.7|Info|RefreshMovieService|Updating Info for La La Land
+17-2-28 13:13:54.8|Info|DiskScanService|Scanning disk for La La Land
+17-2-28 13:13:54.8|Info|RefreshMovieService|Updating Info for Land of Mine
+17-2-28 13:13:54.9|Info|MediaCoverService|Downloading Banner for [tt1619029][Jackie] http://image.tmdb.org/t/p/original/t1uKXfaZDZUt9ZsEYxBpwHirbZT.jpg
+17-2-28 13:13:54.9|Info|DiskScanService|Scanning disk for Land of Mine
+17-2-28 13:13:54.9|Info|RefreshMovieService|Updating Info for Lion
+17-2-28 13:13:55.1|Info|DiskScanService|Scanning disk for Lion
+17-2-28 13:13:55.1|Info|RefreshMovieService|Updating Info for Logan
+17-2-28 13:13:55.2|Info|DiskScanService|Scanning disk for Logan
+17-2-28 13:13:55.2|Info|RefreshMovieService|Updating Info for A Man Called Ove
+17-2-28 13:13:55.3|Info|MediaCoverService|Downloading Banner for [tt3741834][Lion] http://image.tmdb.org/t/p/original/gEPkCIAy8kHsCsPJNDM3Ml0LJ9l.jpg
+17-2-28 13:13:55.4|Info|DiskScanService|Scanning disk for A Man Called Ove
+17-2-28 13:13:55.4|Info|RefreshMovieService|Updating Info for Moonlight
+17-2-28 13:13:55.5|Info|DiskScanService|Scanning disk for Moonlight
+17-2-28 13:13:55.5|Info|RefreshMovieService|Updating Info for Nocturnal Animals
+17-2-28 13:13:55.6|Info|DiskScanService|Scanning disk for Nocturnal Animals
+17-2-28 13:13:55.6|Info|RefreshMovieService|Updating Info for Silence
+17-2-28 13:13:55.7|Info|DiskScanService|Scanning disk for Silence
+17-2-28 13:13:55.8|Info|RefreshMovieService|Updating Info for Toni Erdmann
+17-2-28 13:13:55.8|Info|DiskScanService|Scanning disk for Toni Erdmann
+17-2-28 13:13:55.8|Info|MediaCoverService|Downloading Poster for [tt0490215][Silence] http://image.tmdb.org/t/p/original/2Eh2c0isRXSvNM9SdGYwQLuax3q.jpg
+17-2-28 13:13:56.5|Info|MediaCoverService|Downloading Banner for [tt0490215][Silence] http://image.tmdb.org/t/p/original/vdzq7cW9wQgcUl76q62AGgRfh3y.jpg
+17-2-28 13:13:59.3|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-28 13:14:01.7|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-28 14:14:24.7|Info|RssSyncService|Starting RSS Sync
+17-2-28 14:14:29.8|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-28 14:14:32.1|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-28 15:14:56.6|Info|RssSyncService|Starting RSS Sync
+17-2-28 15:15:02.0|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-28 15:15:04.4|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-28 16:15:28.3|Info|RssSyncService|Starting RSS Sync
+17-2-28 16:15:34.4|Info|DownloadDecisionMaker|Processing 185 releases
+17-2-28 16:15:36.4|Info|RssSyncService|RSS Sync Completed. Reports found: 185, Reports grabbed: 0
+17-2-28 17:15:59.8|Info|RssSyncService|Starting RSS Sync
+17-2-28 17:16:05.0|Info|DownloadDecisionMaker|Processing 197 releases
+17-2-28 17:16:07.2|Info|RssSyncService|RSS Sync Completed. Reports found: 197, Reports grabbed: 0
+17-2-28 18:03:45.4|Info|MovieService|Adding Movie [][Operation Petticoat] Path: [/movies/Operation Petticoat (1959)]
+17-2-28 18:03:45.5|Info|MediaCoverService|Downloading Poster for [][Operation Petticoat] http://image.tmdb.org/t/p/original/ouJoZz0X25Zg0nww4x2nbfizjMK.jpg
+17-2-28 18:03:45.5|Info|RefreshMovieService|Updating Info for Operation Petticoat
+17-2-28 18:03:45.6|Info|DiskScanService|Scanning disk for Operation Petticoat
+17-2-28 18:03:45.6|Info|MovieScannedHandler|[Operation Petticoat] was recently added, performing post-add actions
+17-2-28 18:03:45.6|Info|NzbSearchService|Searching 2 indexers for [Operation Petticoat]
+17-2-28 18:03:45.6|Info|MediaCoverService|Downloading Banner for [tt0053143][Operation Petticoat] http://image.tmdb.org/t/p/original/jYZ415g5qBx0ea4ZgriNeWH0Tl7.jpg
+17-2-28 18:03:51.2|Info|DownloadDecisionMaker|Processing 20 releases
+17-2-28 18:03:54.0|Info|Sabnzbd|Adding report [Operation.Petticoat.1959.1080p.BluRay.x264-BARC0DE English] to the queue.
+17-2-28 18:03:56.1|Info|DownloadService|Report sent to Sabnzbd. Operation.Petticoat.1959.1080p.BluRay.x264-BARC0DE English
+17-2-28 18:03:56.1|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+17-2-28 18:16:31.5|Info|RssSyncService|Starting RSS Sync
+17-2-28 18:16:34.2|Error|Newznab|An error occurred while processing feed. https://www.usenet-crawler.com/api?t=movie&cat=2000,2010,2020,2030,2035,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v0.2.0.375] System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+  at System.Xml.XmlTextReaderImpl.Throw (System.Exception e) <0x4159a700 + 0x000a3> in <filename unknown>:0 
+  at System.Xml.XmlTextReaderImpl.Throw (System.String res, System.String arg) <0x4159a230 + 0x000a7> in <filename unknown>:0 
+  at System.Xml.XmlTextReaderImpl.Throw (System.String res) <0x4159a200 + 0x00023> in <filename unknown>:0 
+  at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace () <0x4103e780 + 0x00273> in <filename unknown>:0 
+  at System.Xml.XmlTextReaderImpl.ParseDocumentContent () <0x4103df00 + 0x0052b> in <filename unknown>:0 
+  at System.Xml.XmlTextReaderImpl.Read () <0x41037310 + 0x00067> in <filename unknown>:0 
+  at System.Xml.Linq.XDocument.Load (System.Xml.XmlReader reader, LoadOptions options) <0x41151980 + 0x0004d> in <filename unknown>:0 
+  at System.Xml.Linq.XDocument.Load (System.Xml.XmlReader reader) <0x414bc230 + 0x0000f> in <filename unknown>:0 
+  at NzbDrone.Core.Indexers.RssParser.LoadXmlDocument (NzbDrone.Core.Indexers.IndexerResponse indexerResponse) [0x0003f] in C:\projects\radarr-usby1\src\NzbDrone.Core\Indexers\RssParser.cs:85 
+
+17-2-28 18:16:34.2|Info|DownloadDecisionMaker|Processing 100 releases
+17-2-28 18:16:35.3|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+17-2-28 19:17:03.4|Info|RssSyncService|Starting RSS Sync
+17-2-28 19:17:07.9|Info|DownloadDecisionMaker|Processing 200 releases
+17-2-28 19:17:10.5|Info|RssSyncService|RSS Sync Completed. Reports found: 200, Reports grabbed: 0
+17-2-28 20:17:35.2|Info|RssSyncService|Starting RSS Sync
+17-2-28 20:17:39.8|Info|DownloadDecisionMaker|Processing 199 releases
+17-2-28 20:17:42.2|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-2-28 21:18:06.8|Info|RssSyncService|Starting RSS Sync
+17-2-28 21:18:10.8|Info|DownloadDecisionMaker|Processing 199 releases
+17-2-28 21:18:13.2|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-2-28 22:18:38.0|Info|RssSyncService|Starting RSS Sync
+17-2-28 22:18:41.3|Info|DownloadDecisionMaker|Processing 199 releases
+17-2-28 22:18:43.7|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-2-28 23:19:09.6|Info|RssSyncService|Starting RSS Sync
+17-2-28 23:19:12.8|Info|DownloadDecisionMaker|Processing 199 releases
+17-2-28 23:19:15.2|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 00:19:41.7|Info|RssSyncService|Starting RSS Sync
+17-3-1 00:19:45.5|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 00:19:47.9|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 01:20:13.8|Info|RssSyncService|Starting RSS Sync
+17-3-1 01:20:17.0|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 01:20:19.4|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 02:20:45.4|Info|RssSyncService|Starting RSS Sync
+17-3-1 02:20:49.0|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 02:20:51.5|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 03:21:16.5|Info|RssSyncService|Starting RSS Sync
+17-3-1 03:21:19.7|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 03:21:22.2|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 04:21:47.6|Info|RssSyncService|Starting RSS Sync
+17-3-1 04:21:51.0|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 04:21:53.4|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 05:22:18.6|Info|RssSyncService|Starting RSS Sync
+17-3-1 05:22:23.9|Info|DownloadDecisionMaker|Processing 194 releases
+17-3-1 05:22:26.3|Info|RssSyncService|RSS Sync Completed. Reports found: 194, Reports grabbed: 0
+17-3-1 06:22:49.5|Info|RssSyncService|Starting RSS Sync
+17-3-1 06:22:53.7|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 06:22:56.3|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 07:23:20.6|Info|RssSyncService|Starting RSS Sync
+17-3-1 07:23:23.9|Info|DownloadDecisionMaker|Processing 198 releases
+17-3-1 07:23:26.5|Info|RssSyncService|RSS Sync Completed. Reports found: 198, Reports grabbed: 0
+17-3-1 08:23:51.6|Info|RssSyncService|Starting RSS Sync
+17-3-1 08:23:56.2|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 08:23:58.8|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 09:24:22.5|Info|RssSyncService|Starting RSS Sync
+17-3-1 09:24:25.8|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 09:24:28.3|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 10:24:53.5|Info|RssSyncService|Starting RSS Sync
+17-3-1 10:24:57.6|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 10:25:00.1|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 11:25:24.7|Info|RssSyncService|Starting RSS Sync
+17-3-1 11:25:29.0|Info|DownloadDecisionMaker|Processing 198 releases
+17-3-1 11:25:31.4|Info|RssSyncService|RSS Sync Completed. Reports found: 198, Reports grabbed: 0
+17-3-1 12:25:55.9|Info|RssSyncService|Starting RSS Sync
+17-3-1 12:25:59.2|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 12:26:01.5|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 13:13:56.7|Info|HousekeepingService|Running housecleaning tasks
+17-3-1 13:13:56.7|Info|Database|Vacuuming Log database
+17-3-1 13:13:56.7|Info|RefreshMovieService|Updating Info for The Bourne Identity
+17-3-1 13:13:57.1|Info|DiskScanService|Scanning disk for The Bourne Identity
+17-3-1 13:13:57.1|Info|DiskScanService|Completed scanning disk for The Bourne Identity
+17-3-1 13:13:57.1|Info|RefreshMovieService|Updating Info for Brick
+17-3-1 13:13:57.2|Info|DiskScanService|Scanning disk for Brick
+17-3-1 13:13:57.4|Info|DiskScanService|Completed scanning disk for Brick
+17-3-1 13:13:57.4|Info|RefreshMovieService|Updating Info for Fantastic Beasts and Where to Find Them
+17-3-1 13:13:57.4|Info|Database|Log database compressed
+17-3-1 13:13:57.4|Info|Database|Vacuuming Main database
+17-3-1 13:13:57.5|Info|Database|Main database compressed
+17-3-1 13:13:57.6|Info|DiskScanService|Scanning disk for Fantastic Beasts and Where to Find Them
+17-3-1 13:13:57.6|Info|DiskScanService|Completed scanning disk for Fantastic Beasts and Where to Find Them
+17-3-1 13:13:57.6|Info|RefreshMovieService|Updating Info for Fences
+17-3-1 13:13:57.8|Info|DiskScanService|Scanning disk for Fences
+17-3-1 13:13:57.8|Info|DiskScanService|Completed scanning disk for Fences
+17-3-1 13:13:57.8|Info|RefreshMovieService|Updating Info for Fire at Sea
+17-3-1 13:13:57.9|Info|DiskScanService|Scanning disk for Fire at Sea
+17-3-1 13:13:57.9|Info|RefreshMovieService|Updating Info for Get Out
+17-3-1 13:13:58.0|Info|DiskScanService|Scanning disk for Get Out
+17-3-1 13:13:58.0|Info|RefreshMovieService|Updating Info for Hidden Figures
+17-3-1 13:13:58.1|Info|DiskScanService|Scanning disk for Hidden Figures
+17-3-1 13:13:58.1|Info|RefreshMovieService|Updating Info for Jackie
+17-3-1 13:13:58.2|Info|MediaCoverService|Downloading Poster for [tt5052448][Get Out] http://image.tmdb.org/t/p/original/xpxHtb4xsgyik22ISzDB0rQ1DRs.jpg
+17-3-1 13:13:58.2|Info|DiskScanService|Scanning disk for Jackie
+17-3-1 13:13:58.2|Info|RefreshMovieService|Updating Info for John Wick: Chapter 2
+17-3-1 13:13:58.3|Info|DiskScanService|Scanning disk for John Wick: Chapter 2
+17-3-1 13:13:58.3|Info|RefreshMovieService|Updating Info for La La Land
+17-3-1 13:13:58.5|Info|DiskScanService|Scanning disk for La La Land
+17-3-1 13:13:58.5|Info|RefreshMovieService|Updating Info for Land of Mine
+17-3-1 13:13:58.6|Info|DiskScanService|Scanning disk for Land of Mine
+17-3-1 13:13:58.6|Info|RefreshMovieService|Updating Info for Lion
+17-3-1 13:13:58.8|Info|DiskScanService|Scanning disk for Lion
+17-3-1 13:13:58.9|Info|RefreshMovieService|Updating Info for Logan
+17-3-1 13:13:58.9|Info|DiskScanService|Scanning disk for Logan
+17-3-1 13:13:59.0|Info|RefreshMovieService|Updating Info for A Man Called Ove
+17-3-1 13:13:59.0|Info|DiskScanService|Scanning disk for A Man Called Ove
+17-3-1 13:13:59.0|Info|RefreshMovieService|Updating Info for Moonlight
+17-3-1 13:13:59.1|Info|DiskScanService|Scanning disk for Moonlight
+17-3-1 13:13:59.2|Info|RefreshMovieService|Updating Info for Nocturnal Animals
+17-3-1 13:13:59.2|Info|MediaCoverService|Downloading Banner for [tt3315342][Logan] http://image.tmdb.org/t/p/original/5pAGnkFYSsFJ99ZxDIYnhQbQFXs.jpg
+17-3-1 13:13:59.2|Info|DiskScanService|Scanning disk for Nocturnal Animals
+17-3-1 13:13:59.3|Info|RefreshMovieService|Updating Info for Operation Petticoat
+17-3-1 13:13:59.3|Info|DiskScanService|Scanning disk for Operation Petticoat
+17-3-1 13:13:59.3|Info|DiskScanService|Completed scanning disk for Operation Petticoat
+17-3-1 13:13:59.4|Info|RefreshMovieService|Updating Info for Silence
+17-3-1 13:13:59.4|Info|DiskScanService|Scanning disk for Silence
+17-3-1 13:13:59.5|Info|RefreshMovieService|Updating Info for Toni Erdmann
+17-3-1 13:13:59.6|Info|DiskScanService|Scanning disk for Toni Erdmann
+17-3-1 13:26:27.1|Info|RssSyncService|Starting RSS Sync
+17-3-1 13:31:27.1|Warn|Newznab|Usenet Crawler server is currently unavailable. https://www.usenet-crawler.com/api?t=movie&cat=2000,2010,2020,2030,2035,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100 The request timed out
+17-3-1 13:31:27.1|Info|DownloadDecisionMaker|Processing 100 releases
+17-3-1 13:31:28.2|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+17-3-1 14:31:58.2|Info|RssSyncService|Starting RSS Sync
+17-3-1 14:32:09.0|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 14:32:11.4|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 15:32:29.5|Info|RssSyncService|Starting RSS Sync
+17-3-1 15:32:30.1|Warn|HttpClient|HTTP Error - Res: [GET] https://www.usenet-crawler.com/api?t=caps&apikey=(removed) 502.BadGateway
+17-3-1 15:35:50.2|Warn|Newznab|Usenet Crawler server is currently unavailable. https://www.usenet-crawler.com/api?t=movie&cat=2000,2010,2020,2030,2035,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100 The request timed out
+17-3-1 15:35:50.2|Info|DownloadDecisionMaker|Processing 100 releases
+17-3-1 15:35:51.2|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+17-3-1 16:36:00.9|Info|RssSyncService|Starting RSS Sync
+17-3-1 16:36:06.0|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 16:36:08.3|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0
+17-3-1 17:36:32.1|Info|RssSyncService|Starting RSS Sync
+17-3-1 17:36:35.7|Info|DownloadDecisionMaker|Processing 199 releases
+17-3-1 17:36:38.2|Info|RssSyncService|RSS Sync Completed. Reports found: 199, Reports grabbed: 0

@@ -1,3 +1,17 @@
+### LOCAL ###
+
+########################################
+
+# NOTES ON HOW TO CHANGE PROMPT
+
+#You must wrap all escape sequences between \[ and \] in order for 'readline'
+#to correctly calculate the prompt's visible length. Without them, 'readline'
+#thinks the prompt is longer than it is, and doesn't know when the text reaches the margin.
+
+#PS1="\[\e[;31m\][\u@\h \W]\$ \[\e[m\]"
+
+#########################################
+
 PS1='\[\e[0;33m\][Server]\[\e[m\] \u \[\e[1;34m\][$(date +%k:%M:%S)]\[\e[m\]\[\e[0;36m\] [\w]\[\e[m\]: '
 
 # GLOBAL VARIABLE
@@ -15,16 +29,13 @@ alias router='ssh adamschoonover@10.0.0.1'
 alias c="clear"
 alias cl="clear"
 alias imac="ssh adamschoonover@10.0.0.10"
+alias usenet="cd ~/Git/Personal/Server/Usenet && ls && sudo vagrant ssh"
 alias sevone='ssh root@10.0.0.60'
-alias usenet='ssh aelchert@10.0.0.55'
-alias transmission='ssh aelchert@10.0.0.56'
-alias nginx='ssh aelchert@10.0.0.57'
-
 alias gitadd='git add -A . && git commit -m "updates" && git push'
 alias gitupdate='git fetch && git merge'
 
-alias bookupdate='python /home/aelchert/Git/Personal/Book-Database/book-input.py'
-alias plex='cd /var/lib/plexmediaserver/Library/Application\ Support/Plex\ Media\ Server/'
+alias bookupdate='python /home/adamschoonover/Git/Personal/Book-Database/book-input.py'
+
 ### COLORS ###
 
 export TERM=xterm-color
@@ -35,18 +46,19 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 ### BASH EDITS ###
 
-alias bashedit='sudo vim ~/.bashrc'
-alias editbash='sudo vim ~/.bashrc'
+alias bashedit='sudo nano ~/.bashrc'
+alias editbash='sudo nano ~/.bashrc'
 alias restartbash='source ~/.bashrc'
 alias bashrestart='source ~/.bashrc'
 
 ### LOCAL DATABASES ###
 
-alias mysqlbooks='sudo MYSQL_PS1="mysql booksread> " mysql -u root -p'CuIeyy7j!!'  booksread'
+alias mysqlbooks='sudo MYSQL_PS1="mysql booksread> " mysql -u root booksread'
 
 ### Convert Flac to Apple Lossless ###
-alias flac='bash /home/aelchert/Git/Personal/Server/flac-conversion.sh'
+alias flac='bash /home/adamschoonover/Git/Personal/Server/flac-conversion.sh'
 
+alias nginxedit='sudo vim /etc/nginx/sites-enabled/default'
 
 ### Colorize Man Pages ###
 man() {
