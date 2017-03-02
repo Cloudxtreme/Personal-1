@@ -16115,3 +16115,1116 @@ All OK
 2017-03-01 18:04:37,818::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
 2017-03-01 18:05:02,646::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
 2017-03-01 18:05:02,650::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:05:32,655::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:05:32,659::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:06:02,660::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:06:02,664::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:06:07,844::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:06:07,847::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:06:32,666::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:06:32,670::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:07:02,671::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:07:02,675::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:07:32,678::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:07:32,682::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:07:37,865::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:07:37,869::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:08:02,684::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:08:02,688::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:08:32,690::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:08:32,694::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:09:02,699::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:09:02,703::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:09:07,884::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:09:07,888::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:09:32,818::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:09:32,822::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:10:02,831::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:10:02,834::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:10:32,948::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:10:32,952::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:10:37,907::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:10:37,911::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:11:02,953::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:11:02,957::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:11:32,959::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:11:32,962::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:12:02,967::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:12:02,971::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:12:07,922::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:12:07,925::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:12:32,976::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:12:32,980::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:13:02,985::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:13:02,989::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:13:32,991::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:13:32,995::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:13:37,939::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:13:37,943::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:14:02,996::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:14:03,000::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:14:33,002::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:14:33,006::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:15:03,146::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:15:03,150::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:15:07,958::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:15:07,966::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:15:33,225::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:15:33,228::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:16:03,231::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:16:03,234::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:16:33,236::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:16:33,240::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:16:37,974::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:16:37,977::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:17:03,242::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:17:03,247::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:17:33,248::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:17:33,252::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:18:03,254::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:18:03,259::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:18:07,988::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:18:07,992::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:18:33,259::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:18:33,263::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:19:03,265::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:19:03,268::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:19:33,271::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:19:33,276::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:19:38,004::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:19:38,008::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:19:39,585::DEBUG::[interface:523] API-call from 172.17.0.1 [python-requests/2.7.0 CPython/2.7.13 Linux/4.8.0-39-generic] {'output': u'xml', 'section': u'misc', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-03-01 18:20:03,278::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:20:03,282::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:20:33,361::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:20:33,365::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:21:03,368::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:21:03,372::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:21:08,034::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:21:08,037::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:21:33,374::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:21:33,378::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:22:03,379::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:22:03,383::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:22:33,385::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:22:33,388::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:22:38,052::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:22:38,055::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:23:03,391::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:23:03,395::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:23:33,398::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:23:33,402::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:24:03,402::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:24:03,406::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:24:08,095::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:24:08,099::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:24:33,408::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:24:33,412::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:25:03,432::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:25:03,436::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:25:33,435::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:25:33,439::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:25:38,114::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:25:38,117::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:26:03,441::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:26:03,445::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:26:33,446::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:26:33,450::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:27:03,452::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:27:03,455::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:27:08,135::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:27:08,139::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:27:33,459::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:27:33,463::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:28:03,463::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:28:03,467::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:28:33,468::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:28:33,473::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:28:38,156::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:28:38,160::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:29:03,475::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:29:03,478::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:29:33,481::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:29:33,484::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:30:03,487::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:30:03,491::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:30:08,171::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:30:08,175::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:30:33,493::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:30:33,496::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:31:03,503::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:31:03,507::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:31:33,510::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:31:33,515::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:31:38,194::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:31:38,197::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:32:03,514::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:32:03,517::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:32:33,551::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:32:33,555::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:33:03,529::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:33:03,532::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:33:05,090::DEBUG::[interface:523] API-call from 172.17.0.1 [python-requests/2.7.0 CPython/2.7.13 Linux/4.8.0-39-generic] {'priority': u'-100', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'addurl', 'name': u'http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.041.2016.Digital.Zone-Empire.nzb', 'script': u'ComicRN.py'}
+2017-03-01 18:33:05,090::INFO::[__init__:551] Fetching http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.041.2016.Digital.Zone-Empire.nzb
+2017-03-01 18:33:05,092::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:33:05,092::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_DMG6PE in /config/admin/future
+2017-03-01 18:33:05,093::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:33:05,595::INFO::[urlgrabber:110] Grabbing URL http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.041.2016.Digital.Zone-Empire.nzb
+2017-03-01 18:33:05,608::INFO::[nzbstuff:690] Replacing dots with spaces in api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.041.2016.Digital.Zone-Empire
+2017-03-01 18:33:05,608::INFO::[nzbstuff:693] Replacing spaces with underscores in api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga 041 2016 Digital Zone-Empire
+2017-03-01 18:33:05,609::INFO::[misc:892] Creating directories: /incomplete-downloads/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.041.2016.Digital.Zone-Empire
+2017-03-01 18:33:05,610::WARNING::[nzbstuff:765] Empty NZB file api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.041.2016.Digital.Zone-Empire.nzb [http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.041.2016.Digital.Zone-Empire.nzb]
+2017-03-01 18:33:05,610::INFO::[__init__:960] /config/admin/future/SABnzbd_nzo_DMG6PE removed
+2017-03-01 18:33:05,610::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:33:05,610::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:33:08,209::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:33:08,213::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:33:33,534::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:33:33,539::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:34:03,537::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:34:03,544::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:34:33,545::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:34:33,549::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:34:38,224::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:34:38,228::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:34:41,364::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-03-01 18:34:58,329::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-03-01 18:35:03,553::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:35:03,556::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:35:08,117::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-03-01 18:35:18,061::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-03-01 18:35:29,730::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-03-01 18:35:33,561::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:35:33,565::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:36:03,570::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:36:03,574::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:36:08,327::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:36:08,331::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:36:33,576::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:36:33,580::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:37:03,583::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:37:03,587::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:37:33,593::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:37:33,601::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:37:38,261::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:37:38,265::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:38:03,603::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:38:03,607::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:38:33,608::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:38:33,611::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:39:03,614::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:39:03,617::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:39:08,277::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:39:08,281::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:39:33,620::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:39:33,623::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:40:03,632::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:40:03,636::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:40:08,416::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:40:08,420::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:40:33,643::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:40:33,648::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:41:03,652::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:41:03,655::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:41:33,657::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:41:33,661::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:41:38,434::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:41:38,438::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:42:03,663::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:42:03,667::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:42:33,668::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:42:33,672::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:42:34,342::DEBUG::[interface:523] API-call from 172.17.0.1 [python-requests/2.7.0 CPython/2.7.13 Linux/4.8.0-39-generic] {'priority': u'-100', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'addurl', 'name': u'http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.040.2016.Digital.Zone-Empire.nzb', 'script': u'ComicRN.py'}
+2017-03-01 18:42:34,343::INFO::[__init__:551] Fetching http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.040.2016.Digital.Zone-Empire.nzb
+2017-03-01 18:42:34,343::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:42:34,344::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_JzjlNQ in /config/admin/future
+2017-03-01 18:42:34,344::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:42:34,846::INFO::[urlgrabber:110] Grabbing URL http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.040.2016.Digital.Zone-Empire.nzb
+2017-03-01 18:42:34,850::INFO::[nzbstuff:690] Replacing dots with spaces in Saga.040.2016.Digital.Zone-Empire
+2017-03-01 18:42:34,850::INFO::[nzbstuff:693] Replacing spaces with underscores in Saga 040 2016 Digital Zone-Empire
+2017-03-01 18:42:34,851::INFO::[misc:892] Creating directories: /incomplete-downloads/Saga.040.2016.Digital.Zone-Empire
+2017-03-01 18:42:34,852::DEBUG::[__init__:896] Saving data for SABnzbd_nzf_ne7foA in /incomplete-downloads/Saga.040.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:42:34,853::INFO::[nzbstuff:500] File 0-Day 2016.11.30 - " Saga 040 (2016) (Digital) (Zone-Empire).cbr" yEnc (1/50) added to queue
+2017-03-01 18:42:34,853::DEBUG::[nzbstuff:530] META-DATA = {u'category': [u'Books > Comics'], u'name': [u'Saga.040.2016.Digital.Zone-Empire']}
+2017-03-01 18:42:34,853::INFO::[__init__:617] Backing up /incomplete-downloads/Saga.040.2016.Digital.Zone-Empire/__ADMIN__/Saga.040.2016.Digital.Zone-Empire.nzb.gz
+2017-03-01 18:42:34,854::INFO::[__init__:960] /config/admin/future/SABnzbd_nzo_JzjlNQ removed
+2017-03-01 18:42:34,854::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:42:34,855::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:42:34,855::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:42:34,855::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_JzjlNQ in /incomplete-downloads/Saga.040.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:42:34,856::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:42:36,359::DEBUG::[nzbstuff:243] Finishing import on 0-Day 2016.11.30 - " Saga 040 (2016) (Digital) (Zone-Empire).cbr" yEnc (1/50)
+2017-03-01 18:42:36,359::DEBUG::[__init__:930] Loading data for SABnzbd_nzf_ne7foA from /incomplete-downloads/Saga.040.2016.Digital.Zone-Empire/__ADMIN__/SABnzbd_nzf_ne7foA
+2017-03-01 18:42:36,360::INFO::[downloader:474] 5@news.newsdemon.com: Initiating connection
+2017-03-01 18:42:36,837::INFO::[happyeyeballs:138] Quickest IP address for news.newsdemon.com (port 119, ssl 0, preferipv6 True) is 69.16.179.22
+2017-03-01 18:42:36,837::DEBUG::[happyeyeballs:140] Happy Eyeballs lookup and port connect took 3 ms
+2017-03-01 18:42:36,837::DEBUG::[downloader:130] news.newsdemon.com: Connecting to address 69.16.179.22
+2017-03-01 18:42:37,860::INFO::[downloader:686] Connecting 5@news.newsdemon.com finished
+2017-03-01 18:42:38,005::DEBUG::[decoder:108] Decoding 583f4304$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:39,005::INFO::[downloader:474] 2@news.newsdemon.com: Initiating connection
+2017-03-01 18:42:39,005::DEBUG::[downloader:130] news.newsdemon.com: Connecting to address 69.16.179.22
+2017-03-01 18:42:39,006::INFO::[downloader:474] 4@news.newsdemon.com: Initiating connection
+2017-03-01 18:42:39,006::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.22
+2017-03-01 18:42:39,006::INFO::[downloader:474] 6@news.newsdemon.com: Initiating connection
+2017-03-01 18:42:39,007::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.22
+2017-03-01 18:42:39,007::INFO::[downloader:474] 1@news.newsdemon.com: Initiating connection
+2017-03-01 18:42:39,007::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.22
+2017-03-01 18:42:39,008::INFO::[downloader:474] 3@news.newsdemon.com: Initiating connection
+2017-03-01 18:42:39,008::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.22
+2017-03-01 18:42:39,073::INFO::[downloader:686] Connecting 1@news.newsdemon.com finished
+2017-03-01 18:42:39,073::INFO::[downloader:686] Connecting 6@news.newsdemon.com finished
+2017-03-01 18:42:39,074::INFO::[downloader:686] Connecting 2@news.newsdemon.com finished
+2017-03-01 18:42:39,074::INFO::[downloader:686] Connecting 3@news.newsdemon.com finished
+2017-03-01 18:42:39,075::INFO::[downloader:686] Connecting 4@news.newsdemon.com finished
+2017-03-01 18:42:39,199::DEBUG::[decoder:108] Decoding 583f431a$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:39,307::DEBUG::[decoder:108] Decoding 583f4311$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:39,440::DEBUG::[decoder:108] Decoding 583f4309$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:39,520::DEBUG::[decoder:108] Decoding 583f4323$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:39,606::DEBUG::[decoder:108] Decoding 583f4316$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:39,674::DEBUG::[decoder:108] Decoding 583f4327$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:39,796::DEBUG::[decoder:108] Decoding 583f431f$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:39,961::DEBUG::[decoder:108] Decoding 583f4336$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:39,966::DEBUG::[decoder:108] Decoding 583f430c$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:39,992::DEBUG::[decoder:108] Decoding 583f4330$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:40,085::DEBUG::[decoder:108] Decoding 583f433d$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:40,648::DEBUG::[decoder:108] Decoding 583f432b$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:40,804::DEBUG::[decoder:108] Decoding 583f4347$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:40,859::DEBUG::[decoder:108] Decoding 583f434f$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:40,865::DEBUG::[decoder:108] Decoding 583f4342$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:40,919::DEBUG::[decoder:108] Decoding 583f434b$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:40,974::DEBUG::[decoder:108] Decoding 583f4353$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:41,689::DEBUG::[decoder:108] Decoding 583f4357$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:41,845::DEBUG::[decoder:108] Decoding 583f435b$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:41,900::DEBUG::[decoder:108] Decoding 583f435e$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:41,904::DEBUG::[decoder:108] Decoding 583f4361$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:42,005::DEBUG::[decoder:108] Decoding 583f4364$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:42,011::DEBUG::[decoder:108] Decoding 583f4367$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:42,878::DEBUG::[bpsmeter:268] bps: 3741308.32345
+2017-03-01 18:42:42,879::DEBUG::[decoder:108] Decoding 583f436a$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:42,886::DEBUG::[decoder:108] Decoding 583f4376$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:42,940::DEBUG::[decoder:108] Decoding 583f4378$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:42,995::DEBUG::[decoder:108] Decoding 583f436d$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:43,100::DEBUG::[decoder:108] Decoding 583f4373$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:43,106::DEBUG::[decoder:108] Decoding 583f4370$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:43,461::DEBUG::[decoder:108] Decoding 583f4380$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:43,820::DEBUG::[decoder:108] Decoding 583f4382$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:43,971::DEBUG::[decoder:108] Decoding 583f4385$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:43,977::DEBUG::[decoder:108] Decoding 583f437b$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:44,178::DEBUG::[decoder:108] Decoding 583f4387$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:44,183::DEBUG::[decoder:108] Decoding 583f437d$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:44,335::DEBUG::[decoder:108] Decoding 583f438a$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:45,146::DEBUG::[decoder:108] Decoding 583f4390$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:45,302::DEBUG::[decoder:108] Decoding 583f438c$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:45,307::DEBUG::[decoder:108] Decoding 583f4392$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:45,358::DEBUG::[decoder:108] Decoding 583f438e$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:45,363::DEBUG::[decoder:108] Decoding 583f4394$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:45,368::DEBUG::[decoder:108] Decoding 583f4396$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:46,021::DEBUG::[decoder:108] Decoding 583f4398$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:46,127::DEBUG::[decoder:108] Decoding 583f43a3$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:46,132::DEBUG::[decoder:108] Decoding 583f439a$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:46,283::DEBUG::[decoder:108] Decoding 583f43a1$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:46,390::DEBUG::[decoder:108] Decoding 583f439f$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:46,491::DEBUG::[decoder:108] Decoding 583f439d$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:46,546::DEBUG::[decoder:108] Decoding 583f43a6$0$25276$c3e8da3$e408f015@news.astraweb.com
+2017-03-01 18:42:46,549::DEBUG::[nzbstuff:1289] Download Quality: enough=True, have=32916695, need=32916695, ratio=1.0
+2017-03-01 18:42:46,549::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_JzjlNQ in /incomplete-downloads/Saga.040.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:42:46,550::INFO::[__init__:969] Saving data for totals10.sab in /config/admin/totals10.sab
+2017-03-01 18:42:46,551::INFO::[assembler:88] Decoding /incomplete-downloads/Saga.040.2016.Digital.Zone-Empire/Saga 040 (2016) (Digital) (Zone-Empire).cbr yenc
+2017-03-01 18:42:46,669::INFO::[__init__:960] /incomplete-downloads/Saga.040.2016.Digital.Zone-Empire/__ADMIN__/SABnzbd_nzo_JzjlNQ removed
+2017-03-01 18:42:46,670::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:42:46,670::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:42:46,670::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:42:46,670::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:42:46,671::INFO::[postproc:305] Starting Post-Processing on Saga_040_2016_Digital_Zone-Empire => Repair:True, Unpack:True, Delete:True, Script:ComicRN.py, Cat:*
+2017-03-01 18:42:47,172::INFO::[postproc:625] Starting verification and repair of Saga_040_2016_Digital_Zone-Empire
+2017-03-01 18:42:47,172::INFO::[__init__:926] /incomplete-downloads/Saga.040.2016.Digital.Zone-Empire/__ADMIN__/__verified__ missing
+2017-03-01 18:42:47,172::INFO::[postproc:668] No par2 sets found, running obfuscated check on Saga_040_2016_Digital_Zone-Empire
+2017-03-01 18:42:47,172::DEBUG::[postproc:679] Checking par2 signature of Saga 040 (2016) (Digital) (Zone-Empire).cbr
+2017-03-01 18:42:47,173::INFO::[postproc:702] No par2 sets for Saga_040_2016_Digital_Zone-Empire
+2017-03-01 18:42:47,173::DEBUG::[newsunpack:1697] build_filelists(): joinables: []
+2017-03-01 18:42:47,173::DEBUG::[newsunpack:1698] build_filelists(): zips: []
+2017-03-01 18:42:47,173::DEBUG::[newsunpack:1699] build_filelists(): rars: []
+2017-03-01 18:42:47,174::DEBUG::[newsunpack:1700] build_filelists(): 7zips: []
+2017-03-01 18:42:47,174::DEBUG::[newsunpack:1701] build_filelists(): ts: []
+2017-03-01 18:42:47,174::DEBUG::[__init__:896] Saving data for __verified__ in /incomplete-downloads/Saga.040.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:42:47,174::INFO::[postproc:720] Verification and repair finished for Saga_040_2016_Digital_Zone-Empire
+2017-03-01 18:42:47,174::INFO::[misc:892] Creating directories: /downloads/Saga_040_2016_Digital_Zone-Empire
+2017-03-01 18:42:47,175::DEBUG::[misc:1350] Renaming "/downloads/Saga_040_2016_Digital_Zone-Empire" to "/downloads/_UNPACK_Saga_040_2016_Digital_Zone-Empire"
+2017-03-01 18:42:47,175::INFO::[postproc:378] Running unpack_magic on Saga_040_2016_Digital_Zone-Empire
+2017-03-01 18:42:47,175::DEBUG::[newsunpack:1697] build_filelists(): joinables: []
+2017-03-01 18:42:47,175::DEBUG::[newsunpack:1698] build_filelists(): zips: []
+2017-03-01 18:42:47,176::DEBUG::[newsunpack:1699] build_filelists(): rars: []
+2017-03-01 18:42:47,176::DEBUG::[newsunpack:1700] build_filelists(): 7zips: []
+2017-03-01 18:42:47,176::DEBUG::[newsunpack:1701] build_filelists(): ts: []
+2017-03-01 18:42:47,176::INFO::[postproc:383] unpack_magic finished on Saga_040_2016_Digital_Zone-Empire
+2017-03-01 18:42:47,176::DEBUG::[misc:917] Moving. Old path: /incomplete-downloads/Saga.040.2016.Digital.Zone-Empire/Saga 040 (2016) (Digital) (Zone-Empire).cbr New path: /downloads/_UNPACK_Saga_040_2016_Digital_Zone-Empire/Saga 040 (2016) (Digital) (Zone-Empire).cbr Overwrite: 0
+2017-03-01 18:42:47,176::DEBUG::[misc:1350] Renaming "/incomplete-downloads/Saga.040.2016.Digital.Zone-Empire/Saga 040 (2016) (Digital) (Zone-Empire).cbr" to "/downloads/_UNPACK_Saga_040_2016_Digital_Zone-Empire/Saga 040 (2016) (Digital) (Zone-Empire).cbr"
+2017-03-01 18:42:47,213::DEBUG::[misc:1350] Renaming "/downloads/_UNPACK_Saga_040_2016_Digital_Zone-Empire" to "/downloads/Saga_040_2016_Digital_Zone-Empire"
+2017-03-01 18:42:47,547::INFO::[downloader:772] Thread 6@news.newsdemon.com: forcing disconnect
+2017-03-01 18:42:47,648::INFO::[downloader:772] Thread 1@news.newsdemon.com: forcing disconnect
+2017-03-01 18:42:47,715::DEBUG::[tvsort:210] Found TV Show (Saga_040_2016_Digital_Zone-Empire)
+2017-03-01 18:42:47,748::INFO::[downloader:772] Thread 4@news.newsdemon.com: forcing disconnect
+2017-03-01 18:42:47,768::INFO::[postproc:582] Cleaning up Saga_040_2016_Digital_Zone-Empire (keep_basic=False)
+2017-03-01 18:42:47,769::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:42:47,769::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:42:47,769::INFO::[downloader:291] Post-processing finished, resuming download
+2017-03-01 18:42:47,866::INFO::[downloader:772] Thread 5@news.newsdemon.com: forcing disconnect
+2017-03-01 18:42:47,967::INFO::[downloader:772] Thread 3@news.newsdemon.com: forcing disconnect
+2017-03-01 18:42:48,067::INFO::[downloader:772] Thread 2@news.newsdemon.com: forcing disconnect
+2017-03-01 18:42:48,770::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:42:48,770::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:42:48,770::INFO::[__init__:969] Saving data for totals10.sab in /config/admin/totals10.sab
+2017-03-01 18:42:48,771::INFO::[__init__:969] Saving data for rss_data.sab in /config/admin/rss_data.sab
+2017-03-01 18:42:48,771::INFO::[__init__:969] Saving data for watched_data2.sab in /config/admin/watched_data2.sab
+2017-03-01 18:42:48,771::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:42:48,771::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:42:48,771::INFO::[postproc:830] Queue has finished, launching: None (None)
+2017-03-01 18:43:03,674::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:43:03,678::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:43:08,449::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:43:08,454::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:43:33,684::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:43:33,689::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:44:03,686::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:44:03,689::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:44:33,692::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:44:33,696::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:44:38,464::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:44:38,468::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:45:03,697::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:45:03,701::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:45:33,705::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:45:33,708::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:45:38,613::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:45:38,617::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:45:47,022::DEBUG::[interface:523] API-call from 172.17.0.1 [python-requests/2.7.0 CPython/2.7.13 Linux/4.8.0-39-generic] {'priority': u'-100', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'addurl', 'name': u'http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.039.2016.Digital.Zone-Empire.nzb', 'script': u'ComicRN.py'}
+2017-03-01 18:45:47,023::INFO::[__init__:551] Fetching http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.039.2016.Digital.Zone-Empire.nzb
+2017-03-01 18:45:47,023::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:45:47,023::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_NPKGhJ in /config/admin/future
+2017-03-01 18:45:47,024::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:45:47,526::INFO::[urlgrabber:110] Grabbing URL http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.039.2016.Digital.Zone-Empire.nzb
+2017-03-01 18:45:47,530::INFO::[nzbstuff:690] Replacing dots with spaces in Saga.039.2016.Digital.Zone-Empire
+2017-03-01 18:45:47,530::INFO::[nzbstuff:693] Replacing spaces with underscores in Saga 039 2016 Digital Zone-Empire
+2017-03-01 18:45:47,531::INFO::[misc:892] Creating directories: /incomplete-downloads/Saga.039.2016.Digital.Zone-Empire
+2017-03-01 18:45:47,532::DEBUG::[__init__:896] Saving data for SABnzbd_nzf_WAVCb8 in /incomplete-downloads/Saga.039.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:45:47,533::INFO::[nzbstuff:500] File 0-Day 2016.10.26 - " Saga 039 (2016) (Digital) (Zone-Empire).cbr" yEnc (1/49) added to queue
+2017-03-01 18:45:47,533::DEBUG::[nzbstuff:530] META-DATA = {u'category': [u'Books > Comics'], u'name': [u'Saga.039.2016.Digital.Zone-Empire']}
+2017-03-01 18:45:47,533::INFO::[__init__:617] Backing up /incomplete-downloads/Saga.039.2016.Digital.Zone-Empire/__ADMIN__/Saga.039.2016.Digital.Zone-Empire.nzb.gz
+2017-03-01 18:45:47,534::INFO::[__init__:960] /config/admin/future/SABnzbd_nzo_NPKGhJ removed
+2017-03-01 18:45:47,534::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:45:47,534::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:45:47,535::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:45:47,535::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_NPKGhJ in /incomplete-downloads/Saga.039.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:45:47,535::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:45:49,038::DEBUG::[nzbstuff:243] Finishing import on 0-Day 2016.10.26 - " Saga 039 (2016) (Digital) (Zone-Empire).cbr" yEnc (1/49)
+2017-03-01 18:45:49,038::DEBUG::[__init__:930] Loading data for SABnzbd_nzf_WAVCb8 from /incomplete-downloads/Saga.039.2016.Digital.Zone-Empire/__ADMIN__/SABnzbd_nzf_WAVCb8
+2017-03-01 18:45:49,039::INFO::[downloader:474] 6@news.newsdemon.com: Initiating connection
+2017-03-01 18:45:49,521::INFO::[happyeyeballs:138] Quickest IP address for news.newsdemon.com (port 119, ssl 0, preferipv6 True) is 69.16.179.23
+2017-03-01 18:45:49,521::DEBUG::[happyeyeballs:140] Happy Eyeballs lookup and port connect took 2 ms
+2017-03-01 18:45:49,521::DEBUG::[downloader:130] news.newsdemon.com: Connecting to address 69.16.179.23
+2017-03-01 18:45:50,552::INFO::[downloader:686] Connecting 6@news.newsdemon.com finished
+2017-03-01 18:45:50,711::DEBUG::[decoder:108] Decoding 58110bdd$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:51,712::INFO::[downloader:474] 1@news.newsdemon.com: Initiating connection
+2017-03-01 18:45:51,713::DEBUG::[downloader:130] news.newsdemon.com: Connecting to address 69.16.179.23
+2017-03-01 18:45:51,713::INFO::[downloader:474] 4@news.newsdemon.com: Initiating connection
+2017-03-01 18:45:51,714::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:45:51,714::INFO::[downloader:474] 5@news.newsdemon.com: Initiating connection
+2017-03-01 18:45:51,714::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:45:51,715::INFO::[downloader:474] 3@news.newsdemon.com: Initiating connection
+2017-03-01 18:45:51,715::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:45:51,715::INFO::[downloader:474] 2@news.newsdemon.com: Initiating connection
+2017-03-01 18:45:51,715::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:45:51,776::INFO::[downloader:686] Connecting 4@news.newsdemon.com finished
+2017-03-01 18:45:51,776::INFO::[downloader:686] Connecting 5@news.newsdemon.com finished
+2017-03-01 18:45:51,777::INFO::[downloader:686] Connecting 2@news.newsdemon.com finished
+2017-03-01 18:45:51,779::INFO::[downloader:686] Connecting 1@news.newsdemon.com finished
+2017-03-01 18:45:51,780::INFO::[downloader:686] Connecting 3@news.newsdemon.com finished
+2017-03-01 18:45:51,989::DEBUG::[decoder:108] Decoding 58110be6$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:52,103::DEBUG::[decoder:108] Decoding 58110bea$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:52,185::DEBUG::[decoder:108] Decoding 58110bf3$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:52,193::DEBUG::[decoder:108] Decoding 58110be1$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:52,359::DEBUG::[decoder:108] Decoding 58110bef$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:52,375::DEBUG::[decoder:108] Decoding 58110bf9$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:52,699::DEBUG::[decoder:108] Decoding 58110c08$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:52,704::DEBUG::[decoder:108] Decoding 58110bf6$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:52,718::DEBUG::[decoder:108] Decoding 58110bfc$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:52,728::DEBUG::[decoder:108] Decoding 58110bfe$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:52,837::DEBUG::[decoder:108] Decoding 58110c0c$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:53,095::DEBUG::[decoder:108] Decoding 58110c03$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:53,201::DEBUG::[decoder:108] Decoding 58110c11$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:53,510::DEBUG::[decoder:108] Decoding 58110c1d$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:53,565::DEBUG::[decoder:108] Decoding 58110c15$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:53,721::DEBUG::[decoder:108] Decoding 58110c23$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:53,772::DEBUG::[decoder:108] Decoding 58110c19$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:54,081::DEBUG::[decoder:108] Decoding 58110c28$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:54,287::DEBUG::[decoder:108] Decoding 58110c2b$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:54,596::DEBUG::[decoder:108] Decoding 58110c2e$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:54,651::DEBUG::[decoder:108] Decoding 58110c30$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:54,707::DEBUG::[decoder:108] Decoding 58110c33$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:54,761::DEBUG::[decoder:108] Decoding 58110c38$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:55,273::DEBUG::[decoder:108] Decoding 58110c40$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:55,429::DEBUG::[decoder:108] Decoding 58110c3c$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:55,534::DEBUG::[bpsmeter:268] bps: 3772004.46424
+2017-03-01 18:45:55,636::DEBUG::[decoder:108] Decoding 58110c45$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:55,691::DEBUG::[decoder:108] Decoding 58110c4a$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:55,742::DEBUG::[decoder:108] Decoding 58110c4e$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:55,747::DEBUG::[decoder:108] Decoding 58110c52$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:56,303::DEBUG::[decoder:108] Decoding 58110c56$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:56,713::DEBUG::[decoder:108] Decoding 58110c5d$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:56,718::DEBUG::[decoder:108] Decoding 58110c61$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:56,768::DEBUG::[decoder:108] Decoding 58110c5a$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:56,773::DEBUG::[decoder:108] Decoding 58110c65$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:56,823::DEBUG::[decoder:108] Decoding 58110c68$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:57,283::DEBUG::[decoder:108] Decoding 58110c6c$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:57,643::DEBUG::[decoder:108] Decoding 58110c71$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:57,748::DEBUG::[decoder:108] Decoding 58110c79$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:57,850::DEBUG::[decoder:108] Decoding 58110c7d$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:57,855::DEBUG::[decoder:108] Decoding 58110c81$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:57,955::DEBUG::[decoder:108] Decoding 58110c75$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:58,264::DEBUG::[decoder:108] Decoding 58110c85$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:58,674::DEBUG::[decoder:108] Decoding 58110c88$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:58,779::DEBUG::[decoder:108] Decoding 58110c8a$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:58,834::DEBUG::[decoder:108] Decoding 58110c8e$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:58,888::DEBUG::[decoder:108] Decoding 58110c92$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:58,990::DEBUG::[decoder:108] Decoding 58110c97$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:59,044::DEBUG::[decoder:108] Decoding 58110c9b$0$53448$c3e8da3$b1356c67@news.astraweb.com
+2017-03-01 18:45:59,048::DEBUG::[nzbstuff:1289] Download Quality: enough=True, have=32195646, need=32195646, ratio=1.0
+2017-03-01 18:45:59,048::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_NPKGhJ in /incomplete-downloads/Saga.039.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:45:59,049::INFO::[__init__:969] Saving data for totals10.sab in /config/admin/totals10.sab
+2017-03-01 18:45:59,049::INFO::[assembler:88] Decoding /incomplete-downloads/Saga.039.2016.Digital.Zone-Empire/Saga 039 (2016) (Digital) (Zone-Empire).cbr yenc
+2017-03-01 18:45:59,170::INFO::[__init__:960] /incomplete-downloads/Saga.039.2016.Digital.Zone-Empire/__ADMIN__/SABnzbd_nzo_NPKGhJ removed
+2017-03-01 18:45:59,170::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:45:59,170::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:45:59,170::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:45:59,171::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:45:59,171::INFO::[postproc:305] Starting Post-Processing on Saga_039_2016_Digital_Zone-Empire => Repair:True, Unpack:True, Delete:True, Script:ComicRN.py, Cat:*
+2017-03-01 18:45:59,672::INFO::[postproc:625] Starting verification and repair of Saga_039_2016_Digital_Zone-Empire
+2017-03-01 18:45:59,673::INFO::[__init__:926] /incomplete-downloads/Saga.039.2016.Digital.Zone-Empire/__ADMIN__/__verified__ missing
+2017-03-01 18:45:59,673::INFO::[postproc:668] No par2 sets found, running obfuscated check on Saga_039_2016_Digital_Zone-Empire
+2017-03-01 18:45:59,673::DEBUG::[postproc:679] Checking par2 signature of Saga 039 (2016) (Digital) (Zone-Empire).cbr
+2017-03-01 18:45:59,673::INFO::[postproc:702] No par2 sets for Saga_039_2016_Digital_Zone-Empire
+2017-03-01 18:45:59,674::DEBUG::[newsunpack:1697] build_filelists(): joinables: []
+2017-03-01 18:45:59,674::DEBUG::[newsunpack:1698] build_filelists(): zips: []
+2017-03-01 18:45:59,674::DEBUG::[newsunpack:1699] build_filelists(): rars: []
+2017-03-01 18:45:59,674::DEBUG::[newsunpack:1700] build_filelists(): 7zips: []
+2017-03-01 18:45:59,674::DEBUG::[newsunpack:1701] build_filelists(): ts: []
+2017-03-01 18:45:59,674::DEBUG::[__init__:896] Saving data for __verified__ in /incomplete-downloads/Saga.039.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:45:59,675::INFO::[postproc:720] Verification and repair finished for Saga_039_2016_Digital_Zone-Empire
+2017-03-01 18:45:59,675::INFO::[misc:892] Creating directories: /downloads/Saga_039_2016_Digital_Zone-Empire
+2017-03-01 18:45:59,675::DEBUG::[misc:1350] Renaming "/downloads/Saga_039_2016_Digital_Zone-Empire" to "/downloads/_UNPACK_Saga_039_2016_Digital_Zone-Empire"
+2017-03-01 18:45:59,675::INFO::[postproc:378] Running unpack_magic on Saga_039_2016_Digital_Zone-Empire
+2017-03-01 18:45:59,676::DEBUG::[newsunpack:1697] build_filelists(): joinables: []
+2017-03-01 18:45:59,676::DEBUG::[newsunpack:1698] build_filelists(): zips: []
+2017-03-01 18:45:59,676::DEBUG::[newsunpack:1699] build_filelists(): rars: []
+2017-03-01 18:45:59,676::DEBUG::[newsunpack:1700] build_filelists(): 7zips: []
+2017-03-01 18:45:59,676::DEBUG::[newsunpack:1701] build_filelists(): ts: []
+2017-03-01 18:45:59,676::INFO::[postproc:383] unpack_magic finished on Saga_039_2016_Digital_Zone-Empire
+2017-03-01 18:45:59,677::DEBUG::[misc:917] Moving. Old path: /incomplete-downloads/Saga.039.2016.Digital.Zone-Empire/Saga 039 (2016) (Digital) (Zone-Empire).cbr New path: /downloads/_UNPACK_Saga_039_2016_Digital_Zone-Empire/Saga 039 (2016) (Digital) (Zone-Empire).cbr Overwrite: 0
+2017-03-01 18:45:59,677::DEBUG::[misc:1350] Renaming "/incomplete-downloads/Saga.039.2016.Digital.Zone-Empire/Saga 039 (2016) (Digital) (Zone-Empire).cbr" to "/downloads/_UNPACK_Saga_039_2016_Digital_Zone-Empire/Saga 039 (2016) (Digital) (Zone-Empire).cbr"
+2017-03-01 18:45:59,712::DEBUG::[misc:1350] Renaming "/downloads/_UNPACK_Saga_039_2016_Digital_Zone-Empire" to "/downloads/Saga_039_2016_Digital_Zone-Empire"
+2017-03-01 18:46:00,045::INFO::[downloader:772] Thread 2@news.newsdemon.com: forcing disconnect
+2017-03-01 18:46:00,146::INFO::[downloader:772] Thread 1@news.newsdemon.com: forcing disconnect
+2017-03-01 18:46:00,214::DEBUG::[tvsort:210] Found TV Show (Saga_039_2016_Digital_Zone-Empire)
+2017-03-01 18:46:00,247::INFO::[downloader:772] Thread 4@news.newsdemon.com: forcing disconnect
+2017-03-01 18:46:00,263::INFO::[postproc:582] Cleaning up Saga_039_2016_Digital_Zone-Empire (keep_basic=False)
+2017-03-01 18:46:00,264::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:46:00,264::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:46:00,265::INFO::[downloader:291] Post-processing finished, resuming download
+2017-03-01 18:46:00,347::INFO::[downloader:772] Thread 5@news.newsdemon.com: forcing disconnect
+2017-03-01 18:46:00,448::INFO::[downloader:772] Thread 6@news.newsdemon.com: forcing disconnect
+2017-03-01 18:46:00,548::INFO::[downloader:772] Thread 3@news.newsdemon.com: forcing disconnect
+2017-03-01 18:46:01,265::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:46:01,265::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:46:01,266::INFO::[__init__:969] Saving data for totals10.sab in /config/admin/totals10.sab
+2017-03-01 18:46:01,266::INFO::[__init__:969] Saving data for rss_data.sab in /config/admin/rss_data.sab
+2017-03-01 18:46:01,266::INFO::[__init__:969] Saving data for watched_data2.sab in /config/admin/watched_data2.sab
+2017-03-01 18:46:01,266::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:46:01,266::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:46:01,267::INFO::[postproc:830] Queue has finished, launching: None (None)
+2017-03-01 18:46:03,715::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:46:03,719::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:46:33,721::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:46:33,728::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:46:38,742::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:46:38,745::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:46:49,557::DEBUG::[interface:523] API-call from 172.17.0.1 [python-requests/2.7.0 CPython/2.7.13 Linux/4.8.0-39-generic] {'priority': u'-100', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'addurl', 'name': u'http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.037.2016.Digital.Zone-Empire.nzb', 'script': u'ComicRN.py'}
+2017-03-01 18:46:49,557::INFO::[__init__:551] Fetching http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.037.2016.Digital.Zone-Empire.nzb
+2017-03-01 18:46:49,558::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:46:49,558::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_R_Uq4g in /config/admin/future
+2017-03-01 18:46:49,559::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:46:50,061::INFO::[urlgrabber:110] Grabbing URL http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.037.2016.Digital.Zone-Empire.nzb
+2017-03-01 18:46:50,064::INFO::[nzbstuff:690] Replacing dots with spaces in Saga.037.2016.Digital.Zone-Empire
+2017-03-01 18:46:50,064::INFO::[nzbstuff:693] Replacing spaces with underscores in Saga 037 2016 Digital Zone-Empire
+2017-03-01 18:46:50,064::INFO::[misc:892] Creating directories: /incomplete-downloads/Saga.037.2016.Digital.Zone-Empire
+2017-03-01 18:46:50,066::DEBUG::[__init__:896] Saving data for SABnzbd_nzf_KBc4Fv in /incomplete-downloads/Saga.037.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:46:50,066::INFO::[nzbstuff:500] File 0-Day 2016.8.31 - " Saga 037 (2016) (Digital) (Zone-Empire).cbr" yEnc (1/51) added to queue
+2017-03-01 18:46:50,066::DEBUG::[nzbstuff:530] META-DATA = {u'category': [u'Books > Comics'], u'name': [u'Saga.037.2016.Digital.Zone-Empire']}
+2017-03-01 18:46:50,067::INFO::[__init__:617] Backing up /incomplete-downloads/Saga.037.2016.Digital.Zone-Empire/__ADMIN__/Saga.037.2016.Digital.Zone-Empire.nzb.gz
+2017-03-01 18:46:50,067::INFO::[__init__:960] /config/admin/future/SABnzbd_nzo_R_Uq4g removed
+2017-03-01 18:46:50,068::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:46:50,068::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:46:50,068::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:46:50,069::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_R_Uq4g in /incomplete-downloads/Saga.037.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:46:50,069::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:46:51,572::DEBUG::[nzbstuff:243] Finishing import on 0-Day 2016.8.31 - " Saga 037 (2016) (Digital) (Zone-Empire).cbr" yEnc (1/51)
+2017-03-01 18:46:51,572::DEBUG::[__init__:930] Loading data for SABnzbd_nzf_KBc4Fv from /incomplete-downloads/Saga.037.2016.Digital.Zone-Empire/__ADMIN__/SABnzbd_nzf_KBc4Fv
+2017-03-01 18:46:51,573::INFO::[downloader:474] 2@news.newsdemon.com: Initiating connection
+2017-03-01 18:46:51,573::DEBUG::[downloader:130] news.newsdemon.com: Connecting to address 69.16.179.23
+2017-03-01 18:46:52,595::INFO::[downloader:686] Connecting 2@news.newsdemon.com finished
+2017-03-01 18:46:52,736::DEBUG::[decoder:108] Decoding 57c71533$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:53,737::INFO::[downloader:474] 1@news.newsdemon.com: Initiating connection
+2017-03-01 18:46:53,737::DEBUG::[downloader:130] news.newsdemon.com: Connecting to address 69.16.179.23
+2017-03-01 18:46:53,738::INFO::[downloader:474] 4@news.newsdemon.com: Initiating connection
+2017-03-01 18:46:53,738::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:46:53,739::INFO::[downloader:474] 5@news.newsdemon.com: Initiating connection
+2017-03-01 18:46:53,739::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:46:53,739::INFO::[downloader:474] 6@news.newsdemon.com: Initiating connection
+2017-03-01 18:46:53,739::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:46:53,740::INFO::[downloader:474] 3@news.newsdemon.com: Initiating connection
+2017-03-01 18:46:53,740::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:46:53,789::INFO::[downloader:686] Connecting 6@news.newsdemon.com finished
+2017-03-01 18:46:53,790::INFO::[downloader:686] Connecting 3@news.newsdemon.com finished
+2017-03-01 18:46:53,790::INFO::[downloader:686] Connecting 4@news.newsdemon.com finished
+2017-03-01 18:46:53,792::INFO::[downloader:686] Connecting 1@news.newsdemon.com finished
+2017-03-01 18:46:53,793::INFO::[downloader:686] Connecting 5@news.newsdemon.com finished
+2017-03-01 18:46:54,033::DEBUG::[decoder:108] Decoding 57c71541$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:54,088::DEBUG::[decoder:108] Decoding 57c71544$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:54,299::DEBUG::[decoder:108] Decoding 57c7153a$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:54,337::DEBUG::[decoder:108] Decoding 57c71537$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:54,353::DEBUG::[decoder:108] Decoding 57c7154a$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:54,389::DEBUG::[decoder:108] Decoding 57c7153d$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:54,522::DEBUG::[decoder:108] Decoding 57c7154d$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:54,658::DEBUG::[decoder:108] Decoding 57c71555$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:54,868::DEBUG::[decoder:108] Decoding 57c7154f$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:54,974::DEBUG::[decoder:108] Decoding 57c71552$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:55,182::DEBUG::[decoder:108] Decoding 57c71557$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:55,236::DEBUG::[decoder:108] Decoding 57c7155d$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:55,287::DEBUG::[decoder:108] Decoding 57c7155a$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:55,292::DEBUG::[decoder:108] Decoding 57c71547$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:55,499::DEBUG::[decoder:108] Decoding 57c71561$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:55,808::DEBUG::[decoder:108] Decoding 57c71565$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:56,168::DEBUG::[decoder:108] Decoding 57c7156a$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:56,224::DEBUG::[decoder:108] Decoding 57c7156e$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:56,229::DEBUG::[decoder:108] Decoding 57c71572$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:56,482::DEBUG::[decoder:108] Decoding 57c71576$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:56,537::DEBUG::[decoder:108] Decoding 57c7157b$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:56,795::DEBUG::[decoder:108] Decoding 57c7157e$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:57,155::DEBUG::[decoder:108] Decoding 57c71581$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:57,206::DEBUG::[decoder:108] Decoding 57c71585$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:57,261::DEBUG::[decoder:108] Decoding 57c7158a$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:57,469::DEBUG::[decoder:108] Decoding 57c7158f$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:57,624::DEBUG::[bpsmeter:268] bps: 3738452.40759
+2017-03-01 18:46:57,625::DEBUG::[decoder:108] Decoding 57c71594$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:57,832::DEBUG::[decoder:108] Decoding 57c71598$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:58,241::DEBUG::[decoder:108] Decoding 57c7159e$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:58,292::DEBUG::[decoder:108] Decoding 57c715a2$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:58,297::DEBUG::[decoder:108] Decoding 57c715a6$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:58,550::DEBUG::[decoder:108] Decoding 57c715aa$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:58,651::DEBUG::[decoder:108] Decoding 57c715ae$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:58,905::DEBUG::[decoder:108] Decoding 57c715b2$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:59,261::DEBUG::[decoder:108] Decoding 57c715b8$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:59,312::DEBUG::[decoder:108] Decoding 57c715bd$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:59,367::DEBUG::[decoder:108] Decoding 57c715c2$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:59,624::DEBUG::[decoder:108] Decoding 57c715c7$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:59,730::DEBUG::[decoder:108] Decoding 57c715cc$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:46:59,936::DEBUG::[decoder:108] Decoding 57c715d0$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:47:00,245::DEBUG::[decoder:108] Decoding 57c715d4$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:47:00,299::DEBUG::[decoder:108] Decoding 57c715d9$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:47:00,608::DEBUG::[decoder:108] Decoding 57c715e1$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:47:00,663::DEBUG::[decoder:108] Decoding 57c715e5$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:47:00,870::DEBUG::[decoder:108] Decoding 57c715dd$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:47:01,128::DEBUG::[decoder:108] Decoding 57c715ff$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:47:01,179::DEBUG::[decoder:108] Decoding 57c715ec$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:47:01,233::DEBUG::[decoder:108] Decoding 57c715f2$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:47:01,339::DEBUG::[decoder:108] Decoding 57c715e9$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:47:01,394::DEBUG::[decoder:108] Decoding 57c715f7$0$11910$c3e8da3$3a1a2348@news.astraweb.com
+2017-03-01 18:47:01,399::DEBUG::[nzbstuff:1289] Download Quality: enough=True, have=33246599, need=33246599, ratio=1.0
+2017-03-01 18:47:01,399::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_R_Uq4g in /incomplete-downloads/Saga.037.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:47:01,406::INFO::[__init__:969] Saving data for totals10.sab in /config/admin/totals10.sab
+2017-03-01 18:47:01,406::INFO::[assembler:88] Decoding /incomplete-downloads/Saga.037.2016.Digital.Zone-Empire/Saga 037 (2016) (Digital) (Zone-Empire).cbr yenc
+2017-03-01 18:47:01,532::INFO::[__init__:960] /incomplete-downloads/Saga.037.2016.Digital.Zone-Empire/__ADMIN__/SABnzbd_nzo_R_Uq4g removed
+2017-03-01 18:47:01,533::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:47:01,533::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:47:01,533::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:47:01,534::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:47:01,534::INFO::[postproc:305] Starting Post-Processing on Saga_037_2016_Digital_Zone-Empire => Repair:True, Unpack:True, Delete:True, Script:ComicRN.py, Cat:*
+2017-03-01 18:47:02,035::INFO::[postproc:625] Starting verification and repair of Saga_037_2016_Digital_Zone-Empire
+2017-03-01 18:47:02,035::INFO::[__init__:926] /incomplete-downloads/Saga.037.2016.Digital.Zone-Empire/__ADMIN__/__verified__ missing
+2017-03-01 18:47:02,036::INFO::[postproc:668] No par2 sets found, running obfuscated check on Saga_037_2016_Digital_Zone-Empire
+2017-03-01 18:47:02,036::DEBUG::[postproc:679] Checking par2 signature of Saga 037 (2016) (Digital) (Zone-Empire).cbr
+2017-03-01 18:47:02,036::INFO::[postproc:702] No par2 sets for Saga_037_2016_Digital_Zone-Empire
+2017-03-01 18:47:02,036::DEBUG::[newsunpack:1697] build_filelists(): joinables: []
+2017-03-01 18:47:02,037::DEBUG::[newsunpack:1698] build_filelists(): zips: []
+2017-03-01 18:47:02,037::DEBUG::[newsunpack:1699] build_filelists(): rars: []
+2017-03-01 18:47:02,037::DEBUG::[newsunpack:1700] build_filelists(): 7zips: []
+2017-03-01 18:47:02,037::DEBUG::[newsunpack:1701] build_filelists(): ts: []
+2017-03-01 18:47:02,037::DEBUG::[__init__:896] Saving data for __verified__ in /incomplete-downloads/Saga.037.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:47:02,037::INFO::[postproc:720] Verification and repair finished for Saga_037_2016_Digital_Zone-Empire
+2017-03-01 18:47:02,038::INFO::[misc:892] Creating directories: /downloads/Saga_037_2016_Digital_Zone-Empire
+2017-03-01 18:47:02,038::DEBUG::[misc:1350] Renaming "/downloads/Saga_037_2016_Digital_Zone-Empire" to "/downloads/_UNPACK_Saga_037_2016_Digital_Zone-Empire"
+2017-03-01 18:47:02,038::INFO::[postproc:378] Running unpack_magic on Saga_037_2016_Digital_Zone-Empire
+2017-03-01 18:47:02,039::DEBUG::[newsunpack:1697] build_filelists(): joinables: []
+2017-03-01 18:47:02,039::DEBUG::[newsunpack:1698] build_filelists(): zips: []
+2017-03-01 18:47:02,039::DEBUG::[newsunpack:1699] build_filelists(): rars: []
+2017-03-01 18:47:02,039::DEBUG::[newsunpack:1700] build_filelists(): 7zips: []
+2017-03-01 18:47:02,039::DEBUG::[newsunpack:1701] build_filelists(): ts: []
+2017-03-01 18:47:02,039::INFO::[postproc:383] unpack_magic finished on Saga_037_2016_Digital_Zone-Empire
+2017-03-01 18:47:02,039::DEBUG::[misc:917] Moving. Old path: /incomplete-downloads/Saga.037.2016.Digital.Zone-Empire/Saga 037 (2016) (Digital) (Zone-Empire).cbr New path: /downloads/_UNPACK_Saga_037_2016_Digital_Zone-Empire/Saga 037 (2016) (Digital) (Zone-Empire).cbr Overwrite: 0
+2017-03-01 18:47:02,040::DEBUG::[misc:1350] Renaming "/incomplete-downloads/Saga.037.2016.Digital.Zone-Empire/Saga 037 (2016) (Digital) (Zone-Empire).cbr" to "/downloads/_UNPACK_Saga_037_2016_Digital_Zone-Empire/Saga 037 (2016) (Digital) (Zone-Empire).cbr"
+2017-03-01 18:47:02,080::DEBUG::[misc:1350] Renaming "/downloads/_UNPACK_Saga_037_2016_Digital_Zone-Empire" to "/downloads/Saga_037_2016_Digital_Zone-Empire"
+2017-03-01 18:47:02,395::INFO::[downloader:772] Thread 3@news.newsdemon.com: forcing disconnect
+2017-03-01 18:47:02,495::INFO::[downloader:772] Thread 4@news.newsdemon.com: forcing disconnect
+2017-03-01 18:47:02,582::DEBUG::[tvsort:210] Found TV Show (Saga_037_2016_Digital_Zone-Empire)
+2017-03-01 18:47:02,596::INFO::[downloader:772] Thread 5@news.newsdemon.com: forcing disconnect
+2017-03-01 18:47:02,651::INFO::[postproc:582] Cleaning up Saga_037_2016_Digital_Zone-Empire (keep_basic=False)
+2017-03-01 18:47:02,651::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:47:02,651::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:47:02,652::INFO::[downloader:291] Post-processing finished, resuming download
+2017-03-01 18:47:02,749::INFO::[downloader:772] Thread 6@news.newsdemon.com: forcing disconnect
+2017-03-01 18:47:02,849::INFO::[downloader:772] Thread 1@news.newsdemon.com: forcing disconnect
+2017-03-01 18:47:02,950::INFO::[downloader:772] Thread 2@news.newsdemon.com: forcing disconnect
+2017-03-01 18:47:03,652::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:47:03,652::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:47:03,653::INFO::[__init__:969] Saving data for totals10.sab in /config/admin/totals10.sab
+2017-03-01 18:47:03,653::INFO::[__init__:969] Saving data for rss_data.sab in /config/admin/rss_data.sab
+2017-03-01 18:47:03,653::INFO::[__init__:969] Saving data for watched_data2.sab in /config/admin/watched_data2.sab
+2017-03-01 18:47:03,653::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:47:03,653::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:47:03,654::INFO::[postproc:830] Queue has finished, launching: None (None)
+2017-03-01 18:47:03,726::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:47:03,730::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:47:33,733::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:47:33,738::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:47:51,800::DEBUG::[interface:523] API-call from 172.17.0.1 [python-requests/2.7.0 CPython/2.7.13 Linux/4.8.0-39-generic] {'priority': u'-100', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'addurl', 'name': u'http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.038.2016.Digital.Zone-Empire.nzb', 'script': u'ComicRN.py'}
+2017-03-01 18:47:51,800::INFO::[__init__:551] Fetching http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.038.2016.Digital.Zone-Empire.nzb
+2017-03-01 18:47:51,801::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:47:51,801::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_1XcFqR in /config/admin/future
+2017-03-01 18:47:51,801::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:47:52,303::INFO::[urlgrabber:110] Grabbing URL http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.038.2016.Digital.Zone-Empire.nzb
+2017-03-01 18:47:52,307::INFO::[nzbstuff:690] Replacing dots with spaces in Saga.038.2016.Digital.Zone-Empire
+2017-03-01 18:47:52,308::INFO::[nzbstuff:693] Replacing spaces with underscores in Saga 038 2016 Digital Zone-Empire
+2017-03-01 18:47:52,309::INFO::[misc:892] Creating directories: /incomplete-downloads/Saga.038.2016.Digital.Zone-Empire
+2017-03-01 18:47:52,310::DEBUG::[__init__:896] Saving data for SABnzbd_nzf_JsQkGD in /incomplete-downloads/Saga.038.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:47:52,310::INFO::[nzbstuff:500] File 0-Day 2016.9.28 - " Saga 038 (2016) (Digital) (Zone-Empire).cbr" yEnc (1/43) added to queue
+2017-03-01 18:47:52,311::DEBUG::[nzbstuff:530] META-DATA = {u'category': [u'Books > Comics'], u'name': [u'Saga.038.2016.Digital.Zone-Empire']}
+2017-03-01 18:47:52,311::INFO::[__init__:617] Backing up /incomplete-downloads/Saga.038.2016.Digital.Zone-Empire/__ADMIN__/Saga.038.2016.Digital.Zone-Empire.nzb.gz
+2017-03-01 18:47:52,312::INFO::[__init__:960] /config/admin/future/SABnzbd_nzo_1XcFqR removed
+2017-03-01 18:47:52,312::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:47:52,313::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:47:52,313::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:47:52,313::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_1XcFqR in /incomplete-downloads/Saga.038.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:47:52,313::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:47:53,816::DEBUG::[nzbstuff:243] Finishing import on 0-Day 2016.9.28 - " Saga 038 (2016) (Digital) (Zone-Empire).cbr" yEnc (1/43)
+2017-03-01 18:47:53,816::DEBUG::[__init__:930] Loading data for SABnzbd_nzf_JsQkGD from /incomplete-downloads/Saga.038.2016.Digital.Zone-Empire/__ADMIN__/SABnzbd_nzf_JsQkGD
+2017-03-01 18:47:53,817::INFO::[downloader:474] 3@news.newsdemon.com: Initiating connection
+2017-03-01 18:47:53,998::INFO::[happyeyeballs:138] Quickest IP address for news.newsdemon.com (port 119, ssl 0, preferipv6 True) is 69.16.179.22
+2017-03-01 18:47:53,998::DEBUG::[happyeyeballs:140] Happy Eyeballs lookup and port connect took 2 ms
+2017-03-01 18:47:53,998::DEBUG::[downloader:130] news.newsdemon.com: Connecting to address 69.16.179.22
+2017-03-01 18:47:55,023::INFO::[downloader:686] Connecting 3@news.newsdemon.com finished
+2017-03-01 18:47:55,175::DEBUG::[decoder:108] Decoding 57ec1508$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:56,176::INFO::[downloader:474] 4@news.newsdemon.com: Initiating connection
+2017-03-01 18:47:56,176::DEBUG::[downloader:130] news.newsdemon.com: Connecting to address 69.16.179.22
+2017-03-01 18:47:56,177::INFO::[downloader:474] 5@news.newsdemon.com: Initiating connection
+2017-03-01 18:47:56,177::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.22
+2017-03-01 18:47:56,177::INFO::[downloader:474] 6@news.newsdemon.com: Initiating connection
+2017-03-01 18:47:56,178::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.22
+2017-03-01 18:47:56,178::INFO::[downloader:474] 1@news.newsdemon.com: Initiating connection
+2017-03-01 18:47:56,178::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.22
+2017-03-01 18:47:56,178::INFO::[downloader:474] 2@news.newsdemon.com: Initiating connection
+2017-03-01 18:47:56,179::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.22
+2017-03-01 18:47:56,241::INFO::[downloader:686] Connecting 5@news.newsdemon.com finished
+2017-03-01 18:47:56,243::INFO::[downloader:686] Connecting 2@news.newsdemon.com finished
+2017-03-01 18:47:56,243::INFO::[downloader:686] Connecting 1@news.newsdemon.com finished
+2017-03-01 18:47:56,244::INFO::[downloader:686] Connecting 6@news.newsdemon.com finished
+2017-03-01 18:47:56,245::INFO::[downloader:686] Connecting 4@news.newsdemon.com finished
+2017-03-01 18:47:56,300::DEBUG::[decoder:108] Decoding 57ec151d$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:56,535::DEBUG::[decoder:108] Decoding 57ec1519$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:56,662::DEBUG::[decoder:108] Decoding 57ec1517$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:56,730::DEBUG::[decoder:108] Decoding 57ec151f$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:56,775::DEBUG::[decoder:108] Decoding 57ec150d$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:56,994::DEBUG::[decoder:108] Decoding 57ec1523$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:57,007::DEBUG::[decoder:108] Decoding 57ec1514$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:57,065::DEBUG::[decoder:108] Decoding 57ec152b$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:57,120::DEBUG::[decoder:108] Decoding 57ec1510$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:57,169::DEBUG::[decoder:108] Decoding 57ec1526$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:57,389::DEBUG::[decoder:108] Decoding 57ec152f$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:57,699::DEBUG::[decoder:108] Decoding 57ec153b$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:57,906::DEBUG::[decoder:108] Decoding 57ec1545$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:57,960::DEBUG::[decoder:108] Decoding 57ec1533$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:58,066::DEBUG::[decoder:108] Decoding 57ec1537$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:58,171::DEBUG::[decoder:108] Decoding 57ec154a$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:58,176::DEBUG::[decoder:108] Decoding 57ec1540$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:58,633::DEBUG::[decoder:108] Decoding 57ec154e$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:58,886::DEBUG::[decoder:108] Decoding 57ec1553$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:58,938::DEBUG::[decoder:108] Decoding 57ec1556$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:59,095::DEBUG::[decoder:108] Decoding 57ec155a$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:59,201::DEBUG::[decoder:108] Decoding 57ec155d$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:59,256::DEBUG::[decoder:108] Decoding 57ec1560$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:59,717::DEBUG::[decoder:108] Decoding 57ec1564$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:59,975::DEBUG::[decoder:108] Decoding 57ec1567$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:47:59,980::DEBUG::[decoder:108] Decoding 57ec156a$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:00,031::DEBUG::[bpsmeter:268] bps: 3752540.64295
+2017-03-01 18:48:00,183::DEBUG::[decoder:108] Decoding 57ec156d$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:00,290::DEBUG::[decoder:108] Decoding 57ec1570$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:00,295::DEBUG::[decoder:108] Decoding 57ec1573$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:00,751::DEBUG::[decoder:108] Decoding 57ec1576$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:01,009::DEBUG::[decoder:108] Decoding 57ec157a$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:01,064::DEBUG::[decoder:108] Decoding 57ec157e$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:01,221::DEBUG::[decoder:108] Decoding 57ec1581$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:01,326::DEBUG::[decoder:108] Decoding 57ec1585$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:01,332::DEBUG::[decoder:108] Decoding 57ec158a$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:01,737::DEBUG::[decoder:108] Decoding 57ec158e$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:01,995::DEBUG::[decoder:108] Decoding 57ec1592$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:02,249::DEBUG::[decoder:108] Decoding 57ec1599$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:02,255::DEBUG::[decoder:108] Decoding 57ec1596$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:02,304::DEBUG::[decoder:108] Decoding 57ec15a2$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:02,357::DEBUG::[decoder:108] Decoding 57ec159c$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:02,412::DEBUG::[decoder:108] Decoding 57ec159f$0$23723$b1db1813$e2fc9064@news.astraweb.com
+2017-03-01 18:48:02,416::DEBUG::[nzbstuff:1289] Download Quality: enough=True, have=27984757, need=27984757, ratio=1.0
+2017-03-01 18:48:02,416::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_1XcFqR in /incomplete-downloads/Saga.038.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:48:02,417::INFO::[__init__:969] Saving data for totals10.sab in /config/admin/totals10.sab
+2017-03-01 18:48:02,418::INFO::[assembler:88] Decoding /incomplete-downloads/Saga.038.2016.Digital.Zone-Empire/Saga 038 (2016) (Digital) (Zone-Empire).cbr yenc
+2017-03-01 18:48:02,530::INFO::[__init__:960] /incomplete-downloads/Saga.038.2016.Digital.Zone-Empire/__ADMIN__/SABnzbd_nzo_1XcFqR removed
+2017-03-01 18:48:02,530::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:48:02,531::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:48:02,531::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:48:02,531::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:48:02,532::INFO::[postproc:305] Starting Post-Processing on Saga_038_2016_Digital_Zone-Empire => Repair:True, Unpack:True, Delete:True, Script:ComicRN.py, Cat:*
+2017-03-01 18:48:03,033::INFO::[postproc:625] Starting verification and repair of Saga_038_2016_Digital_Zone-Empire
+2017-03-01 18:48:03,033::INFO::[__init__:926] /incomplete-downloads/Saga.038.2016.Digital.Zone-Empire/__ADMIN__/__verified__ missing
+2017-03-01 18:48:03,034::INFO::[postproc:668] No par2 sets found, running obfuscated check on Saga_038_2016_Digital_Zone-Empire
+2017-03-01 18:48:03,034::DEBUG::[postproc:679] Checking par2 signature of Saga 038 (2016) (Digital) (Zone-Empire).cbr
+2017-03-01 18:48:03,034::INFO::[postproc:702] No par2 sets for Saga_038_2016_Digital_Zone-Empire
+2017-03-01 18:48:03,034::DEBUG::[newsunpack:1697] build_filelists(): joinables: []
+2017-03-01 18:48:03,034::DEBUG::[newsunpack:1698] build_filelists(): zips: []
+2017-03-01 18:48:03,035::DEBUG::[newsunpack:1699] build_filelists(): rars: []
+2017-03-01 18:48:03,035::DEBUG::[newsunpack:1700] build_filelists(): 7zips: []
+2017-03-01 18:48:03,035::DEBUG::[newsunpack:1701] build_filelists(): ts: []
+2017-03-01 18:48:03,035::DEBUG::[__init__:896] Saving data for __verified__ in /incomplete-downloads/Saga.038.2016.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:48:03,035::INFO::[postproc:720] Verification and repair finished for Saga_038_2016_Digital_Zone-Empire
+2017-03-01 18:48:03,036::INFO::[misc:892] Creating directories: /downloads/Saga_038_2016_Digital_Zone-Empire
+2017-03-01 18:48:03,036::DEBUG::[misc:1350] Renaming "/downloads/Saga_038_2016_Digital_Zone-Empire" to "/downloads/_UNPACK_Saga_038_2016_Digital_Zone-Empire"
+2017-03-01 18:48:03,036::INFO::[postproc:378] Running unpack_magic on Saga_038_2016_Digital_Zone-Empire
+2017-03-01 18:48:03,036::DEBUG::[newsunpack:1697] build_filelists(): joinables: []
+2017-03-01 18:48:03,037::DEBUG::[newsunpack:1698] build_filelists(): zips: []
+2017-03-01 18:48:03,037::DEBUG::[newsunpack:1699] build_filelists(): rars: []
+2017-03-01 18:48:03,037::DEBUG::[newsunpack:1700] build_filelists(): 7zips: []
+2017-03-01 18:48:03,037::DEBUG::[newsunpack:1701] build_filelists(): ts: []
+2017-03-01 18:48:03,037::INFO::[postproc:383] unpack_magic finished on Saga_038_2016_Digital_Zone-Empire
+2017-03-01 18:48:03,037::DEBUG::[misc:917] Moving. Old path: /incomplete-downloads/Saga.038.2016.Digital.Zone-Empire/Saga 038 (2016) (Digital) (Zone-Empire).cbr New path: /downloads/_UNPACK_Saga_038_2016_Digital_Zone-Empire/Saga 038 (2016) (Digital) (Zone-Empire).cbr Overwrite: 0
+2017-03-01 18:48:03,037::DEBUG::[misc:1350] Renaming "/incomplete-downloads/Saga.038.2016.Digital.Zone-Empire/Saga 038 (2016) (Digital) (Zone-Empire).cbr" to "/downloads/_UNPACK_Saga_038_2016_Digital_Zone-Empire/Saga 038 (2016) (Digital) (Zone-Empire).cbr"
+2017-03-01 18:48:03,066::DEBUG::[misc:1350] Renaming "/downloads/_UNPACK_Saga_038_2016_Digital_Zone-Empire" to "/downloads/Saga_038_2016_Digital_Zone-Empire"
+2017-03-01 18:48:03,412::INFO::[downloader:772] Thread 1@news.newsdemon.com: forcing disconnect
+2017-03-01 18:48:03,512::INFO::[downloader:772] Thread 6@news.newsdemon.com: forcing disconnect
+2017-03-01 18:48:03,568::DEBUG::[tvsort:210] Found TV Show (Saga_038_2016_Digital_Zone-Empire)
+2017-03-01 18:48:03,613::INFO::[downloader:772] Thread 2@news.newsdemon.com: forcing disconnect
+2017-03-01 18:48:03,619::INFO::[postproc:582] Cleaning up Saga_038_2016_Digital_Zone-Empire (keep_basic=False)
+2017-03-01 18:48:03,620::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:48:03,620::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:48:03,620::INFO::[downloader:291] Post-processing finished, resuming download
+2017-03-01 18:48:03,717::INFO::[downloader:772] Thread 3@news.newsdemon.com: forcing disconnect
+2017-03-01 18:48:03,740::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:48:03,743::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:48:03,818::INFO::[downloader:772] Thread 4@news.newsdemon.com: forcing disconnect
+2017-03-01 18:48:03,919::INFO::[downloader:772] Thread 5@news.newsdemon.com: forcing disconnect
+2017-03-01 18:48:04,620::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:48:04,621::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:48:04,621::INFO::[__init__:969] Saving data for totals10.sab in /config/admin/totals10.sab
+2017-03-01 18:48:04,621::INFO::[__init__:969] Saving data for rss_data.sab in /config/admin/rss_data.sab
+2017-03-01 18:48:04,621::INFO::[__init__:969] Saving data for watched_data2.sab in /config/admin/watched_data2.sab
+2017-03-01 18:48:04,622::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:48:04,622::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:48:04,622::INFO::[postproc:830] Queue has finished, launching: None (None)
+2017-03-01 18:48:08,759::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:48:08,763::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:48:33,747::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:48:33,751::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:49:03,753::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:49:03,756::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:49:33,760::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:49:33,763::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:49:38,774::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:49:38,779::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:50:03,768::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:50:03,772::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:50:33,773::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:50:33,776::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:51:03,785::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:51:03,789::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:51:04,945::DEBUG::[interface:523] API-call from 172.17.0.1 [python-requests/2.7.0 CPython/2.7.13 Linux/4.8.0-39-generic] {'priority': u'-100', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'addurl', 'name': u'http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.042.2017.Digital.Zone-Empire.nzb', 'script': u'ComicRN.py'}
+2017-03-01 18:51:04,946::INFO::[__init__:551] Fetching http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.042.2017.Digital.Zone-Empire.nzb
+2017-03-01 18:51:04,946::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:51:04,946::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_YJAwfb in /config/admin/future
+2017-03-01 18:51:04,947::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:51:05,448::INFO::[urlgrabber:110] Grabbing URL http://172.17.0.5:8090/api?apikey=9c90060c40439c508227407a7dc1a2de&cmd=downloadNZB&nzbname=Saga.042.2017.Digital.Zone-Empire.nzb
+2017-03-01 18:51:05,452::INFO::[nzbstuff:690] Replacing dots with spaces in Saga.042.2017.Digital.Zone-Empire
+2017-03-01 18:51:05,452::INFO::[nzbstuff:693] Replacing spaces with underscores in Saga 042 2017 Digital Zone-Empire
+2017-03-01 18:51:05,453::INFO::[misc:892] Creating directories: /incomplete-downloads/Saga.042.2017.Digital.Zone-Empire
+2017-03-01 18:51:05,454::DEBUG::[__init__:896] Saving data for SABnzbd_nzf__vXulg in /incomplete-downloads/Saga.042.2017.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:51:05,454::INFO::[nzbstuff:500] File 0-Day 2017.1.25 - " Saga 042 (2017) (Digital) (Zone-Empire).cbr" yEnc (1/38) added to queue
+2017-03-01 18:51:05,454::DEBUG::[nzbstuff:530] META-DATA = {u'category': [u'Books > Comics'], u'name': [u'Saga.042.2017.Digital.Zone-Empire']}
+2017-03-01 18:51:05,455::INFO::[__init__:617] Backing up /incomplete-downloads/Saga.042.2017.Digital.Zone-Empire/__ADMIN__/Saga.042.2017.Digital.Zone-Empire.nzb.gz
+2017-03-01 18:51:05,456::INFO::[__init__:960] /config/admin/future/SABnzbd_nzo_YJAwfb removed
+2017-03-01 18:51:05,456::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:51:05,456::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:51:05,456::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:51:05,457::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_YJAwfb in /incomplete-downloads/Saga.042.2017.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:51:05,457::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:51:06,960::DEBUG::[nzbstuff:243] Finishing import on 0-Day 2017.1.25 - " Saga 042 (2017) (Digital) (Zone-Empire).cbr" yEnc (1/38)
+2017-03-01 18:51:06,961::DEBUG::[__init__:930] Loading data for SABnzbd_nzf__vXulg from /incomplete-downloads/Saga.042.2017.Digital.Zone-Empire/__ADMIN__/SABnzbd_nzf__vXulg
+2017-03-01 18:51:06,961::INFO::[downloader:474] 1@news.newsdemon.com: Initiating connection
+2017-03-01 18:51:07,098::INFO::[happyeyeballs:138] Quickest IP address for news.newsdemon.com (port 119, ssl 0, preferipv6 True) is 69.16.179.23
+2017-03-01 18:51:07,099::DEBUG::[happyeyeballs:140] Happy Eyeballs lookup and port connect took 2 ms
+2017-03-01 18:51:07,099::DEBUG::[downloader:130] news.newsdemon.com: Connecting to address 69.16.179.23
+2017-03-01 18:51:08,129::INFO::[downloader:686] Connecting 1@news.newsdemon.com finished
+2017-03-01 18:51:08,274::DEBUG::[decoder:108] Decoding 58890abf$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:08,790::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:51:08,794::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:51:09,275::INFO::[downloader:474] 6@news.newsdemon.com: Initiating connection
+2017-03-01 18:51:09,275::DEBUG::[downloader:130] news.newsdemon.com: Connecting to address 69.16.179.23
+2017-03-01 18:51:09,275::INFO::[downloader:474] 2@news.newsdemon.com: Initiating connection
+2017-03-01 18:51:09,276::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:51:09,276::INFO::[downloader:474] 3@news.newsdemon.com: Initiating connection
+2017-03-01 18:51:09,276::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:51:09,276::INFO::[downloader:474] 4@news.newsdemon.com: Initiating connection
+2017-03-01 18:51:09,277::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:51:09,277::INFO::[downloader:474] 5@news.newsdemon.com: Initiating connection
+2017-03-01 18:51:09,277::DEBUG::[downloader:111] news.newsdemon.com: Re-using address 69.16.179.23
+2017-03-01 18:51:09,407::INFO::[downloader:686] Connecting 3@news.newsdemon.com finished
+2017-03-01 18:51:09,407::INFO::[downloader:686] Connecting 6@news.newsdemon.com finished
+2017-03-01 18:51:09,407::INFO::[downloader:686] Connecting 2@news.newsdemon.com finished
+2017-03-01 18:51:09,407::INFO::[downloader:686] Connecting 4@news.newsdemon.com finished
+2017-03-01 18:51:09,410::INFO::[downloader:686] Connecting 5@news.newsdemon.com finished
+2017-03-01 18:51:09,498::DEBUG::[decoder:108] Decoding 58890acc$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:09,732::DEBUG::[decoder:108] Decoding 58890ac8$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:09,810::DEBUG::[decoder:108] Decoding 58890ac4$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:09,822::DEBUG::[decoder:108] Decoding 58890ac2$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:09,974::DEBUG::[decoder:108] Decoding 58890ace$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:10,015::DEBUG::[decoder:108] Decoding 58890ac6$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:10,116::DEBUG::[decoder:108] Decoding 58890aca$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:10,218::DEBUG::[decoder:108] Decoding 58890ad7$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:10,229::DEBUG::[decoder:108] Decoding 58890ad1$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:10,421::DEBUG::[decoder:108] Decoding 58890ad3$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:10,503::DEBUG::[decoder:108] Decoding 58890add$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:10,707::DEBUG::[decoder:108] Decoding 58890ad5$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:10,813::DEBUG::[decoder:108] Decoding 58890adf$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:11,020::DEBUG::[decoder:108] Decoding 58890ad9$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:11,278::DEBUG::[decoder:108] Decoding 58890ae1$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:11,383::DEBUG::[decoder:108] Decoding 58890adb$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:11,388::DEBUG::[decoder:108] Decoding 58890ae4$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:11,641::DEBUG::[decoder:108] Decoding 58890ae7$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:11,696::DEBUG::[decoder:108] Decoding 58890aea$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:11,903::DEBUG::[decoder:108] Decoding 58890aec$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:12,263::DEBUG::[decoder:108] Decoding 58890af2$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:12,470::DEBUG::[decoder:108] Decoding 58890aef$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:12,627::DEBUG::[decoder:108] Decoding 58890af5$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:12,682::DEBUG::[decoder:108] Decoding 58890af8$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:12,787::DEBUG::[decoder:108] Decoding 58890afc$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:12,940::DEBUG::[decoder:108] Decoding 58890b01$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:13,147::DEBUG::[bpsmeter:268] bps: 3764735.99499
+2017-03-01 18:51:13,299::DEBUG::[decoder:108] Decoding 58890b04$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:13,456::DEBUG::[decoder:108] Decoding 58890b09$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:13,662::DEBUG::[decoder:108] Decoding 58890b0e$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:13,717::DEBUG::[decoder:108] Decoding 58890b12$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:13,822::DEBUG::[decoder:108] Decoding 58890b17$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:14,029::DEBUG::[decoder:108] Decoding 58890b1b$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:14,338::DEBUG::[decoder:108] Decoding 58890b21$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:14,545::DEBUG::[decoder:108] Decoding 58890b26$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:14,651::DEBUG::[decoder:108] Decoding 58890b2b$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:14,705::DEBUG::[decoder:108] Decoding 58890b31$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:14,756::DEBUG::[decoder:108] Decoding 58890b36$0$51769$c3e8da3$f6268168@news.astraweb.com
+2017-03-01 18:51:14,759::DEBUG::[nzbstuff:1289] Download Quality: enough=True, have=25013069, need=25013069, ratio=1.0
+2017-03-01 18:51:14,760::DEBUG::[__init__:896] Saving data for SABnzbd_nzo_YJAwfb in /incomplete-downloads/Saga.042.2017.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:51:14,761::INFO::[__init__:969] Saving data for totals10.sab in /config/admin/totals10.sab
+2017-03-01 18:51:14,761::INFO::[assembler:88] Decoding /incomplete-downloads/Saga.042.2017.Digital.Zone-Empire/Saga 042 (2017) (Digital) (Zone-Empire).cbr yenc
+2017-03-01 18:51:14,855::INFO::[__init__:960] /incomplete-downloads/Saga.042.2017.Digital.Zone-Empire/__ADMIN__/SABnzbd_nzo_YJAwfb removed
+2017-03-01 18:51:14,855::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:51:14,856::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:51:14,856::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:51:14,856::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:51:14,857::INFO::[postproc:305] Starting Post-Processing on Saga_042_2017_Digital_Zone-Empire => Repair:True, Unpack:True, Delete:True, Script:ComicRN.py, Cat:*
+2017-03-01 18:51:15,358::INFO::[postproc:625] Starting verification and repair of Saga_042_2017_Digital_Zone-Empire
+2017-03-01 18:51:15,358::INFO::[__init__:926] /incomplete-downloads/Saga.042.2017.Digital.Zone-Empire/__ADMIN__/__verified__ missing
+2017-03-01 18:51:15,358::INFO::[postproc:668] No par2 sets found, running obfuscated check on Saga_042_2017_Digital_Zone-Empire
+2017-03-01 18:51:15,358::DEBUG::[postproc:679] Checking par2 signature of Saga 042 (2017) (Digital) (Zone-Empire).cbr
+2017-03-01 18:51:15,359::INFO::[postproc:702] No par2 sets for Saga_042_2017_Digital_Zone-Empire
+2017-03-01 18:51:15,359::DEBUG::[newsunpack:1697] build_filelists(): joinables: []
+2017-03-01 18:51:15,359::DEBUG::[newsunpack:1698] build_filelists(): zips: []
+2017-03-01 18:51:15,359::DEBUG::[newsunpack:1699] build_filelists(): rars: []
+2017-03-01 18:51:15,360::DEBUG::[newsunpack:1700] build_filelists(): 7zips: []
+2017-03-01 18:51:15,360::DEBUG::[newsunpack:1701] build_filelists(): ts: []
+2017-03-01 18:51:15,360::DEBUG::[__init__:896] Saving data for __verified__ in /incomplete-downloads/Saga.042.2017.Digital.Zone-Empire/__ADMIN__
+2017-03-01 18:51:15,360::INFO::[postproc:720] Verification and repair finished for Saga_042_2017_Digital_Zone-Empire
+2017-03-01 18:51:15,361::INFO::[misc:892] Creating directories: /downloads/Saga_042_2017_Digital_Zone-Empire
+2017-03-01 18:51:15,361::DEBUG::[misc:1350] Renaming "/downloads/Saga_042_2017_Digital_Zone-Empire" to "/downloads/_UNPACK_Saga_042_2017_Digital_Zone-Empire"
+2017-03-01 18:51:15,361::INFO::[postproc:378] Running unpack_magic on Saga_042_2017_Digital_Zone-Empire
+2017-03-01 18:51:15,362::DEBUG::[newsunpack:1697] build_filelists(): joinables: []
+2017-03-01 18:51:15,362::DEBUG::[newsunpack:1698] build_filelists(): zips: []
+2017-03-01 18:51:15,362::DEBUG::[newsunpack:1699] build_filelists(): rars: []
+2017-03-01 18:51:15,362::DEBUG::[newsunpack:1700] build_filelists(): 7zips: []
+2017-03-01 18:51:15,362::DEBUG::[newsunpack:1701] build_filelists(): ts: []
+2017-03-01 18:51:15,362::INFO::[postproc:383] unpack_magic finished on Saga_042_2017_Digital_Zone-Empire
+2017-03-01 18:51:15,363::DEBUG::[misc:917] Moving. Old path: /incomplete-downloads/Saga.042.2017.Digital.Zone-Empire/Saga 042 (2017) (Digital) (Zone-Empire).cbr New path: /downloads/_UNPACK_Saga_042_2017_Digital_Zone-Empire/Saga 042 (2017) (Digital) (Zone-Empire).cbr Overwrite: 0
+2017-03-01 18:51:15,363::DEBUG::[misc:1350] Renaming "/incomplete-downloads/Saga.042.2017.Digital.Zone-Empire/Saga 042 (2017) (Digital) (Zone-Empire).cbr" to "/downloads/_UNPACK_Saga_042_2017_Digital_Zone-Empire/Saga 042 (2017) (Digital) (Zone-Empire).cbr"
+2017-03-01 18:51:15,392::DEBUG::[misc:1350] Renaming "/downloads/_UNPACK_Saga_042_2017_Digital_Zone-Empire" to "/downloads/Saga_042_2017_Digital_Zone-Empire"
+2017-03-01 18:51:15,757::INFO::[downloader:772] Thread 3@news.newsdemon.com: forcing disconnect
+2017-03-01 18:51:15,857::INFO::[downloader:772] Thread 5@news.newsdemon.com: forcing disconnect
+2017-03-01 18:51:15,894::DEBUG::[tvsort:210] Found TV Show (Saga_042_2017_Digital_Zone-Empire)
+2017-03-01 18:51:15,944::INFO::[postproc:582] Cleaning up Saga_042_2017_Digital_Zone-Empire (keep_basic=False)
+2017-03-01 18:51:15,945::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:51:15,945::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:51:15,945::INFO::[downloader:291] Post-processing finished, resuming download
+2017-03-01 18:51:15,958::INFO::[downloader:772] Thread 2@news.newsdemon.com: forcing disconnect
+2017-03-01 18:51:16,058::INFO::[downloader:772] Thread 1@news.newsdemon.com: forcing disconnect
+2017-03-01 18:51:16,159::INFO::[downloader:772] Thread 6@news.newsdemon.com: forcing disconnect
+2017-03-01 18:51:16,259::INFO::[downloader:772] Thread 4@news.newsdemon.com: forcing disconnect
+2017-03-01 18:51:16,945::INFO::[nzbqueue:254] Saving queue
+2017-03-01 18:51:16,946::INFO::[__init__:969] Saving data for queue10.sab in /config/admin/queue10.sab
+2017-03-01 18:51:16,946::INFO::[__init__:969] Saving data for totals10.sab in /config/admin/totals10.sab
+2017-03-01 18:51:16,946::INFO::[__init__:969] Saving data for rss_data.sab in /config/admin/rss_data.sab
+2017-03-01 18:51:16,946::INFO::[__init__:969] Saving data for watched_data2.sab in /config/admin/watched_data2.sab
+2017-03-01 18:51:16,947::INFO::[postproc:86] Saving postproc queue
+2017-03-01 18:51:16,947::INFO::[__init__:969] Saving data for postproc2.sab in /config/admin/postproc2.sab
+2017-03-01 18:51:16,947::INFO::[postproc:830] Queue has finished, launching: None (None)
+2017-03-01 18:51:33,791::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:51:33,796::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:52:03,796::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:52:03,800::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:52:08,892::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:52:08,896::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:52:33,806::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:52:33,810::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:53:03,808::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:53:03,812::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:53:33,814::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:53:33,818::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:53:38,907::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:53:38,911::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:54:03,822::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:54:03,826::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:54:33,828::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:54:33,832::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:55:03,834::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:55:03,838::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:55:09,022::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:55:09,026::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:55:33,845::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:55:33,849::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:56:03,858::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:56:03,862::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:56:33,863::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:56:33,867::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:56:38,948::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:56:38,952::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:57:03,870::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:57:03,873::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:57:33,876::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:57:33,880::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:58:03,884::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:58:03,887::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:58:08,964::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:58:08,967::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:58:33,888::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:58:33,892::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:59:03,894::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:59:03,902::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:59:33,900::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:59:33,905::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 18:59:38,985::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 18:59:38,989::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:00:03,906::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:00:03,911::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:00:33,918::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:00:33,922::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:01:03,929::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:01:03,933::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:01:08,998::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:01:09,002::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:01:33,932::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:01:33,936::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:02:03,938::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:02:03,942::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:02:09,156::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:02:09,161::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:02:33,943::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:02:33,947::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:03:03,950::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:03:03,954::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:03:33,955::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:03:33,959::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:03:39,174::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:03:39,182::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:04:03,961::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:04:03,965::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:04:33,970::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:04:33,974::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:05:03,972::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:05:03,977::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:05:09,192::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:05:09,197::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:05:34,102::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:05:34,106::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:06:03,987::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:06:03,992::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:06:33,997::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:06:34,001::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:06:39,213::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:06:39,217::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:07:03,999::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:07:04,003::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:07:34,005::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:07:34,009::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:08:04,014::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:08:04,018::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:08:09,230::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:08:09,233::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:08:34,019::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:08:34,023::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:09:04,025::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:09:04,029::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:09:34,031::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:09:34,035::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:09:39,246::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:09:39,252::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:10:04,037::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:10:04,045::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:10:34,100::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:10:34,107::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:11:04,052::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:11:04,056::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:11:09,269::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:11:09,273::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:11:34,058::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:11:34,062::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:12:04,066::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:12:04,069::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:12:34,070::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:12:34,074::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:12:39,433::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:12:39,437::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:13:04,077::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:13:04,081::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:13:34,082::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:13:34,085::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:14:04,087::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:14:04,092::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:14:09,361::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:14:09,365::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:14:34,098::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:14:34,101::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:14:34,157::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-03-01 19:14:39,471::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'output': u'json', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'mode': u'get_config'}
+2017-03-01 19:15:04,115::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:15:04,118::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:15:09,474::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:15:09,478::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:15:34,222::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:15:34,226::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:16:04,128::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:16:04,132::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:16:34,135::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:16:34,138::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:16:39,552::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:16:39,557::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:17:04,142::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:17:04,146::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}

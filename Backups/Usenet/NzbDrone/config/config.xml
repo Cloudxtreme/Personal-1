@@ -5,10 +5,11 @@
   <SslPort>9898</SslPort>
   <EnableSsl>False</EnableSsl>
   <ApiKey>ac38e0cb798643ae81ace42525bf8e8e</ApiKey>
-  <AuthenticationMethod>None</AuthenticationMethod>
+  <AuthenticationMethod>Basic</AuthenticationMethod>
   <LogLevel>Info</LogLevel>
   <Branch>master</Branch>
   <LaunchBrowser>True</LaunchBrowser>
   <SslCertHash></SslCertHash>
   <UpdateMechanism>BuiltIn</UpdateMechanism>
+  <UpdateAutomatically>True</UpdateAutomatically>
 </Config>

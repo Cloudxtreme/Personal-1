@@ -7232,3 +7232,22 @@
 17-3-1 17:51:37.4|Info|RssSyncService|Starting RSS Sync
 17-3-1 17:51:38.7|Info|DownloadDecisionMaker|Processing 100 releases
 17-3-1 17:51:39.4|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+17-3-1 18:07:07.8|Info|RssSyncService|Starting RSS Sync
+17-3-1 18:07:44.7|Warn|Newznab|Indexer https://www.usenet-crawler.com rss sync didn't cover the period between 02/28/2017 18:21:09 and 02/28/2017 23:23:33 UTC. Search may be required.
+17-3-1 18:07:44.7|Info|DownloadDecisionMaker|Processing 1916 releases
+17-3-1 18:07:53.0|Info|RssSyncService|RSS Sync Completed. Reports found: 1916, Reports grabbed: 0
+17-3-1 18:23:08.0|Info|RssSyncService|Starting RSS Sync
+17-3-1 18:24:15.7|Warn|HttpClient|HTTP Error - Res: [GET] https://www.usenet-crawler.com/api?t=tvsearch&cat=5030,5040&extended=1&apikey=(removed)&offset=0&limit=100: 504.GatewayTimeout
+17-3-1 18:24:15.7|Warn|Newznab|https://www.usenet-crawler.com HTTP request failed: [504:GatewayTimeout] [GET] at [https://www.usenet-crawler.com/api?t=tvsearch&cat=5030,5040&extended=1&apikey=(removed)&offset=0&limit=100]
+17-3-1 18:24:15.7|Info|DownloadDecisionMaker|Processing 100 releases
+17-3-1 18:24:16.4|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+17-3-1 18:39:38.2|Info|RssSyncService|Starting RSS Sync
+17-3-1 18:39:40.9|Info|DownloadDecisionMaker|Processing 100 releases
+17-3-1 18:39:41.7|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+17-3-1 18:55:08.9|Info|RssSyncService|Starting RSS Sync
+17-3-1 18:55:10.2|Info|DownloadDecisionMaker|Processing 100 releases
+17-3-1 18:55:10.9|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+17-3-1 19:10:39.2|Info|RssSyncService|Starting RSS Sync
+17-3-1 19:10:41.6|Info|DownloadDecisionMaker|Processing 100 releases
+17-3-1 19:10:42.3|Info|RssSyncService|RSS Sync Completed. Reports found: 100, Reports grabbed: 0
+17-3-1 19:14:39.3|Info|SceneMappingService|Updating Scene mappings

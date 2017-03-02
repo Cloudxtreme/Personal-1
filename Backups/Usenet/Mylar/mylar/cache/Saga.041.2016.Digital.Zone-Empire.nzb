@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nzb PUBLIC "-//newzBin//DTD NZB 1.1//EN" "http://www.newzbin.com/DTD/nzb/nzb-1.1.dtd">
+<nzb xmlns="http://www.newzbin.com/DTD/2003/nzb">
+
+<head>
+ <meta type="category">Books &gt; Comics</meta>
+ <meta type="name">Saga.041.2016.Digital.Zone-Empire</meta>
+</head>
+
+<file poster="Bluerobe@thehome.com (Bluerobe)" date="1483568811" subject="0-Day 2017.1.4 - &quot; Saga 041 (2016) (Digital) (Zone-Empire).cbr&quot; yEnc (1/48)">
+ <groups>
+  <group>alt.binaries.comics.dcp</group>
+ </groups>
+ <segments>
+  <segment bytes="660964" number="1">586d76a6$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661233" number="2">586d76a8$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661033" number="3">586d76ab$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661163" number="4">586d76ae$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661063" number="5">586d76b0$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661076" number="6">586d76b4$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661246" number="7">586d76b7$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661019" number="8">586d76bb$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661171" number="9">586d76be$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661237" number="10">586d76c1$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661128" number="11">586d76c4$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661012" number="12">586d76c6$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661177" number="13">586d76c8$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661171" number="14">586d76ca$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661043" number="15">586d76cd$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661008" number="16">586d76cf$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661246" number="17">586d76d1$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661046" number="18">586d76d5$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="660967" number="19">586d76d8$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661070" number="20">586d76db$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="660988" number="21">586d76df$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661049" number="22">586d76e2$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661177" number="23">586d76e5$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661029" number="24">586d76e8$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661239" number="25">586d76ec$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661079" number="26">586d76ef$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="660895" number="27">586d76f1$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661025" number="28">586d76f4$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="660896" number="29">586d76f8$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="660998" number="30">586d76fb$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661067" number="31">586d76fe$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="660952" number="32">586d7702$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661055" number="33">586d7706$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="660949" number="34">586d770a$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="660976" number="35">586d7710$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661159" number="36">586d7715$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661220" number="37">586d7719$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661150" number="38">586d771e$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661112" number="39">586d7722$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661238" number="40">586d7726$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661129" number="41">586d7729$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661215" number="42">586d772d$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661312" number="43">586d7730$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661137" number="44">586d7734$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661296" number="45">586d7739$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661193" number="46">586d773e$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="661097" number="47">586d7741$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+  <segment bytes="305020" number="48">586d7745$0$55830$c3e8da3$33881b6a@news.astraweb.com</segment>
+ </segments>
+</file>
+<!-- generated by newznab 0.2.3pz -->
+</nzb>
