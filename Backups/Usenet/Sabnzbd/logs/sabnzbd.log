@@ -17228,3 +17228,7 @@ All OK
 2017-03-01 19:16:39,557::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
 2017-03-01 19:17:04,142::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
 2017-03-01 19:17:04,146::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:17:34,148::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:17:34,151::DEBUG::[interface:523] API-call from 172.17.0.1 [Radarr/0.2.0.375 (Linux 4.8)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
+2017-03-01 19:17:39,690::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'0', 'mode': u'queue', 'output': u'json'}
+2017-03-01 19:17:39,694::DEBUG::[interface:523] API-call from 172.17.0.1 [Sonarr/2.0.0.4613 (ubuntu 16.04)] {'start': u'0', 'apikey': u'c8207ddec0fbcb1ad3f8bcf264907b9d', 'limit': u'30', 'mode': u'history', 'output': u'json'}
