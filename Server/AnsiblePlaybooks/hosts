@@ -1,20 +1,6 @@
-[server]
-10.0.0.50 ansible_user=root ansible_pass="CuIeyy7j!!"
+[testing]
+10.168.34.135 ansible_user=aelchert ansible_pass="CuIeyy7j!!" ansible_become=true ansible_become_user=root ansible_become_password="CuIeyy7j!!" become_method=sudo
 
-[usenet]
-10.0.0.55 ansible_user=root ansible_pass="CuIeyy7j!!"
 
 [serverRemote]
 nonstopflights.ddns.net ansible_user=root ansible_pass="CuIeyy7j!!" ansible_port=9234
-
-[usenet]
-10.0.0.55 ansible_user=root ansible_pass="CuIeyy7j!!"
-
-[transmission]
-10.0.0.56 ansible_user=root ansible_pass="CuIeyy7j!!"
-
-[nginx]
-10.0.0.57 ansible_user=root ansible_pass="CuIeyy7j!!"
-
-[lychee]
-10.0.0.59 ansible_user=root ansible_pass="CuIeyy7j!!"
