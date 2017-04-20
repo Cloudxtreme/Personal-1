@@ -1,3 +1,4 @@
+# .1 working 4/19/17
 ---
 - hosts: testing
   vars:
@@ -52,18 +53,18 @@
     authorized_key:
         user: aelchert
         state: present
-        key: "{{ lookup('file', '/templates/id_rsa.pub') }}"
+        key: "{{ lookup('file', './templates/id_rsa.pub') }}"
 
   - name: copy root keys
     authorized_key:
         user: root
         state: present
-        key: "{{ lookup('file', '/templates/id_rsa.pub') }}"
+        key: "{{ lookup('file', './templates/id_rsa.pub') }}"
     become: true
 
   - name: copy basic bashrc to username root folder
     copy:
-        src: /templates/bashrc
+        src: ./templates/bashrc
         dest: '{{ item }}'
         mode: 0644
     with_items:
@@ -80,18 +81,13 @@
 
   - name: copy keys to aelchert
     copy:
-        src: "{{ item }}"
+        src: ./templates/keys.keys
         dest: /home/aelchert/.ssh/authorized_keys
         mode: 0600
-        with_items:
-          - /templates/keys.keys
-    become: true
 
   - name: copy keys to root
     copy:
-        src: "{{ item }}"
+        src: ./templates/keys.keys
         dest: /root/.ssh/authorized_keys
         mode: 0600
-    with_items:
-      - /templates/keys.keys
     become: true
