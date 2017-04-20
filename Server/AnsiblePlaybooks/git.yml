@@ -1,0 +1,35 @@
+# v.1 4-19-17 Working! 
+---
+- hosts: testing
+  tasks:
+    - name: apt update
+      apt: update_cache=yes
+
+    - name: Install git package
+      become: yes
+      apt:
+        name: "{{ item }}"
+        state: present
+        update_cache: no
+      with_items:
+          - git
+
+    - name: Clone into /Git
+      git:
+          repo: 'git://github.com/nonstopflights/Personal.git'
+          dest: /home/aelchert/Git
+          clone: yes
+          update: no
+          accept_hostkey: yes
+
+    - name: update directory permission
+      command: find /home/aelchert/Git/ -type d -exec chmod 0755 {} \;
+
+    - name: update directory owners
+      command: find /home/aelchert/Git/ -type d -exec chown aelchert {} \;
+
+    - name: update file permissions
+      command: find /home/aelchert/Git/ -type f -exec chmod 0755 {} \;
+
+    - name: update file owner
+      command: find /home/aelchert/Git/ -type f -exec chown aelchert {} \;
