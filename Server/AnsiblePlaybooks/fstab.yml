@@ -1,0 +1,10 @@
+---
+- hosts: remoteServer
+  vars:
+  tasks:
+  - name: Copy /templates/fstab to server
+    file:
+      src: ./templates/fstab
+      dest: /etc/fstab
+      owner: root
+    become: truesudo
