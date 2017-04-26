@@ -1,4 +1,4 @@
-# v.1 4-19-17 Working! 
+# v.1 4-19-17 Working!
 ---
 - hosts: testing
   tasks:
@@ -17,7 +17,7 @@
     - name: Clone into /Git
       git:
           repo: 'git://github.com/nonstopflights/Personal.git'
-          dest: /home/aelchert/Git
+          dest: /home/aelchert/Git/Personal
           clone: yes
           update: no
           accept_hostkey: yes

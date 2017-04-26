@@ -4,6 +4,11 @@
   vars:
     fileroot: "/Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/"
   tasks:
+
+  - name: Update apt cache
+    apt:
+      update_cache: yes
+
   - name: Install essential packages
     apt:
       name: "{{ item }}"
@@ -21,12 +26,16 @@
       - x11vnc
       - openssh-server
       - python-pip
+      - ansible
+      - btrfs-tools
     become: true
 
   - name: add group
     group:
         name: admin
         state: present
+    tags:
+      - users
 
   - name: user/group
     user:
@@ -36,6 +45,8 @@
         shell: /bin/bash
         state: present
     become: true
+    tags:
+      - users
 
   - name: Add admin group to Sudoers
     lineinfile:
@@ -47,30 +58,34 @@
         - { name: '^admin', line: 'admin ALL=(ALL:ALL) ALL' }
         - { name: '^aelchert', line: 'aelchert ALL=(ALL:ALL) ALL' }
     become: true
+    tags:
+      - users
 
-
-  - name: copy keys to aelchert
-    authorized_key:
-        user: aelchert
-        state: present
-        key: "{{ lookup('file', './templates/id_rsa.pub') }}"
-
-  - name: copy root keys
-    authorized_key:
-        user: root
-        state: present
-        key: "{{ lookup('file', './templates/id_rsa.pub') }}"
-    become: true
-
-  - name: copy basic bashrc to username root folder
-    copy:
-        src: ./templates/bashrc
-        dest: '{{ item }}'
-        mode: 0644
+  - name: confirm .ssh folders exists
+    file:
+      path: '{{ item }}'
+      state: directory
     with_items:
-        - /home/aelchert/.bashrc
-        - /root/.bashrc
+      - /home/aelchert/.ssh/
+      - /root/.ssh/
     become: true
+    tags:
+      - ssh
+
+  - name: copy keys to aelchert and root
+    copy:
+        src: './templates/keys/{{ item.src }}'
+        dest: '{{ item.dest }}'
+    with_items:
+      - { src: 'authorized_keys', dest: '/home/aelchert/.ssh' }
+      - { src: 'authorized_keys', dest: '/root/.ssh' }
+      - { src: 'id_rsa.pub', dest: '/home/aelchert/.ssh' }
+      - { src: 'id_rsa.pub', dest: '/root/.ssh/id_rsa.pub' }
+      - { src: 'id_rsa', dest: '/home/aelchert/.ssh' }
+      - { src: 'id_rsa', dest: '/root/.ssh' }
+    become: true
+    tags:
+      - ssh
 
   - name: update root password login
     lineinfile:
@@ -78,16 +93,31 @@
         regexp: '^PermitRoot'
         line: 'PermitRootLogin yes'
     become: true
+    tags:
+      - ssh
 
-  - name: copy keys to aelchert
+  - name: copy bashrc
     copy:
-        src: ./templates/keys.keys
-        dest: /home/aelchert/.ssh/authorized_keys
-        mode: 0600
-
-  - name: copy keys to root
-    copy:
-        src: ./templates/keys.keys
-        dest: /root/.ssh/authorized_keys
-        mode: 0600
+      src: ./templates/bashrc
+      dest: '{{ item.dest }}'
+      owner: '{{ item.owner }}'
+      group: '{{ item.group }}'
+    with_items:
+      - { dest: '/home/aelchert/.bashrc', owner: 'aelchert', group: 'admin' }
+      - { dest: '/root/.bashrc', owner: 'root', group: 'admin' }
     become: true
+    tags:
+      - bashrc
+
+  # - name: change aelchert's bashrc to .bashrc
+  #   command: 'mv /home/aelchert/bashrc /home/aelchert/.bashrc'
+  #
+  # - name: change root's bashrc to .bashrc
+  #   command: 'mv /root/bashrc /root/.bashrc'
+  #   become: true
+  #   tags:
+  #     - bashrc
+
+  handlers:
+    - name: restart sshd
+      service: name=sshd state=restarted
