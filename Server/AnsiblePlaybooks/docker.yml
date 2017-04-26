@@ -1,31 +1,123 @@
+# manage docker containers
+# assuming docker is already installed
 ---
-- hosts: testing
-  vars:
-    remote_user: aelchert
-    action_user: aelchert
+- hosts: serverRemote
   tasks:
-  - name: install docker
-    yum:
-      name: docker
-      state: latest
 
-  - name: install docker
-    command: sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+    - name: install docker-py, required for anisble and docker-py
+      pip:
+        name: docker-py
 
-  - name: add deb repo
-    command: sudo touch /etc/apt/sources.list.d/docker.list
+    - name: Sabnzbd image deployment
+      docker_container:
+        name: sabnzbd
+        image: linuxserver/sabnzbd
+        state: started
+        network_mode: bridge
+        restart_policy: always
+        ports:
+          - "8085:8080"
+        env:
+          PGID: "1000"
+          PUID: "1000"
+          TZ: "EST"
+        volumes:
+          - /home/aelchert/Git/Personal/Backups/Usenet/Sabnzbd/:/config
+          - /mnt/NAS/Downloads:/downloads
+          - /mnt/NAS/Incomplete:/incomplete-downloads
 
-  - lineinfile: dest="/etc/apt/sources.list.d/docker.list" line="{{item}}"
-    with_items:
-      - "deb https://apt.dockerproject.org/repo ubuntu-trusty main"
+    - name: Unifi image deployment
+      docker_container:
+        name: unifi
+        image: linuxserver/unifi
+        state: started
+        network_mode: bridge
+        restart_policy: always
+        ports:
+          - "8080:8080"
+          - "8081:8081"
+          - "8443:8443"
+          - "8843:8843"
+          - "8880:8880"
+        env:
+          PGID: "1000"
+          PUID: "1000"
+          TZ: "EST"
+        volumes:
+          - /opt/unifi:/config
 
-  - name: apt update
-    apt: update_cache=yes
+    - name: Sonarr image deployment
+      docker_container:
+        name: Sonarr
+        image: linuxserver/sonarr
+        state: started
+        network_mode: bridge
+        restart_policy: always
+        ports:
+          - "8989:8989"
+        env:
+          PGID: "1000"
+          PUID: "1000"
+          TZ: "EST"
+        volumes:
+          - /home/aelchert/Git/Personal/Backups/Usenet/NzbDrone/config:/config
+          - /mnt/NAS/Downloads:/downloads
+          - /mnt/NAS/TV\ Shows:/tv
+      tags:
+        - sonarr
 
-  - apt: name=docker-engine state=present
+    - name: Radarr image deployment
+      docker_container:
+        name: Radarr
+        image: linuxserver/radarr
+        state: started
+        network_mode: bridge
+        restart_policy: always
+        ports:
+          - "7878:7878"
+        env:
+          PGID: "1000"
+          PUID: "1000"
+          TZ: "EST"
+        volumes:
+          - /home/aelchert/Git/Personal/Backups/Usenet/Radarr/config:/config
+          - /mnt/NAS/Downloads:/downloads
+          - /mnt/NAS/Movies:/movies
 
-  - name: add user mod
-    command: sudo usermod -aG docker {{remote_user}}
+    - name: Confirm Lychee Folders
+      file:
+        path: '{{ item }}'
+        state: directory
+        mode: 0777
+        owner: aelchert
+        recurse: yes
+      items:
+        - /opt/Lychee
+        - /opt/Lychee/uploads
+        - /opt/Lychee/data
+      tags:
+        - lychee
 
-  - name: add user mod
-    command: sudo usermod -aG docker {{action_user}}
+    - name: Pull lychee Image
+      docker_image:
+        name: neosar/lychee-docker
+        state: present
+      tags:
+        - lychee
+
+
+    - name: Lychee image deployment
+      docker_container:
+        name: Lychee
+        image: neosar/lychee-docker
+        state: started
+        network_mode: bridge
+        restart_policy: always
+        ports:
+          - "9995:80"
+          - "3306:3306"
+        volumes:
+          - /opt/lychee/uploads/:/uploads/:rw
+          - /opt/lychee/data:/data/:rw
+        tags:
+          - lychee

@@ -1,6 +1,7 @@
+# this IP is based upon a local VM
 [testing]
 10.203.64.105 ansible_user=aelchert ansible_pass="CuIeyy7j!!" ansible_become=true ansible_become_user=root ansible_become_password="CuIeyy7j!!" become_method=sudo
 
-
+#working as of 4/25/17
 [serverRemote]
-nonstopflights.ddns.net ansible_user=root ansible_pass="CuIeyy7j!!" ansible_port=9234
+nonstopflights.ddns.net ansible_user=aelchert ansible_pass="CuIeyy7j!!" ansible_port=9234 ansible_become=true ansible_become_user=root ansible_become_password="CuIeyy7j!!" become_method=sudo
