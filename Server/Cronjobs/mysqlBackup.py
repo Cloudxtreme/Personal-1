@@ -7,3 +7,5 @@ EMAIL = '7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
 
 try:
     subprocess.check_call("mysqldump -u root -p'CuIeyy7j!!' Booksread > %s/%s.sql" % (directory, date), shell=True)
+except:
+    pass
