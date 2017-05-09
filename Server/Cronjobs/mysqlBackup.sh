@@ -12,7 +12,8 @@ mysqldump -u root -p'CuIeyy7j!!' Booksread > $DIR/booksread_$NOW.sql
 chown aelchert $DIR/booksread_$NOW.sql
 
 #adds sql backups to tar file
-tar rvf $DIR/Booksread_Backup.tar booksread_$NOW.sql
-
+cd $DIR
+tar rvf Booksread_Backup.tar booksread_$NOW.sql
+rm booksread_$NOW.sql
 # Log
 echo "Added booksread_$NOW to $DIR/Booksread_Backup.tar - $NOW" >> /home/aelchert/Dropbox/Logs/mysqlBackup.txt
