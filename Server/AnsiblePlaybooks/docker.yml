@@ -6,8 +6,6 @@
     - name: install docker-py, required for anisble and docker-py
       pip:
         name: docker-py
-      tags:
-        - pip
 
     - name: Sabnzbd image deployment
       docker_container:
@@ -23,11 +21,10 @@
           PUID: "1000"
           TZ: "EST"
         volumes:
-          - /home/aelchert/Git/Personal/Backups/Usenet/Sabnzbd/:/config
+          - /opt/sabnzbd/:/config
           - /mnt/NAS/Downloads:/downloads
           - /mnt/NAS/Incomplete:/incomplete-downloads
-        tags:
-          - sabnzbd
+      tags: sabnzbd
 
     - name: Unifi image deployment
       docker_container:
@@ -48,8 +45,7 @@
           TZ: "EST"
         volumes:
           - /opt/unifi:/config
-        tags:
-          - unifi
+      tags: unifi
 
     - name: Sonarr image deployment
       docker_container:
@@ -68,8 +64,7 @@
           - /home/aelchert/Git/Personal/Backups/Usenet/NzbDrone/config:/config
           - /mnt/NAS/Downloads:/downloads
           - /mnt/NAS/TV\ Shows:/tv
-      tags:
-        - sonarr
+      tags: sonarr
 
     - name: Radarr image deployment
       docker_container:
@@ -88,9 +83,8 @@
           - /home/aelchert/Git/Personal/Backups/Usenet/Radarr/config:/config
           - /mnt/NAS/Downloads:/downloads
           - /mnt/NAS/Movies:/movies
-        tags:
-          - radarr
-          
+        tags: radarr
+
     - name: Confirm Lychee Folders
       file:
         path: '{{ item }}'
@@ -102,15 +96,13 @@
         - /opt/Lychee
         - /opt/Lychee/uploads
         - /opt/Lychee/data
-      tags:
-        - lychee
+      tags: lychee
 
     - name: Pull lychee Image
       docker_image:
         name: neosar/lychee-docker
         state: present
-      tags:
-        - lychee
+      tags: lychee
 
 
     - name: Lychee image deployment
@@ -126,5 +118,4 @@
         volumes:
           - /opt/lychee/uploads/:/uploads/:rw
           - /opt/lychee/data:/data/:rw
-        tags:
-          - lychee
+        tags: lychee
