@@ -1,0 +1,41 @@
+# 4.26.17 - working
+
+---
+- hosts: serverRemote
+  vars:
+  tasks:
+
+    - name: Install needed packages
+      apt:
+        name: "{{ item }}"
+        update_cache: yes
+        state: latest
+        install_recommends: yes
+      with_items:
+        - apt-transport-https
+        - ca-certificates
+        - curl
+        - software-properties-common
+      tags:
+        - apt
+
+    - name: Install needed GPG keys
+      apt_key:
+        url: 'https://download.docker.com/linux/ubuntu/gpg'
+        state: present
+      tags:
+        - gpg
+
+    - name: Add repo
+      apt_repository:
+        repo: 'deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable'
+        state: present
+      tags:
+        - repo
+
+    - name: install docker via apt_repository
+      apt:
+        name: docker-ce
+        update_cache: yes
+        state: latest
+        install_recommends: yes

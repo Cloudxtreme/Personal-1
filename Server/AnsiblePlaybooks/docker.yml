@@ -61,7 +61,7 @@
           PUID: "1000"
           TZ: "EST"
         volumes:
-          - /home/aelchert/Git/Personal/Backups/Usenet/NzbDrone/config:/config
+          - /opt/nzbdrone/config:/config
           - /mnt/NAS/Downloads:/downloads
           - /mnt/NAS/TV\ Shows:/tv
       tags: sonarr
@@ -80,10 +80,10 @@
           PUID: "1000"
           TZ: "EST"
         volumes:
-          - /home/aelchert/Git/Personal/Backups/Usenet/Radarr/config:/config
+          - /opt/radarr/config:/config
           - /mnt/NAS/Downloads:/downloads
           - /mnt/NAS/Movies:/movies
-        tags: radarr
+      tags: radarr
 
     - name: Confirm Lychee Folders
       file:
