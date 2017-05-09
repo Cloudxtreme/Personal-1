@@ -4,18 +4,15 @@
 
 NOW=$(date +"%m-%d-%Y")
 DIR="/home/aelchert/Dropbox/Backup"
-EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
 
+# dump Booksread database to Dropbox/Backup
 mysqldump -u root -p'CuIeyy7j!!' Booksread > $DIR/booksread_$NOW.sql
 
+# change owner of .sql backup file
 chown aelchert $DIR/booksread_$NOW.sql
-
 
 #adds sql backups to tar file
 tar rvf $DIR/Booksread_Backup.tar booksread_$NOW.sql
 
-#Removes all original *.sql files
-rm booksread_$NWO.sql
-
-# Prowl update
-#mail -s "Mysqlbackup Complete - $NOW" $EMAIL
+# Log
+echo "Added booksread_$NOW to $DIR/Booksread_Backup.tar - $NOW" >> /home/aelchert/Dropbox/Logs/mysqlBackup.txt
