@@ -33,7 +33,7 @@ def questions():
 
     machineTest = c.execute("select * from workouts where machineNumber={} order by time desc limit 1".format(machineNumber))
     getData = c.fetchone()
-    print "DEBUG: getData: " + str(getData)
+    #print "DEBUG: getData: " + str(getData)
 
     try:
         if getData:
