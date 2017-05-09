@@ -8,14 +8,14 @@ EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
 
 mysqldump -u root -p'CuIeyy7j!!' Booksread > $DIR/booksread_$NOW.sql
 
-chown aelchert $DIR/*
+chown aelchert $DIR/booksread_$NOW.sql
 
-cd $DIR
+
 #adds sql backups to tar file
-tar rvf Booksread_Backup.tar *.sql
+tar rvf $DIR/Booksread_Backup.tar booksread_$NOW.sql
 
 #Removes all original *.sql files
-rm *.sql
+rm booksread_$NWO.sql
 
 # Prowl update
 #mail -s "Mysqlbackup Complete - $NOW" $EMAIL
