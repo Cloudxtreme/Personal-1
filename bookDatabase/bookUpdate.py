@@ -1,6 +1,8 @@
 # Enter in an Isbn and get book information via Google books
 # and enter it into a local mysql database
 
+# last ISBN updated
+
 import pymysql.cursors, json
 import urllib2
 
@@ -42,19 +44,32 @@ with connection.cursor() as cursor:
     # loop through databaseISBNs
 for bookISBN in databaseISBNs:
     with connection.cursor() as cursor:
-        # using the ISBN, see if there is a summery already
-        summeryAvail = cursor.execute("select Summery from booksread where ISBN=(%s)",(bookISBN))
-        print summeryAvail
+
+
         #print "bookISBN: {}".format(bookISBN)
         #print "summeryAvail: {}".format(summeryAvail)
 
         try:
-            bookData = getBookData(bookISBN)
-            if bookISBN is not " " and summeryAvail == 1:
+            # using the ISBN, see if there is a summery already
+            cursor.execute("select Summery from booksread where ISBN=(%s)",(bookISBN))
+            queryReturn = cursor.fetchone()
+            for query in queryReturn.items():
+                summeryAvail = query[1]
+
+            if bookISBN is not "" or summeryAvail is not "":
+                # get summery data from ISBN
+                bookData = getBookData(bookISBN)
+
+                # pull description from json
                 bookDescription = bookData['items'][0]['volumeInfo']['description']
-                bookUpdate = [bookDescription,bookISBN]
-                #print bookDescription
+
+                # Mysql query for update
                 updateQuery = "update booksread set Summery=%s where ISBN=%s"
+
+                # mysql update object
+                bookUpdate = [bookDescription,bookISBN]
+
+                # Output of Update ISBN
                 print "Updated {}".format(bookISBN)
 
                 cursor.execute(updateQuery,bookUpdate)
@@ -63,8 +78,6 @@ for bookISBN in databaseISBNs:
         except KeyError or UnicodeEncodeError:
             print "Key Error, ISBN: {}. Error: {}".format(bookISBN, KeyError)
             continue
-
-
 
 
 connection.close()
