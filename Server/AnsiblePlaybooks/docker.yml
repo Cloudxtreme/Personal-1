@@ -63,7 +63,7 @@
         volumes:
           - /opt/nzbdrone/config:/config
           - /mnt/NAS/Downloads:/downloads
-          - /mnt/NAS/TV\ Shows:/tv
+          - /mnt/NAS/TV Shows:/tv
       tags: sonarr
 
     - name: Radarr image deployment
@@ -118,4 +118,18 @@
         volumes:
           - /opt/lychee/uploads/:/uploads/:rw
           - /opt/lychee/data:/data/:rw
-        tags: lychee
+      tags: lychee
+
+    - name: YouTransfer Install
+      docker_container:
+        name: YouTransfer
+        image: remie/youtransfer
+        state: started
+        network_mode: bridge
+        restart_policy: always
+        ports:
+          - "5000:5000"
+        volumes:
+          - /opt/youtransfer/uploads:/opt/youtransfer/uploads
+          - /opt/youtransfer/config:/opt/youtransfer/config
+      tags: youtransfer

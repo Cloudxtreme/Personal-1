@@ -58,6 +58,7 @@ for bookISBN in databaseISBNs:
                 print "Updated {}".format(bookISBN)
 
                 cursor.execute(updateQuery,bookUpdate)
+                connection.commit()
 
         except KeyError or UnicodeEncodeError:
             print "Key Error, ISBN: {}. Error: {}".format(bookISBN, KeyError)
@@ -65,5 +66,5 @@ for bookISBN in databaseISBNs:
 
 
 
-connection.commit()
+
 connection.close()
