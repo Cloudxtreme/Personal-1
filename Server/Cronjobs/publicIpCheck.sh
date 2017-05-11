@@ -29,6 +29,6 @@ fi
 # check to see if owner of the file is correct
 ownerName=$(stat -c %U /home/aelchert/Git/Personal/Server/Cronjobs/publicIpCheck.sh)
 
-if [ "$ownerName" != "aelchert" ]; then
+if [ $ownerName != "aelchert" ]; then
         chown aelchert $filePath
 fi
