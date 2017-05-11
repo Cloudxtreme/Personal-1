@@ -21,7 +21,7 @@ counter=0
 
 checkFileLength() {
 	fileLength=$(cat $logFile | wc -l)
-	if [ "$fileLength" -gt "50" ]; then
+	if [ $fileLength -gt 50 ]; then
 		echo "" > $logFile
 		echo "#################" >> $logFile
 		echo "Sys Conf Backups" >> $logfile
