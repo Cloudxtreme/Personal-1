@@ -37,8 +37,8 @@ git_add() {
 }
 
 #empties log file after 100 lines
-printf "\n Checking File Length"
-checkFileLength
+# printf "\n Checking File Length"
+# checkFileLength
 
 # run python script for nginx conf
 printf "\n Running nginxBackup.py"
