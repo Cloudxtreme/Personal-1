@@ -37,6 +37,7 @@ class book_data():
             Pages = raw_input("Pages: ")
             Rating = raw_input("raw_input: ")
             Notes = raw_input("Notes: ")
+            Summery = raw_input("Summery: ")
 
             book_data = {
                 'Name': Name,
@@ -45,7 +46,8 @@ class book_data():
                 'DateFinished': DateFinished,
                 'Pages': Pages,
                 'Isbn': Isbn,
-                'Notes': Notes }
+                'Notes': Notes,
+                'Summery': Summery }
 
             return book_data
 
@@ -61,6 +63,7 @@ class book_data():
             Pages = jsonData['items'][0]['volumeInfo']['pageCount']
             Rating = raw_input("Rating: ")
             Notes = raw_input("Notes: ")
+            Summery = jsonData['items'][0]['volumeInfo']['description']
 
             #A dict of the information above
             book_data = {
@@ -71,6 +74,7 @@ class book_data():
                  'Pages': Pages,
                  'Isbn': Isbn,
                  'Notes': Notes,
+                 'Summery': Summery
                  }
 
             return book_data
@@ -87,8 +91,8 @@ class book_data():
 
             #enter the data into the database
             add_book = ("INSERT INTO booksread "
-                             "(Name,AuthorName,Rating,DateFinished,Pages,Isbn,Notes) "
-                             "VALUES (%(Name)s, %(AuthorName)s, %(Rating)s, %(DateFinished)s, %(Pages)s, %(Isbn)s, %(Notes)s)")
+                             "(Name,AuthorName,Rating,DateFinished,Pages,Isbn,Notes, Summery) "
+                             "VALUES (%(Name)s, %(AuthorName)s, %(Rating)s, %(DateFinished)s, %(Pages)s, %(Isbn)s, %(Notes)s, %(Summery)s)")
 
             cursor.execute(add_book, book_dict)
 
@@ -96,7 +100,8 @@ class book_data():
             print "Entered into the database:\n\n"
 
             for k,v in book_dict.items():
-                print k, v
+                print "Book Entered: \n"
+                print k, ':', v
 
             cnx.commit()
             cursor.close()
