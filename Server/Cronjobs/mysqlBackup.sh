@@ -13,6 +13,7 @@ if [ $? -eq 0 ]; then
   echo "++ [mysqlBackup.sh] Completed $NOW" >> $LOGFILE
 else
   echo "-- [mysqlBackup.sh] FAILED $NOW" >> $LOGFILE
+fi
 
 # change owner of .sql backup file
 chown aelchert $DIR/booksread_$NOW.sql
@@ -25,6 +26,7 @@ if [ $? -eq 0 ]; then
   echo "++ [mysqlBackup.sh] Tar creation - Completed $NOW" >> $LOGFILE
 else
   echo "-- [mysqlBackup.sh] Tar FAILED $NOW" >> $LOGFILE
+fi
 
 rm booksread_$NOW.sql
 # Log

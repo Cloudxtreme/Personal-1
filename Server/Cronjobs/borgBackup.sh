@@ -20,6 +20,7 @@ if [ $? -eq 0 ]; then
   echo "++ [borgBackup.sh] Completed $NOW" >> $LOGFILE
 else
   echo "-- [borgBackup.sh] FAILED $NOW" >> $LOGFILE
+fi
 
 # Use the `prune` subcommand to maintain 7 daily, 4 weekly and 6 monthly
 # archives of THIS machine. --prefix `hostname`- is very important to
@@ -35,3 +36,4 @@ if [ $? -eq 0 ]; then
   echo "++ [borgBackup.sh - Prune] Completed $NOW" >> $LOGFILE
 else
   echo "-- [borgBackup.sh - Prune] FAILED $NOW" >> $LOGFILE
+fi
