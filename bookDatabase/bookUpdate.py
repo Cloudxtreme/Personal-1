@@ -38,13 +38,13 @@ with connection.cursor() as cursor:
      # add values to databaseISBNs
      for i in data: databaseISBNs.append(i['ISBN'])
      cursor.close()
+     # remove empty ISBNS
+     databaseISBNs = [line for line in databaseISBNs if line.strip()]
 
-
-
-    # loop through databaseISBNs
+#loop through databaseISBNs
 for bookISBN in databaseISBNs:
-    with connection.cursor() as cursor:
 
+    with connection.cursor() as cursor:
 
         #print "bookISBN: {}".format(bookISBN)
         #print "summeryAvail: {}".format(summeryAvail)
@@ -56,7 +56,7 @@ for bookISBN in databaseISBNs:
             for query in queryReturn.items():
                 summeryAvail = query[1]
 
-            if bookISBN is not "" or summeryAvail is not "":
+            if not summeryAvail:
                 # get summery data from ISBN
                 bookData = getBookData(bookISBN)
 
@@ -78,6 +78,7 @@ for bookISBN in databaseISBNs:
         except KeyError or UnicodeEncodeError:
             print "Key Error, ISBN: {}. Error: {}".format(bookISBN, KeyError)
             continue
+
 
 
 connection.close()
