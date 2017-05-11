@@ -4,6 +4,7 @@
 NOW=$(date +"%m-%d-%Y")
 filePath="/home/aelchert/Dropbox/Logs/server_public_ip.txt"
 IP=$(curl 'http://myexternalip.com/raw')
+LOGFILE="/home/aelchert/Dropbox/Logs/cronLog.txt"
 
 getIP (){
 echo $NOW "==>" $IP >> $filePath
@@ -11,6 +12,11 @@ echo $NOW "==>" $IP >> $filePath
 
 # run function
 getIP
+
+if [ $? -eq 0 ]; then
+  echo "++ [publicIpCheck.sh] Completed $NOW" >> $LOGFILE
+else
+  echo "-- [publicIpCheck.sh] FAILED $NOW" >> $LOGFILE
 
 # If the log file is longer than 20 lines, clear it.
 if [ $(cat $filePath | wc -l) -ge 20 ]; then
@@ -21,7 +27,7 @@ else
 fi
 
 # check to see if owner of the file is correct
-ownerName=$(stat -c %U /home/aelchert/Git/Personal/Server/Cronjobs/public-ip-check.sh)
+ownerName=$(stat -c %U /home/aelchert/Git/Personal/Server/Cronjobs/publicIpCheck.sh)
 
 if [ "$ownerName" != "aelchert" ]; then
         chown aelchert $filePath
