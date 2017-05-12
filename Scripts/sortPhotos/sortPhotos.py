@@ -36,7 +36,7 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument(
     "-a","--adam",
-    help="Use to move images from Compact Flash to /mnt/NAS/Photos",
+    help="Use to move images from SD Card to /mnt/NAS/Photos",
     dest="person",
     action="store_const",
     const="Adam"
@@ -55,14 +55,14 @@ if args.person == "adam":
     print "add values to script"
 
 
-If no option is given at the command line, return warning and exit
-Otherwise it provides the source and dest_dir
+#If no option is given at the command line, return warning and exit
+#Otherwise it provides the source and dest_dir
 
 if args.person == None:
     print "You must choose a person, --adam or --steven"
     exit()
 if args.person.lower() == "adam":
-    source_dir = "/Volumes/EOS_DIGITAL/DCIM/100EOS5D"
+    source_dir = "/Volumes/EOS_DIGITAL/DCIM/100CANON"
     dest_dir = "/Volumes/NAS/Photos/"
 
 elif args.person == "steven":
@@ -90,7 +90,7 @@ for file in os.listdir(source_dir):
             # Look to see if Folders exists
             if not os.path.exists(out_filepath):
                 os.makedirs(out_filepath)
-                print "Directories made: {} {} {}".format(dateinfo[0], dateinfo[1],dateinfo[2])
+                print "Directory made: {} {} {}".format(dateinfo[0], dateinfo[1],dateinfo[2])
 
             # If the file exsists in the destination, skip it.
             if not os.path.exists(out_filename):
