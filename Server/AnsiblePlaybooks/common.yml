@@ -1,6 +1,6 @@
 # .1 working 4/19/17
 ---
-- hosts: testing
+- hosts: serverRemote
   vars:
     fileroot: "/Users/adamschoonover/Git/Personal/Server/AnsiblePlaybooks/"
   tasks:
@@ -28,7 +28,9 @@
       - python-pip
       - ansible
       - btrfs-tools
+      - traceroute
     become: true
+    tags: apt
 
   - name: add group
     group:
