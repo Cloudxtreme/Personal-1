@@ -22,10 +22,10 @@ counter=0
 checkFileLength() {
 	fileLength=$(cat $logFile | wc -l)
 	if [ $fileLength -gt 50 ]; then
-		echo "" > $logFile
-		echo "#################" >> $logFile
-		echo "Sys Conf Backups" >> $logfile
-		echo "#################" >> $logFile
+		echo -e "" > $logFile
+		echo -e "#################\n" >> $logFile
+		echo -e "Sys Conf Backups\n" >> $logfile
+		echo -e "#################\n\n" >> $logFile
 	fi
 }
 
@@ -48,7 +48,7 @@ python nginxBackup.py
 printf "\n Checking Crontab"
 if [[ $crontabBackupHash != $crontabHash ]]; then
 	crontab -u root -l > $DIR/Cron/server_root_crontab
-	printf "++ [systemconfBackups] - Crontab Backup - $NOW" >> $LOGFILE
+	echo -e "++ [systemconfBackups] - Crontab Backup - $NOW\n" >> $LOGFILE
    counter+=1
 fi
 
@@ -56,7 +56,7 @@ fi
 printf "\n Checking Bashrc"
 if [[ $bashrcHash != $bashrcBackupHash ]]; then
 	cp /home/aelchert/.bashrc $DIR/Bash/server_bashrc
-	printf "++ [systemconfBackups] - Bashrc Backup - $NOW" >> $LOGFILE
+	echo -e "++ [systemconfBackups] - Bashrc Backup - $NOW\n" >> $LOGFILE
    	counter+=1
 fi
 

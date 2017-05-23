@@ -7,21 +7,21 @@ IP=$(curl 'http://myexternalip.com/raw')
 LOGFILE="/home/aelchert/Dropbox/Logs/cronLog.txt"
 
 getIP (){
-echo $NOW "==>" $IP >> $filePath
+echo -e $NOW "==>" $IP >> $filePath
 }
 
 # run function
 getIP
 
 if [ $? -eq 0 ]; then
-  echo "++ [publicIpCheck.sh] Completed $NOW" >> $LOGFILE
+  echo -e "++ [publicIpCheck.sh] Completed $NOW\n" >> $LOGFILE
 else
-  echo "-- [publicIpCheck.sh] FAILED $NOW" >> $LOGFILE
+  echo -e "-- [publicIpCheck.sh] FAILED $NOW\n" >> $LOGFILE
 fi
 
 # If the log file is longer than 20 lines, clear it.
 if [ $(cat $filePath | wc -l) -ge 20 ]; then
-	printf "#######\n\n Public IP Address\n\n#######\n\n" > $filePath
+	echo -e "#######\n\n Public IP Address\n\n#######\n\n" > $filePath
 	getIP
 else
 	exit 0
@@ -32,5 +32,5 @@ ownerName=$(stat -c %U /home/aelchert/Git/Personal/Server/Cronjobs/publicIpCheck
 
 if [ $ownerName != "aelchert" ]; then
         chown aelchert $filePath
-				echo "++ [publicIpCheck.sh] chown of files completed - $NOW" >> $LOGFILE
+				echo -e "++ [publicIpCheck.sh] chown of files completed - $NOW\n" >> $LOGFILE
 fi
