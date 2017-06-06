@@ -1,0 +1,15 @@
+Database Structure:
+
+Username, Tweet ID, Text, Mailed
+
+1. for each user
+  2. For that user, query database for maxID of tweet
+  3. get id, text oh each tweet
+    3a. Only get data from API from last max ID value from database
+  4. Insert new Tweet ID, Username, Text into sqlite database
+
+
+EMAIL:
+* Read non-mailed messages for each user
+* Reverse sort and email
+* Mark as mailed
