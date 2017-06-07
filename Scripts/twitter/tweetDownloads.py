@@ -11,61 +11,108 @@ access_secret = "iY379we0P017I5fmPHUX3PrcgGuAg1IYga1HWXx4zAdRg"
 
 twitter = Twython(consumer_key, consumer_secret, access_key, access_secret)
 
-screenNames = ['neverminding']
+screenNames = ['neverminding', 'jasonisbell']
+dbName = "tweets.db"
 
 
-def getTimeline(userName):
-    """ Takes the user screen name and gets the timeline json
-         for it """
+def createTables():
+    """ Make sure table is created in databse file """
+
     try:
-        userTimeline = twitter.get_user_timeline(screen_name=userName,
-                                                 exclude_replies=True)
-        return userTimeline
+        if conn is not None:
+            c.execute('''CREATE TABLE if not exists tweets(
+                         id INTEGER PRIMARY KEY,
+                         username TEXT,
+                         lastTweetId TEXT,
+                         tweetText TEXT,
+                         mailed INTEGER DEFAULT 0
+                         )''')
 
-    except TwythonError as e:
+    except (RuntimeError, TypeError, NameError) as e:
         print(e)
 
 
-def createTable():
-    c.execute('''CREATE TABLE if not exists tweets(id INTEGER PRIMARY KEY,
-                 time text, username TEXT, lastTweetId TEXT)''')
-    print "==> Tables did not exsist. Tables created"
-
-def insertValues(username, lastTweetId):
-    t = (username, lastTweetId)
-    c.execute('INSERT INTO tweets VALUES (NULL, ?, ?)', t)
-    conn.commit()
-    print "==> Data entered\n"
-    print "==============\n"
+def getTimeline(username, tweetId):
+    """ Takes the user screen name and gets the timeline json
+         for it """
+    userTimeline = twitter.get_user_timeline(
+        screen_name=username,
+        exclude_replies=True,
+        since_id=tweetId)
+    return userTimeline
 
 
-conn = sqlite3.connect('tweetIds.db')
+def insertTweet(username, lastTweetId, tweetText):
+    """ Insert last tweet into sqllite """
+    t = (username, lastTweetId, tweetText)
+    try:
+        c.execute('INSERT INTO tweets VALUES (NULL, ?, ?, ?, NULL)', t)
+    except EnvironmentError as e:
+        print(e)
+    finally:
+        conn.commit()
+
+
+def getLastIdforUser(username):
+    """ Query sqlite3 database for username and max value of ID """
+    query = c.execute('SELECT max(lastTweetId) FROM tweets WHERE username=(?)', (username, ))
+    rows = list(c.fetchone())
+    return rows
+
+
+###########################################################################
+
+conn = sqlite3.connect(dbName)
 c = conn.cursor()
 
-for users in screenNames:
-    """ Iterates through each user in screenNames """
-    timeline = getTimeline(users)
-    """ Iterates through tweets of that user """
-    for tweets in timeline:
-        # Dict for the tweet Ids to store MAX ID for future retrieval
-        tweetsIdDicts = []
+createTables()
 
-        for output in timeline:
-            tweetId = output['id']
-            tweetText = output['text']
-            # tweetCreatedAt = output['created_at']
-            # DEBUG
-            # print(tweetId)
-            # print(tweetText)
-            # print(tweetCreatedAt)
-            # print('\n')
+for user in screenNames:
+    print (getLastIdforUser(user))
 
-            tweetsIdDicts.append(tweetId)
 
-    maxTweetId = max(tweetsIdDicts)
-    maxTweetIdDict = {users: maxTweetId}
-    # DEBUG
-    # print(maxTweetIdDict)
-    # Write max ID to json file
-    # with open('data.json', 'w') as fp:
-    #    json.dump(maxTweetIdDict, fp)
+conn.close()
+
+    # userTimeline = getTimeline(users)
+    # for tweets in userTimeline:
+    #     tweetId = tweets['id']
+    #     tweetText = tweets['text']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Iterates through each user in screenNames
+# for users in screenNames:
+#     # Get last tweet max value
+#     c.execute('SELECT max(tweetId) from tweets where usernam')
+#     # Get's user timeline json object
+#
+#     timeline = getTimeline(users)
+#     """ Iterates through tweets of that user """
+#     for tweets in timeline:
+#         # Dict for the tweet Ids to store MAX ID for future retrieval
+#         tweetsIdDicts = []
+#
+#         for output in timeline:
+#             tweetId = output['id']
+#             tweetText = output['text']
+#             # tweetCreatedAt = output['created_at']
+#             # DEBUG
+#             # print(tweetId)
+#             # print(tweetText)
+#             # print(tweetCreatedAt)
+#             # print('\n')
+#
+#             tweetsIdDicts.append(tweetId)
