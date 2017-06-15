@@ -124,8 +124,16 @@ writeLog.close()
 
 
 if __name__ == "__main__":
-    print deviceInfoTemp['deviceId'],
-    print deviceInfoTemp['indicatorId'],
-    print str(weather['temperature']),
-    print deviceInfoTemp['objectId'],
-    print int(getEpochTime())
+    print "Temp for Lancaster: \n"
+    print deviceInfoTemp['deviceId'] + "\n",
+    print deviceInfoTemp['indicatorId'] + "\n",
+    print str(weather['temperature']) + "\n",
+    print deviceInfoTemp['objectId'] + "\n",
+    print int(getEpochTime()+ "\n" )
+
+    print "Temp for Lancaster: \n"
+    print deviceInfoDew['deviceId'] + "\n",
+    print deviceInfoDew['indicatorId'] + "\n",
+    print str(weather['temperature']) + "\n",
+    print deviceInfoDew['objectId'] + "\n",
+    print int(getEpochTime()+ "\n" )
