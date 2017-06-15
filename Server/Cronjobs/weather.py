@@ -39,7 +39,8 @@ def getWeatherInfo():
     jsonObject = f.read()
     parsed_json = json.loads(jsonObject)
     temp = int(parsed_json['current_observation']['temp_f'])
-    weatherInfo = {"temperature": temp}
+    dew = int(parsed_json['current_observation']['dewpoint_f'])
+    weatherInfo = {"temperature": temp, "dewpoint": dew}
     f.close()
     return weatherInfo
 
@@ -113,7 +114,7 @@ writeLog.close()
 insertData(
     deviceId = deviceInfoDew['deviceId'],
     indicatorId =  deviceInfoDew['indicatorId'],
-    value = str(weather['temperature']),
+    value = str(weather['dewpoint']),
     objectId = deviceInfoDew['objectId'],
     timestamp = getEpochTime())
 
