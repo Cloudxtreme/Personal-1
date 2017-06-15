@@ -125,15 +125,15 @@ writeLog.close()
 
 if __name__ == "__main__":
     print "Temp for Lancaster: \n"
-    print deviceInfoTemp['deviceId'] + "\n",
-    print deviceInfoTemp['indicatorId'] + "\n",
-    print str(weather['temperature']) + "\n",
-    print deviceInfoTemp['objectId'] + "\n",
-    print int(getEpochTime()+ "\n" )
+    print "Device ID: {} {}".format(deviceInfoTemp['deviceId'], '\n')
+    print "Indicator ID: {} {}".format(deviceInfoTemp['indicatorId'], '\n')
+    print "Temp in F:  {} {}".format(str(weather['temperature']), '\n')
+    print "Object ID: {} {}".format(deviceInfoTemp['objectId'], '\n')
+    print "Epoch Time: {} {}".format(int(getEpochTime(), '\n')
 
     print "Temp for Lancaster: \n"
-    print deviceInfoDew['deviceId'] + "\n",
-    print deviceInfoDew['indicatorId'] + "\n",
-    print str(weather['temperature']) + "\n",
-    print deviceInfoDew['objectId'] + "\n",
-    print int(getEpochTime()+ "\n" )
+    print "Device ID: {} {}".format(deviceInfoDew['deviceId'], '\n')
+    print "Indicator ID: {} {}".format(deviceInfoDew['indicatorId'], '\n')
+    print "Dew Point: {} {}".format(str(weather['temperature']), '\n')
+    print "Object ID: {} {}".format(deviceInfoDew['objectId'], '\n')
+    print "Epoch Time: {} {}".format(int(getEpochTime(), '\n')
