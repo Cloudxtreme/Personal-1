@@ -9,11 +9,23 @@ wuAPIKey = "744ab92b8cf1baa5"
 ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
+
 deviceInfoTemp = {
     "deviceName" : "lancasterWeather",
     "deviceId": 196,
     "pluginIndicatorTypeId": 12908,
     "indicatorId":8357,
+    "pluginId": 10,
+    "objectId": 1067,
+    "pluginObjectTypeId": 1578,
+    "subtypeId": 1422
+}
+
+deviceInfoDew = {
+    "deviceName" : "lancasterWeather",
+    "deviceId": 196,
+    "pluginIndicatorTypeId": 12908,
+    "indicatorId":8361,
     "pluginId": 10,
     "objectId": 1067,
     "pluginObjectTypeId": 1578,
@@ -86,13 +98,6 @@ def insertData(deviceId, indicatorId, value, objectId, timestamp):
 # # Grab dict of weather data [temp, dewpoint]
 weather = getWeatherInfo()
 
-#debug
-# print deviceInfoTemp['deviceId'],
-# print deviceInfoTemp['indicatorId'],
-# print str(weather['temperature']),
-# print deviceInfoTemp['objectId'],
-# print int(getEpochTime())
-
 # Insert temperature
 insertData(
     deviceId = deviceInfoTemp['deviceId'],
@@ -102,9 +107,23 @@ insertData(
     timestamp = getEpochTime())
 
 writeLog = open('/home/aelchert/Dropbox/Logs/cronLog.txt', 'a+')
-writeLog.write("[weather.py] - Run")
+writeLog.write("[weather.py] - Lancaster temperature")
 writeLog.write("\n")
 writeLog.close()
+
+
+insertData(
+    deviceId = deviceInfoDew['deviceId'],
+    indicatorId =  deviceInfoDew['indicatorId'],
+    value = str(weather['temperature']),
+    objectId = deviceInfoDew['objectId'],
+    timestamp = getEpochTime())
+
+writeLog = open('/home/aelchert/Dropbox/Logs/cronLog.txt', 'a+')
+writeLog.write("[weather.py] - Lancaster dew point")
+writeLog.write("\n")
+writeLog.close()
+
 
 if __name__ == "__main__":
     print deviceInfoTemp['deviceId'],
