@@ -11,7 +11,6 @@ credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
 
 deviceInfoTemp = {
-    "deviceName" : "lancasterWeather",
     "deviceId": 196,
     "pluginIndicatorTypeId": 12908,
     "indicatorId":8357,
@@ -22,9 +21,8 @@ deviceInfoTemp = {
 }
 
 deviceInfoDew = {
-    "deviceName" : "lancasterWeather",
     "deviceId": 196,
-    "pluginIndicatorTypeId": 12908,
+    "pluginIndicatorTypeId": 12910,
     "indicatorId":8361,
     "pluginId": 10,
     "objectId": 1067,
