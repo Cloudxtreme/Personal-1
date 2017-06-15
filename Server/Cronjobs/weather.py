@@ -129,7 +129,7 @@ if __name__ == "__main__":
     print "Indicator ID: {} {}".format(deviceInfoTemp['indicatorId'], '\n')
     print "Temp in F:  {} {}".format(str(weather['temperature']), '\n')
     print "Object ID: {} {}".format(deviceInfoTemp['objectId'], '\n')
-    print "Epoch Time: {} {}".format(int(getEpochTime(), '\n')
+    print "Epoch Time: {} {}".format(int(getEpochTime()), '\n')
 
     print "Temp for Lancaster: \n"
     print "Device ID: {} {}".format(deviceInfoDew['deviceId'], '\n')
