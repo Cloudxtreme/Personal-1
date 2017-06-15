@@ -133,3 +133,18 @@
           - /opt/youtransfer/uploads:/opt/youtransfer/uploads
           - /opt/youtransfer/config:/opt/youtransfer/config
       tags: youtransfer
+
+    - name: Mylar Install
+      docker_container:
+        name: Mylar
+        image: linuxserver/mylar
+        state: started
+        network_mode: bridge
+        restart_policy: always
+        ports:
+          - "8090:8090"
+        volumes:
+          - /opt/mylar/config:/config
+          - /mnt/NAS/Downloads:/Downloads
+          - /mnt/NAS/Archive/Comics:/comics
+      tags: mylar
