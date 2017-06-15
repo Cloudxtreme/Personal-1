@@ -101,7 +101,7 @@ insertData(
     objectId = deviceInfoTemp['objectId'],
     timestamp = getEpochTime())
 
-writeLog = open('/home/aelchert/Dropbox/Logs/cronLog.txt', 'w')
+writeLog = open('/home/aelchert/Dropbox/Logs/cronLog.txt', 'a+')
 writeLog.write("[weather.py] - Run")
 writeLog.write("\n")
 writeLog.close()
