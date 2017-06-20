@@ -12,17 +12,16 @@ e2fe39a5-7bce-49ca-8891-3d61c35bef87 \
 1d483b74-b0ee-436c-92d0-9a8ff2ff707a \
 )
 
-echo getVMsList
 # Loop through VM name array and try to start them. If they are already running
 # it will return a 1. If it successfully starts them, it will return 0.
 
-# for vm in ${getVMsList[@]}; do
-#   VBoxManage startvm $vm --type headless 2>&1
-#   if [[ $? -eq  0 ]]; then
-#       echo "++ [vmStartScript] - $vm - has started" >> $logFile
-#   elif [[ $? -eq 1 ]]; then
-#       echo "-- [vmStartScript] - $vm - is already running" >> $logFile
-#   else
-#       echo "-- [vmStartScript] - $vm - Error Occured" >> $logFile
-#   fi
-# done
+for vm in ${getVMsList[@]}; do
+  VBoxManage startvm $vm --type headless 2>&1
+  if [[ $? -eq  0 ]]; then
+      echo "++ [vmStartScript] - $vm - has started" >> $logFile
+  elif [[ $? -eq 1 ]]; then
+      echo "-- [vmStartScript] - $vm - is already running" >> $logFile
+  else
+      echo "-- [vmStartScript] - $vm - Error Occured" >> $logFile
+  fi
+done
