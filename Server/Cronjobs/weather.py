@@ -124,15 +124,15 @@ insertData(
 #writeLog.close()
 
 
-insertData(
-    deviceId = deviceInfoDew['deviceId'],
-    indicatorId =  deviceInfoDew['indicatorId'],
-    value = str(weather['dewpoint']),
-    objectId = deviceInfoDew['objectId'],
-    timestamp = getEpochTime())
-
-dewPointLog = str(weather['dewpoint'])
-logger.debug('Value: %s', dewPointLog)
+# insertData(
+#     deviceId = deviceInfoDew['deviceId'],
+#     indicatorId =  deviceInfoDew['indicatorId'],
+#     value = str(weather['dewpoint']),
+#     objectId = deviceInfoDew['objectId'],
+#     timestamp = getEpochTime())
+#
+# dewPointLog = str(weather['dewpoint'])
+# logger.debug('Value: %s', dewPointLog)
 
 
 if __name__ == "__main__":
