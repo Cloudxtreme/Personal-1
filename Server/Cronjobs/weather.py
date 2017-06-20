@@ -1,6 +1,7 @@
 import json
 import urllib2
 import requests
+import logging
 
 """ This script is means to insertData into a already created device, object and indicator"""
 
@@ -9,6 +10,18 @@ wuAPIKey = "744ab92b8cf1baa5"
 ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/dewLog.txt')
+handler.setLevel(loggin.DEBUG)
+
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+
+# add the handlers to the logger
+logger.addHandler(handler)
 
 deviceInfoTemp = {
     "deviceId": 196,
@@ -118,12 +131,8 @@ insertData(
     objectId = deviceInfoDew['objectId'],
     timestamp = getEpochTime())
 
-logDewPoint = str(weather['dewpoint'])
-writeLog = open('/home/aelchert/Dropbox/Logs/dewLog.txt', 'a+')
-writeLog.write("[weather.py] - Lancaster dew point - {} - {}").format(logDewPoint, getEpochTime())
-writeLog.write("\n")
-
-writeLog.close()
+dewPointLog = str(weather['dewpoint'])
+logger.debug({} - {}).format(dewPointLog, getEpochTime())
 
 
 if __name__ == "__main__":
