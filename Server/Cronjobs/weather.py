@@ -118,21 +118,16 @@ insertData(
     objectId = deviceInfoTemp['objectId'],
     timestamp = getEpochTime())
 
-#writeLog = open('/home/aelchert/Dropbox/Logs/cronLog.txt', 'a+')
-#writeLog.write("[weather.py] - Lancaster temperature")
-#writeLog.write("\n")
-#writeLog.close()
 
+insertData(
+    deviceId = deviceInfoDew['deviceId'],
+    indicatorId =  deviceInfoDew['indicatorId'],
+    value = str(weather['dewpoint']),
+    objectId = deviceInfoDew['objectId'],
+    timestamp = getEpochTime())
 
-# insertData(
-#     deviceId = deviceInfoDew['deviceId'],
-#     indicatorId =  deviceInfoDew['indicatorId'],
-#     value = str(weather['dewpoint']),
-#     objectId = deviceInfoDew['objectId'],
-#     timestamp = getEpochTime())
-#
-# dewPointLog = str(weather['dewpoint'])
-# logger.debug('Value: %s', dewPointLog)
+dewPointLog = str(weather['dewpoint'])
+logger.debug('Value: %s', dewPointLog)
 
 
 if __name__ == "__main__":
