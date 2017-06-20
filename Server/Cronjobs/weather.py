@@ -11,7 +11,7 @@ ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('weather')
 logger.setLevel(logging.DEBUG)
 
 handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/dewLog.txt')
@@ -132,7 +132,7 @@ insertData(
     timestamp = getEpochTime())
 
 dewPointLog = str(weather['dewpoint'])
-logger.debug({} - {}).format(dewPointLog, getEpochTime())
+logger.debug('Value: %s', dewPointLog)
 
 
 if __name__ == "__main__":
