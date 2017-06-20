@@ -65,21 +65,6 @@ def getEpochTime():
     timestamp = str(timestamp) + '000'
     return timestamp
 
-def get_api_token():
-    """This fetches an Authorize API token"""
-    api_token_url = url + "/authentication/signin"
-
-    header = {"Content-Type": "application/json",
-              "Accept": "application/json"}
-
-    r = requests.post(api_token_url,
-                      data=json.dumps(credentials), headers=header, verify=False)
-    api_token_json = json.loads(r.content)
-    api_token = api_token_json["token"]
-    return api_token
-
-
-
 def insertData(deviceId, indicatorId, value, objectId, timestamp):
     data = [
           {
