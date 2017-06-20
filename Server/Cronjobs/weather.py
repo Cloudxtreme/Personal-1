@@ -79,7 +79,7 @@ def get_api_token():
 
 
 
-def insertData(deviceId, indicatorId, value, objectId, timestamp):
+def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
     data = [
           {
             "deviceId": deviceId,
@@ -94,24 +94,24 @@ def insertData(deviceId, indicatorId, value, objectId, timestamp):
           }
         ]
 
-    try:
-        post_indicatorData = url + "/device-indicators/data"
-        header = {
-            "Accept":"application/json",
-            "X-AUTH-TOKEN":"{}".format(get_api_token())
-            }
-        r = requests.post(post_indicatorData, headers=header,json=data)
-        jsonObject = r.json()
-        print(jsonObject)
-    except Exception as e:
-        print(e)
-
+    post_indicatorData = url + "/device-indicators/data"
+    header = {
+        "Accept":"application/json",
+        "X-AUTH-TOKEN":"{}".format(apiToken)
+        }
+    r = requests.post(post_indicatorData, headers=header,json=data)
+    return r.text
 
 # # Grab dict of weather data [temp, dewpoint]
 weather = getWeatherInfo()
 
+# Grab API Token
+
+token = get_api_token()
+
 # Insert temperature
 insertData(
+    apiToken=token,
     deviceId = deviceInfoTemp['deviceId'],
     indicatorId =  deviceInfoTemp['indicatorId'],
     value = str(weather['temperature']),
@@ -120,6 +120,7 @@ insertData(
 
 
 insertData(
+    apiToken=token,
     deviceId = deviceInfoDew['deviceId'],
     indicatorId =  deviceInfoDew['indicatorId'],
     value = str(weather['dewpoint']),
