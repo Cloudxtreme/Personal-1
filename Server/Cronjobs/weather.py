@@ -6,6 +6,7 @@ import logging
 """ This script is means to insertData into a already created device, object and indicator"""
 
 wuAPIKey = "744ab92b8cf1baa5"
+nmsApiKey = "eyJhbGciOiJIUzUxMiJ9eyJpc3MiOiJhRWxjaGVydCJ9HkQoTnHgFDKaWKZ38J3IQYaI3z53grlr1Z7VSDOLbttN_rA2fWz662InGgvH-yJT-fW0eDpYVvogzk452XWCLQ"
 
 ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
@@ -79,7 +80,7 @@ def get_api_token():
 
 
 
-def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
+def insertData(deviceId, indicatorId, value, objectId, timestamp):
     data = [
           {
             "deviceId": deviceId,
@@ -97,7 +98,7 @@ def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
     post_indicatorData = url + "/device-indicators/data"
     header = {
         "Accept":"application/json",
-        "X-AUTH-TOKEN":"{}".format(apiToken)
+        "X-AUTH-TOKEN":"{}".format(nmsApiKey)
         }
     r = requests.post(post_indicatorData, headers=header,json=data)
     return r.text
@@ -105,13 +106,9 @@ def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
 # # Grab dict of weather data [temp, dewpoint]
 weather = getWeatherInfo()
 
-# Grab API Token
-
-token = get_api_token()
 
 # Insert temperature
 insertData(
-    apiToken=token,
     deviceId = deviceInfoTemp['deviceId'],
     indicatorId =  deviceInfoTemp['indicatorId'],
     value = str(weather['temperature']),
@@ -120,7 +117,6 @@ insertData(
 
 
 insertData(
-    apiToken=token,
     deviceId = deviceInfoDew['deviceId'],
     indicatorId =  deviceInfoDew['indicatorId'],
     value = str(weather['dewpoint']),
