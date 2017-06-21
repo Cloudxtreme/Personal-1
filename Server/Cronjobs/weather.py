@@ -126,8 +126,8 @@ insertData(
     timestamp = getEpochTime())
 
 # Log the temps
-logger.info('Dew Point - Value: %s', str(weather['dewpoint'])
-logger.info('Temperature Value: %s', str(weather['temperature'])
+#logger.info('Dew Point - Value: %s', str(weather['dewpoint'])
+#logger.info('Temperature Value: %s', str(weather['temperature'])
 
 
 if __name__ == "__main__":
