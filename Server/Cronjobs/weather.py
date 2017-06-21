@@ -36,10 +36,10 @@ deviceInfoTemp = {
 
 deviceInfoDew = {
     "deviceId": 196,
-    "pluginIndicatorTypeId": 12910,
-    "indicatorId":8361,
+    "pluginIndicatorTypeId": 12908,
+    "indicatorId":8495,
     "pluginId": 10,
-    "objectId": 1067,
+    "objectId": 1080,
     "pluginObjectTypeId": 1578,
     "subtypeId": 1422
 }
