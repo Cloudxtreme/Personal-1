@@ -86,7 +86,7 @@ def insertData(deviceId, indicatorId, value, objectId, timestamp):
         "X-AUTH-TOKEN":"{}".format(nmsApiKey)
         }
     r = requests.post(post_indicatorData, headers=header,json=data)
-    return r.text
+    print r.text
 
 # # Grab dict of weather data [temp, dewpoint]
 weather = getWeatherInfo()
