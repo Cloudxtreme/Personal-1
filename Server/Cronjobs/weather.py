@@ -15,7 +15,7 @@ url = 'http://{}/api/v1'.format(ip)
 logger = logging.getLogger('weather')
 logger.setLevel(logging.INFO)
 
-handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/dewLog.txt')
+handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/weatherLog.txt')
 handler.setLevel(logging.INFO)
 
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -98,6 +98,7 @@ def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
         }
     r = requests.post(post_indicatorData, headers=header,json=data)
     print r.text
+    logger.info('Error at: %s', r.text)
 
 # # Grab dict of weather data [temp, dewpoint]
 weather = getWeatherInfo()
@@ -123,7 +124,9 @@ insertData(
     timestamp = getEpochTime())
 
 dewPointLog = str(weather['dewpoint'])
-logger.debug('Value: %s', dewPointLog)
+tempPointLog = str(weather['temperature'])
+logger.info('Dew Point - Value: %s', dewPointLog)
+logger.info('Temperature Value: %s', tempPointLog)
 
 
 if __name__ == "__main__":
