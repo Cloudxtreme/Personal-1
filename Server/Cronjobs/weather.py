@@ -65,7 +65,18 @@ def getEpochTime():
     timestamp = str(timestamp) + '000'
     return timestamp
 
-def insertData(deviceId, indicatorId, value, objectId, timestamp):
+def get_api_token():
+
+    api_token_url = url + "/authentication/signin"
+
+    header = {"Content-Type" : "application/json","Accept":"application/json"}
+
+    r = requests.post(api_token_url,data=json.dumps(credentials),headers=header)
+    api_token_json = json.loads(r.content)
+    api_token = api_token_json["token"]
+    return api_token
+
+def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
     data = [
           {
             "deviceId": deviceId,
@@ -83,7 +94,7 @@ def insertData(deviceId, indicatorId, value, objectId, timestamp):
     post_indicatorData = url + "/device-indicators/data"
     header = {
         "Accept":"application/json",
-        "X-AUTH-TOKEN":"{}".format(nmsApiKey)
+        "X-AUTH-TOKEN":"{}".format(apiToken)
         }
     r = requests.post(post_indicatorData, headers=header,json=data)
     print r.text
@@ -91,9 +102,11 @@ def insertData(deviceId, indicatorId, value, objectId, timestamp):
 # # Grab dict of weather data [temp, dewpoint]
 weather = getWeatherInfo()
 
+token = get_api_token()
 
 # Insert temperature
 insertData(
+    apiToken=token,
     deviceId = deviceInfoTemp['deviceId'],
     indicatorId =  deviceInfoTemp['indicatorId'],
     value = str(weather['temperature']),
@@ -102,6 +115,7 @@ insertData(
 
 
 insertData(
+    apiToken=token,
     deviceId = deviceInfoDew['deviceId'],
     indicatorId =  deviceInfoDew['indicatorId'],
     value = str(weather['dewpoint']),
