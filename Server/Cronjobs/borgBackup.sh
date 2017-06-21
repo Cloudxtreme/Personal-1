@@ -10,7 +10,7 @@ lastBorgBackup=$(sudo borg list /mnt/Backups/ | awk '{print $1;}' | tail -n 1)
 sudo borg create -v --stats $REPOSITORY::`hostname`-`date +%Y-%m-%d` /mnt/NAS
 
 if [ $? -eq 0 ]; then
-  echo -e "++ [borgBackup.sh] Completed $NOW\n" >> $LOGFILE
+  echo -e "++ [borgBackup.sh] Completed $NOW" >> $LOGFILE
 
 # Use the `prune` subcommand to maintain 7 daily, 4 weekly and 6 monthly
 # archives of THIS machine. --prefix `hostname`- is very important to
@@ -23,7 +23,7 @@ borg prune --stats -v $REPOSITORY --prefix `hostname`- \
     --keep-daily=7 --keep-weekly=4 >> $LOGFILE
 
 if [ $? -eq 0 ]; then
-  echo -e "++ [borgBackup.sh] - Prune - Completed $NOW\n" >> $LOGFILE
+  echo -e "++ [borgBackup.sh] - Prune - Completed $NOW" >> $LOGFILE
 else
-  echo -e "-- [borgBackup.sh] - Prune - FAILED $NOW\n" >> $LOGFILE
+  echo -e "-- [borgBackup.sh] - Prune - FAILED $NOW" >> $LOGFILE
 fi

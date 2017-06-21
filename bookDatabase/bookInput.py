@@ -1,6 +1,10 @@
 # Enter in an Isbn and get book information via Google books
 # and enter it into a local mysql database
 
+# Features to add
+# command line flag input for new book
+# command flag for local or remote update
+
 import urllib2, json, mysql.connector, time, os
 from blessed import Terminal
 
