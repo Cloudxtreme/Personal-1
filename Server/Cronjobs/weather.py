@@ -96,9 +96,11 @@ def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
         "Accept":"application/json",
         "X-AUTH-TOKEN":"{}".format(apiToken)
         }
-    r = requests.post(post_indicatorData, headers=header,json=data)
-    print r.text
-    logger.info('Error at: %s', r.text)
+    try:
+        r = requests.post(post_indicatorData, headers=header,json=data)
+    else:
+        print r.text
+        logger.info('Error at: %s', r.text)
 
 # # Grab dict of weather data [temp, dewpoint]
 weather = getWeatherInfo()
