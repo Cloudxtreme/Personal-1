@@ -3,6 +3,10 @@ import datetime
 import json
 import sqlite3
 
+# Add column for time to database
+
+
+
 # Don't forget to add keys here ( apps.twitter.com )
 consumer_key = "TmA9a642mFLnB1osK0G9s2ZOu"
 consumer_secret = "koj4LqnH6nSZa3xRliw7cXdFBJKsvRyEkNsuoDFyl1cAj7bZUh"
