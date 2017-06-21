@@ -12,3 +12,4 @@ PS="/home/aelchert/Git/Personal/Server/Cronjobs"
 * * * * * chown -R aelchert /mnt/NAS/Movies /mnt/NAS/TV\ Shows
 * * * * * chmod -R 777 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
 
+@reboot root bash /home/aelchert/Git/Personal/Server/Cronjobs/vmStartAtBoot.sh
