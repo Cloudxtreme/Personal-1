@@ -125,10 +125,9 @@ insertData(
     objectId = deviceInfoDew['objectId'],
     timestamp = getEpochTime())
 
-dewPointLog = str(weather['dewpoint'])
-tempPointLog = str(weather['temperature'])
-logger.info('Dew Point - Value: %s', dewPointLog)
-logger.info('Temperature Value: %s', tempPointLog)
+# Log the temps
+logger.info('Dew Point - Value: %s', str(weather['dewpoint'])
+logger.info('Temperature Value: %s', str(weather['temperature'])
 
 
 if __name__ == "__main__":
