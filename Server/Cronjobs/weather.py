@@ -98,7 +98,7 @@ def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
         }
     try:
         r = requests.post(post_indicatorData, headers=header,json=data)
-    else:
+    except:
         print r.text
         logger.info('Error at: %s', r.text)
 
