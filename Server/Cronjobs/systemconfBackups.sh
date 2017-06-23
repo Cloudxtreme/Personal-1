@@ -48,7 +48,7 @@ python nginxBackup.py
 printf "\n Checking Crontab"
 if [[ $crontabBackupHash != $crontabHash ]]; then
 	crontab -u root -l > $DIR/Cron/server_root_crontab
-	echo -e "++ [systemconfBackups] - Crontab Backup - $NOW" >> $LOGFILE
+	echo "++ [systemconfBackups] - Crontab Backup - $NOW" >> $LOGFILE
    counter+=1
 fi
 
@@ -56,7 +56,7 @@ fi
 printf "\n Checking Bashrc"
 if [[ $bashrcHash != $bashrcBackupHash ]]; then
 	cp /home/aelchert/.bashrc $DIR/Bash/server_bashrc
-	echo -e "++ [systemconfBackups] - Bashrc Backup - $NOW" >> $LOGFILE
+	echo "++ [systemconfBackups] - Bashrc Backup - $NOW" >> $LOGFILE
    	counter+=1
 fi
 
@@ -66,8 +66,8 @@ fi
 
 if [[ $counter -ge 1 ]]; then
 	git_add
-	printf "++ [systemconfBackups] - Sysconf Backup Complete w/ Git add- $NOW" >> $LOGFILE
+	echo "++ [systemconfBackups] - Sysconf Backup Complete w/ Git add- $NOW" >> $LOGFILE
 else
-	printf "++ [systemconfBackups] - No Updates- $NOW" >> $LOGFILE
-	printf "++ [systemconfBackups] - Sysconf Backup Complete - $NOW" >> $LOGFILE
+	echo "++ [systemconfBackups] - No Updates- $NOW" >> $LOGFILE
+	echo "++ [systemconfBackups] - Sysconf Backup Complete - $NOW" >> $LOGFILE
 fi
