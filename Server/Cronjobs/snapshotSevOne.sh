@@ -1,16 +1,15 @@
 #!/bin/bash
 
-NOW=$(date +"%m-%d-%Y")
+source '../../Resources/timeVariableNOW.sh'
+
 logPath='/home/aelchert/Dropbox/Logs/cronLog.txt'
 
 VBoxManage snapshot SevOne take SevOne-$NOW
 
 if [ $? -eq 0 ]; then
-	echo "++ [SevOneVM Snapshot] - Created $NOW" >> $logPath
+	echo "++ [SevOneVM Snapshot] - $NOW - Created" >> $logPath
 elif [ $? -eq 1 ]; then
-	echo "-- [SevOne VM Snapshot] - ERROR $NOW" >> $logPath
+	echo "-- [SevOne VM Snapshot] - $NOW - ERROR" 2>&1 $logPath
 else
-	echo "-- [SevOne VM Snapshot] - Unknown Error" >> $logPath
+	echo "-- [SevOne VM Snapshot] - $NOW - Unknown Error" 2>&1  $logPath
 fi
-
-

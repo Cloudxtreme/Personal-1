@@ -2,7 +2,8 @@
 
 # Script to Backup mysql database "booksread"
 
-NOW=$(date +"%m-%d-%Y")
+source '../../Resources/timeVariableNOW.sh'
+
 DIR="/home/aelchert/Dropbox/Backup"
 LOGFILE="/home/aelchert/Dropbox/Logs/cronLog.txt"
 

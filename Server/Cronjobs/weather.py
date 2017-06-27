@@ -6,7 +6,6 @@ import logging
 """ This script is means to insertData into a already created device, object and indicator"""
 
 wuAPIKey = "744ab92b8cf1baa5"
-nmsApiKey = "eyJhbGciOiJIUzUxMiJ9eyJpc3MiOiJhRWxjaGVydCJ9HkQoTnHgFDKaWKZ38J3IQYaI3z53grlr1Z7VSDOLbttN_rA2fWz662InGgvH-yJT-fW0eDpYVvogzk452XWCLQ"
 
 ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
