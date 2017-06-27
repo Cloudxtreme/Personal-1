@@ -1,7 +1,8 @@
 #! /bin/bash
 # Get's the public IP and writes it /Dropbox/Logs/
 
-NOW=$(date +"%m-%d-%Y")
+source ../../Resources/timeVariableNOW.#!/bin/sh
+
 filePath="/home/aelchert/Dropbox/Logs/server_public_ip.txt"
 IP=$(curl 'http://myexternalip.com/raw')
 LOGFILE="/home/aelchert/Dropbox/Logs/cronLog.txt"
@@ -14,9 +15,9 @@ echo -e $NOW "==>" $IP >> $filePath
 getIP
 
 if [ $? -eq 0 ]; then
-  echo "++ [publicIpCheck.sh] Completed $NOW" >> $LOGFILE
+  echo "++ [publicIpCheck.sh] - $NOW - Completed" >> $LOGFILE
 else
-  echo "-- [publicIpCheck.sh] FAILED $NOW" >> $LOGFILE
+  echo "-- [publicIpCheck.sh] - NOW - FAILED " >> $LOGFILE
 fi
 
 # If the log file is longer than 20 lines, clear it.
@@ -32,5 +33,5 @@ ownerName=$(stat -c %U /home/aelchert/Git/Personal/Server/Cronjobs/publicIpCheck
 
 if [ $ownerName != "aelchert" ]; then
         chown aelchert $filePath
-	echo "++ [publicIpCheck.sh] chown of files completed - $NOW" >> $LOGFILE
+	echo "++ [publicIpCheck.sh] - $NOW - chown of files completed - $NOW" >> $LOGFILE
 fi
