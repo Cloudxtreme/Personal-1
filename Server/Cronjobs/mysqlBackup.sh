@@ -11,9 +11,9 @@ LOGFILE="/home/aelchert/Dropbox/Logs/cronLog.txt"
 mysqldump -u root -p'CuIeyy7j!!' Booksread > $DIR/booksread_$NOW.sql
 
 if [ $? -eq 0 ]; then
-  echo -e "++ [mysqlBackup.sh] Completed $NOW" >> $LOGFILE
+  echo -e "++ [mysqlBackup.sh] - $NOW Completed" >> $LOGFILE
 else
-  echo -e "-- [mysqlBackup.sh] FAILED $NOW" >> $LOGFILE
+  echo -e "-- [mysqlBackup.sh] - $NOW - FAILED - $NOW" 2>&1 $LOGFILE
 fi
 
 # change owner of .sql backup file
@@ -24,10 +24,14 @@ cd $DIR
 tar rvf Booksread_Backup.tar booksread_$NOW.sql
 
 if [ $? -eq 0 ]; then
-  echo -e "++ [mysqlBackup.sh] Tar creation - Completed $NOW" >> $LOGFILE
+  echo -e "++ [mysqlBackup.sh] - $NOW - Tar creation - Completed" >> $LOGFILE
 else
-  echo -e "-- [mysqlBackup.sh] Tar FAILED $NOW" >> $LOGFILE
+  echo -e "-- [mysqlBackup.sh] - $NOW - Tar FAILED " 2>&1 $LOGFILE
 fi
 
 rm booksread_$NOW.sql
-# Log
+if [ $? -eq 0 ]; then
+  echo -e "++ [mysqlBackup.sh] - $NOW - rm of Booksread.sql - Completed" >> $LOGFILE
+else
+  echo -e "-- [mysqlBackup.sh] - $NOW - rm of Booksread.sql - FAILED " 2>&1 $LOGFILE
+fi

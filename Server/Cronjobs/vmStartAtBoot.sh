@@ -2,8 +2,10 @@
 
 logFile='/home/aelchert/Dropbox/Logs/cronLog.txt'
 
+source '../../Resources/timeVariableNOW.sh'
+
 # get list of VMs on the box and put into an array
-declare -a getVMsList
+
 
 getVMsList=( \
 e2fe39a5-7bce-49ca-8891-3d61c35bef87 \
@@ -18,10 +20,10 @@ e2fe39a5-7bce-49ca-8891-3d61c35bef87 \
 for vm in ${getVMsList[@]}; do
   VBoxManage startvm $vm --type headless 2>&1
   if [[ $? -eq  0 ]]; then
-      echo "++ [vmStartScript] - $vm - has started" >> $logFile
+      echo "++ [vmStartScript] - $NOW - $vm - has started" >> $logFile
   elif [[ $? -eq 1 ]]; then
-      echo "-- [vmStartScript] - $vm - is already running" >> $logFile
+      echo "-- [vmStartScript] - $NOW  - $vm - is already running" >> $logFile
   else
-      echo "-- [vmStartScript] - $vm - Error Occured" >> $logFile
+      echo "-- [vmStartScript] - $NOW  - $vm - Error Occured" 2>&1 $logFile
   fi
 done
