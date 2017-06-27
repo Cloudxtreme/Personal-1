@@ -33,5 +33,5 @@ ownerName=$(stat -c %U /home/aelchert/Git/Personal/Server/Cronjobs/publicIpCheck
 
 if [ $ownerName != "aelchert" ]; then
         chown aelchert $filePath
-	echo "++ [publicIpCheck.sh] - $NOW - chown of files completed - $NOW" >> $LOGFILE
+	echo "++ [publicIpCheck.sh] - $NOW - chown of files completed" >> $LOGFILE
 fi

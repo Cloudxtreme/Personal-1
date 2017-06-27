@@ -18,12 +18,12 @@ e2fe39a5-7bce-49ca-8891-3d61c35bef87 \
 # it will return a 1. If it successfully starts them, it will return 0.
 
 for vm in ${getVMsList[@]}; do
-  VBoxManage startvm $vm --type headless 2>&1
+  VBoxManage startvm $vm --type headless
   if [[ $? -eq  0 ]]; then
       echo "++ [vmStartScript] - $NOW - $vm - has started" >> $logFile
   elif [[ $? -eq 1 ]]; then
       echo "-- [vmStartScript] - $NOW  - $vm - is already running" >> $logFile
   else
-      echo "-- [vmStartScript] - $NOW  - $vm - Error Occured" 2>&1 $logFile
+      echo "-- [vmStartScript] - $NOW  - $vm - Error Occured" &>1 $logFile
   fi
 done

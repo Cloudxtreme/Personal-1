@@ -6,7 +6,8 @@
 #   nginx config from VM, via python script
 
 
-NOW=$(date +"%m-%d-%Y")
+source '../../Resources/timeVariableNOW.sh'
+
 DIR='/home/aelchert/Git/Personal/Backups'
 LOGFILE="/home/aelchert/Dropbox/Logs/cronLog.txt"
 #EMAIL='7ac1a19215fbf24b575197605f2ae1f8f5fef8ea@api.prowlapp.com'
@@ -48,7 +49,7 @@ python nginxBackup.py
 printf "\n Checking Crontab"
 if [[ $crontabBackupHash != $crontabHash ]]; then
 	crontab -u root -l > $DIR/Cron/server_root_crontab
-	echo "++ [systemconfBackups] - Crontab Backup - $NOW" >> $LOGFILE
+	echo "++ [systemconfBackups]- $NOW - Crontab Backup " >> $LOGFILE
    counter+=1
 fi
 
@@ -56,7 +57,7 @@ fi
 printf "\n Checking Bashrc"
 if [[ $bashrcHash != $bashrcBackupHash ]]; then
 	cp /home/aelchert/.bashrc $DIR/Bash/server_bashrc
-	echo "++ [systemconfBackups] - Bashrc Backup - $NOW" >> $LOGFILE
+	echo "++ [systemconfBackups] - $NOW - Bashrc Backup" >> $LOGFILE
    	counter+=1
 fi
 
@@ -66,8 +67,8 @@ fi
 
 if [[ $counter -ge 1 ]]; then
 	git_add
-	echo "++ [systemconfBackups] - Sysconf Backup Complete w/ Git add- $NOW" >> $LOGFILE
+	echo "++ [systemconfBackups] - $NOW - Sysconf Backup Complete w/ Git add" >> $LOGFILE
 else
-	echo "++ [systemconfBackups] - No Updates- $NOW" >> $LOGFILE
-	echo "++ [systemconfBackups] - Sysconf Backup Complete - $NOW" >> $LOGFILE
+	echo "++ [systemconfBackups] - $NOW - No Updates" >> $LOGFILE
+	echo "++ [systemconfBackups] - $NOW - Sysconf Backup Complete" >> $LOGFILE
 fi
