@@ -1,11 +1,28 @@
 # manage docker containers
 # assuming docker is already installed
 ---
-- hosts: serverRemote
+- hosts: serverLocal
   tasks:
     - name: install docker-py, required for anisble and docker-py
       pip:
         name: docker-py
+
+    - name: Ghost Blogging Software
+      docker_container:
+        name: ghostBlog
+        image: ghost/latest
+        state: started
+        network_mode: bridge
+        restart_policy: always
+        ports:
+          - "8988:2368"
+        env:
+          PGID: "1000"
+          PUID: "1000"
+          TZ: "EST"
+        volumes:
+          - /opt/ghost/:/var/lib/ghost
+      tags: ghost
 
     - name: Sabnzbd image deployment
       docker_container:
