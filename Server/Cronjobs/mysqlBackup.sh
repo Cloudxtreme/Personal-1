@@ -9,7 +9,7 @@ DIR="/home/aelchert/Dropbox/Backup"
 LOGFILE="/home/aelchert/Dropbox/Logs/cronLog.txt"
 
 # dump Booksread database to Dropbox/Backup
-mysqldump -u root -p'CuIeyy7j!!' Booksread > $DIR/booksread_$NOW.sql
+mysqldump -u root -p'CuIeyy7j!!' Booksread > $DIR/booksread_$NOW.sql 2>&1
 
 if [ $? -eq 0 ]; then
   echo -e "++ [mysqlBackup.sh] - $NOW Completed" >> $LOGFILE
