@@ -5,6 +5,7 @@ import sqlite3
 import argparse
 import pprint
 import os
+import sys
 
 # Add column for time to database
 # Pre-checks - find if database has any previous entries for
@@ -33,6 +34,7 @@ def createTables():
                          username TEXT,
                          tweetId TEXT,
                          tweetText TEXT,
+                         tweetURL TEXT,
                          mailed INTEGER DEFAULT 0
                          )''')
 
@@ -45,8 +47,7 @@ def getTimeline(username, tweetId):
          for it """
     userTimeline = twitter.get_user_timeline(
         screen_name=username,
-        exclude_replies=True,
-        since_id=tweetId)
+        exclude_replies=True, since_id=tweetId)
     return userTimeline
 
 def addNewUserToDatabase(username):
@@ -74,18 +75,20 @@ def addNewUserToDatabase(username):
              timeCreated = tweets['created_at']
              tweetId = tweets['id']
              tweetText = tweets['text']
+             tweetURL = 'https://twitter.com/{}/status/{}'.format(username, tweetId)
 
-             insertTweet(timeCreated, username, tweetId, tweetText)
+             insertTweet(timeCreated, username, tweetId, tweetText, tweetURL)
              print("++ Inserted ID: {}".format(tweetId))
     else:
         print("-- Username already exsists in Database")
         sys.exit(0)
 
-def insertTweet(timeCreated, username, tweetId, tweetText):
+def insertTweet(timeCreated, username, tweetId, tweetText, tweetURL):
     """ Insert last tweet into sqllite """
-    t = (timeCreated, username, tweetId, tweetText, 0)
+    t = (timeCreated, username, tweetId, tweetText, tweetURL, 0)
     try:
-        c.execute('INSERT INTO tweets VALUES (?, ?, ?, ?, ?)', t)
+        tweetURL = 'https://twitter.com/{}/status/{}'.format(username, tweetId)
+        c.execute('INSERT INTO tweets VALUES (?, ?, ?, ?, ?, ?)', t)
     except:
         print(Exception)
     finally:
@@ -95,62 +98,81 @@ def insertTweet(timeCreated, username, tweetId, tweetText):
 def getLastIdforUser(username):
     """ Query sqlite3 database by username for max value of ID
         Returns: list item of ID """
-    # return to this query when it's working. Can't use for debug since it
-    # only returns if they are new tweets
-    query = c.execute('SELECT max(lastTweetId) FROM tweets WHERE username=(?)', (username, ))
 
-    # test query will pull a random lastTweetID
-    #query = c.execute('SELECT lastTweetId FROM tweets ORDER BY RANDOM() limit 1;')
+    query = c.execute('SELECT max(tweetId) FROM tweets WHERE username=(?)', [username])
+
     if query == "None":
         return 0
     rows = list(c.fetchone())
     return rows
 
+def listUsers():
+    # query returns a tuple. The for loop is to convert to a list
+    query = c.execute("SELECT distinct username from tweets;")
+    names = []
+    for name in query:
+        names.append(name[0])
+    return names
 
-
-
-###########################################################################
 
 
 ###########################################################################
 ''' Connect to Database '''
 conn = sqlite3.connect(dbName)
 c = conn.cursor()
+
 ###########################################################################
-''' Create Table if Necessary in the database '''
+''' Create database if necessary'''
 if os.path.isfile(dbName):
     print("-- Database {} exists already.".format(dbName))
+    if os.path.getsize(dbName) == 0:
+        createTables()
+    else:
+        pass
+
 else:
     print("++ Creating Database file: {}".format(dbName))
     createTables()
+
 ###########################################################################
-''' Establish argparse '''
-twitterUserName = []
-parser = argparse.ArgumentParser(description='Add/Edit/Delete users')
-parser.add_argument('--add', dest='name', action='store_const',
-                    const=twitterUserName,
-                    help="add a username to be followed")
-args = parser.parse_args()
-print(args)
+'''
+* Establish argparse
+* --add - adds a new user to the database and fetches last tweets
+'''
+# If there are arguments
+if len(sys.argv) > 2:
+    parser = argparse.ArgumentParser(description='Add/Edit/Delete users')
+    parser.add_argument('--add',
+                        nargs=1,
+                        help="add a username to be followed")
+    args = parser.parse_args()
+    username = args.add[0]
 
-#if __name__ == "__main__":
-    #for user in screenNames:
-    #
-    #     lastTweetId = getLastIdforUser(user)
-    #    userTimeline = getTimeline(user, lastTweetId)
-    #     print(lastTweetId)
-        #
-        # for tweets in userTimeline:
-        #     tweetId = tweets['id']
-        #     tweetText = tweets['text']
-        #     #
-        #     # DEBUG
-        #     #
-        #     #print(tweetId)
-        #     #print(tweetText)
-        #
-        #     insertTweet(user, tweetId, tweetText)
+    addNewUserToDatabase(username)
+    print("++ New user added to database")
 
+else:
+    pass
 
+###########################################################################
+
+followedUsers = listUsers()
+
+for user in followedUsers:
+    print("++ Starting User: {}".format(user))
+
+    lastTweetId = getLastIdforUser(user)
+    print ("-- Last TweetID: {}".format(lastTweetId))
+
+    userTimeline = getTimeline(user, lastTweetId)
+
+    for tweets in userTimeline:
+         timeCreated = tweets['created_at']
+         tweetId = tweets['id']
+         tweetText = tweets['text']
+         tweetURL = 'https://twitter.com/{}/status/{}'.format(username, tweetId)
+
+         insertTweet(timeCreated, username, tweetId, tweetText, tweetURL)
+         print("++ Inserted ID: {}".format(tweetId))
 
 conn.close()
