@@ -2,9 +2,13 @@ from twython import Twython, TwythonError
 import datetime
 import json
 import sqlite3
+import argparse
+import pprint
+import os
 
 # Add column for time to database
-
+# Pre-checks - find if database has any previous entries for
+#   that new person, if not fill database
 
 
 # Don't forget to add keys here ( apps.twitter.com )
@@ -15,7 +19,7 @@ access_secret = "iY379we0P017I5fmPHUX3PrcgGuAg1IYga1HWXx4zAdRg"
 
 twitter = Twython(consumer_key, consumer_secret, access_key, access_secret)
 
-screenNames = ['neverminding', 'jasonisbell']
+screenNames = []
 dbName = "tweets.db"
 
 
@@ -25,8 +29,9 @@ def createTables():
     try:
         if conn is not None:
             c.execute('''CREATE TABLE if not exists tweets(
+                         timeCreated TEXT,
                          username TEXT,
-                         lastTweetId TEXT,
+                         tweetId TEXT,
                          tweetText TEXT,
                          mailed INTEGER DEFAULT 0
                          )''')
@@ -44,14 +49,45 @@ def getTimeline(username, tweetId):
         since_id=tweetId)
     return userTimeline
 
+def addNewUserToDatabase(username):
+    '''
+    Function will add new user to database and pull a series of initial
+    tweets
+    '''
+    if os.path.isfile(dbName):
+        print("-- Database Already Exists")
+        pass
+    else:
+        print("++ Database has been created.")
+        createTables()
 
-def insertTweet(username, lastTweetId, tweetText):
+    print("-- New User to add: {}".format(username))
+    query = c.execute('SELECT count(*) from tweets where username=(?)', [username])
+    if c.fetchone()[0] == 0:
+        print("-- User Not in Database.")
+        userTimeLine = twitter.get_user_timeline(
+            screen_name=username,
+            exclude_replies=True
+        )
+
+        for tweets in userTimeLine:
+             timeCreated = tweets['created_at']
+             tweetId = tweets['id']
+             tweetText = tweets['text']
+
+             insertTweet(timeCreated, username, tweetId, tweetText)
+             print("++ Inserted ID: {}".format(tweetId))
+    else:
+        print("-- Username already exsists in Database")
+        sys.exit(0)
+
+def insertTweet(timeCreated, username, tweetId, tweetText):
     """ Insert last tweet into sqllite """
-    t = (username, lastTweetId, tweetText, 0)
+    t = (timeCreated, username, tweetId, tweetText, 0)
     try:
-        c.execute('INSERT INTO tweets VALUES (?, ?, ?, ?)', t)
+        c.execute('INSERT INTO tweets VALUES (?, ?, ?, ?, ?)', t)
     except:
-        print("Insert Error")
+        print(Exception)
     finally:
         conn.commit()
 
@@ -75,26 +111,46 @@ def getLastIdforUser(username):
 
 ###########################################################################
 
+
+###########################################################################
+''' Connect to Database '''
 conn = sqlite3.connect(dbName)
 c = conn.cursor()
+###########################################################################
+''' Create Table if Necessary in the database '''
+if os.path.isfile(dbName):
+    print("-- Database {} exists already.".format(dbName))
+else:
+    print("++ Creating Database file: {}".format(dbName))
+    createTables()
+###########################################################################
+''' Establish argparse '''
+twitterUserName = []
+parser = argparse.ArgumentParser(description='Add/Edit/Delete users')
+parser.add_argument('--add', dest='name', action='store_const',
+                    const=twitterUserName,
+                    help="add a username to be followed")
+args = parser.parse_args()
+print(args)
 
-createTables()
-
-for user in screenNames:
-
-    lastTweetId = getLastIdforUser(user)
-    userTimeline = getTimeline(user, lastTweetId)
-
-    for tweets in userTimeline:
-        tweetId = tweets['id']
-        tweetText = tweets['text']
+#if __name__ == "__main__":
+    #for user in screenNames:
+    #
+    #     lastTweetId = getLastIdforUser(user)
+    #    userTimeline = getTimeline(user, lastTweetId)
+    #     print(lastTweetId)
         #
-        # DEBUG
+        # for tweets in userTimeline:
+        #     tweetId = tweets['id']
+        #     tweetText = tweets['text']
+        #     #
+        #     # DEBUG
+        #     #
+        #     #print(tweetId)
+        #     #print(tweetText)
         #
-        #print(tweetId)
-        #print(tweetText)
+        #     insertTweet(user, tweetId, tweetText)
 
-        insertTweet(user, tweetId, tweetText)
 
 
 conn.close()
