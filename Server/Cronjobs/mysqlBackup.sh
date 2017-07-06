@@ -4,16 +4,17 @@
 
 source '../../Resources/timeVariableNOW.sh'
 
+
 DIR="/home/aelchert/Dropbox/Backup"
 LOGFILE="/home/aelchert/Dropbox/Logs/cronLog.txt"
 
 # dump Booksread database to Dropbox/Backup
-mysqldump -u root -p'CuIeyy7j!!' Booksread > $DIR/booksread_$NOW.sql
+mysqldump -u root -p'CuIeyy7j!!' Booksread > $DIR/booksread_$(date).sql
 
 if [ $? -eq 0 ]; then
   echo -e "++ [mysqlBackup.sh] - $NOW Completed" >> $LOGFILE
 else
-  echo -e "-- [mysqlBackup.sh] - $NOW - FAILED - $NOW" >> $LOGFILE
+  echo -e "-- [mysqlBackup.sh] - $NOW - FAILED" >> $LOGFILE
 fi
 
 # change owner of .sql backup file
