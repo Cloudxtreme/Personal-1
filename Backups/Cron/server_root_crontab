@@ -1,0 +1,16 @@
+PS="/home/aelchert/Git/Personal/Server/Cronjobs"
+
+# every morning #
+0 5 * * * $PS/systemconfBackups.sh
+0 6 * * * python $PS/hdsentinelParsed.py
+0 8 * * * $PS/publicIpCheck.sh
+0 9 * * * $PS/mysqlBackup.sh
+0 6,12 * * * $PS/borgBackup.sh
+*/30 * * * * python $PS/weather.py
+
+* * * * * chown -R aelchert /mnt/NAS/Movies /mnt/NAS/TV\ Shows
+* * * * * chmod -R 777 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
+
+@reboot root bash /home/aelchert/Git/Personal/Server/Cronjobs/vmStartAtBoot.sh
+
+@weekly $PS/snapshotSevOne.sh
