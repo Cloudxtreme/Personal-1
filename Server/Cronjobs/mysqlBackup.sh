@@ -13,7 +13,7 @@ mysqldump -u root -p'CuIeyy7j!!' Booksread > $DIR/booksread_$NOW.sql
 if [ $? -eq 0 ]; then
   echo -e "++ [mysqlBackup.sh] - $NOW Completed" >> $LOGFILE
 else
-  echo -e "-- [mysqlBackup.sh] - $NOW - FAILED - $NOW" &>1 $LOGFILE
+  echo -e "-- [mysqlBackup.sh] - $NOW - FAILED - $NOW" >> $LOGFILE
 fi
 
 # change owner of .sql backup file
@@ -26,12 +26,12 @@ tar rvf Booksread_Backup.tar booksread_$NOW.sql
 if [ $? -eq 0 ]; then
   echo -e "++ [mysqlBackup.sh] - $NOW - Tar creation - Completed" >> $LOGFILE
 else
-  echo -e "-- [mysqlBackup.sh] - $NOW - Tar FAILED " &> $LOGFILE
+  echo -e "-- [mysqlBackup.sh] - $NOW - Tar FAILED " >> $LOGFILE
 fi
 
 rm booksread_$NOW.sql
 if [ $? -eq 0 ]; then
   echo -e "++ [mysqlBackup.sh] - $NOW - rm of Booksread.sql - Completed" >> $LOGFILE
 else
-  echo -e "-- [mysqlBackup.sh] - $NOW - rm of Booksread.sql - FAILED " &> $LOGFILE
+  echo -e "-- [mysqlBackup.sh] - $NOW - rm of Booksread.sql - FAILED " >> $LOGFILE
 fi
