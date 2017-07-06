@@ -18,11 +18,11 @@ else
 fi
 
 # change owner of .sql backup file
-chown aelchert $DIR/booksread_$NOW.sql
+chown aelchert $DIR/booksread_$(date).sql
 
 #adds sql backups to tar file
 cd $DIR
-tar rvf Booksread_Backup.tar booksread_$NOW.sql
+tar rvf Booksread_Backup.tar booksread_$(date).sql
 
 if [ $? -eq 0 ]; then
   echo -e "++ [mysqlBackup.sh] - $NOW - Tar creation - Completed" >> $LOGFILE
