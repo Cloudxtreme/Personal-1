@@ -30,7 +30,7 @@ else
   echo -e "-- [mysqlBackup.sh] - $NOW - Tar FAILED " >> $LOGFILE
 fi
 
-rm booksread_$LOGFILEDATE.sql
+rm booksread_$NOW.sql
 if [ $? -eq 0 ]; then
   echo -e "++ [mysqlBackup.sh] - $NOW - rm of Booksread.sql - Completed" >> $LOGFILE
 else
