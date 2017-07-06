@@ -2,7 +2,7 @@
 
 # Script to Backup mysql database "booksread"
 
-NOW=$(date +"%m-%d-%Y")
+NOW=$(date +"%m-%d-%Y::%H-%M")
 
 dateLog = $(date)
 DIR="/home/aelchert/Dropbox/Backup"
