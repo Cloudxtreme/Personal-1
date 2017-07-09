@@ -7,10 +7,6 @@ import pprint
 import os
 import sys
 
-# Add column for time to database
-# Pre-checks - find if database has any previous entries for
-#   that new person, if not fill database
-
 
 # Don't forget to add keys here ( apps.twitter.com )
 consumer_key = "TmA9a642mFLnB1osK0G9s2ZOu"
@@ -79,6 +75,7 @@ def addNewUserToDatabase(username):
 
              insertTweet(timeCreated, username, tweetId, tweetText, tweetURL)
              print("++ Inserted ID: {}".format(tweetId))
+             conn.commit()
     else:
         print("-- Username already exsists in Database")
         sys.exit(0)
@@ -145,6 +142,10 @@ if len(sys.argv) > 2:
     parser.add_argument('--add',
                         nargs=1,
                         help="add a username to be followed")
+
+    # parser.add_argument('--delete',
+    #                     nargs=1,
+    #                     help="stop following a user")
     args = parser.parse_args()
     username = args.add[0]
 
@@ -170,9 +171,9 @@ for user in followedUsers:
          timeCreated = tweets['created_at']
          tweetId = tweets['id']
          tweetText = tweets['text']
-         tweetURL = 'https://twitter.com/{}/status/{}'.format(username, tweetId)
+         tweetURL = 'https://twitter.com/{}/status/{}'.format(user, tweetId)
 
-         insertTweet(timeCreated, username, tweetId, tweetText, tweetURL)
+         insertTweet(timeCreated, user, tweetId, tweetText, tweetURL)
          print("++ Inserted ID: {}".format(tweetId))
 
 conn.close()
