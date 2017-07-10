@@ -1,6 +1,9 @@
 from sender import Message
 from sender import Mail
 
+
+# https://sender.readthedocs.io/
+
 msg = Message("demo subject", fromaddr="adam@elchert.net",
               to="adam@elchert.net")
 
