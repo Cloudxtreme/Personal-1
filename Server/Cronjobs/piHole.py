@@ -66,7 +66,6 @@ def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
         r = requests.post(post_indicatorData, headers=header,json=data)
     except:
         print r.text
-        logger.info('Error at: %s', r.text)
 
 '''
 *************************** 1. row ***************************
@@ -118,8 +117,6 @@ insertData(
     objectId = 1109,
     timestamp = getEpochTime())
 
-logger.info('Data Entered for %s', piHoleData['domains_being_blocked'])
-
 insertData(
     apiToken=token,
     deviceId = 203,
@@ -127,5 +124,3 @@ insertData(
     value = piHoleData['dns_queries_today'],
     objectId = 1109,
     timestamp = getEpochTime())
-
-logger.info('Data Entered for %s', piHoleData['dns_queries_today'])
