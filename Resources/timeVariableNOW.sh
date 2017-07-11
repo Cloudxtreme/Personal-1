@@ -1,1 +1,1 @@
-NOW=$(date +"%m-%d-%Y::%k:%M:%S")
+NOW=$(date +%Y-%m-%d)
