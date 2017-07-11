@@ -109,13 +109,16 @@ piHoleData = getpiHoleApiData()
 token = get_api_token()
 
 # Insert temperature
-insertData(
-    apiToken=token,
-    deviceId = 203,
-    indicatorId =  indicatorIds['domains_being_blocked'],
-    value = piHoleData['domains_being_blocked'],
-    objectId = 1109,
-    timestamp = getEpochTime())
+try:
+    insertData(
+        apiToken=token,
+        deviceId = 203,
+        indicatorId =  indicatorIds['domains_being_blocked'],
+        value = piHoleData['domains_being_blocked'],
+        objectId = 1109,
+        timestamp = getEpochTime())
+except:
+    print(Exception)
 
 insertData(
     apiToken=token,
