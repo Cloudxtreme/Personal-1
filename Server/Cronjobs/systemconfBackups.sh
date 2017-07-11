@@ -71,5 +71,4 @@ if [[ $counter -ge 1 ]]; then
 	echo "++ [systemconfBackups] - $LOGDATE - Sysconf Backup Complete w/ Git add" >> $LOGFILE
 else
 	echo "++ [systemconfBackups] - $LOGDATE - No Updates" >> $LOGFILE
-	echo "++ [systemconfBackups] - $LOGDATE - Sysconf Backup Complete" >> $LOGFILE
 fi
