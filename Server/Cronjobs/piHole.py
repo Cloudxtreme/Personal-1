@@ -4,7 +4,7 @@ ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
 
-piHoleUrl = '10.0.0.49'
+piHoleUrl = 'http://10.0.0.49'
 
 logger = logging.getLogger('piHoleData')
 logger.setLevel(logging.INFO)
