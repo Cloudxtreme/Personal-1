@@ -102,7 +102,7 @@ has_precalculated_deltas: 0
         evaluation_order: 1
 '''
 
-indicatorIds = {"domains_being_blocked": 12913, "dns_queries_today": 12914}
+indicatorIds = {"domains_being_blocked": 8912, "dns_queries_today": 8913}
 
 piHoleData = getpiHoleApiData()
 
