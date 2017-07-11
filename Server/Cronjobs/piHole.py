@@ -120,14 +120,17 @@ try:
 except:
     print(Exception)
 
-insertData(
-    apiToken=token,
-    deviceId = 203,
-    indicatorId =  indicatorIds['dns_queries_today'],
-    value = piHoleData['dns_queries_today'],
-    objectId = 1109,
-    timestamp = getEpochTime())
-
+try:
+    insertData(
+        apiToken=token,
+        deviceId = 203,
+        indicatorId =  indicatorIds['dns_queries_today'],
+        value = piHoleData['dns_queries_today'],
+        objectId = 1109,
+        timestamp = getEpochTime())
+except:
+    print(Exception)
+    
 if __name__ == '__main__':
     for k,v in piHoleData.items():
         print(k,v)
