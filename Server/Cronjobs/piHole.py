@@ -126,5 +126,5 @@ insertData(
     timestamp = getEpochTime())
 
 if __name__ == '__main__':
-    for k,v in piHoleData.items();
+    for k,v in piHoleData.items():
         print(k,v)
