@@ -15,9 +15,9 @@ echo -e $NOW "==>" $IP >> $filePath
 getIP
 
 if [ $? -eq 0 ]; then
-  echo "++ [publicIpCheck.sh] - $NOW - Completed" >> $LOGFILE
+  echo "++ [publicIpCheck.sh] - $LOGDATE - Completed" >> $LOGFILE
 else
-  echo "-- [publicIpCheck.sh] - NOW - FAILED " >> $LOGFILE
+  echo "-- [publicIpCheck.sh] - $LOGDATE - FAILED " >> $LOGFILE
 fi
 
 # If the log file is longer than 20 lines, clear it.
@@ -33,5 +33,5 @@ ownerName=$(stat -c %U /home/aelchert/Git/Personal/Server/Cronjobs/publicIpCheck
 
 if [ $ownerName != "aelchert" ]; then
         chown aelchert $filePath
-	echo "++ [publicIpCheck.sh] - $NOW - chown of files completed" >> $LOGFILE
+	echo "++ [publicIpCheck.sh] - $LOGDATE - chown of files completed" >> $LOGFILE
 fi

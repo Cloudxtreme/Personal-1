@@ -20,10 +20,10 @@ e2fe39a5-7bce-49ca-8891-3d61c35bef87 \
 for vm in ${getVMsList[@]}; do
   VBoxManage startvm $vm --type headless
   if [[ $? -eq  0 ]]; then
-      echo "++ [vmStartScript] - $NOW - $vm - has started" >> $logFile
+      echo "++ [vmStartScript] - $LOGDATE - $vm - has started" >> $logFile
   elif [[ $? -eq 1 ]]; then
-      echo "-- [vmStartScript] - $NOW  - $vm - is already running" >> $logFile
+      echo "-- [vmStartScript] - $LOGDATE  - $vm - is already running" >> $logFile
   else
-      echo "-- [vmStartScript] - $NOW  - $vm - Error Occured" &>1 $logFile
+      echo "-- [vmStartScript] - $LOGDATE  - $vm - Error Occured" &>1 $logFile
   fi
 done
