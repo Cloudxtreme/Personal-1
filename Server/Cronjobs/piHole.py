@@ -124,3 +124,7 @@ insertData(
     value = piHoleData['dns_queries_today'],
     objectId = 1109,
     timestamp = getEpochTime())
+
+if __name__ == '__main__':
+    for k,v in piHoleData.items();
+        print(k,v)
