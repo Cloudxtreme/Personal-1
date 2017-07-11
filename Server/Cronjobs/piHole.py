@@ -4,20 +4,7 @@ ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
 
-piHoleUrl = 'http://10.0.0.49'
-
-logger = logging.getLogger('piHoleData')
-logger.setLevel(logging.INFO)
-
-handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/piHoleData.txt')
-handler.setLevel(logging.INFO)
-
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
-
-# add the handlers to the logger
-logger.addHandler(handler)
-
+piHoleUrl = 'http://10.0.0.49/admin/api.php'
 
 def get_api_token():
 
