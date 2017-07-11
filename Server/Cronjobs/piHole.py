@@ -1,23 +1,10 @@
-import requests, pprint, logging
+import requests, pprint, logging, json
 
 ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
 
-piHoleUrl = '10.0.0.49'
-
-logger = logging.getLogger('piHoleData')
-logger.setLevel(logging.INFO)
-
-handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/piHoleData.txt')
-handler.setLevel(logging.INFO)
-
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
-
-# add the handlers to the logger
-logger.addHandler(handler)
-
+piHoleUrl = 'http://10.0.0.49/admin/api.php'
 
 def get_api_token():
 
@@ -79,7 +66,6 @@ def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
         r = requests.post(post_indicatorData, headers=header,json=data)
     except:
         print r.text
-        logger.info('Error at: %s', r.text)
 
 '''
 *************************** 1. row ***************************
@@ -116,29 +102,35 @@ has_precalculated_deltas: 0
         evaluation_order: 1
 '''
 
-indicatorIds = {"domains_being_blocked": 12913, "dns_queries_today": 12914}
+indicatorIds = {"domains_being_blocked": 8912, "dns_queries_today": 8913}
 
 piHoleData = getpiHoleApiData()
 
 token = get_api_token()
 
 # Insert temperature
-insertData(
-    apiToken=token,
-    deviceId = 203,
-    indicatorId =  indicatorIds['domains_being_blocked'],
-    value = piHoleData['domains_being_blocked'],
-    objectId = 1109,
-    timestamp = getEpochTime())
+try:
+    insertData(
+        apiToken=token,
+        deviceId = 203,
+        indicatorId =  indicatorIds['domains_being_blocked'],
+        value = str(piHoleData['domains_being_blocked']),
+        objectId = 1110,
+        timestamp = getEpochTime())
+except:
+    print(Exception)
 
-logger.info('Data Entered for %s', piHoleData['domains_being_blocked'])
+try:
+    insertData(
+        apiToken=token,
+        deviceId = 203,
+        indicatorId =  indicatorIds['dns_queries_today'],
+        value = str(piHoleData['dns_queries_today']),
+        objectId = 1110,
+        timestamp = getEpochTime())
+except:
+    print(Exception)
 
-insertData(
-    apiToken=token,
-    deviceId = 203,
-    indicatorId =  indicatorIds['dns_queries_today'],
-    value = piHoleData['dns_queries_today'],
-    objectId = 1109,
-    timestamp = getEpochTime())
-
-logger.info('Data Entered for %s', piHoleData['dns_queries_today'])
+if __name__ == '__main__':
+    for k,v in piHoleData.items():
+        print(k,v)
