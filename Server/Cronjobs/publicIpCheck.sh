@@ -1,7 +1,8 @@
 #! /bin/bash
 # Get's the public IP and writes it /Dropbox/Logs/
 
-source '/Users/adamschoonover/Git/Personal/Resources/timeVariableNOW.sh'
+NOW=$(date +"%m-%d-%Y")
+LOGDATE=$(date +"%m-%d-%Y %H:%M:%S")
 
 filePath="/home/aelchert/Dropbox/Logs/server_public_ip.txt"
 IP=$(curl 'http://myexternalip.com/raw')

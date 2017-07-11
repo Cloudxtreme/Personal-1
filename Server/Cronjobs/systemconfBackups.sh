@@ -6,7 +6,8 @@
 #   nginx config from VM, via python script
 
 
-source '../../Resources/timeVariableNOW.sh'
+NOW=$(date +"%m-%d-%Y")
+LOGDATE=$(date +"%m-%d-%Y %H:%M:%S")
 
 DIR='/home/aelchert/Git/Personal/Backups'
 LOGFILE="/home/aelchert/Dropbox/Logs/cronLog.txt"

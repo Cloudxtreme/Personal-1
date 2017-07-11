@@ -2,7 +2,8 @@
 
 logFile='/home/aelchert/Dropbox/Logs/cronLog.txt'
 
-source '../../Resources/timeVariableNOW.sh'
+NOW=$(date +"%m-%d-%Y")
+LOGDATE=$(date +"%m-%d-%Y %H:%M:%S")
 
 # get list of VMs on the box and put into an array
 
