@@ -6,6 +6,18 @@ url = 'http://{}/api/v1'.format(ip)
 
 piHoleUrl = 'http://10.0.0.49/admin/api.php'
 
+logger = logging.getLogger('piHole')
+logger.setLevel(logging.INFO)
+
+handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/piHoleLog.txt')
+handler.setLevel(logging.INFO)
+
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+
+# add the handlers to the logger
+logger.addHandler(handler)
+
 def get_api_token():
 
     api_token_url = url + "/authentication/signin"
@@ -19,19 +31,22 @@ def get_api_token():
 
 
 def getpiHoleApiData():
-    r = requests.get(piHoleUrl)
-    data = r.json()
+    try:
+        r = requests.get(piHoleUrl)
+        data = r.json()
 
-    dataDict = {'ads_blocked_today': data['ads_blocked_today'],
-    'ads_percentage_today': data['ads_percentage_today'],
-    'dns_queries_today': data['dns_queries_today'],
-    'domains_being_blocked': data['domains_being_blocked'],
-    'queries_cached': data['queries_cached'],
-    'queries_forwarded': data['queries_forwarded'],
-    'unique_clients': data['unique_clients'],
-    'unique_domains': data['unique_domains']}
+        dataDict = {'ads_blocked_today': data['ads_blocked_today'],
+        'ads_percentage_today': data['ads_percentage_today'],
+        'dns_queries_today': data['dns_queries_today'],
+        'domains_being_blocked': data['domains_being_blocked'],
+        'queries_cached': data['queries_cached'],
+        'queries_forwarded': data['queries_forwarded'],
+        'unique_clients': data['unique_clients'],
+        'unique_domains': data['unique_domains']}
 
-    return dataDict
+        return dataDict
+    except:
+        logger.info('getpiHoleApiData Error: %s', Exception)
 
 def getEpochTime():
     """ SevOne requires epoch in millisecond """
@@ -121,17 +136,13 @@ def insertData(apiToken, dataDict):
         }
 
     try:
+        logger.info('insertData: %s', data)
         r = requests.post(post_indicatorData, headers=header,json=data)
     except:
+        logger.info('insertData Error: %s', r.text)
         print r.text
 
-
-
-indicatorIds = {"domains_being_blocked": 8912, "dns_queries_today": 8913}
-
-
 insertData(apiToken=get_api_token(), dataDict=getpiHoleApiData())
-
 
 if __name__ == '__main__':
     for k,v in getpiHoleApiData().items():
