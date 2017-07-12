@@ -134,5 +134,5 @@ insertData(apiToken=get_api_token(), dataDict=getpiHoleApiData())
 
 
 if __name__ == '__main__':
-    for k,v in piHoleData.items():
+    for k,v in etpiHoleApiData().items():
         print(k,v)
