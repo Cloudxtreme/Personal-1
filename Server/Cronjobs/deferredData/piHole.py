@@ -16,7 +16,7 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handler.setFormatter(formatter)
 
 # add the handlers to the logger
-logger.addHandler(handler)
+#logger.addHandler(handler)
 
 def get_api_token():
 
