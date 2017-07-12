@@ -40,18 +40,76 @@ def getEpochTime():
     timestamp = str(timestamp) + '000'
     return timestamp
 
-def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
+def insertData(apiToken, dataDict):
+
+    '''
+
+    +-------+-----------------------+
+    | id    | name                  |
+    +-------+-----------------------+        |
+    | 12915 | ads_blocked_today     |
+    | 12916 | queries_forwarded     |
+    | 12917 | dns_queries_today     |
+    | 12918 | queries_cached        |
+    | 12919 | unique_domains        |
+    | 12920 | unique_clients        |
+    | 12921 | domains_being_blocked |
+    | 12922 | ads_percentage_today  |
+    +-------+-----------------------+
+
+    +--------------+--------------------------+
+    | indicator_id | plugin_indicator_type_id |
+    +--------------+--------------------------+
+    |         8923 |                    12915 |
+    |         8924 |                    12916 |
+    |         8925 |                    12917 |
+    |         8926 |                    12918 |
+    |         8927 |                    12919 |
+    |         8928 |                    12920 |
+    |         8929 |                    12921 |
+    |         8930 |                    12922 |
+    +--------------+--------------------------+
+    '''
+
     data = [
           {
-            "deviceId": deviceId,
+            "deviceId": 204,
             "indicatorDataDtos": [
               {
-                "indicatorId": indicatorId,
-                "value": value
-              }
+                "indicatorId": 8923,
+                "value": dataDict['ads_blocked_today']
+              },
+              {
+                "indicatorId": 8924,
+                "value": dataDict['queries_forwarded']
+              },
+              {
+                "indicatorId": 8925,
+                "value": dataDict['dns_queries_today']
+              },
+              {
+                "indicatorId": 8926,
+                "value": dataDict['queries_cached']
+              },
+              {
+                "indicatorId": 8927,
+                "value": dataDict['unique_domains']
+              },
+              {
+                "indicatorId": 8928,
+                "value": dataDict['unique_clients']
+              },
+              {
+                "indicatorId": 8929,
+                "value": dataDict['domains_being_blocked']
+              },
+            {
+              "indicatorId": 8930,
+              "value": dataDict['ads_percentage_today']
+            }
             ],
-            "objectId": objectId,
-            "timestamp": timestamp
+            "objectId": 1112,
+            "timestamp": getEpochTime()
           }
         ]
 
@@ -67,69 +125,13 @@ def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
     except:
         print r.text
 
-'''
-*************************** 1. row ***************************
-                      id: 8912
-               device_id: 203
-               object_id: 1109
-               plugin_id: 10
-plugin_indicator_type_id: 12913
-              is_enabled: 1
-           is_baselining: 1
-              is_deleted: 0
-             column_name: p1i8912
-           maximum_value: 0
-                  format: GAUGE
-has_precalculated_deltas: 0
-  last_invalidation_time: 0
-    synthetic_expression: NULL
-        evaluation_order: 1
-*************************** 2. row ***************************
-                      id: 8913
-               device_id: 203
-               object_id: 1109
-               plugin_id: 10
-plugin_indicator_type_id: 12914
-              is_enabled: 1
-           is_baselining: 1
-              is_deleted: 0
-             column_name: p1i8913
-           maximum_value: 0
-                  format: GAUGE
-has_precalculated_deltas: 0
-  last_invalidation_time: 0
-    synthetic_expression: NULL
-        evaluation_order: 1
-'''
+
 
 indicatorIds = {"domains_being_blocked": 8912, "dns_queries_today": 8913}
 
-piHoleData = getpiHoleApiData()
 
-token = get_api_token()
+insertData(token=get_api_token(), dataDict=getpiHoleApiData())
 
-# Insert temperature
-try:
-    insertData(
-        apiToken=token,
-        deviceId = 203,
-        indicatorId =  indicatorIds['domains_being_blocked'],
-        value = str(piHoleData['domains_being_blocked']),
-        objectId = 1110,
-        timestamp = getEpochTime())
-except:
-    print(Exception)
-
-try:
-    insertData(
-        apiToken=token,
-        deviceId = 203,
-        indicatorId =  indicatorIds['dns_queries_today'],
-        value = str(piHoleData['dns_queries_today']),
-        objectId = 1110,
-        timestamp = getEpochTime())
-except:
-    print(Exception)
 
 if __name__ == '__main__':
     for k,v in piHoleData.items():
