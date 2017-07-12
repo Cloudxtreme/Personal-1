@@ -130,7 +130,7 @@ def insertData(apiToken, dataDict):
 indicatorIds = {"domains_being_blocked": 8912, "dns_queries_today": 8913}
 
 
-insertData(token=get_api_token(), dataDict=getpiHoleApiData())
+insertData(apiToken=get_api_token(), dataDict=getpiHoleApiData())
 
 
 if __name__ == '__main__':
