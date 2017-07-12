@@ -34,6 +34,7 @@ alias gitadd='git add -A . && git commit -m "updates" && git push'
 alias gitupdate='git fetch && git merge'
 alias pihole='ssh aelchert@10.0.0.49'
 alias bookupdate='python /home/adamschoonover/Git/Personal/Book-Database/book-input.py'
+alias transmission='ssh 10.0.0.56'
 
 ### COLORS ###
 
