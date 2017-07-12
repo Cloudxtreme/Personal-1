@@ -5,10 +5,6 @@
 # 	bashrc
 #   nginx config from VM, via python script
 
-exec 3>&1 4>&2
-trap 'exec 2>&4 1>&3' 0 1 2 3
-exec 1>log.out 2>&1
-
 NOW=$(date +"%m-%d-%Y")
 LOGDATE=$(date +"%m-%d-%Y %H:%M:%S")
 
@@ -75,3 +71,24 @@ if [[ $counter -ge 1 ]]; then
 else
 	echo "++ [systemconfBackups] - $LOGDATE - No Updates" >> $LOGFILE
 fi
+
+
+usage() {
+    echo "Usage:"
+    echo "  $0 [OPTIONS]"
+    echo "Options:"
+    echo "  -h      : display this help message"
+    echo "  -q      : decrease verbosity level (can be repeated: -qq, -qqq)"
+    echo "  -v      : increase verbosity level (can be repeated: -vv, -vvv)"
+    echo "  -l FILE : redirect logging to FILE instead of STDERR"
+}
+
+while getopts "hqvl:" opt; do
+    case "$opt" in
+       h) usage; exit 0 ;;
+       q) (( verbosity = verbosity - 1 )) ;;
+       v) (( verbosity = verbosity + 1 )) ;;
+       l) exec 3>>$OPTARG ;;
+       *) error "Invalid options: $1"; usage; exit 1 ;;
+    esac
+done
