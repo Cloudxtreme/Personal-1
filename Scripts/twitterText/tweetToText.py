@@ -184,16 +184,16 @@ logger.info('Fetch list of users: %s', [followedUsers])
 for user in followedUsers:
     # gets a single username to then pull data for
     print("++ Starting User: {}".format(user))
-    logger.info('++ Starting User: %s', [user])
+    logger.info('++ Starting User: %s', user)
 
     # get last ID to not pull duplicate entries
     lastTweetId = getLastIdforUser(user)
     print ("-- Last TweetID: {}".format(lastTweetId))
-    logger.info('-- Last TweetId: %s', [lastTweetId])
+    logger.info('-- Last TweetId: %s', lastTweetId)
 
     # twitter timeline object
     userTimeline = getTimeline(user, lastTweetId)
-    logger.info('Fetch User %s Timeline: %s', [user, userTimeline])
+    logger.info('Fetch User %s Timeline: %s', user, userTimeline)
 
     for tweets in userTimeline:
         # insert each tweet to the database
@@ -204,7 +204,7 @@ for user in followedUsers:
 
          insertTweet(timeCreated, user, tweetId, tweetText, tweetURL)
 
-         logger.info('Inserted UserName: %s - Tweet ID: %s', [user, tweetId])
+         logger.info('Inserted UserName: %s - Tweet ID: %s', user, tweetId)
          print("++ Inserted ID: {}".format(tweetId))
 
 conn.close()
