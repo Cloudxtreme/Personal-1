@@ -33,8 +33,7 @@ mail = Mail("mail.messagingengine.com",
             use_tls=False, use_ssl=True, debug_level=None)
 
 # email message object
-messageSubect
-msg = Message(, fromaddr=("Adam Elchert", "adam@elchert.net")).format()
+msg = Message(fromaddr=("Adam Elchert", "adam@elchert.net"))
 
 # attachment
 with open('fileOutput.txt') as fileOutput:
