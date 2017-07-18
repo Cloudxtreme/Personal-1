@@ -1,0 +1,34 @@
+2017-07-17 23:22:11,708 - tweetToText - INFO - -- Logging into Database
+2017-07-17 23:22:28,623 - tweetToText - INFO - -- Logging into Database
+2017-07-17 23:22:50,182 - tweetToText - INFO - -- Logging into Database
+2017-07-17 23:22:50,183 - tweetToText - INFO - ++ Starting User: ['jasonisbell']
+2017-07-17 23:22:50,184 - tweetToText - INFO - -- Last TweetId: [['887002269711040512']]
+2017-07-17 23:23:39,896 - tweetToText - INFO - -- Logging into Database
+2017-07-17 23:23:39,898 - tweetToText - INFO - ++ Starting User: ['jasonisbell']
+2017-07-17 23:23:39,898 - tweetToText - INFO - -- Last TweetId: [['887002269711040512']]
+2017-07-17 23:23:40,078 - tweetToText - INFO - -- Update finished.
+2017-07-17 23:24:03,556 - tweetToText - INFO - -- Logging into Database
+2017-07-17 23:24:03,559 - tweetToText - INFO - ++ Starting User: ['jasonisbell']
+2017-07-17 23:24:03,560 - tweetToText - INFO - -- Last TweetId: [['887106626095861760']]
+2017-07-17 23:24:03,719 - tweetToText - INFO - -- Update finished.
+2017-07-17 23:24:11,901 - tweetToText - INFO - -- Logging into Database
+2017-07-17 23:24:11,902 - tweetToText - INFO - ++ Starting User: ['jasonisbell']
+2017-07-17 23:24:11,902 - tweetToText - INFO - -- Last TweetId: [['887106626095861760']]
+2017-07-17 23:24:12,055 - tweetToText - INFO - -- Update finished.
+2017-07-17 23:24:24,214 - tweetToText - INFO - -- Logging into Database
+2017-07-17 23:24:24,215 - tweetToText - INFO - ++ Starting User: ['jasonisbell']
+2017-07-17 23:24:24,215 - tweetToText - INFO - -- Last TweetId: [['887106626095861760']]
+2017-07-17 23:24:24,427 - tweetToText - INFO - -- Update finished.
+2017-07-17 23:25:17,370 - tweetToText - INFO - -- Logging into Database
+2017-07-17 23:25:17,373 - tweetToText - INFO - ++ Starting User: ['jasonisbell']
+2017-07-17 23:25:17,374 - tweetToText - INFO - -- Last TweetId: [['887106626095861760']]
+2017-07-17 23:25:17,618 - tweetToText - INFO - -- Update finished.
+2017-07-17 23:27:40,426 - tweetToText - INFO - -- Logging into Database
+2017-07-17 23:27:40,427 - tweetToText - DEBUG - --Database ['tweets.db'] exists already.
+2017-07-17 23:27:40,430 - tweetToText - DEBUG - -- listUsers() - query - [<sqlite3.Cursor object at 0x10ef33180>]
+2017-07-17 23:27:40,431 - tweetToText - DEBUG - Usernames in Database: [['jasonisbell']]
+2017-07-17 23:27:40,431 - tweetToText - DEBUG - Fetch list of users: [['jasonisbell']]
+2017-07-17 23:27:40,431 - tweetToText - INFO - ++ Starting User: ['jasonisbell']
+2017-07-17 23:27:40,432 - tweetToText - DEBUG - GetLastIdForUser query: [<sqlite3.Cursor object at 0x10ef33180>]
+2017-07-17 23:27:40,435 - tweetToText - INFO - -- Last TweetId: [['887106626095861760']]
+2017-07-17 23:27:40,599 - tweetToText - INFO - -- Update finished.
