@@ -33,7 +33,6 @@ def updateFile():
             logger.info('Set tweets to mailed=1')
         except Exception as e:
             print(e)
-            logger.debug('Exception: %s', [e])
 
         return(output)
 
@@ -52,7 +51,7 @@ mail = Mail("mail.messagingengine.com",
 msg = Message(fromaddr=("Adam Elchert", "adam@elchert.net"))
 
 updateFile()
-logger.debug('Running UpdateFile()')
+logger.info('Running UpdateFile()')
 
 # attachment
 with open('fileOutput.txt') as fileOutput:
@@ -71,4 +70,3 @@ logger.debug('Debug: %s', [msg])
 
 
 os.remove('fileOutput.txt')
-logger.debug('Removing file fileOutput.txt')

@@ -9,7 +9,7 @@ import sys
 
 # create logger with 'spam_application'
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 log = logging.FileHandler('tweetToText.log')
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 log.setFormatter(formatter)
@@ -101,10 +101,10 @@ def insertTweet(timeCreated, username, tweetId, tweetText, tweetURL):
     try:
         tweetURL = 'https://twitter.com/{}/status/{}'.format(username, tweetId)
         c.execute('INSERT INTO tweets VALUES (?, ?, ?, ?, ?, ?)', t)
-        logger.debug('Inserted Data: %s, %s, %s, %s, %s', [timeCreated, username, tweetId, tweetText, tweetURL])
+        logger.info('Inserted Data: %s, %s, %s, %s, %s', [timeCreated, username, tweetId, tweetText, tweetURL])
     except:
         print(Exception)
-        logger.debug('Exception: %s', [Exception])
+        logger.info('Exception: %s', [Exception])
     finally:
         conn.commit()
 
@@ -114,22 +114,22 @@ def getLastIdforUser(username):
         Returns: list item of ID """
 
     query = c.execute('SELECT max(tweetId) FROM tweets WHERE username=(?)', [username])
-    logger.debug('GetLastIdForUser query: %s', [query])
+    logger.info('GetLastIdForUser query: %s', [query])
     if query == "None":
         logger.info('-- No previous tweets for User: %s', [username])
         return 0
     rows = list(c.fetchone())
-    logger.debug('-- Last ID is %s for User: %s', [rows, username])
+    logger.info('-- Last ID is %s for User: %s', [rows, username])
     return rows
 
 def listUsers():
     # query returns a tuple. The for loop is to convert to a list
     query = c.execute("SELECT distinct username from tweets;")
-    logger.debug('-- listUsers() - query - %s', [query.fetchone()])
+    logger.info('-- listUsers() - query - %s', [query.fetchone()])
     names = []
     for name in query:
         names.append(name[0])
-    logger.debug('Usernames in Database: %s', [names])
+    logger.info('Usernames in Database: %s', [names])
     return names
 
 
@@ -144,10 +144,10 @@ logger.info('-- Logging into Database')
 ''' Create database if necessary'''
 if os.path.isfile(dbName):
     print("-- Database {} exists already.".format(dbName))
-    logger.debug('--Database %s exists already.', [dbName])
+    logger.info('--Database %s exists already.', [dbName])
     if os.path.getsize(dbName) == 0:
         createTables()
-        logger.debug('Created database: %s', [dbName])
+        logger.info('Created database: %s', [dbName])
 
 else:
     print("++ Creating Database file: {}".format(dbName))
@@ -179,7 +179,7 @@ if len(sys.argv) > 2:
 ###########################################################################
 
 followedUsers = listUsers()
-logger.debug('Fetch list of users: %s', [followedUsers])
+logger.info('Fetch list of users: %s', [followedUsers])
 
 for user in followedUsers:
     # gets a single username to then pull data for
@@ -193,7 +193,7 @@ for user in followedUsers:
 
     # twitter timeline object
     userTimeline = getTimeline(user, lastTweetId)
-    logger.debug('Fetch User %s Timeline: %s', [user, userTimeline])
+    logger.info('Fetch User %s Timeline: %s', [user, userTimeline])
 
     for tweets in userTimeline:
         # insert each tweet to the database
@@ -204,7 +204,7 @@ for user in followedUsers:
 
          insertTweet(timeCreated, user, tweetId, tweetText, tweetURL)
 
-         logger.debug('Inserted UserName: %s - Tweet ID: %s', [user, tweetId])
+         logger.info('Inserted UserName: %s - Tweet ID: %s', [user, tweetId])
          print("++ Inserted ID: {}".format(tweetId))
 
 conn.close()
