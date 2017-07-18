@@ -1,0 +1,11 @@
+2017-07-17 23:30:35,747 - smtp - INFO - fileOutput.txt was created.
+2017-07-17 23:30:35,749 - smtp - INFO - Queries database for new tweets
+2017-07-17 23:30:35,752 - smtp - INFO - Set tweets to mailed=1
+2017-07-17 23:30:36,185 - smtp - INFO - Sent Email
+2017-07-17 23:31:16,586 - __main__ - INFO - fileOutput.txt was created.
+2017-07-17 23:31:16,588 - __main__ - INFO - Queries database for new tweets
+2017-07-17 23:31:16,591 - __main__ - INFO - Set tweets to mailed=1
+2017-07-17 23:31:17,031 - __main__ - INFO - Sent Email
+2017-07-17 23:35:45,687 - smtp - INFO - Queries database for new tweets
+2017-07-17 23:35:45,692 - smtp - INFO - Set tweets to mailed=1
+2017-07-17 23:35:46,125 - smtp - INFO - Sent Email
