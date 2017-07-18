@@ -1,0 +1,44 @@
+2017-07-18 15:17:15,329 - __main__ - INFO - -- Logging into Database
+2017-07-18 15:17:15,330 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-18 15:17:15,331 - __main__ - INFO - -- Database Already Exists
+2017-07-18 15:17:15,331 - __main__ - INFO - -- User(meganamram) Not in Database
+2017-07-18 15:17:15,738 - __main__ - INFO - -- Retrieved ['meganamram'] timeline.
+2017-07-18 15:17:15,741 - __main__ - INFO - ++ Instered ID: 887074248841285633 for User: meganamram
+2017-07-18 15:17:15,743 - __main__ - INFO - ++ Instered ID: 887059513605464065 for User: meganamram
+2017-07-18 15:17:15,744 - __main__ - INFO - ++ Instered ID: 886983936030547968 for User: meganamram
+2017-07-18 15:17:15,746 - __main__ - INFO - ++ Instered ID: 886978444323545089 for User: meganamram
+2017-07-18 15:17:15,748 - __main__ - INFO - ++ Instered ID: 886769197333659649 for User: meganamram
+2017-07-18 15:17:15,750 - __main__ - INFO - ++ Instered ID: 886768493491658752 for User: meganamram
+2017-07-18 15:17:15,752 - __main__ - INFO - ++ Instered ID: 886705537982709760 for User: meganamram
+2017-07-18 15:17:15,754 - __main__ - INFO - ++ Instered ID: 886704611070889985 for User: meganamram
+2017-07-18 15:17:15,756 - __main__ - INFO - ++ Instered ID: 886703003658403840 for User: meganamram
+2017-07-18 15:17:15,757 - __main__ - INFO - ++ Instered ID: 886685977124585472 for User: meganamram
+2017-07-18 15:17:15,759 - __main__ - INFO - ++ Instered ID: 886464069393240064 for User: meganamram
+2017-07-18 15:17:15,761 - __main__ - INFO - ++ Instered ID: 886410750792683520 for User: meganamram
+2017-07-18 15:17:15,763 - __main__ - INFO - ++ Instered ID: 886046908405366784 for User: meganamram
+2017-07-18 15:17:15,765 - __main__ - INFO - ++ Instered ID: 886018250844262402 for User: meganamram
+2017-07-18 15:17:15,767 - __main__ - INFO - ++ Instered ID: 886008540166447104 for User: meganamram
+2017-07-18 15:17:15,768 - __main__ - INFO - ++ Instered ID: 886006577093763072 for User: meganamram
+2017-07-18 15:17:15,768 - __main__ - INFO - ++ New user added to database: meganamram
+2017-07-18 15:17:15,768 - __main__ - INFO - -- listUsers() - query - [(u'jasonisbell',)]
+2017-07-18 15:17:15,769 - __main__ - INFO - Usernames in Database: [u'neverminding', u'amandashires', u'meganamram']
+2017-07-18 15:17:15,769 - __main__ - INFO - Fetch list of users: [u'neverminding', u'amandashires', u'meganamram']
+2017-07-18 15:17:15,769 - __main__ - INFO - ++ Starting User: neverminding
+2017-07-18 15:17:15,769 - __main__ - INFO - GetLastIdForUser query: <sqlite3.Cursor object at 0x7faf0442c810>
+2017-07-18 15:17:15,769 - __main__ - INFO - -- Last ID is [u'887032134866784256'] for User: neverminding
+2017-07-18 15:17:15,769 - __main__ - INFO - -- Last TweetId: [u'887032134866784256']
+2017-07-18 15:17:15,859 - __main__ - INFO - ++ Got Timeline for neverminding with tweetId [u'887032134866784256']
+2017-07-18 15:17:15,860 - __main__ - INFO - Fetch User neverminding Timeline: []
+2017-07-18 15:17:15,860 - __main__ - INFO - ++ Starting User: amandashires
+2017-07-18 15:17:15,860 - __main__ - INFO - GetLastIdForUser query: <sqlite3.Cursor object at 0x7faf0442c810>
+2017-07-18 15:17:15,860 - __main__ - INFO - -- Last ID is [u'886661137550495744'] for User: amandashires
+2017-07-18 15:17:15,860 - __main__ - INFO - -- Last TweetId: [u'886661137550495744']
+2017-07-18 15:17:15,974 - __main__ - INFO - ++ Got Timeline for amandashires with tweetId [u'886661137550495744']
+2017-07-18 15:17:15,975 - __main__ - INFO - Fetch User amandashires Timeline: []
+2017-07-18 15:17:15,975 - __main__ - INFO - ++ Starting User: meganamram
+2017-07-18 15:17:15,975 - __main__ - INFO - GetLastIdForUser query: <sqlite3.Cursor object at 0x7faf0442c810>
+2017-07-18 15:17:15,975 - __main__ - INFO - -- Last ID is [u'887074248841285633'] for User: meganamram
+2017-07-18 15:17:15,975 - __main__ - INFO - -- Last TweetId: [u'887074248841285633']
+2017-07-18 15:17:16,113 - __main__ - INFO - ++ Got Timeline for meganamram with tweetId [u'887074248841285633']
+2017-07-18 15:17:16,113 - __main__ - INFO - Fetch User meganamram Timeline: []
+2017-07-18 15:17:16,113 - __main__ - INFO - -- Update finished.

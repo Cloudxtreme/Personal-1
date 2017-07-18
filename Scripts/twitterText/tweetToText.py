@@ -10,7 +10,7 @@ import sys
 # create logger with 'spam_application'
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-log = logging.FileHandler('tweetToText.log')
+log = logging.FileHandler('logs/tweetToText.log')
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 log.setFormatter(formatter)
 logger.addHandler(log)
