@@ -16,7 +16,6 @@ access_secret = "iY379we0P017I5fmPHUX3PrcgGuAg1IYga1HWXx4zAdRg"
 
 twitter = Twython(consumer_key, consumer_secret, access_key, access_secret)
 
-screenNames = []
 dbName = "tweets.db"
 
 
@@ -160,14 +159,18 @@ else:
 followedUsers = listUsers()
 
 for user in followedUsers:
+    # gets a single username to then pull data for
     print("++ Starting User: {}".format(user))
 
+    # get last ID to not pull duplicate entries
     lastTweetId = getLastIdforUser(user)
     print ("-- Last TweetID: {}".format(lastTweetId))
 
+    # twitter timeline object
     userTimeline = getTimeline(user, lastTweetId)
 
     for tweets in userTimeline:
+        # insert each tweet to the database
          timeCreated = tweets['created_at']
          tweetId = tweets['id']
          tweetText = tweets['text']
