@@ -7,7 +7,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-log = logging.FileHandler('smtp.log')
+log = logging.FileHandler('logs/smtp.log')
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 log.setFormatter(formatter)
 logger.addHandler(log)
