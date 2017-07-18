@@ -52,7 +52,7 @@ def getTimeline(username, tweetId):
     userTimeline = twitter.get_user_timeline(
         screen_name=username,
         exclude_replies=True, since_id=tweetId)
-    logger.info('++ Got Timeline for %s with tweetId %s',[username, tweetId])
+    logger.info('++ Got Timeline for %s with tweetId %s',username, tweetId)
     return userTimeline
 
 def addNewUserToDatabase(username):
@@ -70,10 +70,10 @@ def addNewUserToDatabase(username):
         logger.info('-- Database created')
 
     print("-- New User to add: {}".format(username))
-    query = c.execute('SELECT count(*) from tweets where username=(?)', [username])
+    query = c.execute('SELECT count(*) from tweets where username=(?)', username)
     if c.fetchone()[0] == 0:
         print("-- User Not in Database.")
-        logger.info('-- User(%s) Not in Database', [username])
+        logger.info('-- User(%s) Not in Database', username)
         userTimeLine = twitter.get_user_timeline(
             screen_name=username,
             exclude_replies=True
@@ -88,7 +88,7 @@ def addNewUserToDatabase(username):
 
              insertTweet(timeCreated, username, tweetId, tweetText, tweetURL)
              print("++ Inserted ID: {}".format(tweetId))
-             logger.info('++ Instered ID: %s for User: %s', [tweetId, username])
+             logger.info('++ Instered ID: %s for User: %s', tweetId, username)
              conn.commit()
     else:
         print("-- Username already exists in Database")
@@ -101,10 +101,10 @@ def insertTweet(timeCreated, username, tweetId, tweetText, tweetURL):
     try:
         tweetURL = 'https://twitter.com/{}/status/{}'.format(username, tweetId)
         c.execute('INSERT INTO tweets VALUES (?, ?, ?, ?, ?, ?)', t)
-        logger.info('Inserted Data: %s, %s, %s, %s, %s', [timeCreated, username, tweetId, tweetText, tweetURL])
+        logger.debug('Inserted Data: %s, %s, %s, %s, %s', timeCreated, username, tweetId, tweetText, tweetURL)
     except:
         print(Exception)
-        logger.info('Exception: %s', [Exception])
+        logger.info('Exception: %s', Exception)
     finally:
         conn.commit()
 
@@ -113,13 +113,13 @@ def getLastIdforUser(username):
     """ Query sqlite3 database by username for max value of ID
         Returns: list item of ID """
 
-    query = c.execute('SELECT max(tweetId) FROM tweets WHERE username=(?)', [username])
-    logger.info('GetLastIdForUser query: %s', [query])
+    query = c.execute('SELECT max(tweetId) FROM tweets WHERE username=(?)', username)
+    logger.info('GetLastIdForUser query: %s', query)
     if query == "None":
-        logger.info('-- No previous tweets for User: %s', [username])
+        logger.info('-- No previous tweets for User: %s', username)
         return 0
     rows = list(c.fetchone())
-    logger.info('-- Last ID is %s for User: %s', [rows, username])
+    logger.info('-- Last ID is %s for User: %s', rows, username)
     return rows
 
 def listUsers():
@@ -129,7 +129,7 @@ def listUsers():
     names = []
     for name in query:
         names.append(name[0])
-    logger.info('Usernames in Database: %s', [names])
+    logger.info('Usernames in Database: %s', names)
     return names
 
 
@@ -144,14 +144,14 @@ logger.info('-- Logging into Database')
 ''' Create database if necessary'''
 if os.path.isfile(dbName):
     print("-- Database {} exists already.".format(dbName))
-    logger.info('--Database %s exists already.', [dbName])
+    logger.info('--Database %s exists already.', dbName)
     if os.path.getsize(dbName) == 0:
         createTables()
-        logger.info('Created database: %s', [dbName])
+        logger.info('Created database: %s', dbName)
 
 else:
     print("++ Creating Database file: {}".format(dbName))
-    logger.info('++ Creating Database file: %s', [dbName])
+    logger.info('++ Creating Database file: %s', dbName)
     createTables()
 
 ###########################################################################
@@ -174,12 +174,12 @@ if len(sys.argv) > 2:
 
     addNewUserToDatabase(username)
     print("++ New user added to database")
-    logger.info('++ New user added to database: %s', [username])
+    logger.info('++ New user added to database: %s', username)
 
 ###########################################################################
 
 followedUsers = listUsers()
-logger.info('Fetch list of users: %s', [followedUsers])
+logger.info('Fetch list of users: %s', followedUsers)
 
 for user in followedUsers:
     # gets a single username to then pull data for
