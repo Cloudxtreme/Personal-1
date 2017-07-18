@@ -113,7 +113,7 @@ def getLastIdforUser(username):
     """ Query sqlite3 database by username for max value of ID
         Returns: list item of ID """
 
-    query = c.execute('SELECT max(tweetId) FROM tweets WHERE username=(?)', username)
+    query = c.execute('SELECT max(tweetId) FROM tweets WHERE username=(?)', [username])
     logger.info('GetLastIdForUser query: %s', query)
     if query == "None":
         logger.info('-- No previous tweets for User: %s', username)
