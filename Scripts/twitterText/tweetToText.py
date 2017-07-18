@@ -70,7 +70,7 @@ def addNewUserToDatabase(username):
         logger.info('-- Database created')
 
     print("-- New User to add: {}".format(username))
-    query = c.execute('SELECT count(*) from tweets where username=(?)', username)
+    query = c.execute('SELECT count(*) from tweets where username=(?)', [username])
     if c.fetchone()[0] == 0:
         print("-- User Not in Database.")
         logger.info('-- User(%s) Not in Database', username)
