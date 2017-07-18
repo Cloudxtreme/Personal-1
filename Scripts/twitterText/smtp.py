@@ -33,7 +33,8 @@ mail = Mail("mail.messagingengine.com",
             use_tls=False, use_ssl=True, debug_level=None)
 
 # email message object
-msg = Message("Tweets for {}", fromaddr=("Adam Elchert", "adam@elchert.net")).format(strftime('%B %d'))
+messageSubect
+msg = Message(, fromaddr=("Adam Elchert", "adam@elchert.net")).format()
 
 # attachment
 with open('fileOutput.txt') as fileOutput:
@@ -45,6 +46,7 @@ fileOutput.close()
 msg.fromaddr = ("adam@elchert.net")
 msg.body= '{}'.format(attachment)
 msg.to = ('adam@elchert.net')
+msg.subject=('Tweets from{}'.format(strftime('%B %d')))
 mail.send(msg)
 
 updateFile()
