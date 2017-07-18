@@ -8,6 +8,7 @@ PS="/home/aelchert/Git/Personal/Server/Cronjobs"
 0 6,12 * * * $PS/borgBackup.sh
 */30 * * * * python $PS/deferredData/weather.py
 */5 * * * * python $PS/deferredData/piHole.py
+0 8 * * * python /home/aelchert/Git/Personal/Scripts/twitterText/main.py
 
 * * * * * chown -R aelchert /mnt/NAS/Movies /mnt/NAS/TV\ Shows
 * * * * * chmod -R 777 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
