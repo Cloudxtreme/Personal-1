@@ -71,3 +71,4 @@ man() {
         LESS_TERMCAP_us=$(printf "\e[1;32m") \
             man "$@"
 }
+alias tweets='cd /home/aelchert/Git/Personal/Scripts/twitterText'
