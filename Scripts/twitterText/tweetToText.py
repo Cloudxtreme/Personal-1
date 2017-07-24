@@ -52,7 +52,7 @@ def getTimeline(username, tweetId):
     userTimeline = twitter.get_user_timeline(
         screen_name=username,
         exclude_replies=True, since_id=tweetId)
-    logger.info('++ Got Timeline for %s with tweetId %s',username, tweetId)
+    logger.info('++ Got Timeline for %s with tweetId %s', username, tweetId)
     return userTimeline
 
 def addNewUserToDatabase(username):
@@ -61,7 +61,6 @@ def addNewUserToDatabase(username):
     tweets
     '''
     if os.path.isfile(dbName):
-        print("-- Database Already Exists")
         logger.info('-- Database Already Exists')
         pass
     else:
@@ -92,7 +91,7 @@ def addNewUserToDatabase(username):
              conn.commit()
     else:
         print("-- Username already exists in Database")
-        logger.info('-- Username already exists in Database')
+        logger.error('-- Username already exists in Database')
         sys.exit(0)
 
 def insertTweet(timeCreated, username, tweetId, tweetText, tweetURL):
@@ -104,7 +103,7 @@ def insertTweet(timeCreated, username, tweetId, tweetText, tweetURL):
         logger.debug('Inserted Data: %s, %s, %s, %s, %s', timeCreated, username, tweetId, tweetText, tweetURL)
     except:
         print(Exception)
-        logger.info('Exception: %s', Exception)
+        logger.error('Exception: %s', Exception)
     finally:
         conn.commit()
 
@@ -114,12 +113,12 @@ def getLastIdforUser(username):
         Returns: list item of ID """
 
     query = c.execute('SELECT max(tweetId) FROM tweets WHERE username=(?)', [username])
-    logger.info('GetLastIdForUser query: %s', query)
+    logger.debug('GetLastIdForUser query: %s', query)
     if query == "None":
         logger.info('-- No previous tweets for User: %s', username)
         return 0
     rows = list(c.fetchone())
-    logger.info('-- Last ID is %s for User: %s', rows, username)
+    logger.debug('-- Last ID is %s for User: %s', rows, username)
     return rows
 
 def listUsers():
@@ -129,7 +128,7 @@ def listUsers():
     for name in query.fetchall():
          names.append(name[0])
          print(name)
-    logger.info('Usernames in Database: %s', names)
+    logger.debug('Usernames in Database: %s', names)
     return names
 
 
@@ -140,13 +139,13 @@ def listUsers():
 ''' Connect to Database '''
 conn = sqlite3.connect(dbName)
 c = conn.cursor()
-logger.info('-- Logging into Database')
+logger.debug('-- Logging into Database')
 
 ###########################################################################
 ''' Create database if necessary'''
 if os.path.isfile(dbName):
-    print("-- Database {} exists already.".format(dbName))
-    logger.info('--Database %s exists already.', dbName)
+    #print("-- Database {} exists already.".format(dbName))
+    logger.debug('--Database %s exists already.', dbName)
     if os.path.getsize(dbName) == 0:
         createTables()
         logger.info('Created database: %s', dbName)
@@ -181,7 +180,7 @@ if len(sys.argv) > 2:
 ###########################################################################
 #
 followedUsers = listUsers()
-logger.info('Fetch list of users: %s', followedUsers)
+logger.debug('Fetch list of users: %s', followedUsers)
 for user in followedUsers:
     # gets a single username to then pull data for
     print("++ Starting User: {}".format(user))
@@ -190,11 +189,11 @@ for user in followedUsers:
     # get last ID to not pull duplicate entries
     lastTweetId = getLastIdforUser(user)
     print ("-- Last TweetID: {}".format(lastTweetId))
-    logger.info('-- Last TweetId: %s', lastTweetId)
+    logger.debug('-- Last TweetId: %s', lastTweetId)
 
     # twitter timeline object
     userTimeline = getTimeline(user, lastTweetId)
-    logger.info('Fetch User %s Timeline: %s', user, userTimeline)
+    logger.debug('Fetch User %s Timeline: %s', user, userTimeline)
 
     for tweets in userTimeline:
         # insert each tweet to the database
@@ -205,8 +204,8 @@ for user in followedUsers:
 
          insertTweet(timeCreated, user, tweetId, tweetText, tweetURL)
 
-         logger.info('Inserted UserName: %s - Tweet ID: %s', user, tweetId)
-         print("++ Inserted ID: {}".format(tweetId))
+         logger.debug('Inserted UserName: %s - Tweet ID: %s', user, tweetId)
+         #print("++ Inserted ID: {}".format(tweetId))
 
 conn.close()
 logger.info('-- Update finished.')
