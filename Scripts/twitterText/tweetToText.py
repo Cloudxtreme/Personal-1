@@ -125,12 +125,14 @@ def getLastIdforUser(username):
 def listUsers():
     # query returns a tuple. The for loop is to convert to a list
     query = c.execute("SELECT distinct username from tweets;")
-    logger.info('-- listUsers() - query - %s', [query.fetchone()])
     names = []
-    for name in query:
-        names.append(name[0])
+    for name in query.fetchall():
+         names.append(name[0])
+         print(name)
     logger.info('Usernames in Database: %s', names)
     return names
+
+
 
 
 
@@ -177,11 +179,11 @@ if len(sys.argv) > 2:
     logger.info('++ New user added to database: %s', username)
 
 ###########################################################################
-
+#
 followedUsers = listUsers()
 logger.info('Fetch list of users: %s', followedUsers)
-
 for user in followedUsers:
+   print(user)
     # gets a single username to then pull data for
     print("++ Starting User: {}".format(user))
     logger.info('++ Starting User: %s', user)
@@ -209,3 +211,6 @@ for user in followedUsers:
 
 conn.close()
 logger.info('-- Update finished.')
+
+import smtp
+logger.info('-- Running smtp.py')

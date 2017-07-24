@@ -1,0 +1,130 @@
+2017-07-23 22:45:56,621 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:45:56,621 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:45:56,627 - __main__ - INFO - GetLastIdForUser query: <sqlite3.Cursor object at 0x10ed04180>
+2017-07-23 22:45:56,627 - __main__ - INFO - -- Last ID is ['887106626095861760'] for User: jasonisbell
+2017-07-23 22:45:56,627 - __main__ - INFO - -- Update finished.
+2017-07-23 22:46:25,317 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:46:25,317 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:46:25,318 - __main__ - INFO - -- listUsers() - query - [('jasonisbell',)]
+2017-07-23 22:46:25,318 - __main__ - INFO - Usernames in Database: ['neverminding', 'amandashires', 'meganamram']
+2017-07-23 22:46:25,319 - __main__ - INFO - -- Update finished.
+2017-07-23 22:48:15,607 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:48:15,608 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:48:15,609 - __main__ - INFO - -- listUsers() - query - [[('jasonisbell',), ('neverminding',), ('amandashires',), ('meganamram',)]]
+2017-07-23 22:48:15,609 - __main__ - INFO - Usernames in Database: []
+2017-07-23 22:48:15,609 - __main__ - INFO - -- listUsers() - query - [[('jasonisbell',), ('neverminding',), ('amandashires',), ('meganamram',)]]
+2017-07-23 22:48:15,609 - __main__ - INFO - Usernames in Database: []
+2017-07-23 22:48:15,609 - __main__ - INFO - Fetch list of users: []
+2017-07-23 22:48:15,609 - __main__ - INFO - -- Update finished.
+2017-07-23 22:49:22,372 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:49:22,373 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:49:22,375 - __main__ - INFO - -- listUsers() - query - [[('jasonisbell',), ('neverminding',), ('amandashires',), ('meganamram',)]]
+2017-07-23 22:49:22,376 - __main__ - INFO - Usernames in Database: []
+2017-07-23 22:49:22,376 - __main__ - INFO - -- listUsers() - query - [[('jasonisbell',), ('neverminding',), ('amandashires',), ('meganamram',)]]
+2017-07-23 22:49:22,376 - __main__ - INFO - Usernames in Database: []
+2017-07-23 22:49:22,376 - __main__ - INFO - Fetch list of users: []
+2017-07-23 22:49:22,376 - __main__ - INFO - -- Update finished.
+2017-07-23 22:50:01,513 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:50:01,513 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:50:01,514 - __main__ - INFO - -- listUsers() - query - [[('jasonisbell',), ('neverminding',), ('amandashires',), ('meganamram',)]]
+2017-07-23 22:50:01,514 - __main__ - INFO - Usernames in Database: []
+2017-07-23 22:50:01,515 - __main__ - INFO - Fetch list of users: []
+2017-07-23 22:50:01,515 - __main__ - INFO - -- Update finished.
+2017-07-23 22:50:14,453 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:50:14,453 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:50:14,454 - __main__ - INFO - -- listUsers() - query - [[('jasonisbell',), ('neverminding',), ('amandashires',), ('meganamram',)]]
+2017-07-23 22:50:14,455 - __main__ - INFO - Usernames in Database: []
+2017-07-23 22:50:14,455 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:50:14,455 - __main__ - INFO - -- Update finished.
+2017-07-23 22:50:51,843 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:50:51,844 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:50:51,844 - __main__ - INFO - -- listUsers() - query - [('jasonisbell',)]
+2017-07-23 22:50:51,845 - __main__ - INFO - Usernames in Database: ['n']
+2017-07-23 22:50:51,845 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:50:51,845 - __main__ - INFO - -- Update finished.
+2017-07-23 22:50:58,054 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:50:58,054 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:50:58,055 - __main__ - INFO - -- listUsers() - query - [('jasonisbell',)]
+2017-07-23 22:50:58,055 - __main__ - INFO - Usernames in Database: ['neverminding', 'amandashires', 'meganamram']
+2017-07-23 22:50:58,055 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:50:58,056 - __main__ - INFO - -- Update finished.
+2017-07-23 22:51:38,019 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:51:38,020 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:51:38,020 - __main__ - INFO - -- listUsers() - query - [('jasonisbell',)]
+2017-07-23 22:51:38,021 - __main__ - INFO - Usernames in Database: [('neverminding',), ('amandashires',), ('meganamram',)]
+2017-07-23 22:51:38,021 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:51:38,021 - __main__ - INFO - -- Update finished.
+2017-07-23 22:51:49,199 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:51:49,200 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:51:49,201 - __main__ - INFO - -- listUsers() - query - [('jasonisbell',)]
+2017-07-23 22:51:49,201 - __main__ - INFO - Usernames in Database: ['neverminding', 'amandashires', 'meganamram']
+2017-07-23 22:51:49,201 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:51:49,202 - __main__ - INFO - -- Update finished.
+2017-07-23 22:52:34,522 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:52:34,522 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:52:34,523 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:52:34,523 - __main__ - INFO - -- Update finished.
+2017-07-23 22:52:43,846 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:52:43,846 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:52:43,847 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:52:43,847 - __main__ - INFO - -- Update finished.
+2017-07-23 22:52:50,602 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:52:50,602 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:52:50,603 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:52:50,604 - __main__ - INFO - -- Update finished.
+2017-07-23 22:53:27,014 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:53:27,014 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:53:27,015 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:53:27,016 - __main__ - INFO - -- Update finished.
+2017-07-23 22:53:52,883 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:53:52,884 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:53:52,885 - __main__ - INFO - -- listUsers() - query - [('jasonisbell',)]
+2017-07-23 22:53:52,885 - __main__ - INFO - Usernames in Database: ['neverminding', 'amandashires', 'meganamram']
+2017-07-23 22:53:52,885 - __main__ - INFO - Fetch list of users: ['neverminding', 'amandashires', 'meganamram']
+2017-07-23 22:53:52,885 - __main__ - INFO - -- Update finished.
+2017-07-23 22:54:07,091 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:54:07,091 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:54:07,092 - __main__ - INFO - -- listUsers() - query - [('jasonisbell',)]
+2017-07-23 22:54:07,092 - __main__ - INFO - Usernames in Database: [('neverminding',), ('amandashires',), ('meganamram',)]
+2017-07-23 22:54:07,092 - __main__ - INFO - Fetch list of users: [('neverminding',), ('amandashires',), ('meganamram',)]
+2017-07-23 22:54:07,092 - __main__ - INFO - -- Update finished.
+2017-07-23 22:54:15,276 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:54:15,276 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:54:15,277 - __main__ - INFO - -- listUsers() - query - [('jasonisbell',)]
+2017-07-23 22:54:15,277 - __main__ - INFO - Usernames in Database: ['n']
+2017-07-23 22:54:15,277 - __main__ - INFO - Fetch list of users: ['n']
+2017-07-23 22:54:15,277 - __main__ - INFO - -- Update finished.
+2017-07-23 22:54:34,708 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:54:34,708 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:54:34,709 - __main__ - INFO - -- listUsers() - query - [('jasonisbell',)]
+2017-07-23 22:54:34,710 - __main__ - INFO - Usernames in Database: ['neverminding', 'amandashires', 'meganamram']
+2017-07-23 22:54:34,710 - __main__ - INFO - Fetch list of users: ['neverminding', 'amandashires', 'meganamram']
+2017-07-23 22:54:34,710 - __main__ - INFO - -- Update finished.
+2017-07-23 22:54:56,244 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:54:56,245 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:54:56,245 - __main__ - INFO - -- listUsers() - query - [('jasonisbell',)]
+2017-07-23 22:54:56,246 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:54:56,246 - __main__ - INFO - -- Update finished.
+2017-07-23 22:55:05,737 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:55:05,737 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:55:05,738 - __main__ - INFO - -- listUsers() - query - [('jasonisbell',)]
+2017-07-23 22:55:05,739 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:55:05,739 - __main__ - INFO - -- Update finished.
+2017-07-23 22:55:32,978 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:55:32,979 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:55:32,980 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:55:32,980 - __main__ - INFO - -- Update finished.
+2017-07-23 22:55:44,717 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:55:44,717 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:55:44,718 - __main__ - INFO - -- listUsers() - query - [[('jasonisbell',), ('neverminding',), ('amandashires',), ('meganamram',)]]
+2017-07-23 22:55:44,718 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:55:44,718 - __main__ - INFO - -- Update finished.
+2017-07-23 22:55:59,365 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:55:59,365 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:55:59,366 - __main__ - INFO - Fetch list of users: None
+2017-07-23 22:55:59,366 - __main__ - INFO - -- Update finished.
+2017-07-23 22:56:28,824 - __main__ - INFO - -- Logging into Database
+2017-07-23 22:56:28,824 - __main__ - INFO - --Database tweets.db exists already.
+2017-07-23 22:56:28,825 - __main__ - INFO - Usernames in Database: ['jasonisbell', 'neverminding', 'amandashires', 'meganamram']
+2017-07-23 22:56:28,826 - __main__ - INFO - Fetch list of users: ['jasonisbell', 'neverminding', 'amandashires', 'meganamram']
+2017-07-23 22:56:28,826 - __main__ - INFO - -- Update finished.
