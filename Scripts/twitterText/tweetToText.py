@@ -127,7 +127,6 @@ def listUsers():
     names = []
     for name in query.fetchall():
          names.append(name[0])
-         print(name)
     logger.debug('Usernames in Database: %s', names)
     return names
 
