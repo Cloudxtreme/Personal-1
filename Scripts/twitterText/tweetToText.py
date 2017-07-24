@@ -7,13 +7,7 @@ import logging
 import os
 import sys
 
-# create logger with 'spam_application'
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-log = logging.FileHandler('logs/tweetToText.log')
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-log.setFormatter(formatter)
-logger.addHandler(log)
+
 
 # Don't forget to add keys here ( apps.twitter.com )
 consumer_key = "TmA9a642mFLnB1osK0G9s2ZOu"
@@ -24,6 +18,8 @@ access_secret = "iY379we0P017I5fmPHUX3PrcgGuAg1IYga1HWXx4zAdRg"
 twitter = Twython(consumer_key, consumer_secret, access_key, access_secret)
 
 dbName = "tweets.db"
+
+defaultLoggerLevel = "INFO"
 
 
 def createTables():
@@ -52,7 +48,7 @@ def getTimeline(username, tweetId):
     userTimeline = twitter.get_user_timeline(
         screen_name=username,
         exclude_replies=True, since_id=tweetId)
-    logger.info('++ Got Timeline for %s with tweetId %s', username, tweetId)
+    logger.info('++ Got Timeline for %s with last tweetId %s', username, tweetId)
     return userTimeline
 
 def addNewUserToDatabase(username):
@@ -133,6 +129,38 @@ def listUsers():
 
 
 
+###########################################################################
+'''
+* Establish argparse
+* --add - adds a new user to the database and fetches last tweets
+'''
+
+# create logger with 'spam_application'
+logger = logging.getLogger(__name__)
+
+log = logging.FileHandler('logs/tweetToText.log')
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+log.setLevel(logging.DEBUG if option == 'debug' else logging.INFO)
+log.setFormatter(formatter)
+logger.addHandler(log)
+
+# If there are arguments
+if len(sys.argv) > 2:
+    parser = argparse.ArgumentParser(description='Add/Edit/Delete users')
+    parser.add_argument('--add',
+                        nargs=1,
+                        help="add a username to be followed")
+
+    # parser.add_argument('--delete',
+    #                     nargs=1,
+    #                     help="stop following a user")
+    args = parser.parse_args()
+
+    username = args.add[0]
+
+    addNewUserToDatabase(username)
+    print("++ New user added to database")
+    logger.info('++ New user added to database: %s', username)
 
 ###########################################################################
 ''' Connect to Database '''
@@ -153,28 +181,6 @@ else:
     print("++ Creating Database file: {}".format(dbName))
     logger.info('++ Creating Database file: %s', dbName)
     createTables()
-
-###########################################################################
-'''
-* Establish argparse
-* --add - adds a new user to the database and fetches last tweets
-'''
-# If there are arguments
-if len(sys.argv) > 2:
-    parser = argparse.ArgumentParser(description='Add/Edit/Delete users')
-    parser.add_argument('--add',
-                        nargs=1,
-                        help="add a username to be followed")
-
-    # parser.add_argument('--delete',
-    #                     nargs=1,
-    #                     help="stop following a user")
-    args = parser.parse_args()
-    username = args.add[0]
-
-    addNewUserToDatabase(username)
-    print("++ New user added to database")
-    logger.info('++ New user added to database: %s', username)
 
 ###########################################################################
 #
