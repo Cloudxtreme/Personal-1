@@ -4,6 +4,7 @@ from sender import Attachment
 from time import strftime
 import os
 import logging
+import sys
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
