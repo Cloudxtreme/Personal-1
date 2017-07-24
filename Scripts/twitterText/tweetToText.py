@@ -140,7 +140,7 @@ logger = logging.getLogger(__name__)
 
 log = logging.FileHandler('logs/tweetToText.log')
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-log.setLevel(logging.DEBUG if option == 'debug' else logging.INFO)
+log.setLevel(logging.INFO)
 log.setFormatter(formatter)
 logger.addHandler(log)
 
