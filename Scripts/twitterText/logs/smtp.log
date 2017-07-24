@@ -1,5 +1,0 @@
-2017-07-18 15:17:33,439 - __main__ - INFO - fileOutput.txt was created.
-2017-07-18 15:17:33,442 - __main__ - INFO - Queries database for new tweets
-2017-07-18 15:17:33,446 - __main__ - INFO - Set tweets to mailed=1
-2017-07-18 15:17:33,446 - __main__ - INFO - Running UpdateFile()
-2017-07-18 15:17:33,907 - __main__ - INFO - Sent Email
