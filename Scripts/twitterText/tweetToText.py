@@ -187,7 +187,7 @@ for user in followedUsers:
 
     # get last ID to not pull duplicate entries
     lastTweetId = getLastIdforUser(user)
-    print ("-- Last TweetID: {}".format(lastTweetId))
+    #print ("-- Last TweetID: {}".format(lastTweetId))
     logger.debug('-- Last TweetId: %s', lastTweetId)
 
     # twitter timeline object
