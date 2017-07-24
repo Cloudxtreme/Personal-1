@@ -135,7 +135,12 @@ def listUsers():
 * --add - adds a new user to the database and fetches last tweets
 '''
 
-# create logger with 'spam_application'
+# Create log file is not present. will otherwise fail. 
+if not os.path.isfile('logs/tweetToText.log'):
+    os.system('touch logs/tweetToText.log')
+    logger.debug("fileOutput.txt was created.")
+
+# create logger
 logger = logging.getLogger(__name__)
 
 log = logging.FileHandler('logs/tweetToText.log')

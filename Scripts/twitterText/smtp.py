@@ -25,20 +25,21 @@ def updateFile():
     try:
         command = 'sqlite3 -column tweets.db "select username, tweetText, tweetURL from tweets where mailed=0" > fileOutput.txt'
         output = os.system(command)
-        logger.info('Queries database for new tweets')
+        logger.debug('Queried database for new tweets')
 
         try:
             updateCommand = 'sqlite3 tweets.db "update tweets set mailed=1;"'
             updateMailed = os.system(updateCommand)
-            logger.info('Set tweets to mailed=1')
+            logger.debug('Set tweets to mailed=1')
         except Exception as e:
             print(e)
+            logger.exception('Error found')
 
         return(output)
 
     except Exception as e:
         print(e)
-        logger.debug('Exception: %s', [e])
+        logger.exception('Exception found')
 
 
 # SMTP log in information
@@ -51,22 +52,28 @@ mail = Mail("mail.messagingengine.com",
 msg = Message(fromaddr=("Adam Elchert", "adam@elchert.net"))
 
 updateFile()
-logger.info('Running UpdateFile()')
+logger.debug('Running UpdateFile()')
 
-# attachment
-with open('fileOutput.txt') as fileOutput:
-    attachment = fileOutput.read()
+if os.path.getsize('fileOutput.txt') != 0:
 
-fileOutput.close()
+    # attachment
+    with open('fileOutput.txt') as fileOutput:
+        attachment = fileOutput.read()
 
-# update message object
-msg.fromaddr = ("adam@elchert.net")
-msg.body= '{}'.format(attachment)
-msg.to = ('adam@elchert.net')
-msg.subject=('Tweets from {}'.format(strftime('%B %d')))
-mail.send(msg)
-logger.info('Sent Email')
-logger.debug('Debug: %s', [msg])
+    fileOutput.close()
+
+    # update message object
+    msg.fromaddr = ("adam@elchert.net")
+    msg.body= '{}'.format(attachment)
+    msg.to = ('adam@elchert.net')
+    msg.subject=('Tweets from {}'.format(strftime('%B %d')))
+    mail.send(msg)
+    logger.info('Sent Email')
+    logger.debug('Debug: %s', [msg])
 
 
-os.remove('fileOutput.txt')
+    os.remove('fileOutput.txt')
+
+else:
+    logger.debug('No tweet updates - No mail sent')
+    sys.exit()
