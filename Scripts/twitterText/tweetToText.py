@@ -183,7 +183,6 @@ if len(sys.argv) > 2:
 followedUsers = listUsers()
 logger.info('Fetch list of users: %s', followedUsers)
 for user in followedUsers:
-   print(user)
     # gets a single username to then pull data for
     print("++ Starting User: {}".format(user))
     logger.info('++ Starting User: %s', user)
