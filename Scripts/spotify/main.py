@@ -30,6 +30,58 @@ playlist_id = uri.split(':')[4]
 resultsObject = sp.user_playlist(username, playlist_id)
 logger.debug('Retrieve resultsObject: %s', resultsObject)
 
+def createTables():
+    """ Make sure table is created in databse file """
+
+    try:
+        if conn is not None:
+            c.execute('''CREATE TABLE if not exists tweets(
+                         addedBy TEXT,
+                         addedAt TEXT,
+                         url TEXT,
+                         artistName TEXT,
+                         trackName TEXT,
+                         spotifyId TEXT
+                         )''')
+            logger.info("Created new database tables.")
+
+    except (RuntimeError, TypeError, NameError) as e:
+        print(e)
+        logger.error('Error creating database/tables')
+
+def insertTrack(addedBy, addedBy, url, artistName, trackName, spotifyId):
+    """ Insert last tweet into sqllite """
+    t = (addedBy, addedBy, url, artistName, trackName, spotifyId)
+    try:
+        tweetURL = 'https://twitter.com/{}/status/{}'.format(username, tweetId)
+        c.execute('INSERT INTO tweets VALUES (?, ?, ?, ?, ?, ?)', t)
+        logger.debug('Inserted Data: %s, %s, %s, %s, %s', timeCreated, username, tweetId, tweetText, tweetURL)
+    except:
+        print(Exception)
+        logger.error('Exception: %s', Exception)
+    finally:
+        conn.commit()
+
+###########################################################################
+''' Connect to Database '''
+conn = sqlite3.connect(dbName)
+c = conn.cursor()
+logger.debug('-- Logging into Database')
+###########################################################################
+''' Create database if not there '''
+createTables()
+logger.debug("Check for Database")
+###########################################################################
+
+
+
+
+
+
+
+
+
+
 try:
     for track in resultsObject['tracks']['items']:
         artistName = track['track']['artists'][0]['name']
@@ -39,7 +91,8 @@ try:
         addedAt = track['added_at']
         spotifyId = track['track']['id']
         #print("addedBy: {}\n addedAt: {}\n artistName: {}\n trackName: {}\n URL: {}\n".format(addedBy, addedAt, artistName, trackName, url))
-        print('SpotifyId: {}'.format(spotifyId))
+        #print('SpotifyId: {}'.format(spotifyId))
+        pprint.pprint(track)
         logger.debug("addedBy: %s addedAt: %s artistName: %s trackName: %s\n URL: %s", addedBy, addedAt, artistName, trackName, url)
 except UnicodeError:
     #logger.error('Unicode Error Occured: %s', Exception)
