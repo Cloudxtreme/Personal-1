@@ -3,6 +3,7 @@ import spotipy
 import json
 import pprint
 import logging
+import sqlite3
 
 # https://developer.spotify.com/web-api/get-playlists-tracks/
 
@@ -20,6 +21,8 @@ SPOTIPY_CLIENT_ID='70be013bbce941b19cc1b0c22d66c6c3'
 SPOTIPY_CLIENT_SECRET='7e4bfe34feb942cc8e1f92d7c1293e18'
 SPOTIPY_REDIRECT_URI='http://sevone.elchert.net'
 
+dbName = "playlist"
+
 client_credentials_manager = SpotifyClientCredentials()
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
@@ -35,7 +38,7 @@ def createTables():
 
     try:
         if conn is not None:
-            c.execute('''CREATE TABLE if not exists tweets(
+            c.execute('''CREATE TABLE if not exists playlist(
                          addedBy TEXT,
                          addedAt TEXT,
                          url TEXT,
@@ -49,13 +52,12 @@ def createTables():
         print(e)
         logger.error('Error creating database/tables')
 
-def insertTrack(addedBy, addedBy, url, artistName, trackName, spotifyId):
-    """ Insert last tweet into sqllite """
+def insertTrack(addedBy, addedAt, url, artistName, trackName, spotifyId):
+    """ Insert into sqllite """
     t = (addedBy, addedBy, url, artistName, trackName, spotifyId)
     try:
-        tweetURL = 'https://twitter.com/{}/status/{}'.format(username, tweetId)
-        c.execute('INSERT INTO tweets VALUES (?, ?, ?, ?, ?, ?)', t)
-        logger.debug('Inserted Data: %s, %s, %s, %s, %s', timeCreated, username, tweetId, tweetText, tweetURL)
+        if conn is not None:
+            c.execute('INSERT INTO playlist VALUES (?, ?, ?, ?, ?, ?)', t)
     except:
         print(Exception)
         logger.error('Exception: %s', Exception)
@@ -73,27 +75,21 @@ createTables()
 logger.debug("Check for Database")
 ###########################################################################
 
-
-
-
-
-
-
-
-
-
-try:
+def firstSync():
+    '''
+    Download all information for the first time Created
+    and insert to database
+    '''
     for track in resultsObject['tracks']['items']:
-        artistName = track['track']['artists'][0]['name']
-        trackName = track['track']['name']
-        url = track['track']['artists'][0]['external_urls']['spotify']
         addedBy = track['added_by']['id']
         addedAt = track['added_at']
+        url = track['track']['artists'][0]['external_urls']['spotify']
+        artistName = track['track']['artists'][0]['name']
+        trackName = track['track']['name']
         spotifyId = track['track']['id']
-        #print("addedBy: {}\n addedAt: {}\n artistName: {}\n trackName: {}\n URL: {}\n".format(addedBy, addedAt, artistName, trackName, url))
-        #print('SpotifyId: {}'.format(spotifyId))
+
+        insertTrack(addedBy, addedAt, url, artistName, trackName, spotifyId)
         pprint.pprint(track)
         logger.debug("addedBy: %s addedAt: %s artistName: %s trackName: %s\n URL: %s", addedBy, addedAt, artistName, trackName, url)
-except UnicodeError:
-    #logger.error('Unicode Error Occured: %s', Exception)
-    pass
+
+firstSync()
