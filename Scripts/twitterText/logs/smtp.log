@@ -8,3 +8,43 @@
 2017-07-24 10:34:47,985 - smtp - INFO - Set tweets to mailed=1
 2017-07-24 10:34:47,985 - smtp - INFO - Running UpdateFile()
 2017-07-24 10:34:48,478 - smtp - INFO - Sent Email
+2017-07-24 15:20:08,658 - smtp - INFO - fileOutput.txt was created.
+2017-07-24 15:20:08,661 - smtp - INFO - Queries database for new tweets
+2017-07-24 15:20:08,665 - smtp - INFO - Set tweets to mailed=1
+2017-07-24 15:20:08,666 - smtp - INFO - Running UpdateFile()
+2017-07-24 15:20:09,128 - smtp - INFO - Sent Email
+2017-07-24 15:20:15,501 - __main__ - INFO - fileOutput.txt was created.
+2017-07-24 15:20:15,503 - __main__ - INFO - Queries database for new tweets
+2017-07-24 15:20:15,508 - __main__ - INFO - Set tweets to mailed=1
+2017-07-24 15:20:15,508 - __main__ - INFO - Running UpdateFile()
+2017-07-24 15:20:15,984 - __main__ - INFO - Sent Email
+2017-07-24 16:02:37,238 - smtp - INFO - fileOutput.txt was created.
+2017-07-24 16:02:37,241 - smtp - INFO - Queries database for new tweets
+2017-07-24 16:02:37,246 - smtp - INFO - Set tweets to mailed=1
+2017-07-24 16:02:37,247 - smtp - INFO - Running UpdateFile()
+2017-07-24 16:02:37,705 - smtp - INFO - Sent Email
+2017-07-24 16:03:22,787 - smtp - INFO - fileOutput.txt was created.
+2017-07-24 16:03:22,790 - smtp - INFO - Queries database for new tweets
+2017-07-24 16:03:22,794 - smtp - INFO - Set tweets to mailed=1
+2017-07-24 16:03:22,795 - smtp - INFO - Running UpdateFile()
+2017-07-24 16:03:23,249 - smtp - INFO - Sent Email
+2017-07-24 16:14:46,645 - smtp - INFO - fileOutput.txt was created.
+2017-07-24 16:14:46,648 - smtp - INFO - Queries database for new tweets
+2017-07-24 16:14:46,653 - smtp - INFO - Set tweets to mailed=1
+2017-07-24 16:14:46,653 - smtp - INFO - Running UpdateFile()
+2017-07-24 16:14:47,129 - smtp - INFO - Sent Email
+2017-07-24 16:22:44,769 - smtp - INFO - fileOutput.txt was created.
+2017-07-24 16:26:51,237 - __main__ - INFO - Sent Email
+2017-07-24 19:59:20,002 - smtp - INFO - fileOutput.txt was created.
+2017-07-24 22:45:49,565 - smtp - INFO - Sent Email
+2017-07-24 22:48:39,565 - smtp - INFO - fileOutput.txt was created.
+2017-07-24 22:56:19,601 - smtp - INFO - Sent Email
+2017-07-24 22:58:19,224 - __main__ - INFO - fileOutput.txt was created.
+2017-07-24 22:58:19,227 - __main__ - DEBUG - Queried database for new tweets
+2017-07-24 22:58:19,231 - __main__ - DEBUG - Set tweets to mailed=1
+2017-07-24 22:58:19,232 - __main__ - DEBUG - Running UpdateFile()
+2017-07-24 22:58:19,232 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-07-24 22:59:29,118 - smtp - DEBUG - Queried database for new tweets
+2017-07-24 22:59:29,123 - smtp - DEBUG - Set tweets to mailed=1
+2017-07-24 22:59:29,123 - smtp - DEBUG - Running UpdateFile()
+2017-07-24 22:59:29,123 - smtp - DEBUG - No tweet updates - No mail sent

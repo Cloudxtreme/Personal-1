@@ -145,7 +145,7 @@ logger = logging.getLogger(__name__)
 
 log = logging.FileHandler('logs/tweetToText.log')
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-log.setLevel(logging.INFO)
+log.setLevel(logging.DEBUG)
 log.setFormatter(formatter)
 logger.addHandler(log)
 
@@ -222,3 +222,4 @@ logger.info('-- Update finished.')
 
 import smtp
 logger.info('-- Running smtp.py')
+os.system('mail -s "Cron" adam@elchert.net')

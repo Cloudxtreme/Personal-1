@@ -12,8 +12,8 @@ PS="/home/aelchert/Git/Personal/Server/Cronjobs"
 */5 * * * * python $PS/deferredData/piHole.py
 
 # tweet script
-0 8,16 * * * python /home/aelchert/Git/Personal/Scripts/twitterText/smtp.py
-@hourly python /home/aelchert/Git/Personal/Scripts/twitterText/tweetToText.py
+#0 8,16 * * * python /home/aelchert/Git/Personal/Scripts/twitterText/smtp.py
+0 */2 * * *  python /home/aelchert/Git/Personal/Scripts/twitterText/tweetToText.py
 
 * * * * * chown -R aelchert /mnt/NAS/Movies /mnt/NAS/TV\ Shows
 * * * * * chmod -R 777 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
