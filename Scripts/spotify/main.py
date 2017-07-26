@@ -1,7 +1,7 @@
 from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy
 import json
-import pprint
+import os
 import logging
 import sqlite3
 
@@ -119,7 +119,7 @@ def getMostRecentRon():
 
 def getMostRecentAdam():
         ''' query database for most recently added song'''
-        adam = c.execute('select * from playlist where addedBy="nonstopflights" order by addedAt desc limit 1')
+        adamDatabaseObject = c.execute('select * from playlist where addedBy="nonstopflights" order by addedAt desc limit 1')
         adamDatabaseList = adamDatabaseObject.fetchone()
         return adamDatabaseList
 
@@ -133,11 +133,44 @@ logger.debug('-- Logging into Database')
 createTables()
 logger.debug("Check for Database")
 ###########################################################################
-
-#debug__pullJson(resultsObject)
+''' Pulls new tracks from playlist and inserts to database, if needed '''
 syncAndInsert()
-#getMostRecentRon()
 
+# get list of most recent track info
+# example:
+# ('ronlipke', '2017-07-15T17:19:35Z',
+#'https://open.spotify.com/artist/6ITIhwzOeoG3BjX3Es1q0T', 'Celebration',
+#'Rolling On', '4IrWkDddyMrPYYQdH7jozX', 0)
+
+# ronMostRecentTrackList = getMostRecentRon()
+#
+# if ronMostRecentTrackList[6] == 0:
+#     print("New Ronald Track")
+#     print(ronMostRecentTrackList[6])
+#     spotId = ronMostRecentTrackList[5]
+#     c.execute('update playlist set newest=0 where addedBy="ronlipke";')
+#     c.execute('update playlist set newest=1 where spotifyId=(?)', [spotId])
+#     os.system('mail -s "New Ron Track" adam@elchert.net')
+#     conn.commit()
+# else:
+#     print('No New Ron Track')
+#     logger.info("No New Ron Tracks")
+#
+# adamMostRecentTrackList = getMostRecentAdam()
+#
+# if adamMostRecentTrackList[6] == 0:
+#     print("New Adam Track")
+#     spotId = adamMostRecentTrackList[5]
+#     c.execute('update playlist set newest=0 where addedBy="nonstopflights";')
+#     c.execute('update playlist set newest=1 where spotifyId=(?)', [spotId])
+#     os.system('mail -s "New Adam Track" adam@elchert.net')
+#
+#     conn.commit()
+# else:
+#     print('No New Adam Track')
+#     logger.info("No New Adam Tracks")
+
+print(debug__pullJson(resultsObject))
 conn.close()
 # ----> pull json
 # ----> sort by date, user -> get spotifyId
