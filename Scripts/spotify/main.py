@@ -21,7 +21,7 @@ SPOTIPY_CLIENT_ID='70be013bbce941b19cc1b0c22d66c6c3'
 SPOTIPY_CLIENT_SECRET='7e4bfe34feb942cc8e1f92d7c1293e18'
 SPOTIPY_REDIRECT_URI='http://sevone.elchert.net'
 
-dbName = "playlist"
+
 
 client_credentials_manager = SpotifyClientCredentials()
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
@@ -101,13 +101,12 @@ def syncAndInsert():
         spotifyId = track['track']['id']
 
         # check if track exists in database
-        queryIdFromDatabase = c.execute('select spotifyId from playlist where spotifyId=(?);', [spotifyId])
-
-        # if it doesn't, insert it
-        if queryIdFromDatabase is None:
-            #print(queryIdFromDatabase.fetchone()[0])
-            insertTrack(addedBy, addedAt, url, artistName, trackName, spotifyId, 0)
-            logger.info('Inserted Track - Artist: {} - trackname: {}'.format(artistName, trackName))
+        queryId = c.execute('select spotifyId from playlist where spotifyId=(?);', [spotifyId])
+        data = queryId.fetchone()
+        if data is None:
+            insertTrack(addedBy, addedAt, url, artistName, trackName, spotifyId)
+            print('Inserted Data: {}'.format(spotifyId))
+            conn.commit()
 
 ###########################################################################
 
@@ -125,13 +124,12 @@ def getMostRecentAdam():
 
 ###########################################################################
 ''' Connect to Database '''
+dbName = "playlist"
 conn = sqlite3.connect(dbName)
 c = conn.cursor()
-logger.debug('-- Logging into Database')
 ###########################################################################
 ''' Create database if not there '''
 createTables()
-logger.debug("Check for Database")
 ###########################################################################
 ''' Pulls new tracks from playlist and inserts to database, if needed '''
 syncAndInsert()
@@ -142,36 +140,52 @@ syncAndInsert()
 #'https://open.spotify.com/artist/6ITIhwzOeoG3BjX3Es1q0T', 'Celebration',
 #'Rolling On', '4IrWkDddyMrPYYQdH7jozX', 0)
 
-# ronMostRecentTrackList = getMostRecentRon()
-#
-# if ronMostRecentTrackList[6] == 0:
-#     print("New Ronald Track")
-#     print(ronMostRecentTrackList[6])
-#     spotId = ronMostRecentTrackList[5]
-#     c.execute('update playlist set newest=0 where addedBy="ronlipke";')
-#     c.execute('update playlist set newest=1 where spotifyId=(?)', [spotId])
-#     os.system('mail -s "New Ron Track" adam@elchert.net')
-#     conn.commit()
-# else:
-#     print('No New Ron Track')
-#     logger.info("No New Ron Tracks")
-#
-# adamMostRecentTrackList = getMostRecentAdam()
-#
-# if adamMostRecentTrackList[6] == 0:
-#     print("New Adam Track")
-#     spotId = adamMostRecentTrackList[5]
-#     c.execute('update playlist set newest=0 where addedBy="nonstopflights";')
-#     c.execute('update playlist set newest=1 where spotifyId=(?)', [spotId])
-#     os.system('mail -s "New Adam Track" adam@elchert.net')
-#
-#     conn.commit()
-# else:
-#     print('No New Adam Track')
-#     logger.info("No New Adam Tracks")
+ronMostRecentTrackList = getMostRecentRon()
 
-print(debug__pullJson(resultsObject))
+if ronMostRecentTrackList[6] == 0:
+    print("New Ronald Track")
+    print(ronMostRecentTrackList[6])
+    spotId = ronMostRecentTrackList[5]
+    c.execute('update playlist set newest=0 where addedBy="ronlipke";')
+    c.execute('update playlist set newest=1 where spotifyId=(?)', [spotId])
+    os.system('mail -s "New Ron Track" adam@elchert.net')
+    conn.commit()
+else:
+    print('No New Ron Track')
+    logger.info("No New Ron Tracks")
+
+adamMostRecentTrackList = getMostRecentAdam()
+
+if adamMostRecentTrackList[6] == 0:
+    print("New Adam Track")
+    spotId = adamMostRecentTrackList[5]
+    c.execute('update playlist set newest=0 where addedBy="nonstopflights";')
+    c.execute('update playlist set newest=1 where spotifyId=(?)', [spotId])
+    os.system('mail -s "New Adam Track" adam@elchert.net')
+
+    conn.commit()
+else:
+    print('No New Adam Track')
+    logger.info("No New Adam Tracks")
+
+
+
+
+# set newest track to 1 in db
+# ronObject = getMostRecentRon()
+# ronTrack = ronObject[5]
+# c.execute('update playlist set newest=1 where spotifyId=(?)', [ronTrack])
+# print('Updated Ron newest with spot id: {}'.format(ronTrack))
+#
+# adamObject = getMostRecentAdam()
+# adamTrack = adamObject[5]
+# c.execute('update playlist set newest=1 where spotifyId=(?)', [adamTrack])
+# print('Updated Adam newest with spot id: {}'.format(adamTrack))
+# conn.commit()
+
+#print(debug__pullJson(resultsObject))
+#print(getMostRecentRon())
 conn.close()
-# ----> pull json
-# ----> sort by date, user -> get spotifyId
-# ----> write newest to json file
+# # ----> pull json
+# # ----> sort by date, user -> get spotifyId
+# # ----> write newest to json file
