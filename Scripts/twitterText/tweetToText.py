@@ -220,6 +220,3 @@ for user in followedUsers:
 conn.close()
 logger.info('-- Update finished.')
 
-import smtp
-logger.info('-- Running smtp.py')
-os.system('mail -s "Cron" adam@elchert.net')
