@@ -95,3 +95,15 @@
 2017-07-30 16:43:09,559 - __main__ - DEBUG - Running UpdateFile()
 2017-07-30 16:43:10,060 - __main__ - INFO - Sent Email
 2017-07-30 16:43:10,060 - __main__ - DEBUG - Debug: [<sender.Message object at 0x7fadf0d1c790>]
+2017-07-31 15:43:55,368 - __main__ - INFO - fileOutput.txt was created.
+2017-07-31 15:43:55,371 - __main__ - DEBUG - Queried database for new tweets
+2017-07-31 15:43:55,376 - __main__ - DEBUG - Set tweets to mailed=1
+2017-07-31 15:43:55,376 - __main__ - DEBUG - Running UpdateFile()
+2017-07-31 15:43:55,847 - __main__ - INFO - Sent Email
+2017-07-31 15:43:55,847 - __main__ - DEBUG - Debug: [<sender.Message object at 0x7f03f3a9a790>]
+2017-07-31 18:56:57,155 - __main__ - INFO - fileOutput.txt was created.
+2017-07-31 18:56:57,159 - __main__ - DEBUG - Queried database for new tweets
+2017-07-31 18:56:57,164 - __main__ - DEBUG - Set tweets to mailed=1
+2017-07-31 18:56:57,164 - __main__ - DEBUG - Running UpdateFile()
+2017-07-31 18:56:57,613 - __main__ - INFO - Sent Email
+2017-07-31 18:56:57,613 - __main__ - DEBUG - Debug: [<sender.Message object at 0x7f9703871790>]
