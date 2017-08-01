@@ -1,0 +1,8 @@
+2017-07-31 22:07:04,274 - __main__ - INFO - Connecting to database
+2017-07-31 22:07:04,276 - __main__ - INFO - Tried to create new database tables.
+2017-07-31 22:07:04,276 - __main__ - INFO - Running createTables()
+2017-07-31 22:07:04,279 - __main__ - INFO - Running Sync and Insert
+2017-07-31 22:07:04,280 - __main__ - INFO - Most Recent Ron track: ('ronlipke', '2017-07-26T21:28:48Z', 'https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi', 'Yo La Tengo', 'Cherry Chapstick', '3TYWPgtvkkD5xvzaWdhFUd', 1)
+2017-07-31 22:07:04,280 - __main__ - INFO - No New Ron Tracks
+2017-07-31 22:07:04,280 - __main__ - INFO - Most Recent Adam Track: ('nonstopflights', '2017-07-26T02:54:34Z', 'https://open.spotify.com/artist/7sBx432MZn1MzHeYHAA5qr', 'Scott Hamilton', "Stockholm Sweetnin'", '73fjTjTG8KSLQ04t5fARWm', 1)
+2017-07-31 22:07:04,281 - __main__ - INFO - No New Adam Tracks

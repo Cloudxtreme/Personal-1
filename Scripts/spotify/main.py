@@ -10,9 +10,11 @@ import sqlite3
 ########################################################################
 # create logger
 logger = logging.getLogger(__name__)
-log = logging.FileHandler('doucheSpotifyUpdate.log')
+logger.setLevel(logging.INFO)
+
+log = logging.FileHandler('spotify.log')
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-log.setLevel(logging.WARNING)
+
 log.setFormatter(formatter)
 logger.addHandler(log)
 ########################################################################
@@ -35,7 +37,6 @@ logger.debug('Retrieve resultsObject: %s', resultsObject)
 
 def createTables():
     """ Make sure table is created in databse file """
-
     try:
         if conn is not None:
             c.execute('''CREATE TABLE if not exists playlist(
@@ -47,7 +48,8 @@ def createTables():
                          spotifyId TEXT,
                          newest INTEGER DEFAULT 0
                          )''')
-            logger.info("Created new database tables.")
+            logger.info("Tried to create new database tables.")
+            conn.commit()
 
     except (RuntimeError, TypeError, NameError) as e:
         print(e)
@@ -56,6 +58,7 @@ def createTables():
 def insertTrack(addedBy, addedAt, url, artistName, trackName, spotifyId):
     """ Insert into sqllite """
     t = (addedBy, addedAt, url, artistName, trackName, spotifyId, 0)
+    logger.info("InsertTrack: %s", t)
     try:
         if conn is not None:
             c.execute('INSERT INTO playlist VALUES (?, ?, ?, ?, ?, ?, ?)', t)
@@ -67,9 +70,8 @@ def insertTrack(addedBy, addedAt, url, artistName, trackName, spotifyId):
         conn.commit()
 
 def debug__pullJson(resultsObject):
-    #pprint.pprint(resultsObject)
+    ''' This will display the json for the playlist '''
     for track in resultsObject['tracks']['items']:
-
         addedBy = track['added_by']['id']
         addedAt = track['added_at']
         url = track['track']['artists'][0]['external_urls']['spotify']
@@ -99,12 +101,16 @@ def syncAndInsert():
         artistName = track['track']['artists'][0]['name']
         trackName = track['track']['name']
         spotifyId = track['track']['id']
+        logger.debug("Pulled info. addedBy - %s, addedAt - %s, artistName - %s, trackname -%s", addedBy, addedAt, artistName, trackName)
 
         # check if track exists in database
         queryId = c.execute('select spotifyId from playlist where spotifyId=(?);', [spotifyId])
         data = queryId.fetchone()
+        logger.debug('Query spotifyId to see if it exists - %s', queryId.fetchone())
         if data is None:
+            logger.info('Track not found in database - %s - %s', artistName, trackName)
             insertTrack(addedBy, addedAt, url, artistName, trackName, spotifyId)
+            logger.debug('Inserting Track: %s', spotifyId)
             print('Inserted Data: {}'.format(spotifyId))
             conn.commit()
 
@@ -114,25 +120,33 @@ def getMostRecentRon():
     ''' query database for most recently added song'''
     ronDatabaseObject = c.execute('select * from playlist where addedBy="ronlipke" order by addedAt desc limit 1')
     ronDatabaseList = ronDatabaseObject.fetchone()
+    logger.info('Most Recent Ron track: %s', ronDatabaseList)
     return ronDatabaseList
 
 def getMostRecentAdam():
         ''' query database for most recently added song'''
         adamDatabaseObject = c.execute('select * from playlist where addedBy="nonstopflights" order by addedAt desc limit 1')
         adamDatabaseList = adamDatabaseObject.fetchone()
+        logger.info('Most Recent Adam Track: %s', adamDatabaseList)
         return adamDatabaseList
 
 ###########################################################################
 ''' Connect to Database '''
-dbName = "playlist"
-conn = sqlite3.connect(dbName)
-c = conn.cursor()
+try:
+    dbName = "playlist"
+    conn = sqlite3.connect(dbName)
+    c = conn.cursor()
+    logger.info('Connecting to database')
+except:
+    logger.error("Error: %s", Exception)
 ###########################################################################
 ''' Create database if not there '''
 createTables()
+logger.info('Running createTables()')
 ###########################################################################
 ''' Pulls new tracks from playlist and inserts to database, if needed '''
 syncAndInsert()
+logger.info('Running Sync and Insert')
 
 # get list of most recent track info
 # example:
