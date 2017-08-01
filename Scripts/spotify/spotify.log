@@ -15,3 +15,60 @@
 2017-07-31 22:09:53,817 - __main__ - INFO - Most Recent Ron track: ('ronlipke', '2017-07-26T21:28:48Z', 'https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi', 'Yo La Tengo', 'Cherry Chapstick', '3TYWPgtvkkD5xvzaWdhFUd', 1)
 2017-07-31 22:09:53,817 - __main__ - INFO - No New Ron Tracks
 2017-07-31 22:09:53,817 - __main__ - INFO - Most Recent Adam Track: ('nonstopflights', '2017-08-01T02:09:35Z', 'https://open.spotify.com/artist/4ptJIIR10UVlGjN0VntFaK', 'Day Wave', 'Something Here', '7hVJdledWUXvvHlw8SzXxM', 0)
+2017-07-31 22:13:32,251 - __main__ - INFO - Connecting to database
+2017-07-31 22:13:32,252 - __main__ - INFO - Tried to create new database tables.
+2017-07-31 22:13:32,252 - __main__ - INFO - Running createTables()
+2017-07-31 22:13:32,254 - __main__ - INFO - Running Sync and Insert
+2017-07-31 22:13:32,254 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-07-26T21:28:48Z', u'https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi', u'Yo La Tengo', u'Cherry Chapstick', u'3TYWPgtvkkD5xvzaWdhFUd', 1)
+2017-07-31 22:13:32,255 - __main__ - INFO - No New Ron Tracks
+2017-07-31 22:13:32,255 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-01T02:09:35Z', u'https://open.spotify.com/artist/4ptJIIR10UVlGjN0VntFaK', u'Day Wave', u'Something Here', u'7hVJdledWUXvvHlw8SzXxM', 1)
+2017-07-31 22:13:32,255 - __main__ - INFO - No New Adam Tracks
+2017-07-31 22:15:33,268 - __main__ - INFO - Connecting to database
+2017-07-31 22:15:33,268 - __main__ - INFO - Tried to create new database tables.
+2017-07-31 22:15:33,268 - __main__ - INFO - Running createTables()
+2017-07-31 22:15:33,270 - __main__ - INFO - Track not found in database - Day Wave - Something Here
+2017-07-31 22:15:33,270 - __main__ - INFO - InsertTrack: (u'nonstopflights', u'2017-08-01T02:09:35Z', u'https://open.spotify.com/artist/4ptJIIR10UVlGjN0VntFaK', u'Day Wave', u'Something Here', u'7hVJdledWUXvvHlw8SzXxM', 0)
+2017-07-31 22:15:33,273 - __main__ - INFO - Running Sync and Insert
+2017-07-31 22:15:33,273 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-07-26T21:28:48Z', u'https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi', u'Yo La Tengo', u'Cherry Chapstick', u'3TYWPgtvkkD5xvzaWdhFUd', 1)
+2017-07-31 22:15:33,273 - __main__ - INFO - No New Ron Tracks
+2017-07-31 22:15:33,273 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-01T02:09:35Z', u'https://open.spotify.com/artist/4ptJIIR10UVlGjN0VntFaK', u'Day Wave', u'Something Here', u'7hVJdledWUXvvHlw8SzXxM', 0)
+2017-07-31 22:19:15,720 - __main__ - INFO - Connecting to database
+2017-07-31 22:19:15,721 - __main__ - INFO - Tried to create new database tables.
+2017-07-31 22:19:15,721 - __main__ - INFO - Running createTables()
+2017-07-31 22:19:15,723 - __main__ - INFO - Running Sync and Insert
+2017-07-31 22:19:15,723 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-07-26T21:28:48Z', u'https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi', u'Yo La Tengo', u'Cherry Chapstick', u'3TYWPgtvkkD5xvzaWdhFUd', 1)
+2017-07-31 22:19:15,723 - __main__ - INFO - No New Ron Tracks
+2017-07-31 22:19:15,724 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-01T02:09:35Z', u'https://open.spotify.com/artist/4ptJIIR10UVlGjN0VntFaK', u'Day Wave', u'Something Here', u'7hVJdledWUXvvHlw8SzXxM', 1)
+2017-07-31 22:19:15,724 - __main__ - INFO - No New Adam Tracks
+2017-07-31 22:20:03,331 - __main__ - INFO - Connecting to database
+2017-07-31 22:20:03,332 - __main__ - INFO - Tried to create new database tables.
+2017-07-31 22:20:03,332 - __main__ - INFO - Running createTables()
+2017-07-31 22:20:03,334 - __main__ - INFO - Track not found in database - Day Wave - Something Here
+2017-07-31 22:20:03,334 - __main__ - INFO - InsertTrack: (u'nonstopflights', u'2017-08-01T02:09:35Z', u'https://open.spotify.com/artist/4ptJIIR10UVlGjN0VntFaK', u'Day Wave', u'Something Here', u'7hVJdledWUXvvHlw8SzXxM', 0)
+2017-07-31 22:20:03,336 - __main__ - INFO - Running Sync and Insert
+2017-07-31 22:20:03,337 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-07-26T21:28:48Z', u'https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi', u'Yo La Tengo', u'Cherry Chapstick', u'3TYWPgtvkkD5xvzaWdhFUd', 1)
+2017-07-31 22:20:03,337 - __main__ - INFO - No New Ron Tracks
+2017-07-31 22:20:03,337 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-01T02:09:35Z', u'https://open.spotify.com/artist/4ptJIIR10UVlGjN0VntFaK', u'Day Wave', u'Something Here', u'7hVJdledWUXvvHlw8SzXxM', 0)
+2017-07-31 22:28:42,014 - __main__ - INFO - Connecting to database
+2017-07-31 22:28:42,015 - __main__ - INFO - Tried to create new database tables.
+2017-07-31 22:28:42,015 - __main__ - INFO - Running createTables()
+2017-07-31 22:28:42,017 - __main__ - INFO - Running Sync and Insert
+2017-07-31 22:28:42,017 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-07-26T21:28:48Z', u'https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi', u'Yo La Tengo', u'Cherry Chapstick', u'3TYWPgtvkkD5xvzaWdhFUd', 1)
+2017-07-31 22:28:42,017 - __main__ - INFO - No New Ron Tracks
+2017-07-31 22:28:42,017 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-01T02:09:35Z', u'https://open.spotify.com/artist/4ptJIIR10UVlGjN0VntFaK', u'Day Wave', u'Something Here', u'7hVJdledWUXvvHlw8SzXxM', 1)
+2017-07-31 22:28:42,018 - __main__ - INFO - No New Adam Tracks
+2017-07-31 23:11:50,315 - __main__ - INFO - Connecting to database
+2017-07-31 23:11:50,315 - __main__ - INFO - Tried to create new database tables.
+2017-07-31 23:11:50,315 - __main__ - INFO - Running createTables()
+2017-07-31 23:11:50,318 - __main__ - INFO - Running Sync and Insert
+2017-07-31 23:11:50,318 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-07-26T21:28:48Z', u'https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi', u'Yo La Tengo', u'Cherry Chapstick', u'3TYWPgtvkkD5xvzaWdhFUd', 1)
+2017-07-31 23:11:50,318 - __main__ - INFO - No New Ron Tracks
+2017-07-31 23:11:50,318 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-01T02:09:35Z', u'https://open.spotify.com/artist/4ptJIIR10UVlGjN0VntFaK', u'Day Wave', u'Something Here', u'7hVJdledWUXvvHlw8SzXxM', 0)
+2017-07-31 23:38:05,501 - __main__ - INFO - Connecting to database
+2017-07-31 23:38:05,501 - __main__ - INFO - Tried to create new database tables.
+2017-07-31 23:38:05,501 - __main__ - INFO - Running createTables()
+2017-07-31 23:38:05,504 - __main__ - INFO - Running Sync and Insert
+2017-07-31 23:38:05,504 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-07-26T21:28:48Z', u'https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi', u'Yo La Tengo', u'Cherry Chapstick', u'3TYWPgtvkkD5xvzaWdhFUd', 1)
+2017-07-31 23:38:05,504 - __main__ - INFO - No New Ron Tracks
+2017-07-31 23:38:05,504 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-01T02:09:35Z', u'https://open.spotify.com/artist/4ptJIIR10UVlGjN0VntFaK', u'Day Wave', u'Something Here', u'7hVJdledWUXvvHlw8SzXxM', 1)
+2017-07-31 23:38:05,504 - __main__ - INFO - No New Adam Tracks

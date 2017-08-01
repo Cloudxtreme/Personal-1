@@ -1,4 +1,6 @@
 #!/bin/bash
 
-python tweetToText.py
-python smtp.py
+filePath='/home/aelchert/Git/Personal/Scripts/twitterText/'
+
+python $filePath/tweetToText.py
+python $filePath/smtp.py

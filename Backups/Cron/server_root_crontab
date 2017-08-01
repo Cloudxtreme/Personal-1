@@ -13,7 +13,10 @@ PS="/home/aelchert/Git/Personal/Server/Cronjobs"
 
 # tweet script
 #0 8,16 * * * python /home/aelchert/Git/Personal/Scripts/twitterText/smtp.py
-0 */2 * * *  bash /home/aelchert/Git/Personal/Scripts/twitterText/run.sh
+*/10 * * * *  cd /home/aelchert/Git/Personal/Scripts/twitterText/ && bash ./run.sh && echo "twitter run" | mail -s "twitter" adam@elchert.net
+
+#spotifyScript
+*/10 * * * * cd /home/aelchert/Git/Personal/Scripts/spotify/ && python main.py
 
 * * * * * chown -R aelchert /mnt/NAS/Movies /mnt/NAS/TV\ Shows
 * * * * * chmod -R 777 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
