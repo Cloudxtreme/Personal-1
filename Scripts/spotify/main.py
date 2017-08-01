@@ -152,28 +152,32 @@ logger.info('Running Sync and Insert')
 ronMostRecentTrackList = getMostRecentRon()
 
 if ronMostRecentTrackList[6] == 0:
-    print("New Ronald Track")
-    print(ronMostRecentTrackList[6])
+    if __name__ == '__main__':
+        print("New Ronald Track")
     spotId = ronMostRecentTrackList[5]
     c.execute('update playlist set newest=0 where addedBy="ronlipke";')
     c.execute('update playlist set newest=1 where spotifyId=(?)', [spotId])
     os.system('echo "{} - {} - {}" | mail -s "New Ron Track" adam@elchert.net'.format(ronMostRecentTrackList[3], ronMostRecentTrackList[4], ronMostRecentTrackList[2]))
     conn.commit()
 else:
-    print('No New Ron Track')
+    if __name__ == '__main__':
+        print('No New Ron Track')
     logger.info("No New Ron Tracks")
 
 adamMostRecentTrackList = getMostRecentAdam()
 
 if adamMostRecentTrackList[6] == 0:
-    print("New Adam Track")
+    if __name__ == '__main__':
+        print("New Adam Track")
+
     spotId = adamMostRecentTrackList[5]
     c.execute('update playlist set newest=0 where addedBy="nonstopflights";')
     c.execute('update playlist set newest=1 where spotifyId=(?)', [spotId])
-    os.system('echo "{} - {} - {}" | mail -s "New Adam Track" adam@elchert.net'.format(adamMostRecentTrackList[3], adamMostRecentTrackList[4], adamMostRecentTrackList[2]))
+    os.system('echo "{} - {} - {}" | mail -s "New Adam Track" me@ronlipke.com adam@elchert.net'.format(adamMostRecentTrackList[3], adamMostRecentTrackList[4], adamMostRecentTrackList[2]))
     conn.commit()
 else:
-    print('No New Adam Track')
+    if __name__ == '__main__':
+        print('No New Adam Track')
     logger.info("No New Adam Tracks")
 
 conn.close()
