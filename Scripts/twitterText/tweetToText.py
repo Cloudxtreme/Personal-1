@@ -127,15 +127,11 @@ def listUsers():
 
 
 ###########################################################################
-'''
-* Establish argparse
-* --add - adds a new user to the database and fetches last tweets
-'''
+''' Create Logger '''
 
 # Create log file is not present. will otherwise fail.
 if not os.path.isfile('logs/tweetToText.log'):
     os.system('touch logs/tweetToText.log')
-    logger.debug("fileOutput.txt was created.")
 
 # create logger
 logger = logging.getLogger(__name__)
@@ -147,6 +143,11 @@ log.setFormatter(formatter)
 
 logger.addHandler(log)
 
+###########################################################################
+'''
+* Establish argparse
+* --add - adds a new user to the database and fetches last tweets
+'''
 # If there are arguments
 if len(sys.argv) > 2:
     parser = argparse.ArgumentParser(description='Add/Edit/Delete users')
@@ -167,9 +168,12 @@ if len(sys.argv) > 2:
 
 ###########################################################################
 ''' Connect to Database '''
-conn = sqlite3.connect(dbName)
-c = conn.cursor()
-logger.debug('-- Logging into Database')
+try:
+    conn = sqlite3.connect(dbName)
+    c = conn.cursor()
+    logger.debug('Logging into Database')
+except:
+    logger.error('%s', Exception)
 
 ###########################################################################
 ''' Create database if necessary'''
@@ -189,6 +193,7 @@ else:
 #
 followedUsers = listUsers()
 logger.debug('Fetch list of users: %s', followedUsers)
+
 for user in followedUsers:
     # gets a single username to then pull data for
     print("++ Starting User: {}".format(user))
