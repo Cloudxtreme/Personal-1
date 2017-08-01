@@ -157,7 +157,7 @@ if ronMostRecentTrackList[6] == 0:
     spotId = ronMostRecentTrackList[5]
     c.execute('update playlist set newest=0 where addedBy="ronlipke";')
     c.execute('update playlist set newest=1 where spotifyId=(?)', [spotId])
-    os.system('mail -s "New Ron Track" adam@elchert.net')
+    os.system('echo "{} - {} - {}" | mail -s "New Ron Track" adam@elchert.net'.format(ronMostRecentTrackList[3], ronMostRecentTrackList[4], ronMostRecentTrackList[2]))
     conn.commit()
 else:
     print('No New Ron Track')
@@ -170,8 +170,7 @@ if adamMostRecentTrackList[6] == 0:
     spotId = adamMostRecentTrackList[5]
     c.execute('update playlist set newest=0 where addedBy="nonstopflights";')
     c.execute('update playlist set newest=1 where spotifyId=(?)', [spotId])
-    os.system('mail -s "New Adam Track" adam@elchert.net')
-
+    os.system('echo "{} - {} - {}" | mail -s "New Adam Track" adam@elchert.net'.format(adamMostRecentTrackList[3], adamMostRecentTrackList[4], adamMostRecentTrackList[2]))
     conn.commit()
 else:
     print('No New Adam Track')
