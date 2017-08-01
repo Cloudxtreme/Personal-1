@@ -23,8 +23,6 @@ SPOTIPY_CLIENT_ID='70be013bbce941b19cc1b0c22d66c6c3'
 SPOTIPY_CLIENT_SECRET='7e4bfe34feb942cc8e1f92d7c1293e18'
 SPOTIPY_REDIRECT_URI='http://sevone.elchert.net'
 
-
-
 client_credentials_manager = SpotifyClientCredentials()
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
@@ -148,11 +146,8 @@ logger.info('Running createTables()')
 syncAndInsert()
 logger.info('Running Sync and Insert')
 
-# get list of most recent track info
-# example:
-# ('ronlipke', '2017-07-15T17:19:35Z',
-#'https://open.spotify.com/artist/6ITIhwzOeoG3BjX3Es1q0T', 'Celebration',
-#'Rolling On', '4IrWkDddyMrPYYQdH7jozX', 0)
+# get a list of most recent track info
+# example: ('ronlipke', '2017-07-15T17:19:35Z','https://open.spotify.com/artist/6ITIhwzOeoG3BjX3Es1q0T', 'Celebration', 'Rolling On', '4IrWkDddyMrPYYQdH7jozX', 0)
 
 ronMostRecentTrackList = getMostRecentRon()
 
@@ -182,24 +177,4 @@ else:
     print('No New Adam Track')
     logger.info("No New Adam Tracks")
 
-
-
-
-# set newest track to 1 in db
-# ronObject = getMostRecentRon()
-# ronTrack = ronObject[5]
-# c.execute('update playlist set newest=1 where spotifyId=(?)', [ronTrack])
-# print('Updated Ron newest with spot id: {}'.format(ronTrack))
-#
-# adamObject = getMostRecentAdam()
-# adamTrack = adamObject[5]
-# c.execute('update playlist set newest=1 where spotifyId=(?)', [adamTrack])
-# print('Updated Adam newest with spot id: {}'.format(adamTrack))
-# conn.commit()
-
-#print(debug__pullJson(resultsObject))
-#print(getMostRecentRon())
 conn.close()
-# # ----> pull json
-# # ----> sort by date, user -> get spotifyId
-# # ----> write newest to json file
