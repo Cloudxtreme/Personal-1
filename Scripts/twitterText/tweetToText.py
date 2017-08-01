@@ -135,7 +135,7 @@ if not os.path.isfile('logs/tweetToText.log'):
 
 # create logger
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 
 log = logging.FileHandler('logs/tweetToText.log')
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
