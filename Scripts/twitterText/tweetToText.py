@@ -19,9 +19,6 @@ twitter = Twython(consumer_key, consumer_secret, access_key, access_secret)
 
 dbName = "tweets.db"
 
-defaultLoggerLevel = "INFO"
-
-
 def createTables():
     """ Make sure table is created in databse file """
 
@@ -135,18 +132,19 @@ def listUsers():
 * --add - adds a new user to the database and fetches last tweets
 '''
 
-# Create log file is not present. will otherwise fail. 
+# Create log file is not present. will otherwise fail.
 if not os.path.isfile('logs/tweetToText.log'):
     os.system('touch logs/tweetToText.log')
     logger.debug("fileOutput.txt was created.")
 
 # create logger
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
 
 log = logging.FileHandler('logs/tweetToText.log')
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-log.setLevel(logging.DEBUG)
 log.setFormatter(formatter)
+
 logger.addHandler(log)
 
 # If there are arguments
@@ -219,4 +217,3 @@ for user in followedUsers:
 
 conn.close()
 logger.info('-- Update finished.')
-
