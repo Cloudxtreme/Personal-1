@@ -77,4 +77,5 @@ if os.path.getsize('fileOutput.txt') != 0:
 
 else:
     logger.debug('No tweet updates - No mail sent')
+    os.remove('fileOutput.txt')
     sys.exit()

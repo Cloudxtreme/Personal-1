@@ -185,7 +185,6 @@ if os.path.isfile(dbName):
         logger.info('Created database: %s', dbName)
 
 else:
-    print("++ Creating Database file: {}".format(dbName))
     logger.info('++ Creating Database file: %s', dbName)
     createTables()
 
