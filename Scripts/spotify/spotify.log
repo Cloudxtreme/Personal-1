@@ -80,3 +80,12 @@
 2017-08-01 17:44:27,569 - __main__ - INFO - No New Ron Tracks
 2017-08-01 17:44:27,569 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-01T02:09:35Z', u'https://open.spotify.com/artist/4ptJIIR10UVlGjN0VntFaK', u'Day Wave', u'Something Here', u'7hVJdledWUXvvHlw8SzXxM', 1)
 2017-08-01 17:44:27,569 - __main__ - INFO - No New Adam Tracks
+2017-08-02 20:52:23,057 - __main__ - INFO - Connecting to database
+2017-08-02 20:52:23,057 - __main__ - INFO - Tried to create new database tables.
+2017-08-02 20:52:23,057 - __main__ - INFO - Running createTables()
+2017-08-02 20:52:23,060 - __main__ - INFO - Track not found in database - Computer Magic - Fuzz
+2017-08-02 20:52:23,060 - __main__ - INFO - InsertTrack: (u'nonstopflights', u'2017-08-03T00:34:01Z', u'https://open.spotify.com/artist/6vhyWw7hIpvfIY9tE94mzP', u'Computer Magic', u'Fuzz', u'3KFb2IZAEqqbuqOaCYTo5q', 0)
+2017-08-02 20:52:23,062 - __main__ - INFO - Running Sync and Insert
+2017-08-02 20:52:23,062 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-07-26T21:28:48Z', u'https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi', u'Yo La Tengo', u'Cherry Chapstick', u'3TYWPgtvkkD5xvzaWdhFUd', 1)
+2017-08-02 20:52:23,062 - __main__ - INFO - No New Ron Tracks
+2017-08-02 20:52:23,062 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-03T00:34:01Z', u'https://open.spotify.com/artist/6vhyWw7hIpvfIY9tE94mzP', u'Computer Magic', u'Fuzz', u'3KFb2IZAEqqbuqOaCYTo5q', 0)
