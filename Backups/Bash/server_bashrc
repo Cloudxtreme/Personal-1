@@ -75,3 +75,4 @@ man() {
             man "$@"
 }
 alias tweets='cd /home/aelchert/Git/Personal/Scripts/twitterText'
+alias spotify='cd /home/aelchert/Git/Personal/Scripts/spotify'

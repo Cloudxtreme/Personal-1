@@ -89,3 +89,36 @@
 2017-08-02 20:52:23,062 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-07-26T21:28:48Z', u'https://open.spotify.com/artist/5hAhrnb0Ch4ODwWu4tsbpi', u'Yo La Tengo', u'Cherry Chapstick', u'3TYWPgtvkkD5xvzaWdhFUd', 1)
 2017-08-02 20:52:23,062 - __main__ - INFO - No New Ron Tracks
 2017-08-02 20:52:23,062 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-03T00:34:01Z', u'https://open.spotify.com/artist/6vhyWw7hIpvfIY9tE94mzP', u'Computer Magic', u'Fuzz', u'3KFb2IZAEqqbuqOaCYTo5q', 0)
+2017-08-03 21:41:26,252 - __main__ - INFO - Connecting to database
+2017-08-03 21:41:26,252 - __main__ - INFO - Tried to create new database tables.
+2017-08-03 21:41:26,252 - __main__ - INFO - Running createTables()
+2017-08-03 21:41:26,254 - __main__ - INFO - Track not found in database - Mount Moriah - Calvander
+2017-08-03 21:41:26,254 - __main__ - INFO - InsertTrack: (u'ronlipke', u'2017-08-04T00:47:31Z', u'https://open.spotify.com/artist/0NIClyUOoNPl2GQouxBYH7', u'Mount Moriah', u'Calvander', u'0JmSQwdNvW68354bPhUtOx', 0)
+2017-08-03 21:41:26,256 - __main__ - INFO - Running Sync and Insert
+2017-08-03 21:41:26,257 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-04T00:47:31Z', u'https://open.spotify.com/artist/0NIClyUOoNPl2GQouxBYH7', u'Mount Moriah', u'Calvander', u'0JmSQwdNvW68354bPhUtOx', 0)
+2017-08-03 21:41:28,123 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-03T00:34:01Z', u'https://open.spotify.com/artist/6vhyWw7hIpvfIY9tE94mzP', u'Computer Magic', u'Fuzz', u'3KFb2IZAEqqbuqOaCYTo5q', 1)
+2017-08-03 21:41:28,123 - __main__ - INFO - No New Adam Tracks
+2017-08-04 19:09:22,841 - __main__ - INFO - Connecting to database
+2017-08-04 19:09:22,841 - __main__ - INFO - Tried to create new database tables.
+2017-08-04 19:09:22,841 - __main__ - INFO - Running createTables()
+2017-08-04 19:09:22,844 - __main__ - INFO - Running Sync and Insert
+2017-08-04 19:09:22,844 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-04T00:47:31Z', u'https://open.spotify.com/artist/0NIClyUOoNPl2GQouxBYH7', u'Mount Moriah', u'Calvander', u'0JmSQwdNvW68354bPhUtOx', 1)
+2017-08-04 19:09:22,845 - __main__ - INFO - No New Ron Tracks
+2017-08-04 19:09:22,845 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-03T00:34:01Z', u'https://open.spotify.com/artist/6vhyWw7hIpvfIY9tE94mzP', u'Computer Magic', u'Fuzz', u'3KFb2IZAEqqbuqOaCYTo5q', 1)
+2017-08-04 19:09:22,845 - __main__ - INFO - No New Adam Tracks
+2017-08-05 10:55:19,488 - __main__ - INFO - Connecting to database
+2017-08-05 10:55:19,488 - __main__ - INFO - Tried to create new database tables.
+2017-08-05 10:55:19,488 - __main__ - INFO - Running createTables()
+2017-08-05 10:55:19,491 - __main__ - INFO - Running Sync and Insert
+2017-08-05 10:55:19,491 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-04T00:47:31Z', u'https://open.spotify.com/artist/0NIClyUOoNPl2GQouxBYH7', u'Mount Moriah', u'Calvander', u'0JmSQwdNvW68354bPhUtOx', 1)
+2017-08-05 10:55:19,491 - __main__ - INFO - No New Ron Tracks
+2017-08-05 10:55:19,491 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-03T00:34:01Z', u'https://open.spotify.com/artist/6vhyWw7hIpvfIY9tE94mzP', u'Computer Magic', u'Fuzz', u'3KFb2IZAEqqbuqOaCYTo5q', 1)
+2017-08-05 10:55:19,491 - __main__ - INFO - No New Adam Tracks
+2017-08-05 10:56:54,818 - __main__ - INFO - Connecting to database
+2017-08-05 10:56:54,818 - __main__ - INFO - Tried to create new database tables.
+2017-08-05 10:56:54,819 - __main__ - INFO - Running createTables()
+2017-08-05 10:56:54,821 - __main__ - INFO - Running Sync and Insert
+2017-08-05 10:56:54,821 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-04T00:47:31Z', u'https://open.spotify.com/artist/0NIClyUOoNPl2GQouxBYH7', u'Mount Moriah', u'Calvander', u'0JmSQwdNvW68354bPhUtOx', 1)
+2017-08-05 10:56:54,821 - __main__ - INFO - No New Ron Tracks
+2017-08-05 10:56:54,822 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-03T00:34:01Z', u'https://open.spotify.com/artist/6vhyWw7hIpvfIY9tE94mzP', u'Computer Magic', u'Fuzz', u'3KFb2IZAEqqbuqOaCYTo5q', 1)
+2017-08-05 10:56:54,822 - __main__ - INFO - No New Adam Tracks

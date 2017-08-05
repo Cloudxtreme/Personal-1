@@ -153,7 +153,7 @@ if ronMostRecentTrackList[6] == 0:
     spotId = ronMostRecentTrackList[5]
     c.execute('update playlist set newest=0 where addedBy="ronlipke";')
     c.execute('update playlist set newest=1 where spotifyId=(?)', [spotId])
-    os.system('echo "{} - {} - {}" | mail -s "New Ron Track" adam@elchert.net'.format(ronMostRecentTrackList[3], ronMostRecentTrackList[4], ronMostRecentTrackList[2]))
+    os.system('echo "{} - {} - {}" | mail -s "New Ron Track" adam@elchert.net me@ronlipke.com'.format(ronMostRecentTrackList[3], ronMostRecentTrackList[4], ronMostRecentTrackList[2]))
     conn.commit()
 else:
     if __name__ == '__main__':
