@@ -147,3 +147,20 @@
 2017-08-06 22:36:13,467 - __main__ - INFO - No New Ron Tracks
 2017-08-06 22:36:13,467 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-06T23:56:47Z', u'https://open.spotify.com/artist/5MTQzge85m3QSefD2LdS1J', u'The Telescopes', u'Down on Me', u'10S5GVo3JDaR9KapMxjAUh', 1)
 2017-08-06 22:36:13,467 - __main__ - INFO - No New Adam Tracks
+2017-08-07 14:59:29,568 - __main__ - INFO - Connecting to database
+2017-08-07 14:59:29,568 - __main__ - INFO - Tried to create new database tables.
+2017-08-07 14:59:29,568 - __main__ - INFO - Running createTables()
+2017-08-07 14:59:29,571 - __main__ - INFO - Track not found in database - Lee Bains III & The Glory Fires - Save My Life!
+2017-08-07 14:59:29,571 - __main__ - INFO - InsertTrack: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 0)
+2017-08-07 14:59:29,573 - __main__ - INFO - Running Sync and Insert
+2017-08-07 14:59:29,573 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 0)
+2017-08-07 14:59:47,158 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-06T23:56:47Z', u'https://open.spotify.com/artist/5MTQzge85m3QSefD2LdS1J', u'The Telescopes', u'Down on Me', u'10S5GVo3JDaR9KapMxjAUh', 1)
+2017-08-07 14:59:47,158 - __main__ - INFO - No New Adam Tracks
+2017-08-07 22:01:55,666 - __main__ - INFO - Connecting to database
+2017-08-07 22:01:55,666 - __main__ - INFO - Tried to create new database tables.
+2017-08-07 22:01:55,666 - __main__ - INFO - Running createTables()
+2017-08-07 22:01:55,669 - __main__ - INFO - Running Sync and Insert
+2017-08-07 22:01:55,669 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-07 22:01:55,669 - __main__ - INFO - No New Ron Tracks
+2017-08-07 22:01:55,670 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-06T23:56:47Z', u'https://open.spotify.com/artist/5MTQzge85m3QSefD2LdS1J', u'The Telescopes', u'Down on Me', u'10S5GVo3JDaR9KapMxjAUh', 1)
+2017-08-07 22:01:55,670 - __main__ - INFO - No New Adam Tracks

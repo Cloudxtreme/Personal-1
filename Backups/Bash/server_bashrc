@@ -76,3 +76,4 @@ man() {
 }
 alias tweets='cd /home/aelchert/Git/Personal/Scripts/twitterText'
 alias spotify='cd /home/aelchert/Git/Personal/Scripts/spotify'
+alias ubnt='ssh aElchert@10.0.0.1'

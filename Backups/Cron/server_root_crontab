@@ -17,7 +17,7 @@ PS="/home/aelchert/Git/Personal/Server/Cronjobs"
 
 #spotifyScript
 #*/10 * * * *  /usr/bin/python /home/alechert/Git/Personal/Scripts/spotify/
-*/10 * * * * python /home/aelchert/Git/Personal/Scripts/spotify/
+*/10 * * * * python /home/aelchert/Git/Personal/Scripts/spotify/__main__.py
 * * * * * chown -R aelchert /mnt/NAS/Movies /mnt/NAS/TV\ Shows
 * * * * * chmod -R 777 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
 
