@@ -164,3 +164,36 @@
 2017-08-07 22:01:55,669 - __main__ - INFO - No New Ron Tracks
 2017-08-07 22:01:55,670 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-06T23:56:47Z', u'https://open.spotify.com/artist/5MTQzge85m3QSefD2LdS1J', u'The Telescopes', u'Down on Me', u'10S5GVo3JDaR9KapMxjAUh', 1)
 2017-08-07 22:01:55,670 - __main__ - INFO - No New Adam Tracks
+2017-08-08 12:25:27,948 - __main__ - INFO - Connecting to database
+2017-08-08 12:25:27,948 - __main__ - INFO - Tried to create new database tables.
+2017-08-08 12:25:27,948 - __main__ - INFO - Running createTables()
+2017-08-08 12:25:27,950 - __main__ - INFO - Running Sync and Insert
+2017-08-08 12:25:27,951 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-08 12:25:27,951 - __main__ - INFO - No New Ron Tracks
+2017-08-08 12:25:27,951 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-06T23:56:47Z', u'https://open.spotify.com/artist/5MTQzge85m3QSefD2LdS1J', u'The Telescopes', u'Down on Me', u'10S5GVo3JDaR9KapMxjAUh', 1)
+2017-08-08 12:25:27,951 - __main__ - INFO - No New Adam Tracks
+2017-08-09 17:10:08,801 - __main__ - INFO - Connecting to database
+2017-08-09 17:10:08,801 - __main__ - INFO - Tried to create new database tables.
+2017-08-09 17:10:08,801 - __main__ - INFO - Running createTables()
+2017-08-09 17:10:08,804 - __main__ - INFO - Track not found in database - Japanese Breakfast - Road Head
+2017-08-09 17:10:08,804 - __main__ - INFO - InsertTrack: (u'nonstopflights', u'2017-08-09T21:09:33Z', u'https://open.spotify.com/artist/7MoIc5s9KXolCBH1fy9kkw', u'Japanese Breakfast', u'Road Head', u'6WVheb5G29cbDOzF4qMfli', 0)
+2017-08-09 17:10:08,806 - __main__ - INFO - Running Sync and Insert
+2017-08-09 17:10:08,806 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-09 17:10:08,806 - __main__ - INFO - No New Ron Tracks
+2017-08-09 17:10:08,806 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-09T21:09:33Z', u'https://open.spotify.com/artist/7MoIc5s9KXolCBH1fy9kkw', u'Japanese Breakfast', u'Road Head', u'6WVheb5G29cbDOzF4qMfli', 0)
+2017-08-13 21:53:36,888 - __main__ - INFO - Connecting to database
+2017-08-13 21:53:36,889 - __main__ - INFO - Tried to create new database tables.
+2017-08-13 21:53:36,889 - __main__ - INFO - Running createTables()
+2017-08-13 21:53:36,892 - __main__ - INFO - Running Sync and Insert
+2017-08-13 21:53:36,892 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-13 21:53:36,892 - __main__ - INFO - No New Ron Tracks
+2017-08-13 21:53:36,892 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-09T21:09:33Z', u'https://open.spotify.com/artist/7MoIc5s9KXolCBH1fy9kkw', u'Japanese Breakfast', u'Road Head', u'6WVheb5G29cbDOzF4qMfli', 1)
+2017-08-13 21:53:36,892 - __main__ - INFO - No New Adam Tracks
+2017-08-14 15:11:57,777 - __main__ - INFO - Connecting to database
+2017-08-14 15:11:57,777 - __main__ - INFO - Tried to create new database tables.
+2017-08-14 15:11:57,778 - __main__ - INFO - Running createTables()
+2017-08-14 15:11:57,780 - __main__ - INFO - Running Sync and Insert
+2017-08-14 15:11:57,780 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-14 15:11:57,780 - __main__ - INFO - No New Ron Tracks
+2017-08-14 15:11:57,781 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-09T21:09:33Z', u'https://open.spotify.com/artist/7MoIc5s9KXolCBH1fy9kkw', u'Japanese Breakfast', u'Road Head', u'6WVheb5G29cbDOzF4qMfli', 1)
+2017-08-14 15:11:57,781 - __main__ - INFO - No New Adam Tracks
