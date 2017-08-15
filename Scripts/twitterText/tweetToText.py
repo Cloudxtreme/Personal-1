@@ -20,6 +20,23 @@ twitter = Twython(consumer_key, consumer_secret, access_key, access_secret)
 dbName = "tweets.db"
 
 ###########################################################################
+''' Create Logger '''
+
+# Create log file is not present. will otherwise fail.
+if not os.path.isfile('logs/tweetToText.log'):
+    os.system('touch logs/tweetToText.log')
+
+# create logger
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+log = logging.FileHandler('logs/tweetToText.log')
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+log.setFormatter(formatter)
+
+logger.addHandler(log)
+
+###########################################################################
 ''' Connect to Database '''
 try:
     conn = sqlite3.connect(dbName)
@@ -135,22 +152,7 @@ def listUsers():
 
 
 
-###########################################################################
-''' Create Logger '''
 
-# Create log file is not present. will otherwise fail.
-if not os.path.isfile('logs/tweetToText.log'):
-    os.system('touch logs/tweetToText.log')
-
-# create logger
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-
-log = logging.FileHandler('logs/tweetToText.log')
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-log.setFormatter(formatter)
-
-logger.addHandler(log)
 
 ###########################################################################
 '''
