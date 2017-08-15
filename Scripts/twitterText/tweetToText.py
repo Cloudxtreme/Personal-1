@@ -19,6 +19,15 @@ twitter = Twython(consumer_key, consumer_secret, access_key, access_secret)
 
 dbName = "tweets.db"
 
+###########################################################################
+''' Connect to Database '''
+try:
+    conn = sqlite3.connect(dbName)
+    c = conn.cursor()
+    logger.debug('Logging into Database')
+except:
+    logger.error('%s', Exception)
+
 def createTables():
     """ Make sure table is created in databse file """
 
@@ -166,14 +175,7 @@ if len(sys.argv) > 2:
     print("++ New user added to database")
     logger.info('++ New user added to database: %s', username)
 
-###########################################################################
-''' Connect to Database '''
-try:
-    conn = sqlite3.connect(dbName)
-    c = conn.cursor()
-    logger.debug('Logging into Database')
-except:
-    logger.error('%s', Exception)
+
 
 ###########################################################################
 ''' Create database if necessary'''
