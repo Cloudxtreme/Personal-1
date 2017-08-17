@@ -16979,3 +16979,1323 @@
 2017-08-16 00:59:02,315 - __main__ - INFO - ++ Starting User: theryanadams
 2017-08-16 00:59:03,401 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897639694170771456']
 2017-08-16 00:59:03,401 - __main__ - INFO - -- Update finished.
+2017-08-16 12:00:01,938 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:00:02,335 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897681344725209090']
+2017-08-16 12:00:02,337 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:00:02,429 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:00:02,429 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:00:02,722 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:00:02,723 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:00:02,865 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:00:02,865 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:00:03,113 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897639694170771456']
+2017-08-16 12:00:03,139 - __main__ - INFO - -- Update finished.
+2017-08-16 12:01:01,994 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:01:02,317 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:01:02,317 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:01:02,696 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:01:02,696 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:01:02,802 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:01:02,802 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:01:02,924 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:01:02,924 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:01:03,025 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850063132790784']
+2017-08-16 12:01:03,026 - __main__ - INFO - -- Update finished.
+2017-08-16 12:02:02,044 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:02:02,420 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:02:02,420 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:02:02,614 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:02:02,614 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:02:02,755 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:02:02,755 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:02:02,899 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:02:02,900 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:02:03,032 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850063132790784']
+2017-08-16 12:02:03,032 - __main__ - INFO - -- Update finished.
+2017-08-16 12:03:01,113 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:03:01,427 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:03:01,427 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:03:01,653 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:03:01,653 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:03:01,762 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:03:01,763 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:03:01,949 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:03:01,949 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:03:02,109 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850063132790784']
+2017-08-16 12:03:02,111 - __main__ - INFO - -- Update finished.
+2017-08-16 12:04:01,167 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:04:01,499 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:04:01,500 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:04:01,590 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:04:01,590 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:04:01,687 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:04:01,687 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:04:02,086 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:04:02,086 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:04:02,180 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:04:02,180 - __main__ - INFO - -- Update finished.
+2017-08-16 12:05:02,040 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:05:02,424 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:05:02,424 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:05:02,527 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:05:02,527 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:05:02,617 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:05:02,617 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:05:02,792 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:05:02,792 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:05:02,940 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:05:02,940 - __main__ - INFO - -- Update finished.
+2017-08-16 12:06:01,386 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:06:01,721 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:06:01,722 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:06:01,869 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:06:01,869 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:06:01,960 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:06:01,960 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:06:02,101 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:06:02,101 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:06:02,190 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:06:02,190 - __main__ - INFO - -- Update finished.
+2017-08-16 12:07:01,775 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:07:02,082 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:07:02,082 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:07:02,175 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:07:02,175 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:07:02,398 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:07:02,398 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:07:02,529 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:07:02,529 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:07:02,622 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:07:02,622 - __main__ - INFO - -- Update finished.
+2017-08-16 12:08:01,165 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:08:01,462 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:08:01,463 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:08:01,557 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:08:01,557 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:08:01,661 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:08:01,661 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:08:01,943 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:08:01,943 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:08:02,329 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:08:02,330 - __main__ - INFO - -- Update finished.
+2017-08-16 12:09:01,603 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:09:01,905 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:09:01,905 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:09:02,990 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:09:02,991 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:09:03,083 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:09:03,083 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:09:03,310 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:09:03,310 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:09:03,409 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:09:03,409 - __main__ - INFO - -- Update finished.
+2017-08-16 12:10:02,011 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:10:02,336 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:10:02,336 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:10:02,458 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:10:02,458 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:10:02,548 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:10:02,549 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:10:02,677 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:10:02,677 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:10:02,775 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:10:02,775 - __main__ - INFO - -- Update finished.
+2017-08-16 12:11:01,387 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:11:01,722 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:11:01,722 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:11:01,814 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:11:01,814 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:11:01,914 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:11:01,914 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:11:03,237 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:11:03,238 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:11:03,446 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:11:03,446 - __main__ - INFO - -- Update finished.
+2017-08-16 12:12:01,830 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:12:02,147 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:12:02,147 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:12:02,241 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:12:02,241 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:12:02,502 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:12:02,502 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:12:02,797 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:12:02,797 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:12:02,890 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:12:02,890 - __main__ - INFO - -- Update finished.
+2017-08-16 12:13:01,223 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:13:01,639 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:13:01,639 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:13:01,735 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:13:01,735 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:13:01,825 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:13:01,825 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:13:02,039 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:13:02,039 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:13:02,130 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:13:02,130 - __main__ - INFO - -- Update finished.
+2017-08-16 12:14:01,657 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:14:01,967 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:14:01,967 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:14:02,072 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:14:02,072 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:14:02,173 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:14:02,173 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:14:02,290 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:14:02,290 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:14:02,381 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:14:02,381 - __main__ - INFO - -- Update finished.
+2017-08-16 12:15:02,053 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:15:02,370 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:15:02,370 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:15:02,618 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:15:02,618 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:15:02,710 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:15:02,710 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:15:03,248 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:15:03,249 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:15:03,335 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:15:03,335 - __main__ - INFO - -- Update finished.
+2017-08-16 12:16:01,446 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:16:01,753 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:16:01,753 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:16:02,072 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:16:02,072 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:16:02,426 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:16:02,426 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:16:02,630 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:16:02,630 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:16:02,720 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:16:02,720 - __main__ - INFO - -- Update finished.
+2017-08-16 12:17:01,833 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:17:02,154 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:17:02,154 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:17:02,241 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:17:02,241 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:17:02,331 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:17:02,331 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:17:02,450 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:17:02,450 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:17:03,987 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:17:03,988 - __main__ - INFO - -- Update finished.
+2017-08-16 12:18:01,228 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:18:01,526 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:18:01,526 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:18:01,620 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:18:01,620 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:18:01,709 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:18:01,709 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:18:02,332 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:18:02,332 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:18:02,472 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:18:02,472 - __main__ - INFO - -- Update finished.
+2017-08-16 12:19:01,666 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:19:02,010 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:19:02,010 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:19:02,106 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:19:02,106 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:19:02,198 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:19:02,198 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:19:02,776 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:19:02,777 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:19:02,877 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:19:02,877 - __main__ - INFO - -- Update finished.
+2017-08-16 12:20:02,063 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:20:02,384 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:20:02,384 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:20:02,503 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:20:02,503 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:20:02,591 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:20:02,591 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:20:02,724 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:20:02,724 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:20:02,816 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:20:02,816 - __main__ - INFO - -- Update finished.
+2017-08-16 12:21:01,455 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:21:01,802 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:21:01,802 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:21:01,985 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:21:01,985 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:21:02,078 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:21:02,078 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:21:02,248 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:21:02,248 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:21:02,350 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:21:02,351 - __main__ - INFO - -- Update finished.
+2017-08-16 12:22:01,893 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:22:02,195 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:22:02,195 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:22:02,412 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:22:02,412 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:22:02,504 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:22:02,504 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:22:02,695 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:22:02,695 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:22:02,818 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:22:02,818 - __main__ - INFO - -- Update finished.
+2017-08-16 12:23:01,299 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:23:01,602 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:23:01,602 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:23:01,695 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:23:01,695 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:23:01,826 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:23:01,826 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:23:01,966 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:23:01,966 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:23:02,127 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:23:02,127 - __main__ - INFO - -- Update finished.
+2017-08-16 12:24:01,680 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:24:01,984 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:24:01,985 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:24:02,295 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:24:02,295 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:24:02,470 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:24:02,470 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:24:02,799 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:24:02,800 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:24:02,899 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:24:02,899 - __main__ - INFO - -- Update finished.
+2017-08-16 12:25:01,124 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:25:01,434 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:25:01,434 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:25:01,541 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:25:01,541 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:25:01,684 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:25:01,684 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:25:02,135 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:25:02,136 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:25:02,226 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:25:02,226 - __main__ - INFO - -- Update finished.
+2017-08-16 12:26:01,515 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:26:01,820 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:26:01,820 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:26:01,909 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:26:01,909 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:26:03,136 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:26:03,136 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:26:03,289 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:26:03,290 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:26:03,412 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:26:03,413 - __main__ - INFO - -- Update finished.
+2017-08-16 12:27:01,904 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:27:02,213 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:27:02,213 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:27:02,353 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:27:02,353 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:27:02,495 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:27:02,496 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:27:02,826 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:27:02,827 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:27:02,915 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:27:02,916 - __main__ - INFO - -- Update finished.
+2017-08-16 12:28:01,295 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:28:01,602 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:28:01,603 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:28:02,068 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:28:02,068 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:28:02,203 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:28:02,204 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:28:02,333 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:28:02,333 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:28:02,462 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:28:02,462 - __main__ - INFO - -- Update finished.
+2017-08-16 12:29:01,733 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:29:02,318 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:29:02,318 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:29:02,465 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:29:02,465 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:29:02,577 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:29:02,577 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:29:03,047 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:29:03,047 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:29:03,206 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:29:03,206 - __main__ - INFO - -- Update finished.
+2017-08-16 12:30:01,141 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:30:01,422 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:30:01,422 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:30:01,528 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:30:01,528 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:30:01,663 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:30:01,663 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:30:01,771 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:30:01,771 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:30:01,867 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:30:01,867 - __main__ - INFO - -- Update finished.
+2017-08-16 12:31:01,563 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:31:01,887 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:31:01,887 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:31:02,038 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:31:02,038 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:31:02,207 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:31:02,207 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:31:02,596 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:31:02,596 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:31:02,902 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:31:02,902 - __main__ - INFO - -- Update finished.
+2017-08-16 12:32:01,957 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:32:02,265 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:32:02,265 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:32:02,369 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:32:02,369 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:32:02,466 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:32:02,466 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:32:02,580 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:32:02,580 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:32:02,678 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:32:02,679 - __main__ - INFO - -- Update finished.
+2017-08-16 12:33:01,351 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:33:01,666 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:33:01,666 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:33:01,914 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:33:01,914 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:33:02,051 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:33:02,051 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:33:02,243 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:33:02,243 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:33:02,348 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:33:02,349 - __main__ - INFO - -- Update finished.
+2017-08-16 12:34:01,738 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:34:02,058 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:34:02,058 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:34:02,158 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:34:02,159 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:34:02,539 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:34:02,539 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:34:02,853 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:34:02,853 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:34:03,006 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:34:03,006 - __main__ - INFO - -- Update finished.
+2017-08-16 12:35:01,134 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:35:01,446 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:35:01,447 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:35:01,558 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:35:01,558 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:35:01,668 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:35:01,668 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:35:01,801 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:35:01,801 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:35:01,897 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:35:01,897 - __main__ - INFO - -- Update finished.
+2017-08-16 12:36:01,577 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:36:01,876 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:36:01,876 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:36:01,996 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:36:01,997 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:36:02,085 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:36:02,085 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:36:02,223 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:36:02,223 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:36:02,332 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:36:02,332 - __main__ - INFO - -- Update finished.
+2017-08-16 12:37:01,975 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:37:02,277 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:37:02,277 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:37:02,375 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:37:02,375 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:37:02,665 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:37:02,666 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:37:02,803 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:37:02,803 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:37:02,930 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:37:02,930 - __main__ - INFO - -- Update finished.
+2017-08-16 12:38:01,357 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:38:01,662 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:38:01,662 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:38:01,762 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:38:01,762 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:38:01,851 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:38:01,851 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:38:01,976 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:38:01,976 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:38:02,086 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:38:02,086 - __main__ - INFO - -- Update finished.
+2017-08-16 12:39:01,797 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:39:02,416 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:39:02,417 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:39:02,639 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:39:02,639 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:39:02,802 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:39:02,802 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:39:03,076 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:39:03,076 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:39:03,181 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:39:03,181 - __main__ - INFO - -- Update finished.
+2017-08-16 12:40:01,209 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:40:01,650 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:40:01,650 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:40:01,742 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:40:01,742 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:40:01,835 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:40:01,835 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:40:01,968 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:40:01,968 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:40:02,070 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:40:02,070 - __main__ - INFO - -- Update finished.
+2017-08-16 12:41:01,596 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:41:01,940 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:41:01,940 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:41:02,112 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:41:02,112 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:41:02,245 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:41:02,245 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:41:02,390 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:41:02,390 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:41:02,591 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897850995761459200']
+2017-08-16 12:41:02,593 - __main__ - INFO - -- Update finished.
+2017-08-16 12:42:02,027 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:42:02,909 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:42:02,909 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:42:03,074 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:42:03,074 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:42:03,203 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:42:03,203 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:42:03,315 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:42:03,315 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:42:03,416 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:42:03,416 - __main__ - INFO - -- Update finished.
+2017-08-16 12:43:01,412 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:43:01,716 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:43:01,716 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:43:01,821 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:43:01,821 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:43:02,064 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:43:02,064 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:43:02,274 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:43:02,274 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:43:02,399 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:43:02,399 - __main__ - INFO - -- Update finished.
+2017-08-16 12:44:01,802 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:44:02,185 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:44:02,185 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:44:02,280 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:44:02,280 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:44:02,371 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:44:02,371 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:44:02,585 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:44:02,585 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:44:02,691 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:44:02,692 - __main__ - INFO - -- Update finished.
+2017-08-16 12:45:01,202 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:45:01,586 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:45:01,586 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:45:02,040 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:45:02,040 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:45:02,162 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:45:02,163 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:45:02,271 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:45:02,271 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:45:02,383 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:45:02,383 - __main__ - INFO - -- Update finished.
+2017-08-16 12:46:01,634 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:46:02,013 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:46:02,013 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:46:02,361 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:46:02,362 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:46:02,965 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:46:02,965 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:46:03,154 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:46:03,154 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:46:03,307 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:46:03,307 - __main__ - INFO - -- Update finished.
+2017-08-16 12:47:02,036 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:47:02,354 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:47:02,354 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:47:02,447 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:47:02,447 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:47:02,749 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:47:02,749 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:47:02,970 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:47:02,970 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:47:03,074 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:47:03,074 - __main__ - INFO - -- Update finished.
+2017-08-16 12:48:01,421 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:48:01,721 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:48:01,721 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:48:01,810 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:48:01,811 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:48:01,996 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:48:01,996 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:48:02,266 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:48:02,266 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:48:02,351 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:48:02,352 - __main__ - INFO - -- Update finished.
+2017-08-16 12:49:01,858 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:49:02,166 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:49:02,166 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:49:02,255 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:49:02,255 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:49:02,353 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:49:02,353 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:49:02,531 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:49:02,531 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:49:02,619 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:49:02,619 - __main__ - INFO - -- Update finished.
+2017-08-16 12:50:01,258 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:50:01,767 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:50:01,767 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:50:01,902 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:50:01,902 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:50:01,994 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:50:01,994 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:50:02,127 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:50:02,127 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:50:02,252 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:50:02,252 - __main__ - INFO - -- Update finished.
+2017-08-16 12:51:01,696 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:51:02,021 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:51:02,021 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:51:02,148 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:51:02,148 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:51:02,250 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:51:02,250 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:51:02,363 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:51:02,363 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:51:02,448 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:51:02,448 - __main__ - INFO - -- Update finished.
+2017-08-16 12:52:02,091 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:52:02,442 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:52:02,442 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:52:02,551 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:52:02,551 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:52:02,652 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:52:02,652 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:52:02,757 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:52:02,757 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:52:02,856 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:52:02,856 - __main__ - INFO - -- Update finished.
+2017-08-16 12:53:01,489 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:53:01,791 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:53:01,791 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:53:01,891 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:53:01,891 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:53:02,096 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:53:02,096 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:53:02,563 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:53:02,563 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:53:02,651 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:53:02,652 - __main__ - INFO - -- Update finished.
+2017-08-16 12:54:01,876 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:54:02,195 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:54:02,195 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:54:02,652 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:54:02,652 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:54:02,742 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:54:02,742 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:54:02,917 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:54:02,917 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:54:03,051 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:54:03,051 - __main__ - INFO - -- Update finished.
+2017-08-16 12:55:01,264 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:55:01,667 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:55:01,667 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:55:01,761 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:55:01,762 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:55:02,027 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:55:02,027 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:55:02,257 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:55:02,257 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:55:02,444 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:55:02,444 - __main__ - INFO - -- Update finished.
+2017-08-16 12:56:01,712 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:56:02,005 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:56:02,006 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:56:02,163 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:56:02,164 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:56:02,270 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:56:02,270 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:56:02,385 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:56:02,385 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:56:02,483 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:56:02,483 - __main__ - INFO - -- Update finished.
+2017-08-16 12:57:02,093 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:57:02,590 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:57:02,590 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:57:02,684 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:57:02,684 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:57:02,865 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:57:02,865 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:57:03,169 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:57:03,170 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:57:03,282 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:57:03,282 - __main__ - INFO - -- Update finished.
+2017-08-16 12:58:01,486 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:58:01,796 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:58:01,796 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:58:01,936 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:58:01,936 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:58:02,081 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:58:02,081 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:58:02,304 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897607450169298944']
+2017-08-16 12:58:02,306 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:58:04,012 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:58:04,013 - __main__ - INFO - -- Update finished.
+2017-08-16 12:59:01,922 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-16 12:59:02,267 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-16 12:59:02,267 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-16 12:59:02,399 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-16 12:59:02,399 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-16 12:59:02,778 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-16 12:59:02,779 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-16 12:59:02,907 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897864847852937216']
+2017-08-16 12:59:02,907 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-16 12:59:02,995 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-16 12:59:02,995 - __main__ - INFO - -- Update finished.
+2017-08-17 00:00:01,421 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:00:01,971 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897847319533694976']
+2017-08-17 00:00:02,025 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:00:02,135 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'897662279419908096']
+2017-08-17 00:00:02,154 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:00:02,245 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:00:02,246 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:00:02,585 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897864847852937216']
+2017-08-17 00:00:02,589 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:00:02,813 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'897860554945175553']
+2017-08-17 00:00:02,938 - __main__ - INFO - -- Update finished.
+2017-08-17 00:01:01,456 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:01:02,010 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:01:02,010 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:01:02,124 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:01:02,124 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:01:02,207 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:01:02,207 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:01:02,492 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:01:02,492 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:01:02,594 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:01:02,594 - __main__ - INFO - -- Update finished.
+2017-08-17 00:02:01,517 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:02:01,835 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:02:01,835 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:02:01,996 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:02:01,996 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:02:02,161 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:02:02,162 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:02:02,503 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:02:02,503 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:02:02,619 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:02:02,619 - __main__ - INFO - -- Update finished.
+2017-08-17 00:03:01,551 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:03:01,891 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:03:01,891 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:03:01,980 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:03:01,980 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:03:02,151 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:03:02,151 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:03:02,246 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:03:02,246 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:03:02,342 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:03:02,342 - __main__ - INFO - -- Update finished.
+2017-08-17 00:04:01,601 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:04:01,936 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:04:01,936 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:04:02,070 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:04:02,070 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:04:02,242 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:04:02,242 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:04:02,441 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:04:02,441 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:04:02,542 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:04:02,542 - __main__ - INFO - -- Update finished.
+2017-08-17 00:05:01,497 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:05:01,812 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:05:01,812 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:05:01,935 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:05:01,935 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:05:02,044 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:05:02,044 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:05:02,130 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:05:02,130 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:05:02,266 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:05:02,266 - __main__ - INFO - -- Update finished.
+2017-08-17 00:06:01,891 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:06:02,236 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:06:02,237 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:06:02,327 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:06:02,328 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:06:02,424 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:06:02,424 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:06:02,511 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:06:02,511 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:06:02,604 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:06:02,605 - __main__ - INFO - -- Update finished.
+2017-08-17 00:07:01,289 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:07:01,613 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:07:01,613 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:07:01,697 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:07:01,697 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:07:01,780 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:07:01,781 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:07:01,879 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:07:01,879 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:07:01,998 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:07:01,998 - __main__ - INFO - -- Update finished.
+2017-08-17 00:08:01,684 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:08:02,029 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:08:02,029 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:08:02,114 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:08:02,114 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:08:02,254 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:08:02,254 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:08:02,339 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:08:02,339 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:08:02,459 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:08:02,459 - __main__ - INFO - -- Update finished.
+2017-08-17 00:09:02,069 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:09:02,508 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:09:02,508 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:09:02,595 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:09:02,595 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:09:02,885 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:09:02,885 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:09:02,972 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:09:02,972 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:09:03,063 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:09:03,064 - __main__ - INFO - -- Update finished.
+2017-08-17 00:10:01,513 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:10:01,848 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:10:01,848 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:10:01,938 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:10:01,938 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:10:02,033 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:10:02,033 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:10:02,160 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:10:02,160 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:10:02,625 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:10:02,625 - __main__ - INFO - -- Update finished.
+2017-08-17 00:11:01,904 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:11:02,255 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:11:02,256 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:11:02,365 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:11:02,365 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:11:02,460 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:11:02,460 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:11:02,572 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:11:02,572 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:11:02,667 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:11:02,667 - __main__ - INFO - -- Update finished.
+2017-08-17 00:12:01,298 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:12:01,621 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:12:01,621 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:12:01,832 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:12:01,832 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:12:01,935 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:12:01,935 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:12:02,023 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:12:02,023 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:12:02,108 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:12:02,108 - __main__ - INFO - -- Update finished.
+2017-08-17 00:13:01,736 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:13:02,234 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:13:02,234 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:13:02,326 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:13:02,326 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:13:02,422 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:13:02,422 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:13:02,507 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:13:02,507 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:13:02,615 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:13:02,616 - __main__ - INFO - -- Update finished.
+2017-08-17 00:14:01,129 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:14:01,411 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:14:01,412 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:14:01,552 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:14:01,552 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:14:01,687 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:14:01,687 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:14:01,815 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:14:01,815 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:14:01,903 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:14:01,903 - __main__ - INFO - -- Update finished.
+2017-08-17 00:15:01,518 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:15:01,949 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:15:01,949 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:15:02,213 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:15:02,213 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:15:02,363 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:15:02,363 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:15:02,449 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:15:02,449 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:15:02,777 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:15:02,778 - __main__ - INFO - -- Update finished.
+2017-08-17 00:16:01,952 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:16:02,266 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:16:02,266 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:16:02,377 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:16:02,377 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:16:02,466 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:16:02,466 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:16:02,555 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:16:02,555 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:16:02,663 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:16:02,663 - __main__ - INFO - -- Update finished.
+2017-08-17 00:17:01,350 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:17:01,855 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:17:01,855 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:17:01,954 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:17:01,954 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:17:02,050 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:17:02,050 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:17:02,160 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:17:02,160 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:17:02,275 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:17:02,275 - __main__ - INFO - -- Update finished.
+2017-08-17 00:18:01,739 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:18:02,218 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:18:02,218 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:18:02,517 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:18:02,517 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:18:02,824 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:18:02,824 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:18:03,012 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:18:03,012 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:18:03,102 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:18:03,102 - __main__ - INFO - -- Update finished.
+2017-08-17 00:19:01,133 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:19:01,491 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:19:01,491 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:19:01,694 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:19:01,695 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:19:01,813 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:19:01,813 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:19:02,037 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:19:02,037 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:19:02,131 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:19:02,131 - __main__ - INFO - -- Update finished.
+2017-08-17 00:20:01,572 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:20:01,998 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:20:01,999 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:20:02,085 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:20:02,085 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:20:02,179 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:20:02,179 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:20:02,265 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:20:02,265 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:20:02,358 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:20:02,358 - __main__ - INFO - -- Update finished.
+2017-08-17 00:21:01,975 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:21:02,287 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:21:02,287 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:21:02,374 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:21:02,375 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:21:02,585 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:21:02,585 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:21:02,673 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:21:02,673 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:21:02,954 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:21:02,954 - __main__ - INFO - -- Update finished.
+2017-08-17 00:22:01,357 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:22:01,864 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:22:01,864 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:22:02,019 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:22:02,019 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:22:02,098 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:22:02,099 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:22:02,194 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:22:02,194 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:22:02,314 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:22:02,314 - __main__ - INFO - -- Update finished.
+2017-08-17 00:23:01,801 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:23:02,173 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:23:02,173 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:23:02,259 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:23:02,259 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:23:02,717 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:23:02,717 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:23:02,830 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:23:02,830 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:23:02,920 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:23:02,920 - __main__ - INFO - -- Update finished.
+2017-08-17 00:24:01,188 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:24:01,561 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:24:01,561 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:24:01,645 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:24:01,645 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:24:01,733 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:24:01,733 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:24:01,846 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:24:01,846 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:24:01,930 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:24:01,930 - __main__ - INFO - -- Update finished.
+2017-08-17 00:25:01,577 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:25:01,917 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:25:01,917 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:25:02,001 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:25:02,001 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:25:02,319 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:25:02,319 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:25:02,405 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:25:02,406 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:25:02,684 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:25:02,684 - __main__ - INFO - -- Update finished.
+2017-08-17 00:26:02,020 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:26:02,380 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:26:02,380 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:26:02,470 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:26:02,470 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:26:02,557 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:26:02,557 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:26:02,657 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:26:02,657 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:26:02,777 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:26:02,777 - __main__ - INFO - -- Update finished.
+2017-08-17 00:27:01,419 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:27:02,017 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:27:02,017 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:27:02,149 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:27:02,149 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:27:02,280 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:27:02,280 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:27:02,374 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:27:02,374 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:27:02,512 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:27:02,512 - __main__ - INFO - -- Update finished.
+2017-08-17 00:28:01,817 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:28:02,134 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:28:02,134 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:28:02,931 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:28:02,931 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:28:03,042 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:28:03,042 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:28:03,130 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:28:03,131 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:28:03,218 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:28:03,218 - __main__ - INFO - -- Update finished.
+2017-08-17 00:29:01,199 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:29:01,589 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:29:01,589 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:29:01,683 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:29:01,683 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:29:01,772 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:29:01,772 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:29:01,892 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:29:01,892 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:29:01,981 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:29:01,981 - __main__ - INFO - -- Update finished.
+2017-08-17 00:30:01,638 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:30:02,377 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:30:02,377 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:30:02,463 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:30:02,463 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:30:02,616 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:30:02,616 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:30:02,701 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:30:02,701 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:30:02,787 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:30:02,787 - __main__ - INFO - -- Update finished.
+2017-08-17 00:31:02,029 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:31:02,605 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:31:02,605 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:31:02,706 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:31:02,707 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:31:02,794 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:31:02,795 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:31:02,905 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:31:02,905 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:31:02,995 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:31:02,995 - __main__ - INFO - -- Update finished.
+2017-08-17 00:32:01,421 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:32:02,825 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:32:02,825 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:32:02,956 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:32:02,956 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:32:03,045 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:32:03,045 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:32:03,135 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:32:03,135 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:32:03,225 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:32:03,225 - __main__ - INFO - -- Update finished.
+2017-08-17 00:33:01,857 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:33:02,274 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:33:02,275 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:33:02,369 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:33:02,370 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:33:02,509 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:33:02,510 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:33:02,621 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:33:02,621 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:33:02,708 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:33:02,708 - __main__ - INFO - -- Update finished.
+2017-08-17 00:34:01,265 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:34:01,608 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:34:01,609 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:34:01,727 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:34:01,727 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:34:01,873 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:34:01,873 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:34:01,966 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:34:01,966 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:34:02,067 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:34:02,067 - __main__ - INFO - -- Update finished.
+2017-08-17 00:35:01,640 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:35:01,970 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:35:01,970 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:35:02,073 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:35:02,073 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:35:02,158 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:35:02,158 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:35:02,244 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:35:02,244 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:35:02,327 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:35:02,327 - __main__ - INFO - -- Update finished.
+2017-08-17 00:36:02,084 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:36:02,405 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:36:02,405 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:36:02,514 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:36:02,514 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:36:02,606 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:36:02,606 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:36:02,694 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:36:02,694 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:36:02,785 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:36:02,785 - __main__ - INFO - -- Update finished.
+2017-08-17 00:37:01,491 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:37:02,020 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:37:02,020 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:37:02,107 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:37:02,107 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:37:02,219 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:37:02,219 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:37:02,304 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:37:02,304 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:37:02,389 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:37:02,390 - __main__ - INFO - -- Update finished.
+2017-08-17 00:38:01,882 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:38:02,199 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:38:02,199 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:38:02,284 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:38:02,284 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:38:02,696 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:38:02,696 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:38:02,902 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:38:02,903 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:38:02,991 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:38:02,992 - __main__ - INFO - -- Update finished.
+2017-08-17 00:39:01,279 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:39:01,788 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:39:01,788 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:39:01,933 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:39:01,933 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:39:02,027 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:39:02,027 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:39:02,616 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:39:02,617 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:39:02,702 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:39:02,702 - __main__ - INFO - -- Update finished.
+2017-08-17 00:40:01,707 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:40:02,027 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:40:02,027 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:40:02,114 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:40:02,114 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:40:02,243 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:40:02,243 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:40:02,534 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:40:02,534 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:40:02,693 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:40:02,693 - __main__ - INFO - -- Update finished.
+2017-08-17 00:41:02,098 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:41:02,428 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:41:02,428 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:41:02,516 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:41:02,516 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:41:02,730 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:41:02,730 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:41:02,852 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:41:02,853 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:41:02,977 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:41:02,977 - __main__ - INFO - -- Update finished.
+2017-08-17 00:42:01,492 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:42:01,777 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:42:01,777 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:42:01,880 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:42:01,880 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:42:01,968 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:42:01,968 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:42:02,074 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:42:02,074 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:42:02,198 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:42:02,198 - __main__ - INFO - -- Update finished.
+2017-08-17 00:43:01,929 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:43:02,287 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:43:02,288 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:43:02,373 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:43:02,373 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:43:02,517 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:43:02,517 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:43:02,612 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:43:02,612 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:43:02,704 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:43:02,704 - __main__ - INFO - -- Update finished.
+2017-08-17 00:44:01,314 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:44:01,689 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:44:01,690 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:44:02,081 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:44:02,081 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:44:02,184 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:44:02,184 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:44:02,267 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:44:02,267 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:44:02,381 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:44:02,381 - __main__ - INFO - -- Update finished.
+2017-08-17 00:45:01,725 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:45:02,045 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:45:02,045 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:45:02,131 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:45:02,131 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:45:02,219 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:45:02,219 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:45:02,304 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:45:02,305 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:45:02,390 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:45:02,390 - __main__ - INFO - -- Update finished.
+2017-08-17 00:46:01,163 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:46:01,491 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:46:01,491 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:46:01,581 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:46:01,581 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:46:01,855 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:46:01,855 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:46:01,962 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:46:01,962 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:46:02,049 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:46:02,049 - __main__ - INFO - -- Update finished.
+2017-08-17 00:47:01,554 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:47:02,030 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:47:02,030 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:47:02,189 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:47:02,189 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:47:02,306 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:47:02,307 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:47:02,394 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:47:02,394 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:47:02,486 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:47:02,486 - __main__ - INFO - -- Update finished.
+2017-08-17 00:48:01,937 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:48:02,261 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:48:02,261 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:48:02,350 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:48:02,350 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:48:02,490 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:48:02,491 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:48:02,590 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:48:02,590 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:48:02,751 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:48:02,751 - __main__ - INFO - -- Update finished.
+2017-08-17 00:49:01,325 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:49:01,764 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:49:01,764 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:49:01,855 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:49:01,855 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:49:01,974 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:49:01,974 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:49:02,095 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:49:02,095 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:49:02,184 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:49:02,184 - __main__ - INFO - -- Update finished.
+2017-08-17 00:50:01,764 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:50:02,106 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:50:02,106 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:50:02,192 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:50:02,192 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:50:02,482 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:50:02,482 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:50:03,306 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:50:03,306 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:50:03,432 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:50:03,433 - __main__ - INFO - -- Update finished.
+2017-08-17 00:51:01,158 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:51:01,509 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:51:01,509 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:51:01,595 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:51:01,595 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:51:01,771 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:51:01,771 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:51:02,066 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:51:02,066 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:51:02,156 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:51:02,157 - __main__ - INFO - -- Update finished.
+2017-08-17 00:52:01,553 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:52:01,879 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:52:01,879 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:52:01,970 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:52:01,970 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:52:02,061 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:52:02,061 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:52:02,207 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:52:02,208 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:52:02,298 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:52:02,298 - __main__ - INFO - -- Update finished.
+2017-08-17 00:53:01,994 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:53:02,306 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:53:02,306 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:53:02,593 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898025876280836097']
+2017-08-17 00:53:02,596 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:53:02,694 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:53:02,694 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:53:02,796 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:53:02,796 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:53:02,933 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:53:02,934 - __main__ - INFO - -- Update finished.
+2017-08-17 00:54:01,383 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:54:01,947 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:54:01,947 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:54:02,246 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898044850251190272']
+2017-08-17 00:54:02,246 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:54:02,336 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:54:02,336 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:54:02,499 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:54:02,499 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:54:02,620 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:54:02,620 - __main__ - INFO - -- Update finished.
+2017-08-17 00:55:01,828 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:55:02,144 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:55:02,145 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:55:02,231 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898044850251190272']
+2017-08-17 00:55:02,231 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:55:02,365 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:55:02,365 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:55:02,486 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:55:02,486 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:55:02,595 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:55:02,595 - __main__ - INFO - -- Update finished.
+2017-08-17 00:56:01,185 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:56:01,555 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:56:01,555 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:56:01,642 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898044850251190272']
+2017-08-17 00:56:01,642 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:56:01,725 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:56:01,725 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:56:01,811 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:56:01,811 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:56:01,970 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:56:01,970 - __main__ - INFO - -- Update finished.
+2017-08-17 00:57:01,605 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:57:01,943 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:57:01,943 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:57:02,032 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898044850251190272']
+2017-08-17 00:57:02,032 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:57:02,155 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:57:02,155 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:57:02,314 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:57:02,314 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:57:02,404 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:57:02,404 - __main__ - INFO - -- Update finished.
+2017-08-17 00:58:01,994 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:58:02,313 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:58:02,313 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:58:02,401 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898044850251190272']
+2017-08-17 00:58:02,402 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:58:02,491 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:58:02,491 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:58:02,578 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:58:02,578 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:58:02,665 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:58:02,665 - __main__ - INFO - -- Update finished.
+2017-08-17 00:59:01,391 - __main__ - INFO - ++ Starting User: jasonisbell
+2017-08-17 00:59:01,706 - __main__ - INFO - ++ Got Timeline for jasonisbell with last tweetId [u'897953860207104000']
+2017-08-17 00:59:01,706 - __main__ - INFO - ++ Starting User: neverminding
+2017-08-17 00:59:01,794 - __main__ - INFO - ++ Got Timeline for neverminding with last tweetId [u'898044850251190272']
+2017-08-17 00:59:01,794 - __main__ - INFO - ++ Starting User: amandashires
+2017-08-17 00:59:01,905 - __main__ - INFO - ++ Got Timeline for amandashires with last tweetId [u'897316784352743424']
+2017-08-17 00:59:01,905 - __main__ - INFO - ++ Starting User: meganamram
+2017-08-17 00:59:01,989 - __main__ - INFO - ++ Got Timeline for meganamram with last tweetId [u'897929908940226560']
+2017-08-17 00:59:01,990 - __main__ - INFO - ++ Starting User: theryanadams
+2017-08-17 00:59:02,074 - __main__ - INFO - ++ Got Timeline for theryanadams with last tweetId [u'898025930743992320']
+2017-08-17 00:59:02,074 - __main__ - INFO - -- Update finished.

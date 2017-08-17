@@ -11121,3 +11121,729 @@
 2017-08-16 00:59:03,461 - __main__ - DEBUG - Running UpdateFile()
 2017-08-16 00:59:03,461 - __main__ - DEBUG - No tweet updates - No mail sent
 2017-08-16 00:59:03,461 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:00:03,183 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:00:03,185 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:00:03,191 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:00:03,191 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:00:05,327 - __main__ - INFO - Sent Email
+2017-08-16 12:00:05,327 - __main__ - DEBUG - Debug: [<sender.Message object at 0x7fe3195b7650>]
+2017-08-16 12:00:05,327 - __main__ - DEBUG - fielOutput.txt removed
+2017-08-16 12:01:03,070 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:01:03,073 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:01:03,079 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:01:03,079 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:01:03,080 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:01:03,080 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:02:03,076 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:02:03,079 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:02:03,085 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:02:03,086 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:02:03,086 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:02:03,086 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:03:02,156 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:03:02,159 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:03:02,165 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:03:02,165 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:03:02,623 - __main__ - INFO - Sent Email
+2017-08-16 12:03:02,623 - __main__ - DEBUG - Debug: [<sender.Message object at 0x7ffa34d14650>]
+2017-08-16 12:03:02,623 - __main__ - DEBUG - fielOutput.txt removed
+2017-08-16 12:04:02,227 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:04:02,230 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:04:02,236 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:04:02,236 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:04:02,236 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:04:02,236 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:05:02,983 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:05:02,986 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:05:02,993 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:05:02,993 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:05:02,993 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:05:02,993 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:06:02,234 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:06:02,236 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:06:02,243 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:06:02,243 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:06:02,243 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:06:02,243 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:07:02,665 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:07:02,668 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:07:02,674 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:07:02,675 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:07:02,675 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:07:02,675 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:08:02,372 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:08:02,375 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:08:02,381 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:08:02,381 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:08:02,381 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:08:02,381 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:09:03,454 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:09:03,457 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:09:03,463 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:09:03,464 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:09:03,464 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:09:03,464 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:10:02,819 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:10:02,822 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:10:02,828 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:10:02,828 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:10:02,828 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:10:02,828 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:11:03,487 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:11:03,490 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:11:03,496 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:11:03,496 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:11:03,496 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:11:03,496 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:12:02,932 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:12:02,935 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:12:02,941 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:12:02,941 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:12:02,941 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:12:02,941 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:13:02,173 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:13:02,176 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:13:02,182 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:13:02,182 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:13:02,182 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:13:02,182 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:14:02,427 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:14:02,430 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:14:02,436 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:14:02,436 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:14:02,436 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:14:02,436 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:15:03,377 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:15:03,380 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:15:03,386 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:15:03,386 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:15:03,386 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:15:03,386 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:16:02,763 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:16:02,766 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:16:02,772 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:16:02,772 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:16:02,772 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:16:02,772 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:17:04,032 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:17:04,035 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:17:04,041 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:17:04,041 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:17:04,041 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:17:04,041 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:18:02,516 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:18:02,519 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:18:02,525 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:18:02,525 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:18:02,525 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:18:02,525 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:19:02,920 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:19:02,923 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:19:02,930 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:19:02,930 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:19:02,930 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:19:02,930 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:20:02,859 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:20:02,862 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:20:02,868 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:20:02,868 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:20:02,868 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:20:02,868 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:21:02,393 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:21:02,396 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:21:02,402 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:21:02,402 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:21:02,403 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:21:02,403 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:22:02,862 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:22:02,865 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:22:02,871 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:22:02,871 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:22:02,871 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:22:02,872 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:23:02,172 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:23:02,175 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:23:02,181 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:23:02,181 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:23:02,182 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:23:02,182 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:24:02,941 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:24:02,944 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:24:02,950 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:24:02,950 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:24:02,950 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:24:02,950 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:25:02,268 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:25:02,275 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:25:02,281 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:25:02,282 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:25:02,282 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:25:02,282 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:26:03,455 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:26:03,458 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:26:03,465 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:26:03,465 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:26:03,465 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:26:03,465 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:27:02,959 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:27:02,962 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:27:02,968 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:27:02,968 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:27:02,968 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:27:02,968 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:28:02,507 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:28:02,510 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:28:02,516 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:28:02,516 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:28:02,516 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:28:02,516 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:29:03,252 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:29:03,255 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:29:03,268 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:29:03,268 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:29:03,269 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:29:03,269 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:30:01,911 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:30:01,913 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:30:01,919 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:30:01,919 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:30:01,919 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:30:01,919 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:31:02,944 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:31:02,947 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:31:02,954 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:31:02,954 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:31:02,954 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:31:02,954 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:32:02,722 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:32:02,725 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:32:02,731 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:32:02,731 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:32:02,732 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:32:02,732 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:33:02,391 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:33:02,394 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:33:02,400 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:33:02,400 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:33:02,400 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:33:02,400 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:34:03,048 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:34:03,051 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:34:03,057 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:34:03,057 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:34:03,057 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:34:03,058 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:35:01,941 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:35:01,944 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:35:01,950 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:35:01,950 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:35:01,950 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:35:01,950 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:36:02,380 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:36:02,383 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:36:02,389 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:36:02,389 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:36:02,390 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:36:02,390 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:37:02,972 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:37:02,976 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:37:02,981 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:37:02,982 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:37:02,982 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:37:02,982 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:38:02,128 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:38:02,131 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:38:02,137 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:38:02,137 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:38:02,137 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:38:02,137 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:39:03,224 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:39:03,227 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:39:03,233 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:39:03,233 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:39:03,233 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:39:03,233 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:40:02,114 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:40:02,117 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:40:02,123 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:40:02,123 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:40:02,123 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:40:02,123 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:41:02,638 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:41:02,640 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:41:02,646 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:41:02,646 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:41:03,099 - __main__ - INFO - Sent Email
+2017-08-16 12:41:03,099 - __main__ - DEBUG - Debug: [<sender.Message object at 0x7fb335fa6650>]
+2017-08-16 12:41:03,099 - __main__ - DEBUG - fielOutput.txt removed
+2017-08-16 12:42:03,457 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:42:03,460 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:42:03,466 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:42:03,466 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:42:03,466 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:42:03,466 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:43:02,441 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:43:02,444 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:43:02,450 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:43:02,450 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:43:02,450 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:43:02,450 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:44:02,734 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:44:02,737 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:44:02,743 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:44:02,743 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:44:02,743 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:44:02,743 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:45:02,428 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:45:02,431 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:45:02,437 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:45:02,437 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:45:02,437 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:45:02,437 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:46:03,349 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:46:03,352 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:46:03,358 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:46:03,359 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:46:03,359 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:46:03,359 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:47:03,117 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:47:03,120 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:47:03,126 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:47:03,126 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:47:03,126 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:47:03,126 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:48:02,394 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:48:02,397 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:48:02,403 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:48:02,403 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:48:02,403 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:48:02,403 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:49:02,666 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:49:02,669 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:49:02,675 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:49:02,675 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:49:02,675 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:49:02,675 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:50:02,296 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:50:02,299 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:50:02,305 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:50:02,305 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:50:02,305 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:50:02,305 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:51:02,498 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:51:02,502 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:51:02,508 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:51:02,508 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:51:02,508 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:51:02,508 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:52:02,901 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:52:02,904 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:52:02,909 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:52:02,910 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:52:02,910 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:52:02,910 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:53:02,696 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:53:02,699 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:53:02,705 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:53:02,705 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:53:02,705 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:53:02,705 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:54:03,093 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:54:03,096 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:54:03,102 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:54:03,102 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:54:03,102 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:54:03,102 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:55:02,488 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:55:02,491 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:55:02,497 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:55:02,497 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:55:02,497 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:55:02,497 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:56:02,526 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:56:02,529 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:56:02,534 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:56:02,535 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:56:02,535 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:56:02,535 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:57:03,325 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:57:03,327 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:57:03,334 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:57:03,334 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:57:03,334 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:57:03,334 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-16 12:58:04,055 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:58:04,058 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:58:04,064 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:58:04,064 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:58:04,548 - __main__ - INFO - Sent Email
+2017-08-16 12:58:04,548 - __main__ - DEBUG - Debug: [<sender.Message object at 0x7fc4aebb1650>]
+2017-08-16 12:58:04,548 - __main__ - DEBUG - fielOutput.txt removed
+2017-08-16 12:59:03,037 - __main__ - INFO - fileOutput.txt was created.
+2017-08-16 12:59:03,040 - __main__ - DEBUG - Queried database for new tweets
+2017-08-16 12:59:03,047 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-16 12:59:03,047 - __main__ - DEBUG - Running UpdateFile()
+2017-08-16 12:59:03,047 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-16 12:59:03,047 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:00:02,983 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:00:02,986 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:00:02,992 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:00:02,993 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:00:04,822 - __main__ - INFO - Sent Email
+2017-08-17 00:00:04,822 - __main__ - DEBUG - Debug: [<sender.Message object at 0x7f6250895650>]
+2017-08-17 00:00:04,823 - __main__ - DEBUG - fielOutput.txt removed
+2017-08-17 00:01:02,638 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:01:02,641 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:01:02,647 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:01:02,647 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:01:02,647 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:01:02,647 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:02:02,663 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:02:02,666 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:02:02,672 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:02:02,672 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:02:02,672 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:02:02,672 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:03:02,384 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:03:02,387 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:03:02,393 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:03:02,393 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:03:02,393 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:03:02,393 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:04:02,584 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:04:02,587 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:04:02,594 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:04:02,594 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:04:02,594 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:04:02,594 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:05:02,308 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:05:02,311 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:05:02,318 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:05:02,318 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:05:02,318 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:05:02,318 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:06:02,647 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:06:02,650 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:06:02,656 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:06:02,656 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:06:02,657 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:06:02,657 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:07:02,041 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:07:02,044 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:07:02,050 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:07:02,050 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:07:02,050 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:07:02,050 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:08:02,502 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:08:02,505 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:08:02,511 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:08:02,511 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:08:02,511 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:08:02,511 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:09:03,107 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:09:03,110 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:09:03,116 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:09:03,116 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:09:03,116 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:09:03,116 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:10:02,668 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:10:02,671 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:10:02,678 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:10:02,678 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:10:02,678 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:10:02,678 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:11:02,708 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:11:02,711 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:11:02,717 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:11:02,718 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:11:02,718 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:11:02,718 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:12:02,149 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:12:02,152 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:12:02,158 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:12:02,158 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:12:02,159 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:12:02,159 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:13:02,659 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:13:02,662 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:13:02,668 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:13:02,668 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:13:02,668 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:13:02,668 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:14:01,947 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:14:01,950 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:14:01,956 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:14:01,956 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:14:01,956 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:14:01,957 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:15:02,824 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:15:02,828 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:15:02,833 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:15:02,833 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:15:02,833 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:15:02,833 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:16:02,708 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:16:02,711 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:16:02,717 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:16:02,717 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:16:02,717 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:16:02,717 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:17:02,319 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:17:02,322 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:17:02,328 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:17:02,328 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:17:02,328 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:17:02,328 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:18:03,146 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:18:03,149 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:18:03,154 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:18:03,155 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:18:03,155 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:18:03,155 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:19:02,173 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:19:02,176 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:19:02,183 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:19:02,183 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:19:02,183 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:19:02,183 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:20:02,400 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:20:02,403 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:20:02,409 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:20:02,409 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:20:02,409 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:20:02,409 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:21:02,997 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:21:03,000 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:21:03,006 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:21:03,007 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:21:03,007 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:21:03,007 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:22:02,357 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:22:02,360 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:22:02,366 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:22:02,366 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:22:02,366 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:22:02,366 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:23:02,963 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:23:02,966 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:23:02,971 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:23:02,972 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:23:02,972 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:23:02,972 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:24:01,975 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:24:01,978 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:24:01,984 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:24:01,984 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:24:01,984 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:24:01,984 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:25:02,727 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:25:02,730 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:25:02,736 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:25:02,736 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:25:02,736 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:25:02,736 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:26:02,821 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:26:02,824 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:26:02,831 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:26:02,831 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:26:02,831 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:26:02,831 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:27:02,557 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:27:02,560 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:27:02,566 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:27:02,566 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:27:02,566 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:27:02,566 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:28:03,261 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:28:03,264 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:28:03,270 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:28:03,270 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:28:03,270 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:28:03,270 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:29:02,027 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:29:02,030 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:29:02,036 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:29:02,036 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:29:02,037 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:29:02,037 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:30:02,831 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:30:02,834 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:30:02,839 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:30:02,839 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:30:02,839 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:30:02,840 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:31:03,039 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:31:03,042 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:31:03,048 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:31:03,048 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:31:03,048 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:31:03,048 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:32:03,270 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:32:03,272 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:32:03,278 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:32:03,279 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:32:03,279 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:32:03,279 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:33:02,750 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:33:02,753 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:33:02,759 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:33:02,759 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:33:02,759 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:33:02,759 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:34:02,112 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:34:02,115 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:34:02,121 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:34:02,122 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:34:02,122 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:34:02,122 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:35:02,372 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:35:02,375 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:35:02,381 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:35:02,381 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:35:02,381 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:35:02,381 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:36:02,828 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:36:02,832 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:36:02,838 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:36:02,838 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:36:02,838 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:36:02,838 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:37:02,433 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:37:02,436 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:37:02,442 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:37:02,442 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:37:02,442 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:37:02,442 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:38:03,036 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:38:03,038 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:38:03,045 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:38:03,045 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:38:03,045 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:38:03,045 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:39:02,745 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:39:02,748 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:39:02,755 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:39:02,755 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:39:02,755 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:39:02,755 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:40:02,735 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:40:02,738 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:40:02,744 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:40:02,744 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:40:02,744 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:40:02,744 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:41:03,023 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:41:03,026 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:41:03,032 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:41:03,032 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:41:03,033 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:41:03,033 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:42:02,242 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:42:02,245 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:42:02,251 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:42:02,251 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:42:02,251 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:42:02,251 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:43:02,749 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:43:02,752 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:43:02,758 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:43:02,758 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:43:02,758 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:43:02,758 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:44:02,423 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:44:02,426 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:44:02,432 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:44:02,432 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:44:02,432 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:44:02,432 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:45:02,434 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:45:02,437 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:45:02,443 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:45:02,443 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:45:02,443 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:45:02,443 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:46:02,091 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:46:02,094 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:46:02,101 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:46:02,101 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:46:02,101 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:46:02,101 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:47:02,532 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:47:02,534 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:47:02,540 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:47:02,540 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:47:02,540 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:47:02,540 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:48:02,794 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:48:02,797 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:48:02,804 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:48:02,804 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:48:02,804 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:48:02,804 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:49:02,226 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:49:02,229 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:49:02,235 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:49:02,235 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:49:02,235 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:49:02,235 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:50:03,476 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:50:03,479 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:50:03,485 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:50:03,485 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:50:03,485 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:50:03,485 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:51:02,203 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:51:02,206 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:51:02,212 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:51:02,212 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:51:02,212 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:51:02,212 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:52:02,343 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:52:02,346 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:52:02,351 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:52:02,351 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:52:02,352 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:52:02,352 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:53:02,978 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:53:02,981 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:53:02,987 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:53:02,987 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:53:03,482 - __main__ - INFO - Sent Email
+2017-08-17 00:53:03,482 - __main__ - DEBUG - Debug: [<sender.Message object at 0x7f39486e0650>]
+2017-08-17 00:53:03,483 - __main__ - DEBUG - fielOutput.txt removed
+2017-08-17 00:54:02,664 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:54:02,667 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:54:02,674 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:54:02,674 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:54:02,674 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:54:02,674 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:55:02,642 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:55:02,645 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:55:02,652 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:55:02,652 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:55:02,652 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:55:02,652 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:56:02,012 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:56:02,014 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:56:02,020 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:56:02,020 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:56:02,020 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:56:02,020 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:57:02,452 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:57:02,455 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:57:02,461 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:57:02,461 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:57:02,461 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:57:02,461 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:58:02,710 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:58:02,713 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:58:02,719 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:58:02,719 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:58:02,719 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:58:02,719 - __main__ - DEBUG - fileOutput.txt removed
+2017-08-17 00:59:02,116 - __main__ - INFO - fileOutput.txt was created.
+2017-08-17 00:59:02,119 - __main__ - DEBUG - Queried database for new tweets
+2017-08-17 00:59:02,125 - __main__ - DEBUG - Set tweets to mailed=1
+2017-08-17 00:59:02,125 - __main__ - DEBUG - Running UpdateFile()
+2017-08-17 00:59:02,125 - __main__ - DEBUG - No tweet updates - No mail sent
+2017-08-17 00:59:02,125 - __main__ - DEBUG - fileOutput.txt removed
