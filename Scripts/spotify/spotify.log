@@ -122,3 +122,95 @@
 2017-08-05 10:56:54,821 - __main__ - INFO - No New Ron Tracks
 2017-08-05 10:56:54,822 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-03T00:34:01Z', u'https://open.spotify.com/artist/6vhyWw7hIpvfIY9tE94mzP', u'Computer Magic', u'Fuzz', u'3KFb2IZAEqqbuqOaCYTo5q', 1)
 2017-08-05 10:56:54,822 - __main__ - INFO - No New Adam Tracks
+2017-08-05 18:05:34,273 - __main__ - INFO - Connecting to database
+2017-08-05 18:05:34,273 - __main__ - INFO - Tried to create new database tables.
+2017-08-05 18:05:34,274 - __main__ - INFO - Running createTables()
+2017-08-05 18:05:34,276 - __main__ - INFO - Running Sync and Insert
+2017-08-05 18:05:34,276 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-04T00:47:31Z', u'https://open.spotify.com/artist/0NIClyUOoNPl2GQouxBYH7', u'Mount Moriah', u'Calvander', u'0JmSQwdNvW68354bPhUtOx', 1)
+2017-08-05 18:05:34,276 - __main__ - INFO - No New Ron Tracks
+2017-08-05 18:05:34,276 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-03T00:34:01Z', u'https://open.spotify.com/artist/6vhyWw7hIpvfIY9tE94mzP', u'Computer Magic', u'Fuzz', u'3KFb2IZAEqqbuqOaCYTo5q', 1)
+2017-08-05 18:05:34,277 - __main__ - INFO - No New Adam Tracks
+2017-08-06 19:57:06,490 - __main__ - INFO - Connecting to database
+2017-08-06 19:57:06,491 - __main__ - INFO - Tried to create new database tables.
+2017-08-06 19:57:06,491 - __main__ - INFO - Running createTables()
+2017-08-06 19:57:06,493 - __main__ - INFO - Track not found in database - The Telescopes - Down on Me
+2017-08-06 19:57:06,494 - __main__ - INFO - InsertTrack: (u'nonstopflights', u'2017-08-06T23:56:47Z', u'https://open.spotify.com/artist/5MTQzge85m3QSefD2LdS1J', u'The Telescopes', u'Down on Me', u'10S5GVo3JDaR9KapMxjAUh', 0)
+2017-08-06 19:57:06,496 - __main__ - INFO - Running Sync and Insert
+2017-08-06 19:57:06,496 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-04T00:47:31Z', u'https://open.spotify.com/artist/0NIClyUOoNPl2GQouxBYH7', u'Mount Moriah', u'Calvander', u'0JmSQwdNvW68354bPhUtOx', 1)
+2017-08-06 19:57:06,496 - __main__ - INFO - No New Ron Tracks
+2017-08-06 19:57:06,497 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-06T23:56:47Z', u'https://open.spotify.com/artist/5MTQzge85m3QSefD2LdS1J', u'The Telescopes', u'Down on Me', u'10S5GVo3JDaR9KapMxjAUh', 0)
+2017-08-06 22:36:13,464 - __main__ - INFO - Connecting to database
+2017-08-06 22:36:13,464 - __main__ - INFO - Tried to create new database tables.
+2017-08-06 22:36:13,464 - __main__ - INFO - Running createTables()
+2017-08-06 22:36:13,467 - __main__ - INFO - Running Sync and Insert
+2017-08-06 22:36:13,467 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-04T00:47:31Z', u'https://open.spotify.com/artist/0NIClyUOoNPl2GQouxBYH7', u'Mount Moriah', u'Calvander', u'0JmSQwdNvW68354bPhUtOx', 1)
+2017-08-06 22:36:13,467 - __main__ - INFO - No New Ron Tracks
+2017-08-06 22:36:13,467 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-06T23:56:47Z', u'https://open.spotify.com/artist/5MTQzge85m3QSefD2LdS1J', u'The Telescopes', u'Down on Me', u'10S5GVo3JDaR9KapMxjAUh', 1)
+2017-08-06 22:36:13,467 - __main__ - INFO - No New Adam Tracks
+2017-08-07 14:59:29,568 - __main__ - INFO - Connecting to database
+2017-08-07 14:59:29,568 - __main__ - INFO - Tried to create new database tables.
+2017-08-07 14:59:29,568 - __main__ - INFO - Running createTables()
+2017-08-07 14:59:29,571 - __main__ - INFO - Track not found in database - Lee Bains III & The Glory Fires - Save My Life!
+2017-08-07 14:59:29,571 - __main__ - INFO - InsertTrack: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 0)
+2017-08-07 14:59:29,573 - __main__ - INFO - Running Sync and Insert
+2017-08-07 14:59:29,573 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 0)
+2017-08-07 14:59:47,158 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-06T23:56:47Z', u'https://open.spotify.com/artist/5MTQzge85m3QSefD2LdS1J', u'The Telescopes', u'Down on Me', u'10S5GVo3JDaR9KapMxjAUh', 1)
+2017-08-07 14:59:47,158 - __main__ - INFO - No New Adam Tracks
+2017-08-07 22:01:55,666 - __main__ - INFO - Connecting to database
+2017-08-07 22:01:55,666 - __main__ - INFO - Tried to create new database tables.
+2017-08-07 22:01:55,666 - __main__ - INFO - Running createTables()
+2017-08-07 22:01:55,669 - __main__ - INFO - Running Sync and Insert
+2017-08-07 22:01:55,669 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-07 22:01:55,669 - __main__ - INFO - No New Ron Tracks
+2017-08-07 22:01:55,670 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-06T23:56:47Z', u'https://open.spotify.com/artist/5MTQzge85m3QSefD2LdS1J', u'The Telescopes', u'Down on Me', u'10S5GVo3JDaR9KapMxjAUh', 1)
+2017-08-07 22:01:55,670 - __main__ - INFO - No New Adam Tracks
+2017-08-08 12:25:27,948 - __main__ - INFO - Connecting to database
+2017-08-08 12:25:27,948 - __main__ - INFO - Tried to create new database tables.
+2017-08-08 12:25:27,948 - __main__ - INFO - Running createTables()
+2017-08-08 12:25:27,950 - __main__ - INFO - Running Sync and Insert
+2017-08-08 12:25:27,951 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-08 12:25:27,951 - __main__ - INFO - No New Ron Tracks
+2017-08-08 12:25:27,951 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-06T23:56:47Z', u'https://open.spotify.com/artist/5MTQzge85m3QSefD2LdS1J', u'The Telescopes', u'Down on Me', u'10S5GVo3JDaR9KapMxjAUh', 1)
+2017-08-08 12:25:27,951 - __main__ - INFO - No New Adam Tracks
+2017-08-09 17:10:08,801 - __main__ - INFO - Connecting to database
+2017-08-09 17:10:08,801 - __main__ - INFO - Tried to create new database tables.
+2017-08-09 17:10:08,801 - __main__ - INFO - Running createTables()
+2017-08-09 17:10:08,804 - __main__ - INFO - Track not found in database - Japanese Breakfast - Road Head
+2017-08-09 17:10:08,804 - __main__ - INFO - InsertTrack: (u'nonstopflights', u'2017-08-09T21:09:33Z', u'https://open.spotify.com/artist/7MoIc5s9KXolCBH1fy9kkw', u'Japanese Breakfast', u'Road Head', u'6WVheb5G29cbDOzF4qMfli', 0)
+2017-08-09 17:10:08,806 - __main__ - INFO - Running Sync and Insert
+2017-08-09 17:10:08,806 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-09 17:10:08,806 - __main__ - INFO - No New Ron Tracks
+2017-08-09 17:10:08,806 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-09T21:09:33Z', u'https://open.spotify.com/artist/7MoIc5s9KXolCBH1fy9kkw', u'Japanese Breakfast', u'Road Head', u'6WVheb5G29cbDOzF4qMfli', 0)
+2017-08-13 21:53:36,888 - __main__ - INFO - Connecting to database
+2017-08-13 21:53:36,889 - __main__ - INFO - Tried to create new database tables.
+2017-08-13 21:53:36,889 - __main__ - INFO - Running createTables()
+2017-08-13 21:53:36,892 - __main__ - INFO - Running Sync and Insert
+2017-08-13 21:53:36,892 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-13 21:53:36,892 - __main__ - INFO - No New Ron Tracks
+2017-08-13 21:53:36,892 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-09T21:09:33Z', u'https://open.spotify.com/artist/7MoIc5s9KXolCBH1fy9kkw', u'Japanese Breakfast', u'Road Head', u'6WVheb5G29cbDOzF4qMfli', 1)
+2017-08-13 21:53:36,892 - __main__ - INFO - No New Adam Tracks
+2017-08-14 15:11:57,777 - __main__ - INFO - Connecting to database
+2017-08-14 15:11:57,777 - __main__ - INFO - Tried to create new database tables.
+2017-08-14 15:11:57,778 - __main__ - INFO - Running createTables()
+2017-08-14 15:11:57,780 - __main__ - INFO - Running Sync and Insert
+2017-08-14 15:11:57,780 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-14 15:11:57,780 - __main__ - INFO - No New Ron Tracks
+2017-08-14 15:11:57,781 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-09T21:09:33Z', u'https://open.spotify.com/artist/7MoIc5s9KXolCBH1fy9kkw', u'Japanese Breakfast', u'Road Head', u'6WVheb5G29cbDOzF4qMfli', 1)
+2017-08-14 15:11:57,781 - __main__ - INFO - No New Adam Tracks
+2017-08-15 11:52:00,634 - __main__ - INFO - Connecting to database
+2017-08-15 11:52:00,635 - __main__ - INFO - Tried to create new database tables.
+2017-08-15 11:52:00,635 - __main__ - INFO - Running createTables()
+2017-08-15 11:52:00,637 - __main__ - INFO - Running Sync and Insert
+2017-08-15 11:52:00,638 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-15 11:52:00,638 - __main__ - INFO - No New Ron Tracks
+2017-08-15 11:52:00,638 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-09T21:09:33Z', u'https://open.spotify.com/artist/7MoIc5s9KXolCBH1fy9kkw', u'Japanese Breakfast', u'Road Head', u'6WVheb5G29cbDOzF4qMfli', 1)
+2017-08-15 11:52:00,638 - __main__ - INFO - No New Adam Tracks
+2017-08-15 14:59:30,561 - __main__ - INFO - Connecting to database
+2017-08-15 14:59:30,561 - __main__ - INFO - Tried to create new database tables.
+2017-08-15 14:59:30,561 - __main__ - INFO - Running createTables()
+2017-08-15 14:59:30,563 - __main__ - INFO - Track not found in database - The Weather Station - Thirty
+2017-08-15 14:59:30,564 - __main__ - INFO - InsertTrack: (u'nonstopflights', u'2017-08-15T18:33:07Z', u'https://open.spotify.com/artist/39ZEMGRv3pIYTYKEhr4Abu', u'The Weather Station', u'Thirty', u'4zP4mkNgtK75UsscbVsVyZ', 0)
+2017-08-15 14:59:30,565 - __main__ - INFO - Running Sync and Insert
+2017-08-15 14:59:30,566 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
+2017-08-15 14:59:30,566 - __main__ - INFO - No New Ron Tracks
+2017-08-15 14:59:30,566 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-15T18:33:07Z', u'https://open.spotify.com/artist/39ZEMGRv3pIYTYKEhr4Abu', u'The Weather Station', u'Thirty', u'4zP4mkNgtK75UsscbVsVyZ', 0)

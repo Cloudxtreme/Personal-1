@@ -36,7 +36,7 @@ alias sevone='ssh root@10.0.0.60'
 alias gitadd='git add -A . && git commit -m "updates" && git push'
 alias gitupdate='git fetch && git merge'
 alias pihole='ssh aelchert@10.0.0.49'
-alias bookupdate='python /home/adamschoonover/Git/Personal/Book-Database/book-input.py'
+alias bookupdate='python /home/aelchert/Git/Personal/bookDatabase/bookInput.py'
 alias transmission='ssh 10.0.0.56'
 
 ### COLORS ###
@@ -76,3 +76,4 @@ man() {
 }
 alias tweets='cd /home/aelchert/Git/Personal/Scripts/twitterText'
 alias spotify='cd /home/aelchert/Git/Personal/Scripts/spotify'
+alias ubnt='ssh aElchert@10.0.0.1'

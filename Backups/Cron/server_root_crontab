@@ -1,0 +1,26 @@
+PS="/home/aelchert/Git/Personal/Server/Cronjobs"
+
+# every morning #
+0 5 * * * $PS/systemconfBackups.sh
+0 6 * * * python $PS/hdsentinelParsed.py
+0 8 * * * $PS/publicIpCheck.sh
+0 9 * * * $PS/mysqlBackup.sh
+0 6,12 * * * $PS/borgBackup.sh
+
+# SevOne DD scripts
+*/30 * * * * python $PS/deferredData/weather.py
+*/5 * * * * python $PS/deferredData/piHole.py
+
+# tweet script
+#0 8,16 * * * python /home/aelchert/Git/Personal/Scripts/twitterText/smtp.py
+* */12 * * *  cd /home/aelchert/Git/Personal/Scripts/twitterText/ && bash ./run.sh
+
+#spotifyScript
+#*/10 * * * *  /usr/bin/python /home/alechert/Git/Personal/Scripts/spotify/
+*/10 * * * * python /home/aelchert/Git/Personal/Scripts/spotify/__main__.py
+* * * * * chown -R aelchert /mnt/NAS/Movies /mnt/NAS/TV\ Shows
+* * * * * chmod -R 777 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
+
+@reboot root bash /home/aelchert/Git/Personal/Server/Cronjobs/vmStartAtBoot.sh
+
+@weekly $PS/snapshotSevOne.sh
