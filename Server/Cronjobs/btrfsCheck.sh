@@ -13,8 +13,13 @@ LOGFILE="/home/aelchert/Dropbox/Logs/cronLog.txt"
 
 sudo /bin/btrfs device stats /mnt/NAS/ | grep -vE ' 0$'
 
+echo "repsonse was: "
+echo $?
+echo ""
+
+
 # If something is returned, send email
-if [$? == 0]; then
+if [[$? == 0]]; then
   echo "There was a response"
   echo -e "++ [btrfsCheck.sh] - $LOGDATE - btrfs health check - [FAILED]" >> $LOGFILE
 else
