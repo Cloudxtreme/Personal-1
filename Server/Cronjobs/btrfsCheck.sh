@@ -5,7 +5,7 @@
 #
 # grep's for the 0.
 
-sudo /bin/btrfs deviec stats /mnt/NAS/ | grep -vE ' 0$'
+sudo /bin/btrfs device stats /mnt/NAS/ | grep -vE ' 0$'
 
 # If something is returned, send email
 
