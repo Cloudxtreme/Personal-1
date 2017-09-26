@@ -19,7 +19,7 @@ echo ""
 
 
 # If something is returned, send email
-if [[$? == 0]]; then
+if [[$? == '0']]; then
   echo "There was a response"
   echo -e "++ [btrfsCheck.sh] - $LOGDATE - btrfs health check - [FAILED]" >> $LOGFILE
 else
