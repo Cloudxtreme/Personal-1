@@ -214,3 +214,28 @@
 2017-08-15 14:59:30,566 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-07T17:50:39Z', u'https://open.spotify.com/artist/1oTNCl6SRphYGb9NQ0toVE', u'Lee Bains III & The Glory Fires', u'Save My Life!', u'1zvBbjHzzPCONAw9GBAhaA', 1)
 2017-08-15 14:59:30,566 - __main__ - INFO - No New Ron Tracks
 2017-08-15 14:59:30,566 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-15T18:33:07Z', u'https://open.spotify.com/artist/39ZEMGRv3pIYTYKEhr4Abu', u'The Weather Station', u'Thirty', u'4zP4mkNgtK75UsscbVsVyZ', 0)
+2017-08-21 13:10:37,253 - __main__ - INFO - Connecting to database
+2017-08-21 13:10:37,253 - __main__ - INFO - Tried to create new database tables.
+2017-08-21 13:10:37,253 - __main__ - INFO - Running createTables()
+2017-08-21 13:10:37,256 - __main__ - INFO - Track not found in database - Rainer Maria - Suicides and Lazy Eyes
+2017-08-21 13:10:37,257 - __main__ - INFO - InsertTrack: (u'ronlipke', u'2017-08-16T18:14:32Z', u'https://open.spotify.com/artist/5OUVzPFZebtoZFs85MIQpz', u'Rainer Maria', u'Suicides and Lazy Eyes', u'0416x2LtfGVyhBUuftelLK', 0)
+2017-08-21 13:10:37,267 - __main__ - INFO - Running Sync and Insert
+2017-08-21 13:10:37,267 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-16T18:14:32Z', u'https://open.spotify.com/artist/5OUVzPFZebtoZFs85MIQpz', u'Rainer Maria', u'Suicides and Lazy Eyes', u'0416x2LtfGVyhBUuftelLK', 0)
+2017-08-21 13:10:39,190 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-15T18:33:07Z', u'https://open.spotify.com/artist/39ZEMGRv3pIYTYKEhr4Abu', u'The Weather Station', u'Thirty', u'4zP4mkNgtK75UsscbVsVyZ', 1)
+2017-08-21 13:10:39,190 - __main__ - INFO - No New Adam Tracks
+2017-08-21 19:33:22,567 - __main__ - INFO - Connecting to database
+2017-08-21 19:33:22,568 - __main__ - INFO - Tried to create new database tables.
+2017-08-21 19:33:22,568 - __main__ - INFO - Running createTables()
+2017-08-21 19:33:22,570 - __main__ - INFO - Running Sync and Insert
+2017-08-21 19:33:22,570 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-16T18:14:32Z', u'https://open.spotify.com/artist/5OUVzPFZebtoZFs85MIQpz', u'Rainer Maria', u'Suicides and Lazy Eyes', u'0416x2LtfGVyhBUuftelLK', 1)
+2017-08-21 19:33:22,571 - __main__ - INFO - No New Ron Tracks
+2017-08-21 19:33:22,571 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-15T18:33:07Z', u'https://open.spotify.com/artist/39ZEMGRv3pIYTYKEhr4Abu', u'The Weather Station', u'Thirty', u'4zP4mkNgtK75UsscbVsVyZ', 1)
+2017-08-21 19:33:22,571 - __main__ - INFO - No New Adam Tracks
+2017-08-22 16:49:46,946 - __main__ - INFO - Connecting to database
+2017-08-22 16:49:46,946 - __main__ - INFO - Tried to create new database tables.
+2017-08-22 16:49:46,946 - __main__ - INFO - Running createTables()
+2017-08-22 16:49:46,949 - __main__ - INFO - Running Sync and Insert
+2017-08-22 16:49:46,949 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-08-16T18:14:32Z', u'https://open.spotify.com/artist/5OUVzPFZebtoZFs85MIQpz', u'Rainer Maria', u'Suicides and Lazy Eyes', u'0416x2LtfGVyhBUuftelLK', 1)
+2017-08-22 16:49:46,949 - __main__ - INFO - No New Ron Tracks
+2017-08-22 16:49:46,949 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-08-15T18:33:07Z', u'https://open.spotify.com/artist/39ZEMGRv3pIYTYKEhr4Abu', u'The Weather Station', u'Thirty', u'4zP4mkNgtK75UsscbVsVyZ', 1)
+2017-08-22 16:49:46,949 - __main__ - INFO - No New Adam Tracks

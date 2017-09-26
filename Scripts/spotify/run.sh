@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-python /home/aelchert/Git/Personal/Scripts/spotify/__main__.py
+python /home/aelchert/Git/Personal/Scripts/spotify/main.py
