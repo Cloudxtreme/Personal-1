@@ -1,7 +1,7 @@
 # manage docker containers
 # assuming docker is already installed
 ---
-- hosts: serverRemote
+- hosts: serverLocal
   tasks:
     - name: install docker-py, required for anisble and docker-py
       pip:
@@ -165,3 +165,16 @@
           - /mnt/NAS/Downloads:/Downloads
           - /mnt/NAS/Archive/Comics:/comics
       tags: mylar
+
+    - name: calibre-server
+      docker_container:
+        name: calibre
+        image: agentgreen/calibre-server
+        state: started
+        network_mode: bridge
+        restart_policy: always
+        ports:
+          - "6798:8080"
+        volumes:
+          - /mnt/NAS/Archive/Books/Fiction/:/calibre-lib
+      tags: calibre
