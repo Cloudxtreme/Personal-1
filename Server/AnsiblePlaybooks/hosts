@@ -7,4 +7,4 @@
 nonstopflights.ddns.net ansible_user=aelchert ansible_pass="CuIeyy7j!!" ansible_port=8086 ansible_become=true ansible_become_user=root ansible_become_password="CuIeyy7j!!" become_method=sudo
 
 [serverLocal]
-10.0.0.50 ansible_user=aelchert ansible_pass="CuIeyy7j!!" ansible_port=8086 ansible_become=true ansible_become_user=root ansible_become_password="CuIeyy7j!!" become_method=sudo
+10.0.0.50 ansible_user=aelchert ansible_pass="CuIeyy7j!!" ansible_become=true ansible_become_user=root ansible_become_password="CuIeyy7j!!" become_method=sudo

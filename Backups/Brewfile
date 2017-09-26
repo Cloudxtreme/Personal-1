@@ -87,27 +87,15 @@ cask 'xld'
 mas 'Quiver', id: 866773894
 mas 'Day One', id: 1055511498
 mas 'powershot', id: 877479749
-mas 'VOX', id: 461369673
 mas 'Magnet', id: 441258766
-mas 'Disk Doctor', id: 455970963
-mas 'Twitter', id: 409789998
 mas 'Caffeine', id: 411246225
 mas 'Disk Map', id: 715464874
 mas 'GIPHY CAPTURE', id: 668208984
-mas 'Day One Classic', id: 422304217
-mas 'Install OS X El Capitan', id: 1018109117
-mas 'Aperture', id: 408981426
-mas 'Marked 2', id: 890031187
 mas 'Numbers', id: 409203825
 mas 'The Unarchiver', id: 425424353
 mas 'Reeder', id: 880001334
-mas 'Tweetbot', id: 557168941
-mas 'WiFi Explorer', id: 494803304
-mas 'Live Interior 3D Standard', id: 412440845
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'GIFMaker', id: 1015930892
 mas 'Simplify', id: 448003584
-mas 'Easy GIF Maker', id: 564489436
-mas '1 Streamer', id: 1076459789
 mas 'PopClip', id: 445189367
 mas 'Cinch', id: 412529613
