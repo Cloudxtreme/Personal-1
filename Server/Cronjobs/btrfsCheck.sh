@@ -13,3 +13,4 @@ if [$? == 0]; then
   echo "There was a response"
 else
   echo "No response"
+fi
