@@ -1,3 +1,5 @@
+#!/bin/env python
+
 from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy
 import json

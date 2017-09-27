@@ -16,8 +16,8 @@ PS1='\[\e[0;33m\][Server]\[\e[m\] \u \[\e[1;34m\][$(date +%k:%M:%S)]\[\e[m\]\[\e
 
 # GLOBAL VARIABLE
 NOW=$(date +"%m-%d-%Y")
-git="/home/adamschoonover/Git/Personal/"
-gitserver="/home/adamschoonover/Git/Personal/Server/"
+git="/home/aelchert/Git/Personal/"
+gitserver="/home/aelchert/Git/Personal/Server/"
 
 export SPOTIPY_CLIENT_ID='70be013bbce941b19cc1b0c22d66c6c3'
 export SPOTIPY_CLIENT_SECRET='7e4bfe34feb942cc8e1f92d7c1293e18'
