@@ -330,3 +330,11 @@
 2017-09-26 16:45:47,013 - __main__ - INFO - No New Ron Tracks
 2017-09-26 16:45:47,014 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-09-06T02:15:08Z', u'https://open.spotify.com/artist/2hwy5DELim1AxB1sHPqn4y', u'Gotts Street Park', u'Love In Bad Company - Alternate Version', u'7gHzQqpl0mzYjuZwR2oxH3', 1)
 2017-09-26 16:45:47,014 - __main__ - INFO - No New Adam Tracks
+2017-09-27 16:22:35,888 - __main__ - INFO - Connecting to database
+2017-09-27 16:22:35,888 - __main__ - INFO - Tried to create new database tables.
+2017-09-27 16:22:35,888 - __main__ - INFO - Running createTables()
+2017-09-27 16:22:35,891 - __main__ - INFO - Running Sync and Insert
+2017-09-27 16:22:35,891 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2017-09-03T16:01:31Z', u'https://open.spotify.com/artist/6dzueKMr7xesqFAZesqeSf', u'Ted Leo', u"Can't Go Back", u'3WrrSedyoPB7pOmaN1V4YM', 1)
+2017-09-27 16:22:35,891 - __main__ - INFO - No New Ron Tracks
+2017-09-27 16:22:35,891 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2017-09-06T02:15:08Z', u'https://open.spotify.com/artist/2hwy5DELim1AxB1sHPqn4y', u'Gotts Street Park', u'Love In Bad Company - Alternate Version', u'7gHzQqpl0mzYjuZwR2oxH3', 1)
+2017-09-27 16:22:35,891 - __main__ - INFO - No New Adam Tracks
