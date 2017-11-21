@@ -9,13 +9,8 @@ PS="/home/aelchert/Git/Personal/Server/Cronjobs"
 
 # SevOne DD scripts
 */30 * * * * python $PS/deferredData/weather.py
-*/5 * * * * python $PS/deferredData/piHole.py
+#*/5 * * * * python $PS/deferredData/piHole.py
 
-
-#spotifyScript
-*/10 * * * *  cd /home/aelchert/Git/Personal/Scripts/spotify/ && /usr/bin/python main.py
-#*/10 * * * * python /home/aelchert/Git/Personal/Scripts/spotify/main.py
-#*/10 * * * * /bin/bash /home/aelchert/Git/Personal/Scripts/spotify/run.sh | mail -s 'spotify ran' adam@elchert.net
 * * * * * chown -R aelchert /mnt/NAS/Movies /mnt/NAS/TV\ Shows
 * * * * * chmod -R 777 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
 
