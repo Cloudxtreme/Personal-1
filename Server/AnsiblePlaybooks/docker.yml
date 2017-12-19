@@ -7,22 +7,22 @@
       pip:
         name: docker-py
 
-    - name: Ghost Blogging Software
-      docker_container:
-        name: ghostBlog
-        image: ghost:latest
-        state: started
-        network_mode: bridge
-        restart_policy: always
-        ports:
-          - "8988:2368"
-        env:
-          PGID: "1000"
-          PUID: "1000"
-          TZ: "EST"
-        volumes:
-          - /opt/ghost/:/var/lib/ghost
-      tags: ghost
+    # - name: Ghost Blogging Software
+    #   docker_container:
+    #     name: ghostBlog
+    #     image: ghost:latest
+    #     state: started
+    #     network_mode: bridge
+    #     restart_policy: always
+    #     ports:
+    #       - "8988:2368"
+    #     env:
+    #       PGID: "1000"
+    #       PUID: "1000"
+    #       TZ: "EST"
+    #     volumes:
+    #       - /opt/ghost/:/var/lib/ghost
+    #   tags: ghost
 
     - name: Sabnzbd image deployment
       docker_container:
@@ -165,16 +165,3 @@
           - /mnt/NAS/Downloads:/Downloads
           - /mnt/NAS/Archive/Comics:/comics
       tags: mylar
-
-    - name: calibre-server
-      docker_container:
-        name: calibre
-        image: agentgreen/calibre-server
-        state: started
-        network_mode: bridge
-        restart_policy: always
-        ports:
-          - "6798:8080"
-        volumes:
-          - /mnt/NAS/Archive/Books/Fiction/:/calibre-lib
-      tags: calibre
