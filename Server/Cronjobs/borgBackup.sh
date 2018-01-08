@@ -13,6 +13,14 @@ lastBorgBackup=$(sudo borg list /mnt/Backups/ | awk '{print $1;}' | tail -n 1)
 # excluded directories
 sudo borg create -v --stats $REPOSITORY::`hostname`-`date +%Y-%m-%d` /mnt/NAS
 
+#borgReturnValue=$?
+#if borgReturnValue=0; do
+#  echo "0" > borgReturnValue.txt
+#elif borgReturnValue=1; do
+#   echo "1" > borgReturnValue.txt
+#else
+#   echo "Bad return value" > borgReturnValue.txt
+
 if [ $? -eq 0 ]; then
   echo -e "++ [borgBackup.sh] - $LOGDATE - Completed" >> $LOGFILE
 
