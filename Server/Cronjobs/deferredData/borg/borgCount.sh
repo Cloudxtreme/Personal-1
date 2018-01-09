@@ -20,6 +20,9 @@ printf "\n"
 
 echo "File Count: "
 echo $outputBorgCount
+
+printf "\n"
+
 if [ $? -eq 0 ]; then
   echo "File Created Successfully"
 else
