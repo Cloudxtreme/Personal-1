@@ -1,3 +1,5 @@
 #!/bin/bash
 
-#sudo borg list /mnt/Backups::server-2018-01-09 | wc -l | tee borgCount.txt
+backupDirectory="/mnt/Backups"
+getLatestBackupDate = "borg list $backupDirectory | awk {'print $1;'} | tail -n 1"
+outputBorgCount="borg list $backupDirectory::$getLatestBackupDate | wc -l > borgCount.txt"
