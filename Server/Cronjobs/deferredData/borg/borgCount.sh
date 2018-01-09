@@ -1,7 +1,12 @@
 #!/bin/bash
 
 backupDirectory="/mnt/Backups"
-getLatestBackupDate="borg list $backupDirectory | awk {'print $1;'} | tail -n 1"
-outputBorgCount="borg list $backupDirectory::$getLatestBackupDate | wc -l > borgCount.txt"
+getLatestBackupDate="sudo borg list $backupDirectory | awk {'print $1;'} | tail -n 1"
+outputBorgCount="sudo org list $backupDirectory::$getLatestBackupDate | wc -l | tee  borgCount.txt"
 
-$(outputBorgCount)
+
+echo "Last backup date: " 
+echo $getLatestbackupDate
+
+echo "File Count: "
+echo $outputBorgCount
