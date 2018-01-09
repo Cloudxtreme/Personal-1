@@ -20,8 +20,9 @@ printf "\n"
 
 echo "File Count: "
 echo $outputBorgCount
-if [ $? -eq 0 ]; do
+if [ $? -eq 0 ]; then
   echo "File Created Successfully"
 else
-  echo $!
+  echo $?
   echo "File Not Created Successfully"
+fi
