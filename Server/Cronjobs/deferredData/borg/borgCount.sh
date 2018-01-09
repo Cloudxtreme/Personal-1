@@ -6,7 +6,7 @@ outputBorgCount=$(sudo org list $backupDirectory::$getLatestBackupDate | wc -l |
 
 
 echo "Last backup date: "
-echo $getLatestbackupDate
+echo $getLatestBackupDate
 
 echo "File Count: "
 echo $outputBorgCount
