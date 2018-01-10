@@ -22,6 +22,10 @@ echo "File Count: "
 echo $outputBorgCount
 
 printf "\n"
+sudo chown aelchert $borgCount.txt
+echo "Changed borgCount.txt owner to aElchert"
+
+printf "\n"
 
 if [ $? -eq 0 ]; then
   echo "File Created Successfully"
