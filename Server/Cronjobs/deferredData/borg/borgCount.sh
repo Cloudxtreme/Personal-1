@@ -22,7 +22,7 @@ echo "File Count: "
 echo $outputBorgCount
 
 printf "\n"
-sudo chown aelchert $borgCount.txt
+sudo chown aelchert borgCount.txt
 echo "Changed borgCount.txt owner to aElchert"
 
 printf "\n"
