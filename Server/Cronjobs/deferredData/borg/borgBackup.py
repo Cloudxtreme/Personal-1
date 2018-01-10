@@ -29,11 +29,11 @@ def insertData(apiToken=get_api_token(), value):
             "deviceId": 206,
             "indicatorDataDtos": [
               {
-                "indicatorId": 12912,
-                "value":
+                "indicatorId": 9854,
+                "value": getDataPoint()
                 }
             ],
-            "objectId": 1580,
+            "objectId": 1174,
             "timestamp": getEpochTime()
           }
         ]
@@ -46,3 +46,12 @@ def insertData(apiToken=get_api_token(), value):
         }
 
         insertData(apiToken=apiToken, dataDict=getpiHoleApiData())
+
+
+def getDataPoint():
+    ''' Get's data point from borgCount.txt
+    '''
+    f = open('borgCount.txt', 'r')
+    print(f)
+
+print(getDataPoint())
