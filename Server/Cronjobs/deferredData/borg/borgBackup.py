@@ -45,7 +45,11 @@ def insertData(apiToken=get_api_token(), value):
         "X-AUTH-TOKEN":"{}".format(apiToken)
         }
 
-        insertData(apiToken=apiToken, dataDict=getpiHoleApiData())
+    try:
+        r = requests.post(post_indicatorData, headers=header, json=data)
+    except:
+        print(r.text)
+        #logger.info('Error at: %s', r.text)
 
 
 def getDataPoint():
