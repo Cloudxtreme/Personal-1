@@ -49,13 +49,11 @@ def insertData(apiToken=get_api_token(), value):
         r = requests.post(post_indicatorData, headers=header, json=data)
     except:
         print(r.text)
-        #logger.info('Error at: %s', r.text)
+
 
 
 def getDataPoint():
     ''' Get's data point from borgCount.txt
     '''
     f = open('borgCount.txt', 'r')
-    print(f)
-
-print(getDataPoint())
+    return(f.read(6))
