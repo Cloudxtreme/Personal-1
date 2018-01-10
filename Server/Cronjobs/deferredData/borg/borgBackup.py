@@ -1,5 +1,12 @@
 import requests, pprint, logging, json
 
+'''
+Intention: Script counts files saved by borg and inserts them as a data point
+to SevOne
+
+Data Source: borgCount.txt
+'''
+
 ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
@@ -23,6 +30,7 @@ def getEpochTime():
     return timestamp
 
 def insertData():
+    '''post data to API endpoint '''
 
     data = [
           {
@@ -57,3 +65,12 @@ def getDataPoint():
     '''
     f = open('borgCount.txt', 'r')
     return(f.read(6))
+
+# Run insertData function
+insertData()
+
+if __name__ == "__main__":
+    print("\n")
+    print("BorgCount: ")
+    print("Current Epoch Time: {}".format(getEpochTime()))
+    print("File Count: {}".format(getDataPoint()))
