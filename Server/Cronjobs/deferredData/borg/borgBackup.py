@@ -22,7 +22,7 @@ def getEpochTime():
     timestamp = str(timestamp) + '000'
     return timestamp
 
-def insertData(apiToken=get_api_token(), value):
+def insertData():
 
     data = [
           {
@@ -42,7 +42,7 @@ def insertData(apiToken=get_api_token(), value):
 
     header = {
         "Accept":"application/json",
-        "X-AUTH-TOKEN":"{}".format(apiToken)
+        "X-AUTH-TOKEN":"{}".format(get_api_token())
         }
 
     try:
