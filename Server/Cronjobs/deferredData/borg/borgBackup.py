@@ -66,8 +66,9 @@ def getDataPoint():
 
 # Run insertData function. This function calls the other functions that are needed
 # to fill the json data
-
+print("Running borgCount.sh")
 os.system('./borgCount.sh')
+
 insertData()
 
 # Output data to console if run manually
