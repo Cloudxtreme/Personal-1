@@ -1,4 +1,4 @@
-import requests, pprint, logging, json
+import requests, pprint, json, os
 
 '''
 Intention: Script counts files saved by borg and inserts them as a data point
@@ -58,8 +58,6 @@ def insertData():
     except:
         print(r.text)
 
-
-
 def getDataPoint():
     ''' Get's data point from borgCount.txt
     '''
@@ -69,6 +67,7 @@ def getDataPoint():
 # Run insertData function. This function calls the other functions that are needed
 # to fill the json data
 
+os.system('./borgCount.sh')
 insertData()
 
 # Output data to console if run manually
