@@ -66,9 +66,12 @@ def getDataPoint():
     f = open('borgCount.txt', 'r')
     return(f.read(6))
 
-# Run insertData function
+# Run insertData function. This function calls the other functions that are needed
+# to fill the json data
+
 insertData()
 
+# Output data to console if run manually
 if __name__ == "__main__":
     print("\n")
     print("BorgCount: ")
