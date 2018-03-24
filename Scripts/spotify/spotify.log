@@ -1,0 +1,1678 @@
+2018-03-23 11:36:25,196 - __main__ - INFO - Connecting to database
+2018-03-23 11:36:25,196 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 11:36:25,196 - __main__ - INFO - Running createTables()
+2018-03-23 11:36:25,200 - __main__ - INFO - Track not found in database - Sylvan Esso - Sound
+2018-03-23 11:36:25,200 - __main__ - INFO - InsertTrack: (u'nonstopflights', u'2018-01-15T21:52:55Z', u'https://open.spotify.com/artist/39vA9YljbnOApXKniLWBZv', u'Sylvan Esso', u'Sound', u'4R0N3Ba0QMWeuG57THGTF9', 0)
+2018-03-23 11:36:25,209 - __main__ - INFO - Track not found in database - The County Liners - Love Letter
+2018-03-23 11:36:25,209 - __main__ - INFO - InsertTrack: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 0)
+2018-03-23 11:36:25,210 - __main__ - INFO - Track not found in database - Superchunk - What a Time to Be Alive
+2018-03-23 11:36:25,210 - __main__ - INFO - InsertTrack: (u'ronlipke', u'2018-02-16T19:28:15Z', u'https://open.spotify.com/artist/7lmde7T1WJPFwv1eR6melP', u'Superchunk', u'What a Time to Be Alive', u'0HAtYAUM9GRCLbwuTES3EN', 0)
+2018-03-23 11:36:25,220 - __main__ - INFO - Track not found in database - Camp Cope - I've Got You
+2018-03-23 11:36:25,220 - __main__ - INFO - InsertTrack: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 0)
+2018-03-23 11:36:25,229 - __main__ - INFO - Running Sync and Insert
+2018-03-23 11:36:25,229 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 0)
+2018-03-23 11:36:26,866 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 0)
+2018-03-23 11:41:29,506 - __main__ - INFO - Connecting to database
+2018-03-23 11:41:29,506 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 11:41:29,506 - __main__ - INFO - Running createTables()
+2018-03-23 11:41:29,509 - __main__ - INFO - Running Sync and Insert
+2018-03-23 11:41:29,509 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 11:41:29,510 - __main__ - INFO - No New Ron Tracks
+2018-03-23 11:41:29,510 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 11:41:29,510 - __main__ - INFO - No New Adam Tracks
+2018-03-23 11:46:30,275 - __main__ - INFO - Connecting to database
+2018-03-23 11:46:30,276 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 11:46:30,276 - __main__ - INFO - Running createTables()
+2018-03-23 11:46:30,279 - __main__ - INFO - Running Sync and Insert
+2018-03-23 11:46:30,279 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 11:46:30,279 - __main__ - INFO - No New Ron Tracks
+2018-03-23 11:46:30,280 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 11:46:30,280 - __main__ - INFO - No New Adam Tracks
+2018-03-23 11:51:31,003 - __main__ - INFO - Connecting to database
+2018-03-23 11:51:31,003 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 11:51:31,004 - __main__ - INFO - Running createTables()
+2018-03-23 11:51:31,007 - __main__ - INFO - Running Sync and Insert
+2018-03-23 11:51:31,007 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 11:51:31,007 - __main__ - INFO - No New Ron Tracks
+2018-03-23 11:51:31,007 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 11:51:31,007 - __main__ - INFO - No New Adam Tracks
+2018-03-23 11:56:31,729 - __main__ - INFO - Connecting to database
+2018-03-23 11:56:31,729 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 11:56:31,730 - __main__ - INFO - Running createTables()
+2018-03-23 11:56:31,733 - __main__ - INFO - Running Sync and Insert
+2018-03-23 11:56:31,734 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 11:56:31,734 - __main__ - INFO - No New Ron Tracks
+2018-03-23 11:56:31,734 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 11:56:31,734 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:01:32,446 - __main__ - INFO - Connecting to database
+2018-03-23 12:01:32,446 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:01:32,446 - __main__ - INFO - Running createTables()
+2018-03-23 12:01:32,450 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:01:32,450 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:01:32,450 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:01:32,450 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:01:32,450 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:06:33,197 - __main__ - INFO - Connecting to database
+2018-03-23 12:06:33,197 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:06:33,197 - __main__ - INFO - Running createTables()
+2018-03-23 12:06:33,201 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:06:33,201 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:06:33,201 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:06:33,201 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:06:33,201 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:11:33,892 - __main__ - INFO - Connecting to database
+2018-03-23 12:11:33,892 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:11:33,892 - __main__ - INFO - Running createTables()
+2018-03-23 12:11:33,895 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:11:33,896 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:11:33,896 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:11:33,896 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:11:33,896 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:16:34,605 - __main__ - INFO - Connecting to database
+2018-03-23 12:16:34,605 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:16:34,605 - __main__ - INFO - Running createTables()
+2018-03-23 12:16:34,608 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:16:34,609 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:16:34,609 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:16:34,609 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:16:34,609 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:21:35,320 - __main__ - INFO - Connecting to database
+2018-03-23 12:21:35,320 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:21:35,320 - __main__ - INFO - Running createTables()
+2018-03-23 12:21:35,323 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:21:35,323 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:21:35,324 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:21:35,324 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:21:35,324 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:26:36,072 - __main__ - INFO - Connecting to database
+2018-03-23 12:26:36,073 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:26:36,073 - __main__ - INFO - Running createTables()
+2018-03-23 12:26:36,076 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:26:36,076 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:26:36,076 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:26:36,076 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:26:36,076 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:31:36,805 - __main__ - INFO - Connecting to database
+2018-03-23 12:31:36,806 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:31:36,806 - __main__ - INFO - Running createTables()
+2018-03-23 12:31:36,809 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:31:36,809 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:31:36,809 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:31:36,809 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:31:36,809 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:36:37,515 - __main__ - INFO - Connecting to database
+2018-03-23 12:36:37,515 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:36:37,515 - __main__ - INFO - Running createTables()
+2018-03-23 12:36:37,518 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:36:37,519 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:36:37,519 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:36:37,519 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:36:37,519 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:41:38,268 - __main__ - INFO - Connecting to database
+2018-03-23 12:41:38,268 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:41:38,268 - __main__ - INFO - Running createTables()
+2018-03-23 12:41:38,271 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:41:38,272 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:41:38,272 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:41:38,272 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:41:38,272 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:46:38,980 - __main__ - INFO - Connecting to database
+2018-03-23 12:46:38,981 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:46:38,981 - __main__ - INFO - Running createTables()
+2018-03-23 12:46:38,984 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:46:38,984 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:46:38,985 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:46:38,985 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:46:38,985 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:51:39,699 - __main__ - INFO - Connecting to database
+2018-03-23 12:51:39,699 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:51:39,699 - __main__ - INFO - Running createTables()
+2018-03-23 12:51:39,703 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:51:39,703 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:51:39,703 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:51:39,703 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:51:39,703 - __main__ - INFO - No New Adam Tracks
+2018-03-23 12:56:40,562 - __main__ - INFO - Connecting to database
+2018-03-23 12:56:40,563 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 12:56:40,563 - __main__ - INFO - Running createTables()
+2018-03-23 12:56:40,566 - __main__ - INFO - Running Sync and Insert
+2018-03-23 12:56:40,566 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 12:56:40,566 - __main__ - INFO - No New Ron Tracks
+2018-03-23 12:56:40,567 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 12:56:40,567 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:01:41,265 - __main__ - INFO - Connecting to database
+2018-03-23 13:01:41,265 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:01:41,265 - __main__ - INFO - Running createTables()
+2018-03-23 13:01:41,268 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:01:41,268 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:01:41,269 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:01:41,269 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:01:41,269 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:06:41,976 - __main__ - INFO - Connecting to database
+2018-03-23 13:06:41,976 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:06:41,976 - __main__ - INFO - Running createTables()
+2018-03-23 13:06:41,979 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:06:41,980 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:06:41,980 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:06:41,980 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:06:41,980 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:11:42,699 - __main__ - INFO - Connecting to database
+2018-03-23 13:11:42,699 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:11:42,699 - __main__ - INFO - Running createTables()
+2018-03-23 13:11:42,702 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:11:42,702 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:11:42,703 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:11:42,703 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:11:42,703 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:16:43,403 - __main__ - INFO - Connecting to database
+2018-03-23 13:16:43,404 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:16:43,404 - __main__ - INFO - Running createTables()
+2018-03-23 13:16:43,407 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:16:43,407 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:16:43,407 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:16:43,408 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:16:43,408 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:21:44,120 - __main__ - INFO - Connecting to database
+2018-03-23 13:21:44,120 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:21:44,120 - __main__ - INFO - Running createTables()
+2018-03-23 13:21:44,124 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:21:44,124 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:21:44,124 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:21:44,124 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:21:44,124 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:26:44,840 - __main__ - INFO - Connecting to database
+2018-03-23 13:26:44,840 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:26:44,840 - __main__ - INFO - Running createTables()
+2018-03-23 13:26:44,844 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:26:44,844 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:26:44,844 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:26:44,844 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:26:44,844 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:31:45,557 - __main__ - INFO - Connecting to database
+2018-03-23 13:31:45,557 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:31:45,557 - __main__ - INFO - Running createTables()
+2018-03-23 13:31:45,561 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:31:45,561 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:31:45,561 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:31:45,561 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:31:45,561 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:36:46,269 - __main__ - INFO - Connecting to database
+2018-03-23 13:36:46,269 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:36:46,269 - __main__ - INFO - Running createTables()
+2018-03-23 13:36:46,272 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:36:46,273 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:36:46,273 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:36:46,273 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:36:46,273 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:41:47,359 - __main__ - INFO - Connecting to database
+2018-03-23 13:41:47,359 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:41:47,359 - __main__ - INFO - Running createTables()
+2018-03-23 13:41:47,362 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:41:47,362 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:41:47,362 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:41:47,363 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:41:47,363 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:46:48,074 - __main__ - INFO - Connecting to database
+2018-03-23 13:46:48,074 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:46:48,074 - __main__ - INFO - Running createTables()
+2018-03-23 13:46:48,077 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:46:48,077 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:46:48,078 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:46:48,078 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:46:48,078 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:51:48,786 - __main__ - INFO - Connecting to database
+2018-03-23 13:51:48,786 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:51:48,786 - __main__ - INFO - Running createTables()
+2018-03-23 13:51:48,790 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:51:48,790 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:51:48,790 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:51:48,790 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:51:48,790 - __main__ - INFO - No New Adam Tracks
+2018-03-23 13:56:49,517 - __main__ - INFO - Connecting to database
+2018-03-23 13:56:49,517 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 13:56:49,517 - __main__ - INFO - Running createTables()
+2018-03-23 13:56:49,520 - __main__ - INFO - Running Sync and Insert
+2018-03-23 13:56:49,521 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 13:56:49,521 - __main__ - INFO - No New Ron Tracks
+2018-03-23 13:56:49,521 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 13:56:49,521 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:01:50,243 - __main__ - INFO - Connecting to database
+2018-03-23 14:01:50,244 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:01:50,244 - __main__ - INFO - Running createTables()
+2018-03-23 14:01:50,247 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:01:50,247 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:01:50,247 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:01:50,248 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:01:50,248 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:06:50,949 - __main__ - INFO - Connecting to database
+2018-03-23 14:06:50,949 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:06:50,949 - __main__ - INFO - Running createTables()
+2018-03-23 14:06:50,953 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:06:50,953 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:06:50,953 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:06:50,953 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:06:50,953 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:11:51,663 - __main__ - INFO - Connecting to database
+2018-03-23 14:11:51,664 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:11:51,664 - __main__ - INFO - Running createTables()
+2018-03-23 14:11:51,667 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:11:51,667 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:11:51,667 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:11:51,668 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:11:51,668 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:16:52,392 - __main__ - INFO - Connecting to database
+2018-03-23 14:16:52,392 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:16:52,392 - __main__ - INFO - Running createTables()
+2018-03-23 14:16:52,396 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:16:52,396 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:16:52,396 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:16:52,396 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:16:52,396 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:21:53,093 - __main__ - INFO - Connecting to database
+2018-03-23 14:21:53,094 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:21:53,094 - __main__ - INFO - Running createTables()
+2018-03-23 14:21:53,097 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:21:53,097 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:21:53,097 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:21:53,097 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:21:53,097 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:26:53,812 - __main__ - INFO - Connecting to database
+2018-03-23 14:26:53,812 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:26:53,812 - __main__ - INFO - Running createTables()
+2018-03-23 14:26:53,815 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:26:53,816 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:26:53,816 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:26:53,816 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:26:53,816 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:31:54,512 - __main__ - INFO - Connecting to database
+2018-03-23 14:31:54,513 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:31:54,513 - __main__ - INFO - Running createTables()
+2018-03-23 14:31:54,516 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:31:54,516 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:31:54,516 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:31:54,516 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:31:54,517 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:36:55,216 - __main__ - INFO - Connecting to database
+2018-03-23 14:36:55,217 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:36:55,217 - __main__ - INFO - Running createTables()
+2018-03-23 14:36:55,220 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:36:55,220 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:36:55,221 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:36:55,221 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:36:55,221 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:41:55,929 - __main__ - INFO - Connecting to database
+2018-03-23 14:41:55,929 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:41:55,929 - __main__ - INFO - Running createTables()
+2018-03-23 14:41:55,933 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:41:55,933 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:41:55,933 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:41:55,933 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:41:55,933 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:46:56,640 - __main__ - INFO - Connecting to database
+2018-03-23 14:46:56,640 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:46:56,641 - __main__ - INFO - Running createTables()
+2018-03-23 14:46:56,644 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:46:56,644 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:46:56,644 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:46:56,645 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:46:56,645 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:51:57,353 - __main__ - INFO - Connecting to database
+2018-03-23 14:51:57,353 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:51:57,354 - __main__ - INFO - Running createTables()
+2018-03-23 14:51:57,357 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:51:57,357 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:51:57,357 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:51:57,358 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:51:57,358 - __main__ - INFO - No New Adam Tracks
+2018-03-23 14:56:58,078 - __main__ - INFO - Connecting to database
+2018-03-23 14:56:58,078 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 14:56:58,078 - __main__ - INFO - Running createTables()
+2018-03-23 14:56:58,081 - __main__ - INFO - Running Sync and Insert
+2018-03-23 14:56:58,082 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 14:56:58,082 - __main__ - INFO - No New Ron Tracks
+2018-03-23 14:56:58,082 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 14:56:58,082 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:01:58,787 - __main__ - INFO - Connecting to database
+2018-03-23 15:01:58,787 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:01:58,787 - __main__ - INFO - Running createTables()
+2018-03-23 15:01:58,790 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:01:58,790 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:01:58,791 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:01:58,791 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:01:58,791 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:06:59,510 - __main__ - INFO - Connecting to database
+2018-03-23 15:06:59,510 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:06:59,510 - __main__ - INFO - Running createTables()
+2018-03-23 15:06:59,513 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:06:59,513 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:06:59,513 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:06:59,514 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:06:59,514 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:12:00,219 - __main__ - INFO - Connecting to database
+2018-03-23 15:12:00,219 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:12:00,219 - __main__ - INFO - Running createTables()
+2018-03-23 15:12:00,222 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:12:00,222 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:12:00,222 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:12:00,223 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:12:00,223 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:17:01,003 - __main__ - INFO - Connecting to database
+2018-03-23 15:17:01,003 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:17:01,003 - __main__ - INFO - Running createTables()
+2018-03-23 15:17:01,007 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:17:01,007 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:17:01,007 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:17:01,007 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:17:01,007 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:22:01,740 - __main__ - INFO - Connecting to database
+2018-03-23 15:22:01,741 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:22:01,741 - __main__ - INFO - Running createTables()
+2018-03-23 15:22:01,744 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:22:01,744 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:22:01,745 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:22:01,745 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:22:01,745 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:27:02,461 - __main__ - INFO - Connecting to database
+2018-03-23 15:27:02,462 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:27:02,462 - __main__ - INFO - Running createTables()
+2018-03-23 15:27:02,465 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:27:02,466 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:27:02,466 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:27:02,466 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:27:02,466 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:32:03,201 - __main__ - INFO - Connecting to database
+2018-03-23 15:32:03,202 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:32:03,202 - __main__ - INFO - Running createTables()
+2018-03-23 15:32:03,205 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:32:03,205 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:32:03,205 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:32:03,206 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:32:03,206 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:37:03,954 - __main__ - INFO - Connecting to database
+2018-03-23 15:37:03,954 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:37:03,954 - __main__ - INFO - Running createTables()
+2018-03-23 15:37:03,958 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:37:03,958 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:37:03,958 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:37:03,958 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:37:03,958 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:42:04,660 - __main__ - INFO - Connecting to database
+2018-03-23 15:42:04,661 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:42:04,661 - __main__ - INFO - Running createTables()
+2018-03-23 15:42:04,664 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:42:04,664 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:42:04,664 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:42:04,664 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:42:04,665 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:47:05,377 - __main__ - INFO - Connecting to database
+2018-03-23 15:47:05,377 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:47:05,377 - __main__ - INFO - Running createTables()
+2018-03-23 15:47:05,380 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:47:05,381 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:47:05,381 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:47:05,381 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:47:05,381 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:52:06,097 - __main__ - INFO - Connecting to database
+2018-03-23 15:52:06,097 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:52:06,098 - __main__ - INFO - Running createTables()
+2018-03-23 15:52:06,101 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:52:06,101 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:52:06,101 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:52:06,101 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:52:06,101 - __main__ - INFO - No New Adam Tracks
+2018-03-23 15:57:06,820 - __main__ - INFO - Connecting to database
+2018-03-23 15:57:06,820 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 15:57:06,820 - __main__ - INFO - Running createTables()
+2018-03-23 15:57:06,823 - __main__ - INFO - Running Sync and Insert
+2018-03-23 15:57:06,823 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 15:57:06,824 - __main__ - INFO - No New Ron Tracks
+2018-03-23 15:57:06,824 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 15:57:06,824 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:02:07,556 - __main__ - INFO - Connecting to database
+2018-03-23 16:02:07,556 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:02:07,556 - __main__ - INFO - Running createTables()
+2018-03-23 16:02:07,560 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:02:07,560 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:02:07,560 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:02:07,560 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:02:07,560 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:07:08,289 - __main__ - INFO - Connecting to database
+2018-03-23 16:07:08,289 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:07:08,289 - __main__ - INFO - Running createTables()
+2018-03-23 16:07:08,292 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:07:08,293 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:07:08,293 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:07:08,293 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:07:08,293 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:12:09,013 - __main__ - INFO - Connecting to database
+2018-03-23 16:12:09,013 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:12:09,013 - __main__ - INFO - Running createTables()
+2018-03-23 16:12:09,016 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:12:09,016 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:12:09,017 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:12:09,017 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:12:09,017 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:17:09,740 - __main__ - INFO - Connecting to database
+2018-03-23 16:17:09,740 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:17:09,740 - __main__ - INFO - Running createTables()
+2018-03-23 16:17:09,743 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:17:09,743 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:17:09,743 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:17:09,744 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:17:09,744 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:22:10,458 - __main__ - INFO - Connecting to database
+2018-03-23 16:22:10,459 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:22:10,459 - __main__ - INFO - Running createTables()
+2018-03-23 16:22:10,462 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:22:10,462 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:22:10,462 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:22:10,462 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:22:10,463 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:27:11,196 - __main__ - INFO - Connecting to database
+2018-03-23 16:27:11,196 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:27:11,196 - __main__ - INFO - Running createTables()
+2018-03-23 16:27:11,199 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:27:11,199 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:27:11,200 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:27:11,200 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:27:11,200 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:32:11,955 - __main__ - INFO - Connecting to database
+2018-03-23 16:32:11,956 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:32:11,956 - __main__ - INFO - Running createTables()
+2018-03-23 16:32:11,959 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:32:11,959 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:32:11,960 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:32:11,960 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:32:11,960 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:37:12,680 - __main__ - INFO - Connecting to database
+2018-03-23 16:37:12,681 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:37:12,681 - __main__ - INFO - Running createTables()
+2018-03-23 16:37:12,684 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:37:12,684 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:37:12,685 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:37:12,685 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:37:12,685 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:42:13,442 - __main__ - INFO - Connecting to database
+2018-03-23 16:42:13,443 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:42:13,443 - __main__ - INFO - Running createTables()
+2018-03-23 16:42:13,446 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:42:13,446 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:42:13,446 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:42:13,447 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:42:13,447 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:47:14,198 - __main__ - INFO - Connecting to database
+2018-03-23 16:47:14,198 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:47:14,198 - __main__ - INFO - Running createTables()
+2018-03-23 16:47:14,202 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:47:14,202 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:47:14,202 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:47:14,202 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:47:14,202 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:52:14,915 - __main__ - INFO - Connecting to database
+2018-03-23 16:52:14,916 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:52:14,916 - __main__ - INFO - Running createTables()
+2018-03-23 16:52:14,919 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:52:14,919 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:52:14,919 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:52:14,919 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:52:14,919 - __main__ - INFO - No New Adam Tracks
+2018-03-23 16:57:15,619 - __main__ - INFO - Connecting to database
+2018-03-23 16:57:15,619 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 16:57:15,619 - __main__ - INFO - Running createTables()
+2018-03-23 16:57:15,622 - __main__ - INFO - Running Sync and Insert
+2018-03-23 16:57:15,623 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 16:57:15,623 - __main__ - INFO - No New Ron Tracks
+2018-03-23 16:57:15,623 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 16:57:15,623 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:02:16,335 - __main__ - INFO - Connecting to database
+2018-03-23 17:02:16,336 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:02:16,336 - __main__ - INFO - Running createTables()
+2018-03-23 17:02:16,339 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:02:16,339 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:02:16,339 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:02:16,339 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:02:16,339 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:07:17,064 - __main__ - INFO - Connecting to database
+2018-03-23 17:07:17,064 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:07:17,064 - __main__ - INFO - Running createTables()
+2018-03-23 17:07:17,067 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:07:17,067 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:07:17,067 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:07:17,068 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:07:17,068 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:12:17,776 - __main__ - INFO - Connecting to database
+2018-03-23 17:12:17,776 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:12:17,776 - __main__ - INFO - Running createTables()
+2018-03-23 17:12:17,780 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:12:17,780 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:12:17,780 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:12:17,780 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:12:17,780 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:17:18,495 - __main__ - INFO - Connecting to database
+2018-03-23 17:17:18,495 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:17:18,495 - __main__ - INFO - Running createTables()
+2018-03-23 17:17:18,498 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:17:18,499 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:17:18,499 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:17:18,499 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:17:18,499 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:22:19,209 - __main__ - INFO - Connecting to database
+2018-03-23 17:22:19,209 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:22:19,209 - __main__ - INFO - Running createTables()
+2018-03-23 17:22:19,212 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:22:19,212 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:22:19,213 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:22:19,213 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:22:19,213 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:27:19,974 - __main__ - INFO - Connecting to database
+2018-03-23 17:27:19,974 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:27:19,974 - __main__ - INFO - Running createTables()
+2018-03-23 17:27:19,978 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:27:19,978 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:27:19,978 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:27:19,978 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:27:19,978 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:32:20,690 - __main__ - INFO - Connecting to database
+2018-03-23 17:32:20,690 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:32:20,690 - __main__ - INFO - Running createTables()
+2018-03-23 17:32:20,694 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:32:20,694 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:32:20,694 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:32:20,694 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:32:20,694 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:37:21,431 - __main__ - INFO - Connecting to database
+2018-03-23 17:37:21,431 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:37:21,431 - __main__ - INFO - Running createTables()
+2018-03-23 17:37:21,434 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:37:21,435 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:37:21,435 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:37:21,435 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:37:21,435 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:42:22,164 - __main__ - INFO - Connecting to database
+2018-03-23 17:42:22,164 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:42:22,164 - __main__ - INFO - Running createTables()
+2018-03-23 17:42:22,167 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:42:22,167 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:42:22,168 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:42:22,168 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:42:22,168 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:47:23,001 - __main__ - INFO - Connecting to database
+2018-03-23 17:47:23,001 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:47:23,001 - __main__ - INFO - Running createTables()
+2018-03-23 17:47:23,004 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:47:23,004 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:47:23,005 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:47:23,005 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:47:23,005 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:52:23,755 - __main__ - INFO - Connecting to database
+2018-03-23 17:52:23,755 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:52:23,755 - __main__ - INFO - Running createTables()
+2018-03-23 17:52:23,759 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:52:23,759 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:52:23,759 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:52:23,759 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:52:23,759 - __main__ - INFO - No New Adam Tracks
+2018-03-23 17:57:24,468 - __main__ - INFO - Connecting to database
+2018-03-23 17:57:24,469 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 17:57:24,469 - __main__ - INFO - Running createTables()
+2018-03-23 17:57:24,472 - __main__ - INFO - Running Sync and Insert
+2018-03-23 17:57:24,472 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 17:57:24,472 - __main__ - INFO - No New Ron Tracks
+2018-03-23 17:57:24,473 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 17:57:24,473 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:02:25,199 - __main__ - INFO - Connecting to database
+2018-03-23 18:02:25,200 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:02:25,200 - __main__ - INFO - Running createTables()
+2018-03-23 18:02:25,203 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:02:25,203 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:02:25,203 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:02:25,203 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:02:25,203 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:07:25,928 - __main__ - INFO - Connecting to database
+2018-03-23 18:07:25,928 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:07:25,928 - __main__ - INFO - Running createTables()
+2018-03-23 18:07:25,931 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:07:25,932 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:07:25,932 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:07:25,932 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:07:25,932 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:12:26,636 - __main__ - INFO - Connecting to database
+2018-03-23 18:12:26,636 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:12:26,636 - __main__ - INFO - Running createTables()
+2018-03-23 18:12:26,639 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:12:26,640 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:12:26,640 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:12:26,640 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:12:26,640 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:17:27,354 - __main__ - INFO - Connecting to database
+2018-03-23 18:17:27,354 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:17:27,355 - __main__ - INFO - Running createTables()
+2018-03-23 18:17:27,358 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:17:27,358 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:17:27,358 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:17:27,358 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:17:27,358 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:22:28,364 - __main__ - INFO - Connecting to database
+2018-03-23 18:22:28,365 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:22:28,365 - __main__ - INFO - Running createTables()
+2018-03-23 18:22:28,368 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:22:28,368 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:22:28,369 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:22:28,369 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:22:28,369 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:27:29,103 - __main__ - INFO - Connecting to database
+2018-03-23 18:27:29,104 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:27:29,104 - __main__ - INFO - Running createTables()
+2018-03-23 18:27:29,107 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:27:29,107 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:27:29,108 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:27:29,108 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:27:29,108 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:32:29,817 - __main__ - INFO - Connecting to database
+2018-03-23 18:32:29,817 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:32:29,817 - __main__ - INFO - Running createTables()
+2018-03-23 18:32:29,820 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:32:29,821 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:32:29,821 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:32:29,821 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:32:29,821 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:37:30,550 - __main__ - INFO - Connecting to database
+2018-03-23 18:37:30,551 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:37:30,551 - __main__ - INFO - Running createTables()
+2018-03-23 18:37:30,554 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:37:30,554 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:37:30,554 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:37:30,555 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:37:30,555 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:42:31,308 - __main__ - INFO - Connecting to database
+2018-03-23 18:42:31,308 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:42:31,308 - __main__ - INFO - Running createTables()
+2018-03-23 18:42:31,312 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:42:31,312 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:42:31,312 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:42:31,312 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:42:31,312 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:47:32,146 - __main__ - INFO - Connecting to database
+2018-03-23 18:47:32,147 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:47:32,147 - __main__ - INFO - Running createTables()
+2018-03-23 18:47:32,150 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:47:32,150 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:47:32,150 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:47:32,151 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:47:32,151 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:52:32,860 - __main__ - INFO - Connecting to database
+2018-03-23 18:52:32,861 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:52:32,861 - __main__ - INFO - Running createTables()
+2018-03-23 18:52:32,864 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:52:32,864 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:52:32,864 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:52:32,864 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:52:32,864 - __main__ - INFO - No New Adam Tracks
+2018-03-23 18:57:33,582 - __main__ - INFO - Connecting to database
+2018-03-23 18:57:33,582 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 18:57:33,582 - __main__ - INFO - Running createTables()
+2018-03-23 18:57:33,586 - __main__ - INFO - Running Sync and Insert
+2018-03-23 18:57:33,586 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 18:57:33,586 - __main__ - INFO - No New Ron Tracks
+2018-03-23 18:57:33,586 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 18:57:33,586 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:02:34,286 - __main__ - INFO - Connecting to database
+2018-03-23 19:02:34,286 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:02:34,286 - __main__ - INFO - Running createTables()
+2018-03-23 19:02:34,289 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:02:34,290 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:02:34,290 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:02:34,290 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:02:34,290 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:07:34,997 - __main__ - INFO - Connecting to database
+2018-03-23 19:07:34,998 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:07:34,998 - __main__ - INFO - Running createTables()
+2018-03-23 19:07:35,001 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:07:35,001 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:07:35,001 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:07:35,002 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:07:35,002 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:12:35,731 - __main__ - INFO - Connecting to database
+2018-03-23 19:12:35,731 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:12:35,731 - __main__ - INFO - Running createTables()
+2018-03-23 19:12:35,734 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:12:35,734 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:12:35,735 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:12:35,735 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:12:35,735 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:17:36,448 - __main__ - INFO - Connecting to database
+2018-03-23 19:17:36,448 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:17:36,448 - __main__ - INFO - Running createTables()
+2018-03-23 19:17:36,452 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:17:36,452 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:17:36,452 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:17:36,452 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:17:36,452 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:22:37,188 - __main__ - INFO - Connecting to database
+2018-03-23 19:22:37,188 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:22:37,188 - __main__ - INFO - Running createTables()
+2018-03-23 19:22:37,192 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:22:37,192 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:22:37,192 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:22:37,192 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:22:37,193 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:27:37,944 - __main__ - INFO - Connecting to database
+2018-03-23 19:27:37,945 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:27:37,945 - __main__ - INFO - Running createTables()
+2018-03-23 19:27:37,948 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:27:37,948 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:27:37,948 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:27:37,948 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:27:37,948 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:32:38,727 - __main__ - INFO - Connecting to database
+2018-03-23 19:32:38,727 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:32:38,727 - __main__ - INFO - Running createTables()
+2018-03-23 19:32:38,730 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:32:38,731 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:32:38,731 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:32:38,731 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:32:38,731 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:37:39,441 - __main__ - INFO - Connecting to database
+2018-03-23 19:37:39,441 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:37:39,442 - __main__ - INFO - Running createTables()
+2018-03-23 19:37:39,445 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:37:39,445 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:37:39,445 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:37:39,445 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:37:39,445 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:42:40,161 - __main__ - INFO - Connecting to database
+2018-03-23 19:42:40,162 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:42:40,162 - __main__ - INFO - Running createTables()
+2018-03-23 19:42:40,165 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:42:40,165 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:42:40,165 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:42:40,165 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:42:40,165 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:47:40,877 - __main__ - INFO - Connecting to database
+2018-03-23 19:47:40,878 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:47:40,878 - __main__ - INFO - Running createTables()
+2018-03-23 19:47:40,881 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:47:40,881 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:47:40,881 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:47:40,882 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:47:40,882 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:52:41,588 - __main__ - INFO - Connecting to database
+2018-03-23 19:52:41,588 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:52:41,588 - __main__ - INFO - Running createTables()
+2018-03-23 19:52:41,591 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:52:41,591 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:52:41,591 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:52:41,592 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:52:41,592 - __main__ - INFO - No New Adam Tracks
+2018-03-23 19:57:42,332 - __main__ - INFO - Connecting to database
+2018-03-23 19:57:42,332 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 19:57:42,332 - __main__ - INFO - Running createTables()
+2018-03-23 19:57:42,335 - __main__ - INFO - Running Sync and Insert
+2018-03-23 19:57:42,336 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 19:57:42,336 - __main__ - INFO - No New Ron Tracks
+2018-03-23 19:57:42,336 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 19:57:42,336 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:02:43,052 - __main__ - INFO - Connecting to database
+2018-03-23 20:02:43,052 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:02:43,052 - __main__ - INFO - Running createTables()
+2018-03-23 20:02:43,056 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:02:43,056 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:02:43,056 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:02:43,056 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:02:43,056 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:07:43,773 - __main__ - INFO - Connecting to database
+2018-03-23 20:07:43,773 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:07:43,773 - __main__ - INFO - Running createTables()
+2018-03-23 20:07:43,776 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:07:43,776 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:07:43,777 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:07:43,777 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:07:43,777 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:12:44,502 - __main__ - INFO - Connecting to database
+2018-03-23 20:12:44,503 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:12:44,503 - __main__ - INFO - Running createTables()
+2018-03-23 20:12:44,506 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:12:44,506 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:12:44,507 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:12:44,507 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:12:44,507 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:17:45,215 - __main__ - INFO - Connecting to database
+2018-03-23 20:17:45,215 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:17:45,215 - __main__ - INFO - Running createTables()
+2018-03-23 20:17:45,218 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:17:45,218 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:17:45,219 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:17:45,219 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:17:45,219 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:22:45,928 - __main__ - INFO - Connecting to database
+2018-03-23 20:22:45,929 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:22:45,929 - __main__ - INFO - Running createTables()
+2018-03-23 20:22:45,932 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:22:45,932 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:22:45,932 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:22:45,933 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:22:45,933 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:27:46,661 - __main__ - INFO - Connecting to database
+2018-03-23 20:27:46,661 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:27:46,661 - __main__ - INFO - Running createTables()
+2018-03-23 20:27:46,665 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:27:46,665 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:27:46,665 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:27:46,665 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:27:46,665 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:32:47,377 - __main__ - INFO - Connecting to database
+2018-03-23 20:32:47,378 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:32:47,378 - __main__ - INFO - Running createTables()
+2018-03-23 20:32:47,381 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:32:47,381 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:32:47,381 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:32:47,381 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:32:47,381 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:37:48,088 - __main__ - INFO - Connecting to database
+2018-03-23 20:37:48,089 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:37:48,089 - __main__ - INFO - Running createTables()
+2018-03-23 20:37:48,092 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:37:48,092 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:37:48,092 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:37:48,093 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:37:48,093 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:42:48,791 - __main__ - INFO - Connecting to database
+2018-03-23 20:42:48,792 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:42:48,792 - __main__ - INFO - Running createTables()
+2018-03-23 20:42:48,795 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:42:48,795 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:42:48,795 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:42:48,795 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:42:48,795 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:47:49,541 - __main__ - INFO - Connecting to database
+2018-03-23 20:47:49,542 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:47:49,542 - __main__ - INFO - Running createTables()
+2018-03-23 20:47:49,545 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:47:49,545 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:47:49,545 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:47:49,545 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:47:49,545 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:52:50,255 - __main__ - INFO - Connecting to database
+2018-03-23 20:52:50,256 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:52:50,256 - __main__ - INFO - Running createTables()
+2018-03-23 20:52:50,259 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:52:50,260 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:52:50,260 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:52:50,260 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:52:50,260 - __main__ - INFO - No New Adam Tracks
+2018-03-23 20:57:51,002 - __main__ - INFO - Connecting to database
+2018-03-23 20:57:51,002 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 20:57:51,002 - __main__ - INFO - Running createTables()
+2018-03-23 20:57:51,005 - __main__ - INFO - Running Sync and Insert
+2018-03-23 20:57:51,006 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 20:57:51,006 - __main__ - INFO - No New Ron Tracks
+2018-03-23 20:57:51,006 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 20:57:51,006 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:02:51,746 - __main__ - INFO - Connecting to database
+2018-03-23 21:02:51,746 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:02:51,746 - __main__ - INFO - Running createTables()
+2018-03-23 21:02:51,749 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:02:51,749 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:02:51,750 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:02:51,750 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:02:51,750 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:07:52,481 - __main__ - INFO - Connecting to database
+2018-03-23 21:07:52,481 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:07:52,481 - __main__ - INFO - Running createTables()
+2018-03-23 21:07:52,484 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:07:52,485 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:07:52,485 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:07:52,485 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:07:52,485 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:12:53,206 - __main__ - INFO - Connecting to database
+2018-03-23 21:12:53,206 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:12:53,206 - __main__ - INFO - Running createTables()
+2018-03-23 21:12:53,210 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:12:53,210 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:12:53,210 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:12:53,210 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:12:53,210 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:17:53,944 - __main__ - INFO - Connecting to database
+2018-03-23 21:17:53,945 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:17:53,945 - __main__ - INFO - Running createTables()
+2018-03-23 21:17:53,948 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:17:53,948 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:17:53,948 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:17:53,949 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:17:53,949 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:22:54,654 - __main__ - INFO - Connecting to database
+2018-03-23 21:22:54,654 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:22:54,654 - __main__ - INFO - Running createTables()
+2018-03-23 21:22:54,657 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:22:54,657 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:22:54,657 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:22:54,658 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:22:54,658 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:27:55,367 - __main__ - INFO - Connecting to database
+2018-03-23 21:27:55,368 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:27:55,368 - __main__ - INFO - Running createTables()
+2018-03-23 21:27:55,371 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:27:55,371 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:27:55,371 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:27:55,371 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:27:55,371 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:32:56,094 - __main__ - INFO - Connecting to database
+2018-03-23 21:32:56,094 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:32:56,094 - __main__ - INFO - Running createTables()
+2018-03-23 21:32:56,097 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:32:56,097 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:32:56,098 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:32:56,098 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:32:56,098 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:37:56,803 - __main__ - INFO - Connecting to database
+2018-03-23 21:37:56,803 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:37:56,803 - __main__ - INFO - Running createTables()
+2018-03-23 21:37:56,806 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:37:56,806 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:37:56,807 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:37:56,807 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:37:56,807 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:42:57,518 - __main__ - INFO - Connecting to database
+2018-03-23 21:42:57,518 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:42:57,518 - __main__ - INFO - Running createTables()
+2018-03-23 21:42:57,521 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:42:57,521 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:42:57,522 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:42:57,522 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:42:57,522 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:47:58,271 - __main__ - INFO - Connecting to database
+2018-03-23 21:47:58,272 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:47:58,272 - __main__ - INFO - Running createTables()
+2018-03-23 21:47:58,275 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:47:58,275 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:47:58,275 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:47:58,275 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:47:58,276 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:52:58,986 - __main__ - INFO - Connecting to database
+2018-03-23 21:52:58,986 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:52:58,986 - __main__ - INFO - Running createTables()
+2018-03-23 21:52:58,989 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:52:58,990 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:52:58,990 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:52:58,990 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:52:58,990 - __main__ - INFO - No New Adam Tracks
+2018-03-23 21:57:59,722 - __main__ - INFO - Connecting to database
+2018-03-23 21:57:59,723 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 21:57:59,723 - __main__ - INFO - Running createTables()
+2018-03-23 21:57:59,726 - __main__ - INFO - Running Sync and Insert
+2018-03-23 21:57:59,726 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 21:57:59,726 - __main__ - INFO - No New Ron Tracks
+2018-03-23 21:57:59,727 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 21:57:59,727 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:03:00,441 - __main__ - INFO - Connecting to database
+2018-03-23 22:03:00,441 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:03:00,441 - __main__ - INFO - Running createTables()
+2018-03-23 22:03:00,444 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:03:00,445 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:03:00,445 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:03:00,445 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:03:00,445 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:08:01,161 - __main__ - INFO - Connecting to database
+2018-03-23 22:08:01,161 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:08:01,161 - __main__ - INFO - Running createTables()
+2018-03-23 22:08:01,165 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:08:01,165 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:08:01,165 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:08:01,165 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:08:01,165 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:13:01,879 - __main__ - INFO - Connecting to database
+2018-03-23 22:13:01,879 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:13:01,880 - __main__ - INFO - Running createTables()
+2018-03-23 22:13:01,883 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:13:01,883 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:13:01,883 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:13:01,883 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:13:01,884 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:18:02,601 - __main__ - INFO - Connecting to database
+2018-03-23 22:18:02,601 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:18:02,601 - __main__ - INFO - Running createTables()
+2018-03-23 22:18:02,604 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:18:02,605 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:18:02,605 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:18:02,605 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:18:02,605 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:23:03,379 - __main__ - INFO - Connecting to database
+2018-03-23 22:23:03,380 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:23:03,380 - __main__ - INFO - Running createTables()
+2018-03-23 22:23:03,383 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:23:03,383 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:23:03,383 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:23:03,383 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:23:03,384 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:28:04,107 - __main__ - INFO - Connecting to database
+2018-03-23 22:28:04,108 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:28:04,108 - __main__ - INFO - Running createTables()
+2018-03-23 22:28:04,112 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:28:04,112 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:28:04,112 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:28:04,112 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:28:04,112 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:33:04,826 - __main__ - INFO - Connecting to database
+2018-03-23 22:33:04,827 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:33:04,827 - __main__ - INFO - Running createTables()
+2018-03-23 22:33:04,830 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:33:04,830 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:33:04,830 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:33:04,831 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:33:04,831 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:38:05,577 - __main__ - INFO - Connecting to database
+2018-03-23 22:38:05,577 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:38:05,577 - __main__ - INFO - Running createTables()
+2018-03-23 22:38:05,580 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:38:05,581 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:38:05,581 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:38:05,581 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:38:05,581 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:43:06,300 - __main__ - INFO - Connecting to database
+2018-03-23 22:43:06,300 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:43:06,301 - __main__ - INFO - Running createTables()
+2018-03-23 22:43:06,304 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:43:06,304 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:43:06,304 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:43:06,304 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:43:06,304 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:48:07,009 - __main__ - INFO - Connecting to database
+2018-03-23 22:48:07,009 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:48:07,009 - __main__ - INFO - Running createTables()
+2018-03-23 22:48:07,012 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:48:07,013 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:48:07,013 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:48:07,013 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:48:07,013 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:53:07,707 - __main__ - INFO - Connecting to database
+2018-03-23 22:53:07,708 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:53:07,708 - __main__ - INFO - Running createTables()
+2018-03-23 22:53:07,711 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:53:07,711 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:53:07,711 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:53:07,712 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:53:07,712 - __main__ - INFO - No New Adam Tracks
+2018-03-23 22:58:08,407 - __main__ - INFO - Connecting to database
+2018-03-23 22:58:08,407 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 22:58:08,407 - __main__ - INFO - Running createTables()
+2018-03-23 22:58:08,410 - __main__ - INFO - Running Sync and Insert
+2018-03-23 22:58:08,410 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 22:58:08,411 - __main__ - INFO - No New Ron Tracks
+2018-03-23 22:58:08,411 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 22:58:08,411 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:03:09,152 - __main__ - INFO - Connecting to database
+2018-03-23 23:03:09,152 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:03:09,152 - __main__ - INFO - Running createTables()
+2018-03-23 23:03:09,155 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:03:09,156 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:03:09,156 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:03:09,156 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:03:09,156 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:08:09,861 - __main__ - INFO - Connecting to database
+2018-03-23 23:08:09,861 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:08:09,861 - __main__ - INFO - Running createTables()
+2018-03-23 23:08:09,865 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:08:09,865 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:08:09,865 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:08:09,865 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:08:09,865 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:13:10,580 - __main__ - INFO - Connecting to database
+2018-03-23 23:13:10,580 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:13:10,580 - __main__ - INFO - Running createTables()
+2018-03-23 23:13:10,584 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:13:10,584 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:13:10,584 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:13:10,584 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:13:10,584 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:18:11,288 - __main__ - INFO - Connecting to database
+2018-03-23 23:18:11,288 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:18:11,288 - __main__ - INFO - Running createTables()
+2018-03-23 23:18:11,292 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:18:11,292 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:18:11,292 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:18:11,292 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:18:11,292 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:23:12,019 - __main__ - INFO - Connecting to database
+2018-03-23 23:23:12,019 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:23:12,019 - __main__ - INFO - Running createTables()
+2018-03-23 23:23:12,023 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:23:12,023 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:23:12,023 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:23:12,023 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:23:12,023 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:28:12,735 - __main__ - INFO - Connecting to database
+2018-03-23 23:28:12,735 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:28:12,735 - __main__ - INFO - Running createTables()
+2018-03-23 23:28:12,739 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:28:12,739 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:28:12,739 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:28:12,739 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:28:12,739 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:33:13,451 - __main__ - INFO - Connecting to database
+2018-03-23 23:33:13,452 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:33:13,452 - __main__ - INFO - Running createTables()
+2018-03-23 23:33:13,455 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:33:13,455 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:33:13,455 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:33:13,455 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:33:13,456 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:38:14,182 - __main__ - INFO - Connecting to database
+2018-03-23 23:38:14,182 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:38:14,182 - __main__ - INFO - Running createTables()
+2018-03-23 23:38:14,185 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:38:14,185 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:38:14,186 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:38:14,186 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:38:14,186 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:43:14,899 - __main__ - INFO - Connecting to database
+2018-03-23 23:43:14,899 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:43:14,899 - __main__ - INFO - Running createTables()
+2018-03-23 23:43:14,903 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:43:14,903 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:43:14,903 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:43:14,903 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:43:14,903 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:48:15,646 - __main__ - INFO - Connecting to database
+2018-03-23 23:48:15,646 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:48:15,646 - __main__ - INFO - Running createTables()
+2018-03-23 23:48:15,649 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:48:15,649 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:48:15,649 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:48:15,650 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:48:15,650 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:53:16,354 - __main__ - INFO - Connecting to database
+2018-03-23 23:53:16,354 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:53:16,354 - __main__ - INFO - Running createTables()
+2018-03-23 23:53:16,357 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:53:16,357 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:53:16,358 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:53:16,358 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:53:16,358 - __main__ - INFO - No New Adam Tracks
+2018-03-23 23:58:17,081 - __main__ - INFO - Connecting to database
+2018-03-23 23:58:17,082 - __main__ - INFO - Tried to create new database tables.
+2018-03-23 23:58:17,082 - __main__ - INFO - Running createTables()
+2018-03-23 23:58:17,085 - __main__ - INFO - Running Sync and Insert
+2018-03-23 23:58:17,085 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-23 23:58:17,085 - __main__ - INFO - No New Ron Tracks
+2018-03-23 23:58:17,086 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-23 23:58:17,086 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:03:17,803 - __main__ - INFO - Connecting to database
+2018-03-24 00:03:17,803 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:03:17,803 - __main__ - INFO - Running createTables()
+2018-03-24 00:03:17,807 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:03:17,807 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:03:17,807 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:03:17,807 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:03:17,807 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:08:18,522 - __main__ - INFO - Connecting to database
+2018-03-24 00:08:18,523 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:08:18,523 - __main__ - INFO - Running createTables()
+2018-03-24 00:08:18,526 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:08:18,526 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:08:18,526 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:08:18,526 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:08:18,526 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:13:19,257 - __main__ - INFO - Connecting to database
+2018-03-24 00:13:19,257 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:13:19,257 - __main__ - INFO - Running createTables()
+2018-03-24 00:13:19,260 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:13:19,260 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:13:19,261 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:13:19,261 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:13:19,261 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:18:19,976 - __main__ - INFO - Connecting to database
+2018-03-24 00:18:19,976 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:18:19,977 - __main__ - INFO - Running createTables()
+2018-03-24 00:18:19,980 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:18:19,980 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:18:19,980 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:18:19,980 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:18:19,980 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:23:20,694 - __main__ - INFO - Connecting to database
+2018-03-24 00:23:20,694 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:23:20,694 - __main__ - INFO - Running createTables()
+2018-03-24 00:23:20,698 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:23:20,698 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:23:20,698 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:23:20,698 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:23:20,698 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:28:21,410 - __main__ - INFO - Connecting to database
+2018-03-24 00:28:21,410 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:28:21,410 - __main__ - INFO - Running createTables()
+2018-03-24 00:28:21,413 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:28:21,414 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:28:21,414 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:28:21,414 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:28:21,414 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:33:22,116 - __main__ - INFO - Connecting to database
+2018-03-24 00:33:22,117 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:33:22,117 - __main__ - INFO - Running createTables()
+2018-03-24 00:33:22,121 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:33:22,121 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:33:22,121 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:33:22,121 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:33:22,121 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:38:22,837 - __main__ - INFO - Connecting to database
+2018-03-24 00:38:22,837 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:38:22,837 - __main__ - INFO - Running createTables()
+2018-03-24 00:38:22,841 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:38:22,841 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:38:22,841 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:38:22,841 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:38:22,842 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:43:23,576 - __main__ - INFO - Connecting to database
+2018-03-24 00:43:23,576 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:43:23,576 - __main__ - INFO - Running createTables()
+2018-03-24 00:43:23,580 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:43:23,580 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:43:23,580 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:43:23,580 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:43:23,580 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:48:24,277 - __main__ - INFO - Connecting to database
+2018-03-24 00:48:24,277 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:48:24,277 - __main__ - INFO - Running createTables()
+2018-03-24 00:48:24,280 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:48:24,281 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:48:24,281 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:48:24,281 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:48:24,281 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:53:24,990 - __main__ - INFO - Connecting to database
+2018-03-24 00:53:24,991 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:53:24,991 - __main__ - INFO - Running createTables()
+2018-03-24 00:53:24,994 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:53:24,994 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:53:24,994 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:53:24,994 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:53:24,995 - __main__ - INFO - No New Adam Tracks
+2018-03-24 00:58:25,699 - __main__ - INFO - Connecting to database
+2018-03-24 00:58:25,699 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 00:58:25,699 - __main__ - INFO - Running createTables()
+2018-03-24 00:58:25,703 - __main__ - INFO - Running Sync and Insert
+2018-03-24 00:58:25,703 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 00:58:25,703 - __main__ - INFO - No New Ron Tracks
+2018-03-24 00:58:25,703 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 00:58:25,703 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:03:26,410 - __main__ - INFO - Connecting to database
+2018-03-24 01:03:26,410 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:03:26,411 - __main__ - INFO - Running createTables()
+2018-03-24 01:03:26,414 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:03:26,414 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:03:26,414 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:03:26,414 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:03:26,414 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:08:27,119 - __main__ - INFO - Connecting to database
+2018-03-24 01:08:27,119 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:08:27,119 - __main__ - INFO - Running createTables()
+2018-03-24 01:08:27,123 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:08:27,123 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:08:27,123 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:08:27,123 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:08:27,123 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:13:27,834 - __main__ - INFO - Connecting to database
+2018-03-24 01:13:27,834 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:13:27,834 - __main__ - INFO - Running createTables()
+2018-03-24 01:13:27,838 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:13:27,838 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:13:27,838 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:13:27,838 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:13:27,838 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:18:28,583 - __main__ - INFO - Connecting to database
+2018-03-24 01:18:28,583 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:18:28,583 - __main__ - INFO - Running createTables()
+2018-03-24 01:18:28,586 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:18:28,586 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:18:28,587 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:18:28,587 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:18:28,587 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:23:29,309 - __main__ - INFO - Connecting to database
+2018-03-24 01:23:29,310 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:23:29,310 - __main__ - INFO - Running createTables()
+2018-03-24 01:23:29,313 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:23:29,313 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:23:29,313 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:23:29,313 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:23:29,314 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:28:30,020 - __main__ - INFO - Connecting to database
+2018-03-24 01:28:30,020 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:28:30,020 - __main__ - INFO - Running createTables()
+2018-03-24 01:28:30,023 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:28:30,024 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:28:30,024 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:28:30,024 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:28:30,024 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:33:30,734 - __main__ - INFO - Connecting to database
+2018-03-24 01:33:30,734 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:33:30,734 - __main__ - INFO - Running createTables()
+2018-03-24 01:33:30,737 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:33:30,738 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:33:30,738 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:33:30,738 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:33:30,738 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:38:31,443 - __main__ - INFO - Connecting to database
+2018-03-24 01:38:31,443 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:38:31,443 - __main__ - INFO - Running createTables()
+2018-03-24 01:38:31,447 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:38:31,447 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:38:31,447 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:38:31,447 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:38:31,447 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:43:32,162 - __main__ - INFO - Connecting to database
+2018-03-24 01:43:32,162 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:43:32,162 - __main__ - INFO - Running createTables()
+2018-03-24 01:43:32,165 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:43:32,165 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:43:32,166 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:43:32,166 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:43:32,166 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:48:32,879 - __main__ - INFO - Connecting to database
+2018-03-24 01:48:32,879 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:48:32,879 - __main__ - INFO - Running createTables()
+2018-03-24 01:48:32,883 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:48:32,883 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:48:32,883 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:48:32,883 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:48:32,883 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:53:33,602 - __main__ - INFO - Connecting to database
+2018-03-24 01:53:33,603 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:53:33,603 - __main__ - INFO - Running createTables()
+2018-03-24 01:53:33,606 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:53:33,606 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:53:33,606 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:53:33,606 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:53:33,606 - __main__ - INFO - No New Adam Tracks
+2018-03-24 01:58:34,313 - __main__ - INFO - Connecting to database
+2018-03-24 01:58:34,313 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 01:58:34,313 - __main__ - INFO - Running createTables()
+2018-03-24 01:58:34,317 - __main__ - INFO - Running Sync and Insert
+2018-03-24 01:58:34,317 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 01:58:34,317 - __main__ - INFO - No New Ron Tracks
+2018-03-24 01:58:34,317 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 01:58:34,317 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:03:35,017 - __main__ - INFO - Connecting to database
+2018-03-24 02:03:35,017 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:03:35,017 - __main__ - INFO - Running createTables()
+2018-03-24 02:03:35,020 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:03:35,021 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:03:35,021 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:03:35,021 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:03:35,021 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:08:35,790 - __main__ - INFO - Connecting to database
+2018-03-24 02:08:35,791 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:08:35,791 - __main__ - INFO - Running createTables()
+2018-03-24 02:08:35,794 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:08:35,794 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:08:35,795 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:08:35,795 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:08:35,795 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:13:36,528 - __main__ - INFO - Connecting to database
+2018-03-24 02:13:36,528 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:13:36,528 - __main__ - INFO - Running createTables()
+2018-03-24 02:13:36,531 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:13:36,531 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:13:36,532 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:13:36,532 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:13:36,532 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:18:37,260 - __main__ - INFO - Connecting to database
+2018-03-24 02:18:37,260 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:18:37,260 - __main__ - INFO - Running createTables()
+2018-03-24 02:18:37,263 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:18:37,263 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:18:37,264 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:18:37,264 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:18:37,264 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:23:37,975 - __main__ - INFO - Connecting to database
+2018-03-24 02:23:37,975 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:23:37,975 - __main__ - INFO - Running createTables()
+2018-03-24 02:23:37,979 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:23:37,979 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:23:37,979 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:23:37,979 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:23:37,979 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:28:38,706 - __main__ - INFO - Connecting to database
+2018-03-24 02:28:38,706 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:28:38,707 - __main__ - INFO - Running createTables()
+2018-03-24 02:28:38,710 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:28:38,710 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:28:38,711 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:28:38,711 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:28:38,711 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:33:39,413 - __main__ - INFO - Connecting to database
+2018-03-24 02:33:39,413 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:33:39,413 - __main__ - INFO - Running createTables()
+2018-03-24 02:33:39,416 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:33:39,416 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:33:39,417 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:33:39,417 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:33:39,417 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:38:40,123 - __main__ - INFO - Connecting to database
+2018-03-24 02:38:40,123 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:38:40,123 - __main__ - INFO - Running createTables()
+2018-03-24 02:38:40,126 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:38:40,127 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:38:40,127 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:38:40,127 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:38:40,127 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:43:40,820 - __main__ - INFO - Connecting to database
+2018-03-24 02:43:40,821 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:43:40,821 - __main__ - INFO - Running createTables()
+2018-03-24 02:43:40,824 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:43:40,824 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:43:40,824 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:43:40,824 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:43:40,825 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:48:41,523 - __main__ - INFO - Connecting to database
+2018-03-24 02:48:41,523 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:48:41,523 - __main__ - INFO - Running createTables()
+2018-03-24 02:48:41,526 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:48:41,526 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:48:41,527 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:48:41,527 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:48:41,527 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:53:42,226 - __main__ - INFO - Connecting to database
+2018-03-24 02:53:42,226 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:53:42,226 - __main__ - INFO - Running createTables()
+2018-03-24 02:53:42,230 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:53:42,231 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:53:42,231 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:53:42,231 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:53:42,231 - __main__ - INFO - No New Adam Tracks
+2018-03-24 02:58:42,936 - __main__ - INFO - Connecting to database
+2018-03-24 02:58:42,936 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 02:58:42,936 - __main__ - INFO - Running createTables()
+2018-03-24 02:58:42,940 - __main__ - INFO - Running Sync and Insert
+2018-03-24 02:58:42,940 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 02:58:42,940 - __main__ - INFO - No New Ron Tracks
+2018-03-24 02:58:42,940 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 02:58:42,940 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:03:43,667 - __main__ - INFO - Connecting to database
+2018-03-24 03:03:43,667 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:03:43,667 - __main__ - INFO - Running createTables()
+2018-03-24 03:03:43,670 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:03:43,671 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:03:43,671 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:03:43,671 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:03:43,671 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:08:44,450 - __main__ - INFO - Connecting to database
+2018-03-24 03:08:44,451 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:08:44,451 - __main__ - INFO - Running createTables()
+2018-03-24 03:08:44,454 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:08:44,454 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:08:44,454 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:08:44,455 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:08:44,455 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:13:45,183 - __main__ - INFO - Connecting to database
+2018-03-24 03:13:45,184 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:13:45,184 - __main__ - INFO - Running createTables()
+2018-03-24 03:13:45,187 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:13:45,187 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:13:45,187 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:13:45,188 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:13:45,188 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:18:45,895 - __main__ - INFO - Connecting to database
+2018-03-24 03:18:45,895 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:18:45,895 - __main__ - INFO - Running createTables()
+2018-03-24 03:18:45,898 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:18:45,899 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:18:45,899 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:18:45,899 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:18:45,899 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:23:46,614 - __main__ - INFO - Connecting to database
+2018-03-24 03:23:46,614 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:23:46,614 - __main__ - INFO - Running createTables()
+2018-03-24 03:23:46,617 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:23:46,617 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:23:46,617 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:23:46,618 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:23:46,618 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:28:47,335 - __main__ - INFO - Connecting to database
+2018-03-24 03:28:47,335 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:28:47,335 - __main__ - INFO - Running createTables()
+2018-03-24 03:28:47,338 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:28:47,339 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:28:47,339 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:28:47,339 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:28:47,339 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:33:48,044 - __main__ - INFO - Connecting to database
+2018-03-24 03:33:48,044 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:33:48,044 - __main__ - INFO - Running createTables()
+2018-03-24 03:33:48,048 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:33:48,048 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:33:48,048 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:33:48,048 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:33:48,048 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:38:48,750 - __main__ - INFO - Connecting to database
+2018-03-24 03:38:48,750 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:38:48,750 - __main__ - INFO - Running createTables()
+2018-03-24 03:38:48,753 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:38:48,754 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:38:48,754 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:38:48,754 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:38:48,754 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:43:49,460 - __main__ - INFO - Connecting to database
+2018-03-24 03:43:49,461 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:43:49,461 - __main__ - INFO - Running createTables()
+2018-03-24 03:43:49,464 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:43:49,464 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:43:49,464 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:43:49,465 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:43:49,465 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:48:50,166 - __main__ - INFO - Connecting to database
+2018-03-24 03:48:50,166 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:48:50,166 - __main__ - INFO - Running createTables()
+2018-03-24 03:48:50,170 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:48:50,170 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:48:50,170 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:48:50,170 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:48:50,170 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:53:50,889 - __main__ - INFO - Connecting to database
+2018-03-24 03:53:50,890 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:53:50,890 - __main__ - INFO - Running createTables()
+2018-03-24 03:53:50,893 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:53:50,893 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:53:50,893 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:53:50,894 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:53:50,894 - __main__ - INFO - No New Adam Tracks
+2018-03-24 03:58:51,609 - __main__ - INFO - Connecting to database
+2018-03-24 03:58:51,609 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 03:58:51,609 - __main__ - INFO - Running createTables()
+2018-03-24 03:58:51,613 - __main__ - INFO - Running Sync and Insert
+2018-03-24 03:58:51,613 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 03:58:51,613 - __main__ - INFO - No New Ron Tracks
+2018-03-24 03:58:51,613 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 03:58:51,613 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:03:52,331 - __main__ - INFO - Connecting to database
+2018-03-24 04:03:52,331 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:03:52,331 - __main__ - INFO - Running createTables()
+2018-03-24 04:03:52,334 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:03:52,335 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:03:52,335 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:03:52,335 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:03:52,335 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:08:53,072 - __main__ - INFO - Connecting to database
+2018-03-24 04:08:53,072 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:08:53,072 - __main__ - INFO - Running createTables()
+2018-03-24 04:08:53,076 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:08:53,076 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:08:53,076 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:08:53,076 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:08:53,076 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:13:53,781 - __main__ - INFO - Connecting to database
+2018-03-24 04:13:53,781 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:13:53,781 - __main__ - INFO - Running createTables()
+2018-03-24 04:13:53,784 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:13:53,784 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:13:53,784 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:13:53,785 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:13:53,785 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:18:54,494 - __main__ - INFO - Connecting to database
+2018-03-24 04:18:54,494 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:18:54,494 - __main__ - INFO - Running createTables()
+2018-03-24 04:18:54,497 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:18:54,498 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:18:54,498 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:18:54,498 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:18:54,498 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:23:55,209 - __main__ - INFO - Connecting to database
+2018-03-24 04:23:55,209 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:23:55,209 - __main__ - INFO - Running createTables()
+2018-03-24 04:23:55,212 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:23:55,213 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:23:55,213 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:23:55,213 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:23:55,213 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:28:55,933 - __main__ - INFO - Connecting to database
+2018-03-24 04:28:55,933 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:28:55,933 - __main__ - INFO - Running createTables()
+2018-03-24 04:28:55,936 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:28:55,937 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:28:55,937 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:28:55,937 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:28:55,937 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:33:56,634 - __main__ - INFO - Connecting to database
+2018-03-24 04:33:56,634 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:33:56,634 - __main__ - INFO - Running createTables()
+2018-03-24 04:33:56,637 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:33:56,637 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:33:56,638 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:33:56,638 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:33:56,638 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:38:57,352 - __main__ - INFO - Connecting to database
+2018-03-24 04:38:57,353 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:38:57,353 - __main__ - INFO - Running createTables()
+2018-03-24 04:38:57,356 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:38:57,356 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:38:57,356 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:38:57,356 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:38:57,357 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:43:58,071 - __main__ - INFO - Connecting to database
+2018-03-24 04:43:58,071 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:43:58,071 - __main__ - INFO - Running createTables()
+2018-03-24 04:43:58,075 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:43:58,075 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:43:58,075 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:43:58,075 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:43:58,075 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:48:58,782 - __main__ - INFO - Connecting to database
+2018-03-24 04:48:58,783 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:48:58,783 - __main__ - INFO - Running createTables()
+2018-03-24 04:48:58,786 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:48:58,786 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:48:58,786 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:48:58,787 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:48:58,787 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:53:59,491 - __main__ - INFO - Connecting to database
+2018-03-24 04:53:59,491 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:53:59,491 - __main__ - INFO - Running createTables()
+2018-03-24 04:53:59,494 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:53:59,494 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:53:59,495 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:53:59,495 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:53:59,495 - __main__ - INFO - No New Adam Tracks
+2018-03-24 04:59:00,193 - __main__ - INFO - Connecting to database
+2018-03-24 04:59:00,194 - __main__ - INFO - Tried to create new database tables.
+2018-03-24 04:59:00,194 - __main__ - INFO - Running createTables()
+2018-03-24 04:59:00,197 - __main__ - INFO - Running Sync and Insert
+2018-03-24 04:59:00,197 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-03-02T21:23:12Z', u'https://open.spotify.com/artist/6OtUfATGYDnx5O23FP6C2s', u'Camp Cope', u"I've Got You", u'36rziz7KMCjpyrbnUMSmWZ', 1)
+2018-03-24 04:59:00,197 - __main__ - INFO - No New Ron Tracks
+2018-03-24 04:59:00,197 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-03-24 04:59:00,197 - __main__ - INFO - No New Adam Tracks

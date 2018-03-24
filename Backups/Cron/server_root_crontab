@@ -9,10 +9,14 @@ PS="/home/aelchert/Git/Personal/Server/Cronjobs"
 
 # SevOne DD scripts
 */30 * * * * python $PS/deferredData/weather.py
-0 7 * * * $PS/deferredData/borg/borgBackup.py && echo "borg completed" | mail -s Borg done adam@elchert.net
+0 7 * * * python $PS/deferredData/borg/borgBackup.py
 
 * * * * * chown -R aelchert /mnt/NAS/Movies /mnt/NAS/TV\ Shows
 * * * * * chmod -R 777 /mnt/NAS/Downloads/* /mnt/NAS/Movies/* /mnt/NAS/TV\ Shows/*
+
+
+
+
 
 @reboot root bash /home/aelchert/Git/Personal/Server/Cronjobs/vmStartAtBoot.sh
 
