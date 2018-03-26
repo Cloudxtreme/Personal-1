@@ -11,17 +11,17 @@ ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
 
-logger = logging.getLogger('weather')
-logger.setLevel(logging.INFO)
+#logger = logging.getLogger('weather')
+#logger.setLevel(logging.INFO)
 
-handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/weatherLog.txt')
-handler.setLevel(logging.INFO)
+#handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/weatherLog.txt')
+#handler.setLevel(logging.INFO)
 
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
+#formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+#handler.setFormatter(formatter)
 
 # add the handlers to the logger
-logger.addHandler(handler)
+#logger.addHandler(handler)
 
 deviceInfoTemp = {
     "deviceId": 196,
@@ -99,7 +99,7 @@ def insertData(apiToken, deviceId, indicatorId, value, objectId, timestamp):
         r = requests.post(post_indicatorData, headers=header,json=data)
     except:
         print r.text
-        logger.info('Error at: %s', r.text)
+        #logger.info('Error at: %s', r.text)
 
 # # Grab dict of weather data [temp, dewpoint]
 weather = getWeatherInfo()
