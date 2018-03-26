@@ -22,6 +22,7 @@ def get_api_token():
     api_token = api_token_json["token"]
     return api_token
 
+
 def getEpochTime():
     """ SevOne requires epoch in millisecond """
     import time
