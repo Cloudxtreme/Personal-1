@@ -21,7 +21,7 @@ sudo borg create -v --stats $REPOSITORY::`hostname`-`date +%Y-%m-%d` /mnt/NAS
 #else
 #   echo "Bad return value" > borgReturnValue.txt
 
-if [ '$?' -eq '0' ]; then
+if [ $? -eq '0' ]; then
   echo -e "++ [borgBackup.sh] - $LOGDATE - Completed" >> $LOGFILE
 
 # Use the `prune` subcommand to maintain 7 daily, 4 weekly and 6 monthly
@@ -34,7 +34,7 @@ if [ '$?' -eq '0' ]; then
 borg prune --stats -v $REPOSITORY --prefix `hostname`- \
     --keep-daily=7 --keep-weekly=4 >> $LOGFILE
 
-if [ '$?' -eq '0' ]; then
+if [ $? -eq '0' ]; then
   echo -e "++ [borgBackup.sh] - $LOGDATE - Prune - Completed" >> $LOGFILE
 else
   echo -e "-- [borgBackup.sh] - $LOGDATE - Prune - FAILED" >> $LOGFILE
