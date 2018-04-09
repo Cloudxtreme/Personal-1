@@ -9,7 +9,8 @@ removeLines = [
     'Unknown  C',
     'Unknown %',
     'Temp',
-    'Temperature'
+    'Temperature',
+    "HDD Size"
     ]
 
 oldFileLocation = 'hds.txt'
