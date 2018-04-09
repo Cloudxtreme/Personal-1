@@ -7,7 +7,9 @@ removeLines = [
     'Interface',
     'Power on time',
     'Unknown  C',
-    'Unknown %'
+    'Unknown %',
+    'Temp',
+    'Temperature'
     ]
 
 oldFileLocation = 'hds.txt'
