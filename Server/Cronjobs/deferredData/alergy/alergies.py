@@ -40,31 +40,27 @@ def getEpochTime():
 
 def insertData(apiToken, dataDict):
     
-    deviceinfo = { 'deviceId': 209, 'objectId': 1382, 'objectTypeId': 1586 }
-    '''
-   
-mysql (data)> select * from objectsubtypes where name='Allergies';
-+------+-----------+-------------+--------+-----------+-------------+
-| id   | plugin_id | object_type | common | name      | description |
-+------+-----------+-------------+--------+-----------+-------------+
-| 1426 |        10 |        1586 |      0 | Allergies |             |
-+------+-----------+-------------+--------+-----------+-------------+
+    deviceInfo = { 
+        'deviceId': 209, 
+        'objectId': 1382, 
+        'objectTypeId': 1586, 
+        'pluginId': 10,
+        'objectType': 1586,
+        'objectSubtypes': 1426  
+        }
 
-mysql (data)> select id, plugin_object_type_id, name from plugin_indicator_type where plugin_id=10;
-| 12925 |                  1586 | Nose                  |
-| 12926 |                  1586 | Throat                |
-| 12927 |                  1586 | UpperLung             |
-| 12928 |                  1586 | LowerLung             |
-| 12929 |                  1586 | Flonase               |
-| 12930 |                  1586 | Inhailer              |
-| 12931 |                  1586 | Tiredness             |
-| 12932 |                  1586 | DrinksNightBefore     |
-| 12933 |                  1586 | SmokeNightBefore      |
-+-------+-----------------------+-----------------------+
-
-
-ObjectID: 1382
-    '''
+    objectTypeId = {
+        'Nose': 12925,
+        'Throat' : 12926,
+        'UpperLung': 12927,
+        'LowerLung': 12928,
+        'Flonase': 12929,
+        'Inhailer': 12930,
+        'Tiredness': 12931,
+        'DrinksNightBefore': 12932,
+        'SmokeNightBefore': 12933
+      }
+    
 
     data = [
           {
