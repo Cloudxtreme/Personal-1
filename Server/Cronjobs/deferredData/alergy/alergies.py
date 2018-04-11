@@ -4,16 +4,14 @@ ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
 
-piHoleUrl = 'http://10.0.0.49/admin/api.php'
+#logger = logging.getLogger('piHole')
+#logger.setLevel(logging.INFO)
 
-logger = logging.getLogger('piHole')
-logger.setLevel(logging.INFO)
+#handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/piHoleLog.txt')
+#handler.setLevel(logging.INFO)
 
-handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/piHoleLog.txt')
-handler.setLevel(logging.INFO)
-
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
+#formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+#handler.setFormatter(formatter)
 
 # add the handlers to the logger
 #logger.addHandler(handler)
@@ -31,22 +29,7 @@ def get_api_token():
 
 
 def getpiHoleApiData():
-    try:
-        r = requests.get(piHoleUrl)
-        data = r.json()
 
-        dataDict = {'ads_blocked_today': data['ads_blocked_today'],
-        'ads_percentage_today': data['ads_percentage_today'],
-        'dns_queries_today': data['dns_queries_today'],
-        'domains_being_blocked': data['domains_being_blocked'],
-        'queries_cached': data['queries_cached'],
-        'queries_forwarded': data['queries_forwarded'],
-        'unique_clients': data['unique_clients'],
-        'unique_domains': data['unique_domains']}
-
-        return dataDict
-    except:
-        logger.info('getpiHoleApiData Error: %s', Exception)
 
 def getEpochTime():
     """ SevOne requires epoch in millisecond """
@@ -56,39 +39,37 @@ def getEpochTime():
     return timestamp
 
 def insertData(apiToken, dataDict):
-
+    
+    deviceinfo = { 'deviceId': 209, 'objectId': 1382, 'objectTypeId': 1586 }
     '''
+   
+mysql (data)> select * from objectsubtypes where name='Allergies';
++------+-----------+-------------+--------+-----------+-------------+
+| id   | plugin_id | object_type | common | name      | description |
++------+-----------+-------------+--------+-----------+-------------+
+| 1426 |        10 |        1586 |      0 | Allergies |             |
++------+-----------+-------------+--------+-----------+-------------+
 
-    +-------+-----------------------+
-    | id    | name                  |
-    +-------+-----------------------+        |
-    | 12915 | ads_blocked_today     |
-    | 12916 | queries_forwarded     |
-    | 12917 | dns_queries_today     |
-    | 12918 | queries_cached        |
-    | 12919 | unique_domains        |
-    | 12920 | unique_clients        |
-    | 12921 | domains_being_blocked |
-    | 12922 | ads_percentage_today  |
-    +-------+-----------------------+
+mysql (data)> select id, plugin_object_type_id, name from plugin_indicator_type where plugin_id=10;
+| 12925 |                  1586 | Nose                  |
+| 12926 |                  1586 | Throat                |
+| 12927 |                  1586 | UpperLung             |
+| 12928 |                  1586 | LowerLung             |
+| 12929 |                  1586 | Flonase               |
+| 12930 |                  1586 | Inhailer              |
+| 12931 |                  1586 | Tiredness             |
+| 12932 |                  1586 | DrinksNightBefore     |
+| 12933 |                  1586 | SmokeNightBefore      |
++-------+-----------------------+-----------------------+
 
-    +--------------+--------------------------+
-    | indicator_id | plugin_indicator_type_id |
-    +--------------+--------------------------+
-    |         8923 |                    12915 |
-    |         8924 |                    12916 |
-    |         8925 |                    12917 |
-    |         8926 |                    12918 |
-    |         8927 |                    12919 |
-    |         8928 |                    12920 |
-    |         8929 |                    12921 |
-    |         8930 |                    12922 |
-    +--------------+--------------------------+
+
+ObjectID: 1382
     '''
 
     data = [
           {
-            "deviceId": 204,
+            "deviceId": 209
+            ,
             "indicatorDataDtos": [
               {
                 "indicatorId": 8923,
