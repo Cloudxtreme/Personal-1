@@ -357,6 +357,7 @@ def insertData(questionsDict):
                   "timestamp": currentEpochtime
                 }
               ]
+          print(dataDict)
 
     try:
       r = requests.post(post_indicatorData, headers=header,json=dataDict)
