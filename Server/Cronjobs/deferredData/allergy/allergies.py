@@ -36,13 +36,13 @@ def getQuestions():
     ###################
 
     while True:
-      nose = str(input("Nose: "))
+      Nose = str(input("Nose: "))
 
-      if nose in responseChoices:
+      if Nose in responseChoices:
           
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
-          responses.update({"Nose": nose})
+          responses.update({"Nose": Nose})
           ''' break loop '''
           break
       else:
@@ -57,12 +57,12 @@ def getQuestions():
     ###################
 
     while True:
-      throat = str(input("Throat: "))
+      Throat = str(input("Throat: "))
 
-      if throat in responseChoices:
-          ''' update dict with nose value '''
+      if Throat in responseChoices:
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
-          responses.update({"throat": throat})
+          responses.update({"Throat": Throat})
           ''' break loop '''
           break
       else:
@@ -80,7 +80,7 @@ def getQuestions():
       UpperLung = str(input("UpperLung: "))
 
       if UpperLung in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"UpperLung": UpperLung})
           ''' break loop '''
@@ -100,7 +100,7 @@ def getQuestions():
       LowerLung = str(input("LowerLung: "))
 
       if LowerLung in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"LowerLung": LowerLung})
           ''' break loop '''
@@ -120,7 +120,7 @@ def getQuestions():
       Flonase = str(input("Flonase: "))
 
       if Flonase in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"Flonase": Flonase})
           ''' break loop '''
@@ -140,7 +140,7 @@ def getQuestions():
       Inhailer = str(input("Inhailer: "))
 
       if Inhailer in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"Inhailer": Inhailer})
           ''' break loop '''
@@ -160,7 +160,7 @@ def getQuestions():
       Tiredness = str(input("Tiredness: "))
 
       if Tiredness in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"Tiredness": Tiredness})
           ''' break loop '''
@@ -180,7 +180,7 @@ def getQuestions():
       DrinksNightBefore = str(input("DrinksNightBefore: "))
 
       if DrinksNightBefore in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"DrinksNightBefore": DrinksNightBefore})
           ''' break loop '''
@@ -200,7 +200,7 @@ def getQuestions():
       SmokeNightBefore = str(input("SmokeNightBefore: "))
 
       if SmokeNightBefore in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"SmokeNightBefore": SmokeNightBefore})
           ''' break loop '''
