@@ -255,7 +255,7 @@ def insertData(questionsDict):
         "Accept":"application/json",
         "X-AUTH-TOKEN":"{}".format(get_api_token())
         }
-    currentEpochtime = getEpochTime()
+    currentEpochtime = int(getEpochTime())
     dataDict = [
                 {
                   "deviceId": deviceInfo['deviceId'],
