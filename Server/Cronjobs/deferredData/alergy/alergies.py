@@ -27,10 +27,6 @@ def get_api_token():
     api_token = api_token_json["token"]
     return api_token
 
-
-def getpiHoleApiData():
-
-
 def getEpochTime():
     """ SevOne requires epoch in millisecond """
     import time
@@ -38,11 +34,202 @@ def getEpochTime():
     timestamp = str(timestamp) + '000'
     return timestamp
 
+def getQuestions():
+    """ P
+    rompt to answer the questions """
+
+    allergyPoints = [ 'Nose', 'Throat', 'UpperLung', 'LowerLung', 'Flonase', 
+                      'Inhailer', 'Tiredness', 'DrinksNightBefore' 'SmokeNightBefore']
+    responseChoices = ['0', '1', '2', '3', '4', '5', '6']
+    responses = {}
+  
+    ###################
+    # Nose
+    ###################
+
+    while True:
+      nose = str(input("Nose: "))
+
+      if nose in responseChoices:
+          
+          ''' update dict with nose value '''
+          print("\n[[ OK ]]\n")
+          responses.update({"Nose": nose})
+          ''' break loop '''
+          break
+      else:
+          ''' If not in responses, ask again '''
+          print("Incorrect Input")
+          
+          ''' continue loop '''
+          continue
+
+    ###################
+    # Throat
+    ###################
+
+    while True:
+      throat = str(input("Throat: "))
+
+      if throat in responseChoices:
+          ''' update dict with nose value '''
+          print("\n[[ OK ]]\n")
+          responses.update({"throat": throat})
+          ''' break loop '''
+          break
+      else:
+          ''' If not in responses, ask again '''
+          print("Incorrect Input")
+          
+          ''' continue loop '''
+          continue
+
+    ###################
+    # UpperLung
+    ###################
+
+    while True:
+      UpperLung = str(input("UpperLung: "))
+
+      if UpperLung in responseChoices:
+          ''' update dict with nose value '''
+          print("\n[[ OK ]]\n")
+          responses.update({"UpperLung": UpperLung})
+          ''' break loop '''
+          break
+      else:
+          ''' If not in responses, ask again '''
+          print("Incorrect Input")
+          
+          ''' continue loop '''
+          continue
+
+    ###################
+    # LowerLung
+    ###################
+
+    while True:
+      LowerLung = str(input("LowerLung: "))
+
+      if LowerLung in responseChoices:
+          ''' update dict with nose value '''
+          print("\n[[ OK ]]\n")
+          responses.update({"LowerLung": LowerLung})
+          ''' break loop '''
+          break
+      else:
+          ''' If not in responses, ask again '''
+          print("Incorrect Input")
+          
+          ''' continue loop '''
+          continue
+
+    ###################
+    # Flonase
+    ###################
+
+    while True:
+      Flonase = str(input("Flonase: "))
+
+      if Flonase in responseChoices:
+          ''' update dict with nose value '''
+          print("\n[[ OK ]]\n")
+          responses.update({"Flonase": Flonase})
+          ''' break loop '''
+          break
+      else:
+          ''' If not in responses, ask again '''
+          print("Incorrect Input")
+          
+          ''' continue loop '''
+          continue
+
+    ###################
+    # Inhailer
+    ###################
+
+    while True:
+      Inhailer = str(input("Inhailer: "))
+
+      if Inhailer in responseChoices:
+          ''' update dict with nose value '''
+          print("\n[[ OK ]]\n")
+          responses.update({"Inhailer": Inhailer})
+          ''' break loop '''
+          break
+      else:
+          ''' If not in responses, ask again '''
+          print("Incorrect Input")
+          
+          ''' continue loop '''
+          continue
+
+    ###################
+    # Tiredness
+    ###################
+
+    while True:
+      Tiredness = str(input("Tiredness: "))
+
+      if Tiredness in responseChoices:
+          ''' update dict with nose value '''
+          print("\n[[ OK ]]\n")
+          responses.update({"Tiredness": Tiredness})
+          ''' break loop '''
+          break
+      else:
+          ''' If not in responses, ask again '''
+          print("Incorrect Input")
+          
+          ''' continue loop '''
+          continue
+
+    ###################
+    # DrinksNightBefore
+    ###################
+
+    while True:
+      DrinksNightBefore = str(input("DrinksNightBefore: "))
+
+      if DrinksNightBefore in responseChoices:
+          ''' update dict with nose value '''
+          print("\n[[ OK ]]\n")
+          responses.update({"DrinksNightBefore": DrinksNightBefore})
+          ''' break loop '''
+          break
+      else:
+          ''' If not in responses, ask again '''
+          print("Incorrect Input")
+          
+          ''' continue loop '''
+          continue
+
+    ###################
+    # SmokeNightBefore
+    ###################
+
+    while True:
+      SmokeNightBefore = str(input("SmokeNightBefore: "))
+
+      if SmokeNightBefore in responseChoices:
+          ''' update dict with nose value '''
+          print("\n[[ OK ]]\n")
+          responses.update({"SmokeNightBefore": SmokeNightBefore})
+          ''' break loop '''
+          break
+      else:
+          ''' If not in responses, ask again '''
+          print("Incorrect Input")
+          
+          ''' continue loop '''
+          continue
+  
+    
 def insertData(apiToken, dataDict):
     
     deviceInfo = { 
         'deviceId': 209, 
-        'objectId': 1382, 
+        'objectId': 1384, 
         'objectTypeId': 1586, 
         'pluginId': 10,
         'objectType': 1586,
@@ -60,50 +247,18 @@ def insertData(apiToken, dataDict):
         'DrinksNightBefore': 12932,
         'SmokeNightBefore': 12933
       }
-    
 
-    data = [
-          {
-            "deviceId": 209
-            ,
-            "indicatorDataDtos": [
-              {
-                "indicatorId": 8923,
-                "value": dataDict['ads_blocked_today']
-              },
-              {
-                "indicatorId": 8924,
-                "value": dataDict['queries_forwarded']
-              },
-              {
-                "indicatorId": 8925,
-                "value": dataDict['dns_queries_today']
-              },
-              {
-                "indicatorId": 8926,
-                "value": dataDict['queries_cached']
-              },
-              {
-                "indicatorId": 8927,
-                "value": dataDict['unique_domains']
-              },
-              {
-                "indicatorId": 8928,
-                "value": dataDict['unique_clients']
-              },
-              {
-                "indicatorId": 8929,
-                "value": dataDict['domains_being_blocked']
-              },
-            {
-              "indicatorId": 8930,
-              "value": dataDict['ads_percentage_today']
-            }
-            ],
-            "objectId": 1112,
-            "timestamp": getEpochTime()
-          }
-        ]
+    indicatorId = {
+      'Nose': 12028,
+      'Throat': 12029,
+      'UpperLung': 12030,
+      'LowerLung': 12031,
+      'Flonsase': 12032,
+      'Inhailer': 12033,      
+      'Tiredness': 12034,
+      'DrinksNightBefore': 12035,
+      'SmokeNightBefore': 12036
+    }
 
     post_indicatorData = url + "/device-indicators/data"
 
@@ -117,10 +272,6 @@ def insertData(apiToken, dataDict):
         r = requests.post(post_indicatorData, headers=header,json=data)
     except:
         logger.info('insertData Error: %s', r.text)
-        print r.text
+        print(r.text)
 
-insertData(apiToken=get_api_token(), dataDict=getpiHoleApiData())
-
-if __name__ == '__main__':
-    for k,v in getpiHoleApiData().items():
-        print(k,v)
+getQuestions()
