@@ -358,11 +358,11 @@ def insertData(questionsDict):
                 }
               ]
 
-            try:
-              r = requests.post(post_indicatorData, headers=header,json=dataDict)
+    try:
+      r = requests.post(post_indicatorData, headers=header,json=dataDict)
 
-            except:
-               print(r.text)
+    except:
+        print(r.text)
 
 questionsDict = getQuestions()
 print(insertData(questionsDict))
