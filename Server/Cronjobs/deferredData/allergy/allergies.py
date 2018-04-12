@@ -242,7 +242,7 @@ def insertData(questionsDict):
       'Throat': 12029,
       'UpperLung': 12030,
       'LowerLung': 12031,
-      'Flonsase': 12032,
+      'Flonase': 12032,
       'Inhailer': 12033,      
       'Tiredness': 12034,
       'DrinksNightBefore': 12035,
