@@ -4,18 +4,6 @@ ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
 
-#logger = logging.getLogger('piHole')
-#logger.setLevel(logging.INFO)
-
-#handler = logging.FileHandler('/home/aelchert/Dropbox/Logs/piHoleLog.txt')
-#handler.setLevel(logging.INFO)
-
-#formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-#handler.setFormatter(formatter)
-
-# add the handlers to the logger
-#logger.addHandler(handler)
-
 def get_api_token():
 
     api_token_url = url + "/authentication/signin"
@@ -48,13 +36,13 @@ def getQuestions():
     ###################
 
     while True:
-      nose = str(input("Nose: "))
+      Nose = str(input("Nose: "))
 
-      if nose in responseChoices:
+      if Nose in responseChoices:
           
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
-          responses.update({"Nose": nose})
+          responses.update({"Nose": Nose})
           ''' break loop '''
           break
       else:
@@ -69,12 +57,12 @@ def getQuestions():
     ###################
 
     while True:
-      throat = str(input("Throat: "))
+      Throat = str(input("Throat: "))
 
-      if throat in responseChoices:
-          ''' update dict with nose value '''
+      if Throat in responseChoices:
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
-          responses.update({"throat": throat})
+          responses.update({"Throat": Throat})
           ''' break loop '''
           break
       else:
@@ -92,7 +80,7 @@ def getQuestions():
       UpperLung = str(input("UpperLung: "))
 
       if UpperLung in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"UpperLung": UpperLung})
           ''' break loop '''
@@ -112,7 +100,7 @@ def getQuestions():
       LowerLung = str(input("LowerLung: "))
 
       if LowerLung in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"LowerLung": LowerLung})
           ''' break loop '''
@@ -132,7 +120,7 @@ def getQuestions():
       Flonase = str(input("Flonase: "))
 
       if Flonase in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"Flonase": Flonase})
           ''' break loop '''
@@ -152,7 +140,7 @@ def getQuestions():
       Inhailer = str(input("Inhailer: "))
 
       if Inhailer in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"Inhailer": Inhailer})
           ''' break loop '''
@@ -172,7 +160,7 @@ def getQuestions():
       Tiredness = str(input("Tiredness: "))
 
       if Tiredness in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"Tiredness": Tiredness})
           ''' break loop '''
@@ -192,7 +180,7 @@ def getQuestions():
       DrinksNightBefore = str(input("DrinksNightBefore: "))
 
       if DrinksNightBefore in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"DrinksNightBefore": DrinksNightBefore})
           ''' break loop '''
@@ -212,7 +200,7 @@ def getQuestions():
       SmokeNightBefore = str(input("SmokeNightBefore: "))
 
       if SmokeNightBefore in responseChoices:
-          ''' update dict with nose value '''
+          ''' update dict with Nose value '''
           print("\n[[ OK ]]\n")
           responses.update({"SmokeNightBefore": SmokeNightBefore})
           ''' break loop '''
@@ -224,8 +212,9 @@ def getQuestions():
           ''' continue loop '''
           continue
   
+    return responses
     
-def insertData(apiToken, dataDict):
+def insertData(questionsDict):
     
     deviceInfo = { 
         'deviceId': 209, 
@@ -253,7 +242,7 @@ def insertData(apiToken, dataDict):
       'Throat': 12029,
       'UpperLung': 12030,
       'LowerLung': 12031,
-      'Flonsase': 12032,
+      'Flonase': 12032,
       'Inhailer': 12033,      
       'Tiredness': 12034,
       'DrinksNightBefore': 12035,
@@ -264,14 +253,119 @@ def insertData(apiToken, dataDict):
 
     header = {
         "Accept":"application/json",
-        "X-AUTH-TOKEN":"{}".format(apiToken)
+        "X-AUTH-TOKEN":"{}".format(get_api_token())
         }
+    currentEpochtime = int(getEpochTime())
+    dataDict = [
+                {
+                  "deviceId": deviceInfo['deviceId'],
+                  "indicatorDataDtos": [
+                    {
+                      "indicatorId": indicatorId['Nose'],
+                      "value": str(questionsDict['Nose'])
+                    }
+                  ],
+                  "objectId": objectTypeId['Nose'],
+                  "timestamp": currentEpochtime
+                },
+                {
+                  "deviceId": deviceInfo['deviceId'],
+                  "indicatorDataDtos": [
+                    {
+                      "indicatorId": indicatorId['Throat'],
+                      "value": str(questionsDict['Throat'])
+                    }
+                  ],
+                  "objectId": objectTypeId['Throat'],
+                  "timestamp": currentEpochtime
+                },
+                                {
+                  "deviceId": deviceInfo['deviceId'],
+                  "indicatorDataDtos": [
+                    {
+                      "indicatorId": indicatorId['UpperLung'],
+                      "value": str(questionsDict['UpperLung'])
+                    }
+                  ],
+                  "objectId": objectTypeId['UpperLung'],
+                  "timestamp": currentEpochtime
+                },
+                                {
+                  "deviceId": deviceInfo['deviceId'],
+                  "indicatorDataDtos": [
+                    {
+                      "indicatorId": indicatorId['LowerLung'],
+                      "value": str(questionsDict['LowerLung'])
+                    }
+                  ],
+                  "objectId": objectTypeId['LowerLung'],
+                  "timestamp": currentEpochtime
+                },
+                                {
+                  "deviceId": deviceInfo['deviceId'],
+                  "indicatorDataDtos": [
+                    {
+                      "indicatorId": indicatorId['Flonase'],
+                      "value": str(questionsDict['Flonase'])
+                    }
+                  ],
+                  "objectId": objectTypeId['Flonase'],
+                  "timestamp": currentEpochtime
+                },
+                                {
+                  "deviceId": deviceInfo['deviceId'],
+                  "indicatorDataDtos": [
+                    {
+                      "indicatorId": indicatorId['Inhailer'],
+                      "value": str(questionsDict['Inhailer'])
+                    }
+                  ],
+                  "objectId": objectTypeId['Inhailer'],
+                  "timestamp": currentEpochtime
+                },
+                                {
+                  "deviceId": deviceInfo['deviceId'],
+                  "indicatorDataDtos": [
+                    {
+                      "indicatorId": indicatorId['Tiredness'],
+                      "value": str(questionsDict['Tiredness'])
+                    }
+                  ],
+                  "objectId": objectTypeId['Tiredness'],
+                  "timestamp": currentEpochtime
+                },
+                                {
+                  "deviceId": deviceInfo['deviceId'],
+                  "indicatorDataDtos": [
+                    {
+                      "indicatorId": indicatorId['DrinksNightBefore'],
+                      "value": str(questionsDict['DrinksNightBefore'])
+                    }
+                  ],
+                  "objectId": objectTypeId['DrinksNightBefore'],
+                  "timestamp": currentEpochtime
+                },
+                                {
+                  "deviceId": deviceInfo['deviceId'],
+                  "indicatorDataDtos": [
+                    {
+                      "indicatorId": indicatorId['SmokeNightBefore'],
+                      "value": str(questionsDict['SmokeNightBefore'])
+                    }
+                  ],
+                  "objectId": objectTypeId['SmokeNightBefore'],
+                  "timestamp": currentEpochtime
+                }
+              ]
+    print(dataDict)
 
     try:
-        logger.info('insertData: %s', data)
-        r = requests.post(post_indicatorData, headers=header,json=data)
+      r = requests.post(post_indicatorData, headers=header,json=dataDict)
+
     except:
-        logger.info('insertData Error: %s', r.text)
         print(r.text)
 
-getQuestions()
+questionsDict = getQuestions()
+print(insertData(questionsDict))
+
+
