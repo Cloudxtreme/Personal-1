@@ -265,7 +265,7 @@ def insertData(questionsDict):
                       "value": str(questionsDict['Nose'])
                     }
                   ],
-                  "objectId": objectTypeId['Nose'],
+                  "objectId": deviceInfo['objectId'],
                   "timestamp": currentEpochtime
                 },
                 {
@@ -276,7 +276,7 @@ def insertData(questionsDict):
                       "value": str(questionsDict['Throat'])
                     }
                   ],
-                  "objectId": objectTypeId['Throat'],
+                  "objectId": deviceInfo['objectId'],
                   "timestamp": currentEpochtime
                 },
                                 {
@@ -287,7 +287,7 @@ def insertData(questionsDict):
                       "value": str(questionsDict['UpperLung'])
                     }
                   ],
-                  "objectId": objectTypeId['UpperLung'],
+                  "objectId": deviceInfo['objectId'],
                   "timestamp": currentEpochtime
                 },
                                 {
@@ -298,7 +298,7 @@ def insertData(questionsDict):
                       "value": str(questionsDict['LowerLung'])
                     }
                   ],
-                  "objectId": objectTypeId['LowerLung'],
+                  "objectId": deviceInfo['objectId'],
                   "timestamp": currentEpochtime
                 },
                                 {
@@ -309,7 +309,7 @@ def insertData(questionsDict):
                       "value": str(questionsDict['Flonase'])
                     }
                   ],
-                  "objectId": objectTypeId['Flonase'],
+                  "objectId": deviceInfo['objectId'],
                   "timestamp": currentEpochtime
                 },
                                 {
@@ -320,7 +320,7 @@ def insertData(questionsDict):
                       "value": str(questionsDict['Inhailer'])
                     }
                   ],
-                  "objectId": objectTypeId['Inhailer'],
+                  "objectId": deviceInfo['objectId'],
                   "timestamp": currentEpochtime
                 },
                                 {
@@ -331,7 +331,7 @@ def insertData(questionsDict):
                       "value": str(questionsDict['Tiredness'])
                     }
                   ],
-                  "objectId": objectTypeId['Tiredness'],
+                  "objectId": deviceInfo['objectId'],
                   "timestamp": currentEpochtime
                 },
                                 {
@@ -342,7 +342,7 @@ def insertData(questionsDict):
                       "value": str(questionsDict['DrinksNightBefore'])
                     }
                   ],
-                  "objectId": objectTypeId['DrinksNightBefore'],
+                  "objectId": deviceInfo['objectId'],
                   "timestamp": currentEpochtime
                 },
                                 {
@@ -353,7 +353,7 @@ def insertData(questionsDict):
                       "value": str(questionsDict['SmokeNightBefore'])
                     }
                   ],
-                  "objectId": objectTypeId['SmokeNightBefore'],
+                  "objectId": deviceInfo['objectId'],
                   "timestamp": currentEpochtime
                 }
               ]
