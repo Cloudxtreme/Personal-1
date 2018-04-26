@@ -83,6 +83,5 @@ insertData(getDataPoint())
 if __name__ == "__main__":
     print("\n")
     print("Borg Return Value: {}".format(str(getDataPoint()))
-    print("Current Epoch Time: {}".format(str(getEpochTime())))
     print("DataDict")
     pprint.pprint(data)
