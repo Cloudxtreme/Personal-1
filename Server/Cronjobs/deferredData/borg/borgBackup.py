@@ -62,7 +62,11 @@ def insertData():
 def getDataPoint():
     ''' Get's data point from borgCount.txt
     '''
-    f = open('/tmp/aelchert/borgReturnValue.txt', 'r')
+    try:
+        f = open('/tmp/aelchert/borgReturnValue.txt', 'r')
+    except:
+        raise Exception
+        
     return(f.read(1))
 
 print(getDataPoint())
