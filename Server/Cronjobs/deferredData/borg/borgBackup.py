@@ -62,7 +62,7 @@ def insertData(value):
         }
 
     try:
-        #r = requests.post(post_indicatorData, headers=header, json=data)
+        r = requests.post(post_indicatorData, headers=header, json=data)
         return(data)
     except:
         print(r.text)
