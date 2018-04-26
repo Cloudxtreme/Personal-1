@@ -11,6 +11,13 @@ ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
 
+deviceInfo = {
+    'deviceId': 210,
+    'pluginObjectType': 1580,
+    'objectId': 1388,
+    'indicator': 12040
+}
+
 def get_api_token():
 
     api_token_url = url + "/authentication/signin"
@@ -30,19 +37,19 @@ def getEpochTime():
     timestamp = str(timestamp) + '000'
     return timestamp
 
-def insertData():
+def insertData(value):
     '''post data to API endpoint '''
 
     data = [
           {
-            "deviceId": 210,
+            "deviceId": deviceInfo['deviceId'],
             "indicatorDataDtos": [
               {
-                "indicatorId": 9854,
-                "value": getDataPoint()
+                "indicatorId": deviceInfo['indicator'],
+                "value": str(value)
                 }
             ],
-            "objectId": 1174,
+            "objectId": deviceInfo['objectId'],
             "timestamp": getEpochTime()
           }
         ]
@@ -56,6 +63,7 @@ def insertData():
 
     try:
         r = requests.post(post_indicatorData, headers=header, json=data)
+        return(data)
     except:
         print(r.text)
 
@@ -69,13 +77,12 @@ def getDataPoint():
 
     return(f.read(1))
 
-print(getDataPoint())
-
-#insertData()
+insertData(getDataPoint())
 
 # Output data to console if run manually
 if __name__ == "__main__":
     print("\n")
-    print("BorgCount: ")
+    print("Borg Return Value: " + str(getDataPoint())
     print("Current Epoch Time: {}".format(getEpochTime()))
-    print("File Count: {}".format(getDataPoint()))
+    print("DataDict")
+    pprint.pprint(data)
