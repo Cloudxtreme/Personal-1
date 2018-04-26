@@ -80,8 +80,3 @@ def getDataPoint():
 dataPoint = getDataPoint()
 
 insertData(dataPoint)
-
-# Output data to console if run manually
-if __name__ == "__main__":
-    print("\n")
-    print("Borg Return Value: " + str(dataPoint)
