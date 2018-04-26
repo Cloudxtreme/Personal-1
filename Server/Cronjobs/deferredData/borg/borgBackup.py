@@ -35,7 +35,7 @@ def insertData():
 
     data = [
           {
-            "deviceId": 206,
+            "deviceId": 210,
             "indicatorDataDtos": [
               {
                 "indicatorId": 9854,
