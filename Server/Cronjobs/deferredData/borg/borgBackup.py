@@ -77,7 +77,7 @@ def getDataPoint():
 
     return(f.read(1))
 
-print(insertData())
+print(insertData(1))
 
 
 # dataPoint = getDataPoint()
