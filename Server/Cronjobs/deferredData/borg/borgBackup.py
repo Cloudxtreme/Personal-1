@@ -83,4 +83,3 @@ insertData(getDataPoint())
 if __name__ == "__main__":
     print("\n")
     print("Borg Return Value: " + str(getDataPoint())
-    pprint.pprint(data)
