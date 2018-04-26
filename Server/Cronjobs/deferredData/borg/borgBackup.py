@@ -11,6 +11,13 @@ ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
 
+deviceInfo = {
+    'deviceId': 210,
+    'pluginObjectType': 1580,
+    'objectId': 1388,
+    'indicator': 12040
+}
+
 def get_api_token():
 
     api_token_url = url + "/authentication/signin"
@@ -18,7 +25,7 @@ def get_api_token():
     header = {"Content-Type" : "application/json","Accept":"application/json"}
 
     r = requests.post(api_token_url,data=json.dumps(credentials), headers=header)
-    api_token_json = json.loads(r.content)
+    api_token_json = r.json()
     api_token = api_token_json["token"]
     return api_token
 
@@ -30,19 +37,19 @@ def getEpochTime():
     timestamp = str(timestamp) + '000'
     return timestamp
 
-def insertData():
+def insertData(value):
     '''post data to API endpoint '''
 
     data = [
           {
-            "deviceId": 206,
+            "deviceId": deviceInfo['deviceId'],
             "indicatorDataDtos": [
               {
-                "indicatorId": 9854,
-                "value": getDataPoint()
+                "indicatorId": deviceInfo['indicator'],
+                "value": str(value)
                 }
             ],
-            "objectId": 1174,
+            "objectId": deviceInfo['objectId'],
             "timestamp": getEpochTime()
           }
         ]
@@ -56,25 +63,18 @@ def insertData():
 
     try:
         r = requests.post(post_indicatorData, headers=header, json=data)
+        return(data)
     except:
         print(r.text)
 
 def getDataPoint():
     ''' Get's data point from borgCount.txt
     '''
-    f = open('borgCount.txt', 'r')
-    return(f.read(6))
+    try:
+        f = open('/tmp/borgReturnValue.txt', 'r')
+    except:
+        raise
 
-# Run insertData function. This function calls the other functions that are needed
-# to fill the json data
-print("Running borgCount.sh")
-os.system('./borgCount.sh')
+    return(f.read(1))
 
-insertData()
-
-# Output data to console if run manually
-if __name__ == "__main__":
-    print("\n")
-    print("BorgCount: ")
-    print("Current Epoch Time: {}".format(getEpochTime()))
-    print("File Count: {}".format(getDataPoint()))
+print(insertData(1))
