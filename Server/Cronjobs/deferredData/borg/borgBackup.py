@@ -65,8 +65,8 @@ def getDataPoint():
     try:
         f = open('/tmp/aelchert/borgReturnValue.txt', 'r')
     except:
-        raise Exception
-        
+        raise
+
     return(f.read(1))
 
 print(getDataPoint())
