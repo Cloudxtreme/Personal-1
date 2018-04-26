@@ -18,7 +18,7 @@ def get_api_token():
     header = {"Content-Type" : "application/json","Accept":"application/json"}
 
     r = requests.post(api_token_url,data=json.dumps(credentials), headers=header)
-    api_token_json = json.loads(r.content)
+    api_token_json = r.json()
     api_token = api_token_json["token"]
     return api_token
 
@@ -62,15 +62,12 @@ def insertData():
 def getDataPoint():
     ''' Get's data point from borgCount.txt
     '''
-    f = open('borgCount.txt', 'r')
-    return(f.read(6))
+    f = open('/tmp/aelchert/borgReturnValue.txt', 'r')
+    return(f.read(1))
 
-# Run insertData function. This function calls the other functions that are needed
-# to fill the json data
-print("Running borgCount.sh")
-os.system('./borgCount.sh')
+print(getDataPoint())
 
-insertData()
+#insertData()
 
 # Output data to console if run manually
 if __name__ == "__main__":
