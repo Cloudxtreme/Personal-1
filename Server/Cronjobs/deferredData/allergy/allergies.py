@@ -1,4 +1,4 @@
-import requests, pprint, logging, json
+import requests, pprint, json
 
 ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
@@ -11,7 +11,7 @@ def get_api_token():
     header = {"Content-Type" : "application/json","Accept":"application/json"}
 
     r = requests.post(api_token_url,data=json.dumps(credentials), headers=header)
-    api_token_json = json.loads(r.content)
+    api_token_json = r.json()
     api_token = api_token_json["token"]
     return api_token
 
@@ -225,7 +225,7 @@ def insertData(questionsDict):
         'objectSubtypes': 1426  
         }
 
-    objectTypeId = {
+    pluginIndicatorTypeId = {
         'Nose': 12925,
         'Throat' : 12926,
         'UpperLung': 12927,
@@ -263,91 +263,35 @@ def insertData(questionsDict):
                     {
                       "indicatorId": indicatorId['Nose'],
                       "value": str(questionsDict['Nose'])
-                    }
-                  ],
-                  "objectId": deviceInfo['objectId'],
-                  "timestamp": currentEpochtime
-                },
-                {
-                  "deviceId": deviceInfo['deviceId'],
-                  "indicatorDataDtos": [
+                    },
                     {
                       "indicatorId": indicatorId['Throat'],
                       "value": str(questionsDict['Throat'])
-                    }
-                  ],
-                  "objectId": deviceInfo['objectId'],
-                  "timestamp": currentEpochtime
-                },
-                                {
-                  "deviceId": deviceInfo['deviceId'],
-                  "indicatorDataDtos": [
+                    },
                     {
                       "indicatorId": indicatorId['UpperLung'],
                       "value": str(questionsDict['UpperLung'])
-                    }
-                  ],
-                  "objectId": deviceInfo['objectId'],
-                  "timestamp": currentEpochtime
-                },
-                                {
-                  "deviceId": deviceInfo['deviceId'],
-                  "indicatorDataDtos": [
+                    },
                     {
                       "indicatorId": indicatorId['LowerLung'],
                       "value": str(questionsDict['LowerLung'])
-                    }
-                  ],
-                  "objectId": deviceInfo['objectId'],
-                  "timestamp": currentEpochtime
-                },
-                                {
-                  "deviceId": deviceInfo['deviceId'],
-                  "indicatorDataDtos": [
+                    },
                     {
                       "indicatorId": indicatorId['Flonase'],
                       "value": str(questionsDict['Flonase'])
-                    }
-                  ],
-                  "objectId": deviceInfo['objectId'],
-                  "timestamp": currentEpochtime
-                },
-                                {
-                  "deviceId": deviceInfo['deviceId'],
-                  "indicatorDataDtos": [
+                    },
                     {
                       "indicatorId": indicatorId['Inhailer'],
                       "value": str(questionsDict['Inhailer'])
-                    }
-                  ],
-                  "objectId": deviceInfo['objectId'],
-                  "timestamp": currentEpochtime
-                },
-                                {
-                  "deviceId": deviceInfo['deviceId'],
-                  "indicatorDataDtos": [
+                    },
                     {
                       "indicatorId": indicatorId['Tiredness'],
                       "value": str(questionsDict['Tiredness'])
-                    }
-                  ],
-                  "objectId": deviceInfo['objectId'],
-                  "timestamp": currentEpochtime
-                },
-                                {
-                  "deviceId": deviceInfo['deviceId'],
-                  "indicatorDataDtos": [
+                    },
                     {
                       "indicatorId": indicatorId['DrinksNightBefore'],
                       "value": str(questionsDict['DrinksNightBefore'])
-                    }
-                  ],
-                  "objectId": deviceInfo['objectId'],
-                  "timestamp": currentEpochtime
-                },
-                                {
-                  "deviceId": deviceInfo['deviceId'],
-                  "indicatorDataDtos": [
+                    },
                     {
                       "indicatorId": indicatorId['SmokeNightBefore'],
                       "value": str(questionsDict['SmokeNightBefore'])
@@ -357,6 +301,7 @@ def insertData(questionsDict):
                   "timestamp": currentEpochtime
                 }
               ]
+
     print(dataDict)
 
     try:
