@@ -63,7 +63,7 @@ def getDataPoint():
     ''' Get's data point from borgCount.txt
     '''
     try:
-        f = open('/tmp/aelchert/borgReturnValue.txt', 'r')
+        f = open('/tmp/borgReturnValue.txt', 'r')
     except:
         raise
 
