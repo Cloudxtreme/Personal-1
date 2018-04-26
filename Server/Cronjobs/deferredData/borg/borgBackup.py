@@ -82,6 +82,6 @@ insertData(getDataPoint())
 # Output data to console if run manually
 if __name__ == "__main__":
     print("\n")
-    print("Borg Return Value: {}".format(str(getDataPoint()))
+    print("Borg Return Value: {}".format(getDataPoint())
     print("DataDict")
     pprint.pprint(data)
