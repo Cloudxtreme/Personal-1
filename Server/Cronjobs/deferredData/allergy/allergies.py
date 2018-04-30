@@ -1,4 +1,4 @@
-import requests, pprint, json, 
+import requests, pprint, json 
 from termcolor import colored, cprint
 
 ip = "10.0.0.60"
