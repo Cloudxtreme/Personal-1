@@ -1,4 +1,4 @@
-import requests, pprint, json
+import requests, pprint, json, termcolor import colored, cprint
 
 ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
@@ -30,6 +30,10 @@ def getQuestions():
                       'Inhailer', 'Tiredness', 'DrinksNightBefore' 'SmokeNightBefore']
     responseChoices = ['0', '1', '2', '3', '4', '5', '6']
     responses = {}
+
+    print("\n")
+    cprint("Allergy Input: ", 'red', attrs=['bold'])
+    print("\n")
   
     ###################
     # Nose
@@ -41,7 +45,7 @@ def getQuestions():
       if Nose in responseChoices:
           
           ''' update dict with Nose value '''
-          print("\n[[ OK ]]\n")
+          cprint("\n[[ OK ]]\n", 'yellow')
           responses.update({"Nose": Nose})
           ''' break loop '''
           break
@@ -61,7 +65,7 @@ def getQuestions():
 
       if Throat in responseChoices:
           ''' update dict with Nose value '''
-          print("\n[[ OK ]]\n")
+          cprint("\n[[ OK ]]\n", 'yellow')
           responses.update({"Throat": Throat})
           ''' break loop '''
           break
@@ -81,7 +85,7 @@ def getQuestions():
 
       if UpperLung in responseChoices:
           ''' update dict with Nose value '''
-          print("\n[[ OK ]]\n")
+          cprint("\n[[ OK ]]\n", 'yellow')
           responses.update({"UpperLung": UpperLung})
           ''' break loop '''
           break
@@ -101,7 +105,7 @@ def getQuestions():
 
       if LowerLung in responseChoices:
           ''' update dict with Nose value '''
-          print("\n[[ OK ]]\n")
+          cprint("\n[[ OK ]]\n", 'yellow')
           responses.update({"LowerLung": LowerLung})
           ''' break loop '''
           break
@@ -121,7 +125,7 @@ def getQuestions():
 
       if Flonase in responseChoices:
           ''' update dict with Nose value '''
-          print("\n[[ OK ]]\n")
+          cprint("\n[[ OK ]]\n", 'yellow')
           responses.update({"Flonase": Flonase})
           ''' break loop '''
           break
@@ -141,7 +145,7 @@ def getQuestions():
 
       if Inhailer in responseChoices:
           ''' update dict with Nose value '''
-          print("\n[[ OK ]]\n")
+          cprint("\n[[ OK ]]\n", 'yellow')
           responses.update({"Inhailer": Inhailer})
           ''' break loop '''
           break
@@ -161,7 +165,7 @@ def getQuestions():
 
       if Tiredness in responseChoices:
           ''' update dict with Nose value '''
-          print("\n[[ OK ]]\n")
+          cprint("\n[[ OK ]]\n", 'yellow')
           responses.update({"Tiredness": Tiredness})
           ''' break loop '''
           break
@@ -181,7 +185,7 @@ def getQuestions():
 
       if DrinksNightBefore in responseChoices:
           ''' update dict with Nose value '''
-          print("\n[[ OK ]]\n")
+          cprint("\n[[ OK ]]\n", 'yellow')
           responses.update({"DrinksNightBefore": DrinksNightBefore})
           ''' break loop '''
           break
@@ -201,7 +205,7 @@ def getQuestions():
 
       if SmokeNightBefore in responseChoices:
           ''' update dict with Nose value '''
-          print("\n[[ OK ]]\n")
+          cprint("\n[[ OK ]]\n", 'yellow')
           responses.update({"SmokeNightBefore": SmokeNightBefore})
           ''' break loop '''
           break
