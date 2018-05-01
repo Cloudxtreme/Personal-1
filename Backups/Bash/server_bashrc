@@ -42,6 +42,8 @@ alias cent='ssh aelchert@10.0.0.45'
 alias centos='ssh aelchert@10.0.0.45'
 alias al='python3 /home/aelchert/Git/Personal/Server/Cronjobs/deferredData/allergy/allergies.py'
 alias allergies='python3 /home/aelchert/Git/Personal/Server/Cronjobs/deferredData/allergy/allergies.py'
+alias cron='cd /home/aelchert/Git/Personal/Server/Cronjobs'
+
 ### COLORS ###
 
 export TERM=xterm-color
