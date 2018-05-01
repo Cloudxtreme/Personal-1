@@ -1,4 +1,5 @@
 import requests, pprint, json, os
+from termcolor import colored, cprint
 
 '''
 Intention: Script counts files saved by borg and inserts them as a data point
@@ -67,8 +68,6 @@ def insertData(value):
     try:
         r = requests.post(post_indicatorData, headers=header, json=data)
         return(r.status_code)
-    except:
-        print(r.status_code)
 
 def getDataPoint():
     ''' Get's data point from borgCount.txt
@@ -76,14 +75,14 @@ def getDataPoint():
     try:
         f = open('/tmp/borgReturnValue.txt', 'r')
     except:
-        raise
+        cprint("Failed to open tmp file", "red")
 
     return(f.read(1))
 
-print(insertData(getDataPoint()))
+statusCode = insertData(getDataPoint()))
 
-
-# dataPoint = getDataPoint()
-
-# insertData(dataPoint)
-print(insertData(getDataPoint()))
+if __name__ == '__main__':
+    if statusCode == '201':
+        cprint("Data Inserted", "green", "bold")
+    else:
+        print(r.status_code)
