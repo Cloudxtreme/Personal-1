@@ -80,13 +80,10 @@ def getDataPoint():
 
     return(f.read(1))
 
-<<<<<<< HEAD
 print(insertData(getDataPoint()))
 
 
 # dataPoint = getDataPoint()
 
 # insertData(dataPoint)
-=======
-print(insertData(1))
->>>>>>> refs/remotes/origin/master
+print(insertData(getDataPoint()))
