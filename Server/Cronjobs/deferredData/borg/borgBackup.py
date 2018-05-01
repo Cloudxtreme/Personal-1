@@ -88,4 +88,4 @@ if __name__ == '__main__':
     if statusCode == '201':
         cprint("Data Inserted", "green", "bold")
     else:
-        print(r.status_code)
+        print(statusCode)
