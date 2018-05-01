@@ -58,7 +58,7 @@ def insertData(value):
           }
         ]
 
-    post_indicatorData = url + "/device-indicators/data"
+    postIndicatorData = url + "/device-indicators/data"
 
     header = {
         "Accept":"application/json",
@@ -66,8 +66,8 @@ def insertData(value):
         }
 
     try:
-        r = requests.post(post_indicatorData, headers=header, json=data)
-    else:
+        r = requests.post(postIndicatorData, headers=header, json=data)
+    except:
         print(r.raise_for_status())
     
     return(r.status_code)
