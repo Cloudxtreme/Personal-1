@@ -42,8 +42,6 @@ def insertData(value):
 
     if value == 0:
         value = 100
-    else: 
-        continue
 
     data = [
           {
