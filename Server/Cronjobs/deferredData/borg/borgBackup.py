@@ -66,9 +66,9 @@ def insertData(value):
 
     try:
         r = requests.post(post_indicatorData, headers=header, json=data)
-        return(data)
+        return(r.status_code)
     except:
-        print(r.text)
+        print(r.status_code)
 
 def getDataPoint():
     ''' Get's data point from borgCount.txt
