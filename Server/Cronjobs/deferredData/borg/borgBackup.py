@@ -86,6 +86,6 @@ statusCode = insertData(getDataPoint())
 
 if __name__ == '__main__':
     if statusCode == 201:
-        cprint("Data Inserted", "green", "bold")
+        cprint("Data Inserted", "green", attrs=['bold'])
     else:
         print(statusCode)
