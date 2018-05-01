@@ -1,4 +1,5 @@
-import requests, pprint, json, termcolor import colored, cprint
+import requests, pprint, json 
+from termcolor import colored, cprint
 
 ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
