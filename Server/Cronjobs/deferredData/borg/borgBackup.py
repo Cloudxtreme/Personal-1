@@ -40,6 +40,11 @@ def getEpochTime():
 def insertData(value):
     '''post data to API endpoint '''
 
+    if value == 0:
+        value = 100
+    else: 
+        continue
+
     data = [
           {
             "deviceId": deviceInfo['deviceId'],
