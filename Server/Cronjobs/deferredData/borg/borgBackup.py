@@ -82,7 +82,7 @@ def getDataPoint():
 
     return(f.read(1))
 
-statusCode = insertData(getDataPoint()))
+statusCode = insertData(getDataPoint())
 
 if __name__ == '__main__':
     if statusCode == '201':
