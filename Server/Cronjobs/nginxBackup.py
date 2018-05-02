@@ -3,7 +3,7 @@ import filecmp,shutil,os
 endDIR="/home/aelchert/Git/Personal/Backups/Nginx"
 startDIR="/tmp/nginxTempDIR"
 
-compare = filecmp.dircmp(startDIR,endDIR)
+compare = filecmp.dircmp(startDIR, endDIR)
 
 # see if temp directory exists. If not, create it. If so, delete and recreate it
 if os.path.exists(startDIR):
@@ -17,7 +17,7 @@ os.system('scp -q aelchert@10.0.0.57:/etc/nginx/conf.d/*.conf /home/aelchert/Git
 
 # if no new files, then exit
 if len(compare.left_only) == 0:
-    print "No changes"
+    print("No changes")
     exit()
 
 else:
@@ -25,8 +25,10 @@ else:
     for files in compare.left_only:
         start = startDIR + "/" + files
         end = endDIR + "/" + files
-        #print "Copying file => {}".format(files)
         shutil.copyfile(start,end)
+
+        if __name__ == '__main__':
+            print("Copying file => {}".format(files))
 
 # remove temp directory
 shutil.rmtree(startDIR)
