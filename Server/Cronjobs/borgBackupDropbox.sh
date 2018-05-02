@@ -14,6 +14,9 @@ sudo borg create -v --stats $REPOSITORY::`hostname`-`date +%Y-%m-%d` /home/aelch
 
 if [ $? -eq 0 ]; then
   echo -e "++ [borgBackupDropbox.sh] - $LOGDATE - Completed" >> $LOGFILE
+else
+  echo -e "-- [borgBackupDropbox.sh] - $LOGDATE - FAILED" >> $LOGFILE
+fi
 
 borg prune --stats -v $REPOSITORY --prefix `hostname`- \
     --keep-daily=7 --keep-weekly=4 >> $LOGFILE
