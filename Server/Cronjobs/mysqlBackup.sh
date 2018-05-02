@@ -29,3 +29,6 @@ if [ $? -eq 0 ]; then
 else
   echo -e "-- [mysqlBackup.sh] - $LOGDATE - Tar FAILED " >> $LOGFILE
 fi
+
+echo -e "Remove file"
+rm *.sql
