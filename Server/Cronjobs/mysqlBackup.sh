@@ -30,5 +30,7 @@ else
   echo -e "-- [mysqlBackup.sh] - $LOGDATE - Tar FAILED " >> $LOGFILE
 fi
 
+chown aelchert $DIR/Booksread_Backup.tar
+
 echo -e "Remove file"
 rm *.sql
