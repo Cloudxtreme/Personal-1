@@ -11,9 +11,9 @@ LOGDATE=$(date +"%m-%d-%Y %H:%M:%S")
 DIR="/home/aelchert/Dropbox/Backup"
 LOGFILE="/home/aelchert/Dropbox/Logs/cronLog.txt"
 
-sudo /bin/btrfs device stats /mnt/NAS/ | grep -vE ' 0$'
+/bin/btrfs device stats /mnt/NAS/ | grep -vE ' 0$'
 
-if [ $? == 0 ]; then
+if [ $? -eq 0 ]; then
   echo "There was a response"
   echo -e "++ [btrfsCheck.sh] - $LOGDATE - btrfs health check - [FAILED]" >> $LOGFILE
 else
