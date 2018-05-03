@@ -19,6 +19,6 @@ PS="/home/aelchert/Git/Personal/Server/Cronjobs"
 
 
 
-@reboot root bash /home/aelchert/Git/Personal/Server/Cronjobs/vmStartAtBoot.sh
+@reboot root /home/aelchert/Git/Personal/Server/Cronjobs/vmStartAtBoot.sh
 
-@weekly $PS/snapshotSevOne.sh
+@weekly root $PS/snapshotSevOne.sh
