@@ -21,12 +21,12 @@ bashrcBackupHash=$(md5sum $DIR/Bash/server_bashrc | awk '{print $1;}')
 counter=0
 
 checkFileLength() {
-	fileLength=$(cat $logFile | wc -l)
+	fileLength=$(cat $LOGFILE | wc -l)
 	if [ $fileLength -gt 50 ]; then
-		echo -e "" > $logFile
-		echo -e "#################\n" >> $logFile
-		echo -e "Sys Conf Backups\n" >> $logfile
-		echo -e "#################\n\n" >> $logFile
+		echo -e "" > $LOGFILE
+		echo -e "#################\n" >> $LOGFILE
+		echo -e "Sys Conf Backups\n" >> $LOGFILE
+		echo -e "#################\n\n" >> $LOGFILE
 	fi
 }
 
@@ -43,7 +43,7 @@ git_add() {
 
 # run python script for nginx conf
 printf "\n Running nginxBackup.py"
-python nginxBackup.py
+python3 nginxBackup.py
 
 #checks crontab
 printf "\n Checking Crontab"
