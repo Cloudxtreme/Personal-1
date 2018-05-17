@@ -27,7 +27,7 @@ def getQuestions():
     ''' Prompt to answer the questions
 
         allergyPoints = [ 'Nose', 'Throat', 'UpperLung', 'LowerLung', 'Flonase', 
-                      'Inhailer', 'Tiredness', 'DrinksNightBefore' 'SmokeNightBefore']
+                      'Inhailer', 'Tiredness', 'DrinksSinceUpdate' 'SmokeNightBefore']
     '''
 
     responseChoices = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
@@ -179,16 +179,16 @@ def getQuestions():
           continue
 
     ###################
-    # DrinksNightBefore
+    # Drinks Since Last Update
     ###################
 
     while True:
-      DrinksNightBefore = str(input("DrinksNightBefore: "))
+      DrinksLastUpdate = str(input("DrinksSinceUpdate: "))
 
-      if DrinksNightBefore in responseChoices:
+      if DrinksLastUpdate in responseChoices:
           ''' update dict with Nose value '''
           cprint("\n[[ OK ]]\n", 'yellow')
-          responses.update({"DrinksNightBefore": DrinksNightBefore})
+          responses.update({"DrinksLastUpdate": DrinksSinceUpdate})
           ''' break loop '''
           break
       else:
@@ -239,7 +239,7 @@ def insertData(questionsDict):
         'Flonase': 12929,
         'Inhailer': 12930,
         'Tiredness': 12931,
-        'DrinksNightBefore': 12932,
+        'DrinksSinceUpdate': 12932,
         'SmokeNightBefore': 12933
       }
 
@@ -251,7 +251,7 @@ def insertData(questionsDict):
       'Flonase': 12032,
       'Inhailer': 12033,      
       'Tiredness': 12034,
-      'DrinksNightBefore': 12035,
+      'DrinksSinceUpdate': 12035,
       'SmokeNightBefore': 12036
     }
 
@@ -295,8 +295,8 @@ def insertData(questionsDict):
                       "value": str(questionsDict['Tiredness'])
                     },
                     {
-                      "indicatorId": indicatorId['DrinksNightBefore'],
-                      "value": str(questionsDict['DrinksNightBefore'])
+                      "indicatorId": indicatorId['DrinksSinceUpdate'],
+                      "value": str(questionsDict['DrinksSinceUpdate'])
                     },
                     {
                       "indicatorId": indicatorId['SmokeNightBefore'],
