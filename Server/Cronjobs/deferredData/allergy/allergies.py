@@ -183,7 +183,7 @@ def getQuestions():
     ###################
 
     while True:
-      DrinksLastUpdate = str(input("DrinksSinceUpdate: "))
+      DrinksSinceUpdate = str(input("DrinksSinceUpdate: "))
 
       if DrinksLastUpdate in responseChoices:
           ''' update dict with Nose value '''
