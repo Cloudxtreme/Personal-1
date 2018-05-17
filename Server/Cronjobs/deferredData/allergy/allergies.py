@@ -188,7 +188,7 @@ def getQuestions():
       if DrinksLastUpdate in responseChoices:
           ''' update dict with Nose value '''
           cprint("\n[[ OK ]]\n", 'yellow')
-          responses.update({"DrinksLastUpdate": DrinksSinceUpdate})
+          responses.update({"DrinksSinceUpdate": DrinksSinceUpdate})
           ''' break loop '''
           break
       else:
