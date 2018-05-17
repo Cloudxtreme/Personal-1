@@ -185,7 +185,7 @@ def getQuestions():
     while True:
       DrinksSinceUpdate = str(input("DrinksSinceUpdate: "))
 
-      if DrinksLastUpdate in responseChoices:
+      if DrinksSinceUpdate in responseChoices:
           ''' update dict with Nose value '''
           cprint("\n[[ OK ]]\n", 'yellow')
           responses.update({"DrinksSinceUpdate": DrinksSinceUpdate})
