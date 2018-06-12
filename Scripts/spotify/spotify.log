@@ -1,1 +1,1318 @@
 
+2018-06-11 15:32:41,067 - __main__ - INFO - Connecting to database
+2018-06-11 15:32:41,067 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 15:32:41,067 - __main__ - INFO - Running createTables()
+2018-06-11 15:32:41,071 - __main__ - INFO - Track not found in database - Courtney Marie Andrews - Two Cold Nights in Buffalo
+2018-06-11 15:32:41,071 - __main__ - INFO - InsertTrack: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 0)
+2018-06-11 15:32:41,077 - __main__ - INFO - Running Sync and Insert
+2018-06-11 15:32:41,078 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 0)
+2018-06-11 15:32:57,693 - __main__ - INFO - Connecting to database
+2018-06-11 15:32:57,693 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 15:32:57,693 - __main__ - INFO - Running createTables()
+2018-06-11 15:32:57,696 - __main__ - INFO - Running Sync and Insert
+2018-06-11 15:32:57,696 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 0)
+2018-06-11 15:33:37,390 - __main__ - INFO - Connecting to database
+2018-06-11 15:33:37,391 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 15:33:37,391 - __main__ - INFO - Running createTables()
+2018-06-11 15:33:37,394 - __main__ - INFO - Running Sync and Insert
+2018-06-11 15:33:37,394 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 0)
+2018-06-11 15:34:41,296 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 15:34:41,296 - __main__ - INFO - No New Adam Tracks
+2018-06-11 15:35:17,060 - __main__ - INFO - Connecting to database
+2018-06-11 15:35:17,061 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 15:35:17,061 - __main__ - INFO - Running createTables()
+2018-06-11 15:35:17,064 - __main__ - INFO - Track not found in database - Courtney Marie Andrews - Two Cold Nights in Buffalo
+2018-06-11 15:35:17,064 - __main__ - INFO - InsertTrack: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 0)
+2018-06-11 15:35:17,065 - __main__ - INFO - Running Sync and Insert
+2018-06-11 15:35:17,065 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 0)
+2018-06-11 15:36:17,133 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 15:36:17,133 - __main__ - INFO - No New Adam Tracks
+2018-06-11 15:38:41,817 - __main__ - INFO - Connecting to database
+2018-06-11 15:38:41,818 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 15:38:41,818 - __main__ - INFO - Running createTables()
+2018-06-11 15:38:41,821 - __main__ - INFO - Running Sync and Insert
+2018-06-11 15:38:41,821 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 15:38:41,821 - __main__ - INFO - No New Ron Tracks
+2018-06-11 15:38:41,822 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 15:38:41,822 - __main__ - INFO - No New Adam Tracks
+2018-06-11 15:40:09,215 - __main__ - INFO - Connecting to database
+2018-06-11 15:40:09,215 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 15:40:09,216 - __main__ - INFO - Running createTables()
+2018-06-11 15:40:09,219 - __main__ - INFO - Track not found in database - Courtney Marie Andrews - Two Cold Nights in Buffalo
+2018-06-11 15:40:09,219 - __main__ - INFO - InsertTrack: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 0)
+2018-06-11 15:40:09,228 - __main__ - INFO - Running Sync and Insert
+2018-06-11 15:40:09,228 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 0)
+2018-06-11 15:40:10,785 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 15:40:10,785 - __main__ - INFO - No New Adam Tracks
+2018-06-11 15:43:42,479 - __main__ - INFO - Connecting to database
+2018-06-11 15:43:42,479 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 15:43:42,479 - __main__ - INFO - Running createTables()
+2018-06-11 15:43:42,482 - __main__ - INFO - Running Sync and Insert
+2018-06-11 15:43:42,483 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 15:43:42,483 - __main__ - INFO - No New Ron Tracks
+2018-06-11 15:43:42,483 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 15:43:42,483 - __main__ - INFO - No New Adam Tracks
+2018-06-11 15:48:43,223 - __main__ - INFO - Connecting to database
+2018-06-11 15:48:43,223 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 15:48:43,224 - __main__ - INFO - Running createTables()
+2018-06-11 15:48:43,227 - __main__ - INFO - Running Sync and Insert
+2018-06-11 15:48:43,227 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 15:48:43,227 - __main__ - INFO - No New Ron Tracks
+2018-06-11 15:48:43,227 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 15:48:43,227 - __main__ - INFO - No New Adam Tracks
+2018-06-11 15:53:43,962 - __main__ - INFO - Connecting to database
+2018-06-11 15:53:43,963 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 15:53:43,963 - __main__ - INFO - Running createTables()
+2018-06-11 15:53:43,966 - __main__ - INFO - Running Sync and Insert
+2018-06-11 15:53:43,966 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 15:53:43,966 - __main__ - INFO - No New Ron Tracks
+2018-06-11 15:53:43,967 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 15:53:43,967 - __main__ - INFO - No New Adam Tracks
+2018-06-11 15:58:44,750 - __main__ - INFO - Connecting to database
+2018-06-11 15:58:44,750 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 15:58:44,750 - __main__ - INFO - Running createTables()
+2018-06-11 15:58:44,754 - __main__ - INFO - Running Sync and Insert
+2018-06-11 15:58:44,754 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 15:58:44,754 - __main__ - INFO - No New Ron Tracks
+2018-06-11 15:58:44,754 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 15:58:44,754 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:03:45,406 - __main__ - INFO - Connecting to database
+2018-06-11 16:03:45,407 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:03:45,407 - __main__ - INFO - Running createTables()
+2018-06-11 16:03:45,410 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:03:45,410 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:03:45,410 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:03:45,410 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:03:45,411 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:08:46,037 - __main__ - INFO - Connecting to database
+2018-06-11 16:08:46,037 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:08:46,038 - __main__ - INFO - Running createTables()
+2018-06-11 16:08:46,041 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:08:46,041 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:08:46,041 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:08:46,041 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:08:46,041 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:13:46,657 - __main__ - INFO - Connecting to database
+2018-06-11 16:13:46,657 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:13:46,657 - __main__ - INFO - Running createTables()
+2018-06-11 16:13:46,661 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:13:46,661 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:13:46,661 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:13:46,661 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:13:46,661 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:18:47,304 - __main__ - INFO - Connecting to database
+2018-06-11 16:18:47,304 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:18:47,304 - __main__ - INFO - Running createTables()
+2018-06-11 16:18:47,308 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:18:47,308 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:18:47,308 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:18:47,308 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:18:47,308 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:23:47,938 - __main__ - INFO - Connecting to database
+2018-06-11 16:23:47,938 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:23:47,938 - __main__ - INFO - Running createTables()
+2018-06-11 16:23:47,942 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:23:47,942 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:23:47,942 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:23:47,942 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:23:47,942 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:28:48,592 - __main__ - INFO - Connecting to database
+2018-06-11 16:28:48,592 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:28:48,592 - __main__ - INFO - Running createTables()
+2018-06-11 16:28:48,597 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:28:48,597 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:28:48,597 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:28:48,597 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:28:48,597 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:33:49,221 - __main__ - INFO - Connecting to database
+2018-06-11 16:33:49,221 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:33:49,221 - __main__ - INFO - Running createTables()
+2018-06-11 16:33:49,225 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:33:49,225 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:33:49,225 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:33:49,225 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:33:49,225 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:38:49,976 - __main__ - INFO - Connecting to database
+2018-06-11 16:38:49,977 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:38:49,977 - __main__ - INFO - Running createTables()
+2018-06-11 16:38:49,981 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:38:49,981 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:38:49,981 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:38:49,982 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:38:49,982 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:43:50,626 - __main__ - INFO - Connecting to database
+2018-06-11 16:43:50,626 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:43:50,626 - __main__ - INFO - Running createTables()
+2018-06-11 16:43:50,629 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:43:50,629 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:43:50,630 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:43:50,630 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:43:50,630 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:48:51,228 - __main__ - INFO - Connecting to database
+2018-06-11 16:48:51,228 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:48:51,228 - __main__ - INFO - Running createTables()
+2018-06-11 16:48:51,231 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:48:51,232 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:48:51,232 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:48:51,232 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:48:51,232 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:53:51,847 - __main__ - INFO - Connecting to database
+2018-06-11 16:53:51,848 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:53:51,848 - __main__ - INFO - Running createTables()
+2018-06-11 16:53:51,851 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:53:51,851 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:53:51,851 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:53:51,852 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:53:51,852 - __main__ - INFO - No New Adam Tracks
+2018-06-11 16:58:52,570 - __main__ - INFO - Connecting to database
+2018-06-11 16:58:52,570 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 16:58:52,570 - __main__ - INFO - Running createTables()
+2018-06-11 16:58:52,573 - __main__ - INFO - Running Sync and Insert
+2018-06-11 16:58:52,574 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 16:58:52,574 - __main__ - INFO - No New Ron Tracks
+2018-06-11 16:58:52,574 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 16:58:52,574 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:03:53,249 - __main__ - INFO - Connecting to database
+2018-06-11 17:03:53,250 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:03:53,250 - __main__ - INFO - Running createTables()
+2018-06-11 17:03:53,253 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:03:53,253 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:03:53,253 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:03:53,254 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:03:53,254 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:08:53,938 - __main__ - INFO - Connecting to database
+2018-06-11 17:08:53,938 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:08:53,938 - __main__ - INFO - Running createTables()
+2018-06-11 17:08:53,942 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:08:53,942 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:08:53,942 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:08:53,942 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:08:53,942 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:13:54,563 - __main__ - INFO - Connecting to database
+2018-06-11 17:13:54,563 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:13:54,563 - __main__ - INFO - Running createTables()
+2018-06-11 17:13:54,567 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:13:54,567 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:13:54,567 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:13:54,567 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:13:54,567 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:18:55,203 - __main__ - INFO - Connecting to database
+2018-06-11 17:18:55,203 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:18:55,203 - __main__ - INFO - Running createTables()
+2018-06-11 17:18:55,206 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:18:55,207 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:18:55,207 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:18:55,207 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:18:55,207 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:23:55,848 - __main__ - INFO - Connecting to database
+2018-06-11 17:23:55,848 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:23:55,848 - __main__ - INFO - Running createTables()
+2018-06-11 17:23:55,852 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:23:55,852 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:23:55,852 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:23:55,852 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:23:55,852 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:28:56,552 - __main__ - INFO - Connecting to database
+2018-06-11 17:28:56,552 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:28:56,553 - __main__ - INFO - Running createTables()
+2018-06-11 17:28:56,556 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:28:56,556 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:28:56,556 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:28:56,556 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:28:56,556 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:33:57,198 - __main__ - INFO - Connecting to database
+2018-06-11 17:33:57,198 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:33:57,198 - __main__ - INFO - Running createTables()
+2018-06-11 17:33:57,201 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:33:57,201 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:33:57,201 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:33:57,202 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:33:57,202 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:38:57,855 - __main__ - INFO - Connecting to database
+2018-06-11 17:38:57,856 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:38:57,856 - __main__ - INFO - Running createTables()
+2018-06-11 17:38:57,859 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:38:57,859 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:38:57,859 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:38:57,860 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:38:57,860 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:43:58,490 - __main__ - INFO - Connecting to database
+2018-06-11 17:43:58,491 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:43:58,491 - __main__ - INFO - Running createTables()
+2018-06-11 17:43:58,494 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:43:58,494 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:43:58,495 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:43:58,495 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:43:58,495 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:48:59,173 - __main__ - INFO - Connecting to database
+2018-06-11 17:48:59,173 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:48:59,173 - __main__ - INFO - Running createTables()
+2018-06-11 17:48:59,176 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:48:59,177 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:48:59,177 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:48:59,177 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:48:59,177 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:53:59,820 - __main__ - INFO - Connecting to database
+2018-06-11 17:53:59,820 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:53:59,820 - __main__ - INFO - Running createTables()
+2018-06-11 17:53:59,823 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:53:59,823 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:53:59,824 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:53:59,824 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:53:59,824 - __main__ - INFO - No New Adam Tracks
+2018-06-11 17:59:00,432 - __main__ - INFO - Connecting to database
+2018-06-11 17:59:00,432 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 17:59:00,432 - __main__ - INFO - Running createTables()
+2018-06-11 17:59:00,435 - __main__ - INFO - Running Sync and Insert
+2018-06-11 17:59:00,435 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 17:59:00,436 - __main__ - INFO - No New Ron Tracks
+2018-06-11 17:59:00,436 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 17:59:00,436 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:04:01,040 - __main__ - INFO - Connecting to database
+2018-06-11 18:04:01,040 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:04:01,040 - __main__ - INFO - Running createTables()
+2018-06-11 18:04:01,043 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:04:01,044 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:04:01,044 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:04:01,044 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:04:01,044 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:09:01,675 - __main__ - INFO - Connecting to database
+2018-06-11 18:09:01,676 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:09:01,676 - __main__ - INFO - Running createTables()
+2018-06-11 18:09:01,679 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:09:01,679 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:09:01,679 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:09:01,680 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:09:01,680 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:14:02,339 - __main__ - INFO - Connecting to database
+2018-06-11 18:14:02,339 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:14:02,339 - __main__ - INFO - Running createTables()
+2018-06-11 18:14:02,342 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:14:02,343 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:14:02,343 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:14:02,343 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:14:02,343 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:19:02,979 - __main__ - INFO - Connecting to database
+2018-06-11 18:19:02,980 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:19:02,980 - __main__ - INFO - Running createTables()
+2018-06-11 18:19:02,983 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:19:02,983 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:19:02,983 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:19:02,983 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:19:02,984 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:24:03,628 - __main__ - INFO - Connecting to database
+2018-06-11 18:24:03,628 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:24:03,628 - __main__ - INFO - Running createTables()
+2018-06-11 18:24:03,631 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:24:03,632 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:24:03,632 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:24:03,632 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:24:03,632 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:29:04,371 - __main__ - INFO - Connecting to database
+2018-06-11 18:29:04,371 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:29:04,372 - __main__ - INFO - Running createTables()
+2018-06-11 18:29:04,375 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:29:04,375 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:29:04,375 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:29:04,375 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:29:04,375 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:34:05,007 - __main__ - INFO - Connecting to database
+2018-06-11 18:34:05,007 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:34:05,007 - __main__ - INFO - Running createTables()
+2018-06-11 18:34:05,010 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:34:05,010 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:34:05,011 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:34:05,011 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:34:05,011 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:39:05,656 - __main__ - INFO - Connecting to database
+2018-06-11 18:39:05,657 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:39:05,657 - __main__ - INFO - Running createTables()
+2018-06-11 18:39:05,660 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:39:05,660 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:39:05,660 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:39:05,660 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:39:05,660 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:44:06,328 - __main__ - INFO - Connecting to database
+2018-06-11 18:44:06,329 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:44:06,329 - __main__ - INFO - Running createTables()
+2018-06-11 18:44:06,332 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:44:06,332 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:44:06,332 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:44:06,333 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:44:06,333 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:49:06,958 - __main__ - INFO - Connecting to database
+2018-06-11 18:49:06,958 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:49:06,958 - __main__ - INFO - Running createTables()
+2018-06-11 18:49:06,961 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:49:06,962 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:49:06,962 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:49:06,962 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:49:06,962 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:54:07,727 - __main__ - INFO - Connecting to database
+2018-06-11 18:54:07,727 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:54:07,727 - __main__ - INFO - Running createTables()
+2018-06-11 18:54:07,730 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:54:07,731 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:54:07,731 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:54:07,731 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:54:07,731 - __main__ - INFO - No New Adam Tracks
+2018-06-11 18:59:08,396 - __main__ - INFO - Connecting to database
+2018-06-11 18:59:08,397 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 18:59:08,397 - __main__ - INFO - Running createTables()
+2018-06-11 18:59:08,400 - __main__ - INFO - Running Sync and Insert
+2018-06-11 18:59:08,400 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 18:59:08,400 - __main__ - INFO - No New Ron Tracks
+2018-06-11 18:59:08,401 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 18:59:08,401 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:04:09,044 - __main__ - INFO - Connecting to database
+2018-06-11 19:04:09,045 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:04:09,045 - __main__ - INFO - Running createTables()
+2018-06-11 19:04:09,048 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:04:09,048 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:04:09,048 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:04:09,049 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:04:09,049 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:09:09,709 - __main__ - INFO - Connecting to database
+2018-06-11 19:09:09,709 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:09:09,710 - __main__ - INFO - Running createTables()
+2018-06-11 19:09:09,713 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:09:09,713 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:09:09,713 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:09:09,713 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:09:09,713 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:14:10,359 - __main__ - INFO - Connecting to database
+2018-06-11 19:14:10,360 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:14:10,360 - __main__ - INFO - Running createTables()
+2018-06-11 19:14:10,363 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:14:10,363 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:14:10,363 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:14:10,363 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:14:10,363 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:19:10,994 - __main__ - INFO - Connecting to database
+2018-06-11 19:19:10,994 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:19:10,994 - __main__ - INFO - Running createTables()
+2018-06-11 19:19:10,998 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:19:10,998 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:19:10,998 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:19:10,998 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:19:10,998 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:24:11,715 - __main__ - INFO - Connecting to database
+2018-06-11 19:24:11,715 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:24:11,715 - __main__ - INFO - Running createTables()
+2018-06-11 19:24:11,719 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:24:11,719 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:24:11,719 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:24:11,719 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:24:11,719 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:29:12,503 - __main__ - INFO - Connecting to database
+2018-06-11 19:29:12,504 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:29:12,504 - __main__ - INFO - Running createTables()
+2018-06-11 19:29:12,507 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:29:12,507 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:29:12,507 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:29:12,508 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:29:12,508 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:34:13,177 - __main__ - INFO - Connecting to database
+2018-06-11 19:34:13,178 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:34:13,178 - __main__ - INFO - Running createTables()
+2018-06-11 19:34:13,181 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:34:13,181 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:34:13,182 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:34:13,182 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:34:13,182 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:39:13,848 - __main__ - INFO - Connecting to database
+2018-06-11 19:39:13,849 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:39:13,849 - __main__ - INFO - Running createTables()
+2018-06-11 19:39:13,852 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:39:13,852 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:39:13,852 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:39:13,853 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:39:13,853 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:44:14,677 - __main__ - INFO - Connecting to database
+2018-06-11 19:44:14,677 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:44:14,677 - __main__ - INFO - Running createTables()
+2018-06-11 19:44:14,681 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:44:14,681 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:44:14,681 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:44:14,681 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:44:14,681 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:49:15,311 - __main__ - INFO - Connecting to database
+2018-06-11 19:49:15,312 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:49:15,312 - __main__ - INFO - Running createTables()
+2018-06-11 19:49:15,315 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:49:15,315 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:49:15,315 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:49:15,316 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:49:15,316 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:54:15,939 - __main__ - INFO - Connecting to database
+2018-06-11 19:54:15,940 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:54:15,940 - __main__ - INFO - Running createTables()
+2018-06-11 19:54:15,943 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:54:15,944 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:54:15,944 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:54:15,944 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:54:15,944 - __main__ - INFO - No New Adam Tracks
+2018-06-11 19:59:16,591 - __main__ - INFO - Connecting to database
+2018-06-11 19:59:16,592 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 19:59:16,592 - __main__ - INFO - Running createTables()
+2018-06-11 19:59:16,595 - __main__ - INFO - Running Sync and Insert
+2018-06-11 19:59:16,595 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 19:59:16,595 - __main__ - INFO - No New Ron Tracks
+2018-06-11 19:59:16,596 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 19:59:16,596 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:04:17,221 - __main__ - INFO - Connecting to database
+2018-06-11 20:04:17,221 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:04:17,221 - __main__ - INFO - Running createTables()
+2018-06-11 20:04:17,225 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:04:17,225 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:04:17,225 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:04:17,225 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:04:17,225 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:09:17,874 - __main__ - INFO - Connecting to database
+2018-06-11 20:09:17,875 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:09:17,875 - __main__ - INFO - Running createTables()
+2018-06-11 20:09:17,878 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:09:17,878 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:09:17,879 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:09:17,879 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:09:17,879 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:14:18,513 - __main__ - INFO - Connecting to database
+2018-06-11 20:14:18,513 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:14:18,514 - __main__ - INFO - Running createTables()
+2018-06-11 20:14:18,517 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:14:18,517 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:14:18,518 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:14:18,518 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:14:18,518 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:19:19,139 - __main__ - INFO - Connecting to database
+2018-06-11 20:19:19,139 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:19:19,140 - __main__ - INFO - Running createTables()
+2018-06-11 20:19:19,143 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:19:19,143 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:19:19,143 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:19:19,143 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:19:19,143 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:24:19,797 - __main__ - INFO - Connecting to database
+2018-06-11 20:24:19,798 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:24:19,798 - __main__ - INFO - Running createTables()
+2018-06-11 20:24:19,801 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:24:19,801 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:24:19,802 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:24:19,802 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:24:19,802 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:29:20,443 - __main__ - INFO - Connecting to database
+2018-06-11 20:29:20,443 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:29:20,443 - __main__ - INFO - Running createTables()
+2018-06-11 20:29:20,447 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:29:20,447 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:29:20,447 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:29:20,447 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:29:20,447 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:34:21,327 - __main__ - INFO - Connecting to database
+2018-06-11 20:34:21,327 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:34:21,328 - __main__ - INFO - Running createTables()
+2018-06-11 20:34:21,331 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:34:21,331 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:34:21,331 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:34:21,331 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:34:21,331 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:39:21,972 - __main__ - INFO - Connecting to database
+2018-06-11 20:39:21,972 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:39:21,973 - __main__ - INFO - Running createTables()
+2018-06-11 20:39:21,976 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:39:21,976 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:39:21,976 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:39:21,976 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:39:21,976 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:44:22,605 - __main__ - INFO - Connecting to database
+2018-06-11 20:44:22,606 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:44:22,606 - __main__ - INFO - Running createTables()
+2018-06-11 20:44:22,609 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:44:22,609 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:44:22,609 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:44:22,610 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:44:22,610 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:49:23,229 - __main__ - INFO - Connecting to database
+2018-06-11 20:49:23,229 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:49:23,229 - __main__ - INFO - Running createTables()
+2018-06-11 20:49:23,232 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:49:23,232 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:49:23,233 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:49:23,233 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:49:23,233 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:54:24,077 - __main__ - INFO - Connecting to database
+2018-06-11 20:54:24,077 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:54:24,077 - __main__ - INFO - Running createTables()
+2018-06-11 20:54:24,080 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:54:24,081 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:54:24,081 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:54:24,081 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:54:24,081 - __main__ - INFO - No New Adam Tracks
+2018-06-11 20:59:24,717 - __main__ - INFO - Connecting to database
+2018-06-11 20:59:24,718 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 20:59:24,718 - __main__ - INFO - Running createTables()
+2018-06-11 20:59:24,721 - __main__ - INFO - Running Sync and Insert
+2018-06-11 20:59:24,721 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 20:59:24,722 - __main__ - INFO - No New Ron Tracks
+2018-06-11 20:59:24,722 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 20:59:24,722 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:04:25,387 - __main__ - INFO - Connecting to database
+2018-06-11 21:04:25,387 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:04:25,387 - __main__ - INFO - Running createTables()
+2018-06-11 21:04:25,391 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:04:25,391 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:04:25,391 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:04:25,391 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:04:25,391 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:09:26,054 - __main__ - INFO - Connecting to database
+2018-06-11 21:09:26,054 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:09:26,054 - __main__ - INFO - Running createTables()
+2018-06-11 21:09:26,058 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:09:26,058 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:09:26,058 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:09:26,058 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:09:26,058 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:14:27,344 - __main__ - INFO - Connecting to database
+2018-06-11 21:14:27,345 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:14:27,345 - __main__ - INFO - Running createTables()
+2018-06-11 21:14:27,348 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:14:27,348 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:14:27,348 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:14:27,349 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:14:27,349 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:19:28,000 - __main__ - INFO - Connecting to database
+2018-06-11 21:19:28,000 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:19:28,000 - __main__ - INFO - Running createTables()
+2018-06-11 21:19:28,003 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:19:28,003 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:19:28,004 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:19:28,004 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:19:28,004 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:24:28,661 - __main__ - INFO - Connecting to database
+2018-06-11 21:24:28,661 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:24:28,661 - __main__ - INFO - Running createTables()
+2018-06-11 21:24:28,666 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:24:28,666 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:24:28,667 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:24:28,667 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:24:28,667 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:29:29,322 - __main__ - INFO - Connecting to database
+2018-06-11 21:29:29,323 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:29:29,323 - __main__ - INFO - Running createTables()
+2018-06-11 21:29:29,326 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:29:29,326 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:29:29,326 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:29:29,327 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:29:29,327 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:34:29,978 - __main__ - INFO - Connecting to database
+2018-06-11 21:34:29,978 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:34:29,978 - __main__ - INFO - Running createTables()
+2018-06-11 21:34:29,981 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:34:29,982 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:34:29,982 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:34:29,982 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:34:29,982 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:39:30,586 - __main__ - INFO - Connecting to database
+2018-06-11 21:39:30,586 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:39:30,586 - __main__ - INFO - Running createTables()
+2018-06-11 21:39:30,589 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:39:30,590 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:39:30,590 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:39:30,590 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:39:30,590 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:44:31,202 - __main__ - INFO - Connecting to database
+2018-06-11 21:44:31,202 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:44:31,203 - __main__ - INFO - Running createTables()
+2018-06-11 21:44:31,206 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:44:31,206 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:44:31,206 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:44:31,206 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:44:31,206 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:49:31,965 - __main__ - INFO - Connecting to database
+2018-06-11 21:49:31,966 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:49:31,966 - __main__ - INFO - Running createTables()
+2018-06-11 21:49:31,969 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:49:31,969 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:49:31,969 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:49:31,970 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:49:31,970 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:54:32,638 - __main__ - INFO - Connecting to database
+2018-06-11 21:54:32,639 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:54:32,639 - __main__ - INFO - Running createTables()
+2018-06-11 21:54:32,642 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:54:32,642 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:54:32,642 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:54:32,643 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:54:32,643 - __main__ - INFO - No New Adam Tracks
+2018-06-11 21:59:33,299 - __main__ - INFO - Connecting to database
+2018-06-11 21:59:33,300 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 21:59:33,300 - __main__ - INFO - Running createTables()
+2018-06-11 21:59:33,303 - __main__ - INFO - Running Sync and Insert
+2018-06-11 21:59:33,303 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 21:59:33,303 - __main__ - INFO - No New Ron Tracks
+2018-06-11 21:59:33,304 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 21:59:33,304 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:04:33,957 - __main__ - INFO - Connecting to database
+2018-06-11 22:04:33,957 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:04:33,957 - __main__ - INFO - Running createTables()
+2018-06-11 22:04:33,961 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:04:33,961 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:04:33,961 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:04:33,961 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:04:33,961 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:09:34,597 - __main__ - INFO - Connecting to database
+2018-06-11 22:09:34,597 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:09:34,598 - __main__ - INFO - Running createTables()
+2018-06-11 22:09:34,601 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:09:34,601 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:09:34,601 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:09:34,601 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:09:34,601 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:14:35,227 - __main__ - INFO - Connecting to database
+2018-06-11 22:14:35,227 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:14:35,227 - __main__ - INFO - Running createTables()
+2018-06-11 22:14:35,230 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:14:35,231 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:14:35,231 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:14:35,231 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:14:35,231 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:19:35,956 - __main__ - INFO - Connecting to database
+2018-06-11 22:19:35,957 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:19:35,957 - __main__ - INFO - Running createTables()
+2018-06-11 22:19:35,960 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:19:35,960 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:19:35,960 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:19:35,961 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:19:35,961 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:24:36,631 - __main__ - INFO - Connecting to database
+2018-06-11 22:24:36,631 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:24:36,631 - __main__ - INFO - Running createTables()
+2018-06-11 22:24:36,635 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:24:36,635 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:24:36,635 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:24:36,635 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:24:36,635 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:29:37,325 - __main__ - INFO - Connecting to database
+2018-06-11 22:29:37,325 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:29:37,325 - __main__ - INFO - Running createTables()
+2018-06-11 22:29:37,328 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:29:37,329 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:29:37,329 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:29:37,329 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:29:37,329 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:34:37,958 - __main__ - INFO - Connecting to database
+2018-06-11 22:34:37,959 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:34:37,959 - __main__ - INFO - Running createTables()
+2018-06-11 22:34:37,962 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:34:37,962 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:34:37,962 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:34:37,963 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:34:37,963 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:39:38,606 - __main__ - INFO - Connecting to database
+2018-06-11 22:39:38,606 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:39:38,606 - __main__ - INFO - Running createTables()
+2018-06-11 22:39:38,610 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:39:38,610 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:39:38,610 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:39:38,610 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:39:38,610 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:44:39,232 - __main__ - INFO - Connecting to database
+2018-06-11 22:44:39,232 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:44:39,232 - __main__ - INFO - Running createTables()
+2018-06-11 22:44:39,235 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:44:39,235 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:44:39,236 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:44:39,236 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:44:39,236 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:49:39,862 - __main__ - INFO - Connecting to database
+2018-06-11 22:49:39,862 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:49:39,863 - __main__ - INFO - Running createTables()
+2018-06-11 22:49:39,866 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:49:39,866 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:49:39,866 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:49:39,866 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:49:39,867 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:54:40,508 - __main__ - INFO - Connecting to database
+2018-06-11 22:54:40,509 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:54:40,509 - __main__ - INFO - Running createTables()
+2018-06-11 22:54:40,512 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:54:40,512 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:54:40,512 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:54:40,513 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:54:40,513 - __main__ - INFO - No New Adam Tracks
+2018-06-11 22:59:41,173 - __main__ - INFO - Connecting to database
+2018-06-11 22:59:41,173 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 22:59:41,173 - __main__ - INFO - Running createTables()
+2018-06-11 22:59:41,177 - __main__ - INFO - Running Sync and Insert
+2018-06-11 22:59:41,177 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 22:59:41,177 - __main__ - INFO - No New Ron Tracks
+2018-06-11 22:59:41,177 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 22:59:41,177 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:04:41,808 - __main__ - INFO - Connecting to database
+2018-06-11 23:04:41,809 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:04:41,809 - __main__ - INFO - Running createTables()
+2018-06-11 23:04:41,812 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:04:41,812 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:04:41,813 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:04:41,813 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:04:41,813 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:09:42,439 - __main__ - INFO - Connecting to database
+2018-06-11 23:09:42,439 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:09:42,439 - __main__ - INFO - Running createTables()
+2018-06-11 23:09:42,442 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:09:42,443 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:09:42,443 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:09:42,443 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:09:42,443 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:14:43,099 - __main__ - INFO - Connecting to database
+2018-06-11 23:14:43,099 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:14:43,099 - __main__ - INFO - Running createTables()
+2018-06-11 23:14:43,103 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:14:43,103 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:14:43,103 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:14:43,103 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:14:43,104 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:19:43,861 - __main__ - INFO - Connecting to database
+2018-06-11 23:19:43,861 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:19:43,862 - __main__ - INFO - Running createTables()
+2018-06-11 23:19:43,865 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:19:43,865 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:19:43,865 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:19:43,865 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:19:43,865 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:24:44,511 - __main__ - INFO - Connecting to database
+2018-06-11 23:24:44,511 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:24:44,511 - __main__ - INFO - Running createTables()
+2018-06-11 23:24:44,514 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:24:44,515 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:24:44,515 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:24:44,515 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:24:44,515 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:29:45,155 - __main__ - INFO - Connecting to database
+2018-06-11 23:29:45,155 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:29:45,155 - __main__ - INFO - Running createTables()
+2018-06-11 23:29:45,159 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:29:45,159 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:29:45,159 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:29:45,159 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:29:45,159 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:34:45,785 - __main__ - INFO - Connecting to database
+2018-06-11 23:34:45,785 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:34:45,785 - __main__ - INFO - Running createTables()
+2018-06-11 23:34:45,789 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:34:45,789 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:34:45,789 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:34:45,789 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:34:45,789 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:39:46,449 - __main__ - INFO - Connecting to database
+2018-06-11 23:39:46,449 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:39:46,449 - __main__ - INFO - Running createTables()
+2018-06-11 23:39:46,453 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:39:46,453 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:39:46,453 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:39:46,453 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:39:46,453 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:44:47,136 - __main__ - INFO - Connecting to database
+2018-06-11 23:44:47,136 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:44:47,136 - __main__ - INFO - Running createTables()
+2018-06-11 23:44:47,140 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:44:47,140 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:44:47,140 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:44:47,140 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:44:47,140 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:49:47,768 - __main__ - INFO - Connecting to database
+2018-06-11 23:49:47,768 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:49:47,768 - __main__ - INFO - Running createTables()
+2018-06-11 23:49:47,771 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:49:47,772 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:49:47,772 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:49:47,772 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:49:47,772 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:54:48,414 - __main__ - INFO - Connecting to database
+2018-06-11 23:54:48,414 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:54:48,414 - __main__ - INFO - Running createTables()
+2018-06-11 23:54:48,418 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:54:48,418 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:54:48,418 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:54:48,418 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:54:48,418 - __main__ - INFO - No New Adam Tracks
+2018-06-11 23:59:49,041 - __main__ - INFO - Connecting to database
+2018-06-11 23:59:49,042 - __main__ - INFO - Tried to create new database tables.
+2018-06-11 23:59:49,042 - __main__ - INFO - Running createTables()
+2018-06-11 23:59:49,045 - __main__ - INFO - Running Sync and Insert
+2018-06-11 23:59:49,045 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-11 23:59:49,045 - __main__ - INFO - No New Ron Tracks
+2018-06-11 23:59:49,046 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-11 23:59:49,046 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:04:49,693 - __main__ - INFO - Connecting to database
+2018-06-12 00:04:49,694 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:04:49,694 - __main__ - INFO - Running createTables()
+2018-06-12 00:04:49,697 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:04:49,697 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:04:49,697 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:04:49,698 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:04:49,698 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:09:50,340 - __main__ - INFO - Connecting to database
+2018-06-12 00:09:50,340 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:09:50,340 - __main__ - INFO - Running createTables()
+2018-06-12 00:09:50,344 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:09:50,344 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:09:50,344 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:09:50,344 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:09:50,344 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:14:51,001 - __main__ - INFO - Connecting to database
+2018-06-12 00:14:51,002 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:14:51,002 - __main__ - INFO - Running createTables()
+2018-06-12 00:14:51,005 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:14:51,005 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:14:51,005 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:14:51,006 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:14:51,006 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:19:51,665 - __main__ - INFO - Connecting to database
+2018-06-12 00:19:51,665 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:19:51,665 - __main__ - INFO - Running createTables()
+2018-06-12 00:19:51,668 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:19:51,668 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:19:51,669 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:19:51,669 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:19:51,669 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:24:52,290 - __main__ - INFO - Connecting to database
+2018-06-12 00:24:52,291 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:24:52,291 - __main__ - INFO - Running createTables()
+2018-06-12 00:24:52,294 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:24:52,294 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:24:52,294 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:24:52,294 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:24:52,295 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:29:52,936 - __main__ - INFO - Connecting to database
+2018-06-12 00:29:52,936 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:29:52,936 - __main__ - INFO - Running createTables()
+2018-06-12 00:29:52,940 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:29:52,940 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:29:52,940 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:29:52,940 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:29:52,940 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:34:53,600 - __main__ - INFO - Connecting to database
+2018-06-12 00:34:53,601 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:34:53,601 - __main__ - INFO - Running createTables()
+2018-06-12 00:34:53,604 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:34:53,604 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:34:53,604 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:34:53,605 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:34:53,605 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:39:54,256 - __main__ - INFO - Connecting to database
+2018-06-12 00:39:54,256 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:39:54,256 - __main__ - INFO - Running createTables()
+2018-06-12 00:39:54,259 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:39:54,260 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:39:54,260 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:39:54,260 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:39:54,260 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:44:54,927 - __main__ - INFO - Connecting to database
+2018-06-12 00:44:54,927 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:44:54,927 - __main__ - INFO - Running createTables()
+2018-06-12 00:44:54,930 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:44:54,931 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:44:54,931 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:44:54,931 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:44:54,931 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:49:55,608 - __main__ - INFO - Connecting to database
+2018-06-12 00:49:55,608 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:49:55,608 - __main__ - INFO - Running createTables()
+2018-06-12 00:49:55,612 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:49:55,612 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:49:55,612 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:49:55,612 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:49:55,612 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:54:56,440 - __main__ - INFO - Connecting to database
+2018-06-12 00:54:56,440 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:54:56,440 - __main__ - INFO - Running createTables()
+2018-06-12 00:54:56,443 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:54:56,444 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:54:56,444 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:54:56,444 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:54:56,444 - __main__ - INFO - No New Adam Tracks
+2018-06-12 00:59:57,109 - __main__ - INFO - Connecting to database
+2018-06-12 00:59:57,109 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 00:59:57,109 - __main__ - INFO - Running createTables()
+2018-06-12 00:59:57,112 - __main__ - INFO - Running Sync and Insert
+2018-06-12 00:59:57,113 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 00:59:57,113 - __main__ - INFO - No New Ron Tracks
+2018-06-12 00:59:57,113 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 00:59:57,113 - __main__ - INFO - No New Adam Tracks
+2018-06-12 01:04:57,735 - __main__ - INFO - Connecting to database
+2018-06-12 01:04:57,735 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 01:04:57,735 - __main__ - INFO - Running createTables()
+2018-06-12 01:04:57,739 - __main__ - INFO - Running Sync and Insert
+2018-06-12 01:04:57,739 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 01:04:57,739 - __main__ - INFO - No New Ron Tracks
+2018-06-12 01:04:57,739 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 01:04:57,739 - __main__ - INFO - No New Adam Tracks
+2018-06-12 01:09:58,359 - __main__ - INFO - Connecting to database
+2018-06-12 01:09:58,359 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 01:09:58,359 - __main__ - INFO - Running createTables()
+2018-06-12 01:09:58,363 - __main__ - INFO - Running Sync and Insert
+2018-06-12 01:09:58,363 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 01:09:58,363 - __main__ - INFO - No New Ron Tracks
+2018-06-12 01:09:58,363 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 01:09:58,363 - __main__ - INFO - No New Adam Tracks
+2018-06-12 01:14:59,032 - __main__ - INFO - Connecting to database
+2018-06-12 01:14:59,033 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 01:14:59,033 - __main__ - INFO - Running createTables()
+2018-06-12 01:14:59,036 - __main__ - INFO - Running Sync and Insert
+2018-06-12 01:14:59,036 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 01:14:59,036 - __main__ - INFO - No New Ron Tracks
+2018-06-12 01:14:59,036 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 01:14:59,037 - __main__ - INFO - No New Adam Tracks
+2018-06-12 01:19:59,714 - __main__ - INFO - Connecting to database
+2018-06-12 01:19:59,714 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 01:19:59,714 - __main__ - INFO - Running createTables()
+2018-06-12 01:19:59,717 - __main__ - INFO - Running Sync and Insert
+2018-06-12 01:19:59,717 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 01:19:59,718 - __main__ - INFO - No New Ron Tracks
+2018-06-12 01:19:59,718 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 01:19:59,718 - __main__ - INFO - No New Adam Tracks
+2018-06-12 01:25:00,352 - __main__ - INFO - Connecting to database
+2018-06-12 01:25:00,352 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 01:25:00,352 - __main__ - INFO - Running createTables()
+2018-06-12 01:25:00,356 - __main__ - INFO - Running Sync and Insert
+2018-06-12 01:25:00,356 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 01:25:00,356 - __main__ - INFO - No New Ron Tracks
+2018-06-12 01:25:00,356 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 01:25:00,356 - __main__ - INFO - No New Adam Tracks
+2018-06-12 01:30:00,960 - __main__ - INFO - Connecting to database
+2018-06-12 01:30:00,961 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 01:30:00,961 - __main__ - INFO - Running createTables()
+2018-06-12 01:30:00,964 - __main__ - INFO - Running Sync and Insert
+2018-06-12 01:30:00,964 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 01:30:00,965 - __main__ - INFO - No New Ron Tracks
+2018-06-12 01:30:00,965 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 01:30:00,965 - __main__ - INFO - No New Adam Tracks
+2018-06-12 01:35:01,581 - __main__ - INFO - Connecting to database
+2018-06-12 01:35:01,581 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 01:35:01,581 - __main__ - INFO - Running createTables()
+2018-06-12 01:35:01,585 - __main__ - INFO - Running Sync and Insert
+2018-06-12 01:35:01,585 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 01:35:01,585 - __main__ - INFO - No New Ron Tracks
+2018-06-12 01:35:01,585 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 01:35:01,585 - __main__ - INFO - No New Adam Tracks
+2018-06-12 01:40:02,157 - __main__ - INFO - Connecting to database
+2018-06-12 01:40:02,157 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 01:40:02,157 - __main__ - INFO - Running createTables()
+2018-06-12 01:40:02,161 - __main__ - INFO - Running Sync and Insert
+2018-06-12 01:40:02,161 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 01:40:02,161 - __main__ - INFO - No New Ron Tracks
+2018-06-12 01:40:02,161 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 01:40:02,161 - __main__ - INFO - No New Adam Tracks
+2018-06-12 01:45:02,730 - __main__ - INFO - Connecting to database
+2018-06-12 01:45:02,730 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 01:45:02,730 - __main__ - INFO - Running createTables()
+2018-06-12 01:45:02,733 - __main__ - INFO - Running Sync and Insert
+2018-06-12 01:45:02,734 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 01:45:02,734 - __main__ - INFO - No New Ron Tracks
+2018-06-12 01:45:02,734 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 01:45:02,734 - __main__ - INFO - No New Adam Tracks
+2018-06-12 01:50:03,369 - __main__ - INFO - Connecting to database
+2018-06-12 01:50:03,370 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 01:50:03,370 - __main__ - INFO - Running createTables()
+2018-06-12 01:50:03,373 - __main__ - INFO - Running Sync and Insert
+2018-06-12 01:50:03,373 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 01:50:03,373 - __main__ - INFO - No New Ron Tracks
+2018-06-12 01:50:03,373 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 01:50:03,373 - __main__ - INFO - No New Adam Tracks
+2018-06-12 01:55:03,992 - __main__ - INFO - Connecting to database
+2018-06-12 01:55:03,993 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 01:55:03,993 - __main__ - INFO - Running createTables()
+2018-06-12 01:55:03,996 - __main__ - INFO - Running Sync and Insert
+2018-06-12 01:55:03,996 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 01:55:03,996 - __main__ - INFO - No New Ron Tracks
+2018-06-12 01:55:03,996 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 01:55:03,996 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:00:04,595 - __main__ - INFO - Connecting to database
+2018-06-12 02:00:04,595 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:00:04,595 - __main__ - INFO - Running createTables()
+2018-06-12 02:00:04,599 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:00:04,599 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:00:04,599 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:00:04,599 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:00:04,599 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:05:05,198 - __main__ - INFO - Connecting to database
+2018-06-12 02:05:05,198 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:05:05,199 - __main__ - INFO - Running createTables()
+2018-06-12 02:05:05,202 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:05:05,202 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:05:05,202 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:05:05,202 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:05:05,202 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:10:05,856 - __main__ - INFO - Connecting to database
+2018-06-12 02:10:05,857 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:10:05,857 - __main__ - INFO - Running createTables()
+2018-06-12 02:10:05,860 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:10:05,861 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:10:05,861 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:10:05,861 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:10:05,861 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:15:06,437 - __main__ - INFO - Connecting to database
+2018-06-12 02:15:06,437 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:15:06,438 - __main__ - INFO - Running createTables()
+2018-06-12 02:15:06,441 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:15:06,441 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:15:06,441 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:15:06,441 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:15:06,441 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:20:07,015 - __main__ - INFO - Connecting to database
+2018-06-12 02:20:07,015 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:20:07,016 - __main__ - INFO - Running createTables()
+2018-06-12 02:20:07,019 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:20:07,019 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:20:07,019 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:20:07,019 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:20:07,020 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:25:07,614 - __main__ - INFO - Connecting to database
+2018-06-12 02:25:07,614 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:25:07,614 - __main__ - INFO - Running createTables()
+2018-06-12 02:25:07,618 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:25:07,618 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:25:07,618 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:25:07,618 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:25:07,618 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:30:08,235 - __main__ - INFO - Connecting to database
+2018-06-12 02:30:08,236 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:30:08,236 - __main__ - INFO - Running createTables()
+2018-06-12 02:30:08,239 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:30:08,239 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:30:08,239 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:30:08,240 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:30:08,240 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:35:08,851 - __main__ - INFO - Connecting to database
+2018-06-12 02:35:08,852 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:35:08,852 - __main__ - INFO - Running createTables()
+2018-06-12 02:35:08,855 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:35:08,855 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:35:08,856 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:35:08,856 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:35:08,856 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:40:09,492 - __main__ - INFO - Connecting to database
+2018-06-12 02:40:09,492 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:40:09,492 - __main__ - INFO - Running createTables()
+2018-06-12 02:40:09,496 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:40:09,496 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:40:09,497 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:40:09,497 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:40:09,497 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:45:10,078 - __main__ - INFO - Connecting to database
+2018-06-12 02:45:10,079 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:45:10,079 - __main__ - INFO - Running createTables()
+2018-06-12 02:45:10,082 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:45:10,082 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:45:10,082 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:45:10,082 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:45:10,082 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:50:10,674 - __main__ - INFO - Connecting to database
+2018-06-12 02:50:10,674 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:50:10,674 - __main__ - INFO - Running createTables()
+2018-06-12 02:50:10,677 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:50:10,678 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:50:10,678 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:50:10,678 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:50:10,678 - __main__ - INFO - No New Adam Tracks
+2018-06-12 02:55:11,287 - __main__ - INFO - Connecting to database
+2018-06-12 02:55:11,287 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 02:55:11,288 - __main__ - INFO - Running createTables()
+2018-06-12 02:55:11,291 - __main__ - INFO - Running Sync and Insert
+2018-06-12 02:55:11,291 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 02:55:11,291 - __main__ - INFO - No New Ron Tracks
+2018-06-12 02:55:11,291 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 02:55:11,291 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:00:11,886 - __main__ - INFO - Connecting to database
+2018-06-12 03:00:11,887 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:00:11,887 - __main__ - INFO - Running createTables()
+2018-06-12 03:00:11,890 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:00:11,890 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:00:11,890 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:00:11,891 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:00:11,891 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:05:12,501 - __main__ - INFO - Connecting to database
+2018-06-12 03:05:12,502 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:05:12,502 - __main__ - INFO - Running createTables()
+2018-06-12 03:05:12,505 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:05:12,505 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:05:12,505 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:05:12,506 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:05:12,506 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:10:13,079 - __main__ - INFO - Connecting to database
+2018-06-12 03:10:13,079 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:10:13,079 - __main__ - INFO - Running createTables()
+2018-06-12 03:10:13,082 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:10:13,083 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:10:13,083 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:10:13,083 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:10:13,083 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:15:13,672 - __main__ - INFO - Connecting to database
+2018-06-12 03:15:13,672 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:15:13,673 - __main__ - INFO - Running createTables()
+2018-06-12 03:15:13,676 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:15:13,676 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:15:13,676 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:15:13,677 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:15:13,677 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:20:14,311 - __main__ - INFO - Connecting to database
+2018-06-12 03:20:14,311 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:20:14,311 - __main__ - INFO - Running createTables()
+2018-06-12 03:20:14,315 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:20:14,315 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:20:14,315 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:20:14,315 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:20:14,315 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:25:15,145 - __main__ - INFO - Connecting to database
+2018-06-12 03:25:15,146 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:25:15,146 - __main__ - INFO - Running createTables()
+2018-06-12 03:25:15,149 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:25:15,149 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:25:15,149 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:25:15,150 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:25:15,150 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:30:15,758 - __main__ - INFO - Connecting to database
+2018-06-12 03:30:15,759 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:30:15,759 - __main__ - INFO - Running createTables()
+2018-06-12 03:30:15,763 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:30:15,763 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:30:15,763 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:30:15,763 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:30:15,763 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:35:16,390 - __main__ - INFO - Connecting to database
+2018-06-12 03:35:16,390 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:35:16,390 - __main__ - INFO - Running createTables()
+2018-06-12 03:35:16,393 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:35:16,394 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:35:16,394 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:35:16,394 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:35:16,394 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:40:16,955 - __main__ - INFO - Connecting to database
+2018-06-12 03:40:16,955 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:40:16,955 - __main__ - INFO - Running createTables()
+2018-06-12 03:40:16,959 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:40:16,959 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:40:16,959 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:40:16,959 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:40:16,959 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:45:17,524 - __main__ - INFO - Connecting to database
+2018-06-12 03:45:17,524 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:45:17,524 - __main__ - INFO - Running createTables()
+2018-06-12 03:45:17,528 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:45:17,528 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:45:17,528 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:45:17,528 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:45:17,528 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:50:18,123 - __main__ - INFO - Connecting to database
+2018-06-12 03:50:18,123 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:50:18,123 - __main__ - INFO - Running createTables()
+2018-06-12 03:50:18,126 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:50:18,127 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:50:18,127 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:50:18,127 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:50:18,127 - __main__ - INFO - No New Adam Tracks
+2018-06-12 03:55:18,873 - __main__ - INFO - Connecting to database
+2018-06-12 03:55:18,873 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 03:55:18,873 - __main__ - INFO - Running createTables()
+2018-06-12 03:55:18,876 - __main__ - INFO - Running Sync and Insert
+2018-06-12 03:55:18,877 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 03:55:18,877 - __main__ - INFO - No New Ron Tracks
+2018-06-12 03:55:18,877 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 03:55:18,877 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:00:19,460 - __main__ - INFO - Connecting to database
+2018-06-12 04:00:19,460 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:00:19,460 - __main__ - INFO - Running createTables()
+2018-06-12 04:00:19,463 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:00:19,464 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:00:19,464 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:00:19,464 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:00:19,464 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:05:20,055 - __main__ - INFO - Connecting to database
+2018-06-12 04:05:20,056 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:05:20,056 - __main__ - INFO - Running createTables()
+2018-06-12 04:05:20,059 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:05:20,059 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:05:20,060 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:05:20,060 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:05:20,060 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:10:20,682 - __main__ - INFO - Connecting to database
+2018-06-12 04:10:20,682 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:10:20,682 - __main__ - INFO - Running createTables()
+2018-06-12 04:10:20,685 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:10:20,685 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:10:20,686 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:10:20,686 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:10:20,686 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:15:21,296 - __main__ - INFO - Connecting to database
+2018-06-12 04:15:21,296 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:15:21,297 - __main__ - INFO - Running createTables()
+2018-06-12 04:15:21,300 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:15:21,300 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:15:21,300 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:15:21,300 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:15:21,300 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:20:22,111 - __main__ - INFO - Connecting to database
+2018-06-12 04:20:22,112 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:20:22,112 - __main__ - INFO - Running createTables()
+2018-06-12 04:20:22,115 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:20:22,115 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:20:22,116 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:20:22,116 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:20:22,116 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:25:22,756 - __main__ - INFO - Connecting to database
+2018-06-12 04:25:22,756 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:25:22,756 - __main__ - INFO - Running createTables()
+2018-06-12 04:25:22,760 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:25:22,760 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:25:22,760 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:25:22,761 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:25:22,761 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:30:23,405 - __main__ - INFO - Connecting to database
+2018-06-12 04:30:23,405 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:30:23,405 - __main__ - INFO - Running createTables()
+2018-06-12 04:30:23,408 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:30:23,409 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:30:23,409 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:30:23,409 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:30:23,409 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:35:24,666 - __main__ - INFO - Connecting to database
+2018-06-12 04:35:24,666 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:35:24,667 - __main__ - INFO - Running createTables()
+2018-06-12 04:35:24,670 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:35:24,670 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:35:24,670 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:35:24,670 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:35:24,670 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:40:25,310 - __main__ - INFO - Connecting to database
+2018-06-12 04:40:25,311 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:40:25,311 - __main__ - INFO - Running createTables()
+2018-06-12 04:40:25,314 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:40:25,314 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:40:25,314 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:40:25,315 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:40:25,315 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:45:25,928 - __main__ - INFO - Connecting to database
+2018-06-12 04:45:25,929 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:45:25,929 - __main__ - INFO - Running createTables()
+2018-06-12 04:45:25,932 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:45:25,932 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:45:25,933 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:45:25,933 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:45:25,933 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:50:26,505 - __main__ - INFO - Connecting to database
+2018-06-12 04:50:26,505 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:50:26,505 - __main__ - INFO - Running createTables()
+2018-06-12 04:50:26,508 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:50:26,509 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:50:26,509 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:50:26,509 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:50:26,509 - __main__ - INFO - No New Adam Tracks
+2018-06-12 04:55:27,229 - __main__ - INFO - Connecting to database
+2018-06-12 04:55:27,229 - __main__ - INFO - Tried to create new database tables.
+2018-06-12 04:55:27,229 - __main__ - INFO - Running createTables()
+2018-06-12 04:55:27,233 - __main__ - INFO - Running Sync and Insert
+2018-06-12 04:55:27,233 - __main__ - INFO - Most Recent Ron track: (u'ronlipke', u'2018-06-07T20:32:47Z', u'https://open.spotify.com/artist/1EI0B66miJj5Fl408B7E9H', u'Courtney Marie Andrews', u'Two Cold Nights in Buffalo', u'3laocUVwRZd4sZu1c0tZ2W', 1)
+2018-06-12 04:55:27,233 - __main__ - INFO - No New Ron Tracks
+2018-06-12 04:55:27,233 - __main__ - INFO - Most Recent Adam Track: (u'nonstopflights', u'2018-03-19T20:50:40Z', u'https://open.spotify.com/artist/2kWF7SZ6rEFMPeddiFnqxD', u'The County Liners', u'Love Letter', u'3nThxeu68hzkJTcrB9fBPb', 1)
+2018-06-12 04:55:27,233 - __main__ - INFO - No New Adam Tracks
