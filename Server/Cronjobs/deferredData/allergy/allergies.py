@@ -1,6 +1,6 @@
 import requests, pprint, json 
 from termcolor import colored, cprint
-from SevOneCommon import get_api_token, getEpochTime
+from SevOneCommon import *
 
 responses = {}
 allergyPoints = ['Nose', 'Throat', 'UpperLung', 'LowerLung', 'Flonase', 'Inhailer', 
