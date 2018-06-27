@@ -1,6 +1,7 @@
 import requests, pprint, json 
 from termcolor import colored, cprint
 from SevOneCommon import *
+import pymysql.cursors
 
 responses = {}
 allergyPoints = ['Nose', 'Throat', 'UpperLung', 'LowerLung', 'Flonase', 'Inhailer', 
@@ -122,16 +123,33 @@ def insertData(questionsDict):
 
 # Run it
 if __name__ == '__main__':
-  try: 
-    for allergy in allergyPoints:
-      responses.update(getQuestion(allergy))
 
-  except:
-    print(Exception)
+  ''' insert into mysql database 'allergies' '''
 
-  finally:
+    connection = pymysql.connect(
+                host='localhost',
+                password='CuIeyy7j!!',
+                db='allergies',
+                charset='utf8mb4',
+                cursorclass=pymysql.cursors.DictCursor)
+
+    comment = str(input("Comment: "))
+
+    try:
+      with connection.cursor() as cursor:
+        for allergy in allergyPoints:
+          sql = "INSERT INTO 'allergies' (%s) VALUES (%s)"
+          cursor.execute(sql, (allergy, responses[allergy]))
+        cursor.execute(sql, "Comments", comment)
+        
+    finally:
+      connection.close()
+
+    # Insert Data into SevOne 
     insertData(responses)
     cprint("Inserted!\n", 'yellow')
+    
+    # Print Values to screen
     for key,value in responses.items():
         print(key, value)
 
