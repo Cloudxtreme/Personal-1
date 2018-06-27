@@ -1,6 +1,6 @@
 import requests, pprint, json 
 from termcolor import colored, cprint
-import SevOneCommon
+from SevOneCommon import get_api_token, getEpochTime
 
 ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
