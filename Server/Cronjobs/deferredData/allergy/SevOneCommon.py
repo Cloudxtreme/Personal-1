@@ -1,6 +1,12 @@
 from requests import post
 import json
 
+ip = "10.0.0.60"
+credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
+url = 'http://{}/api/v1'.format(ip)
+
+responses = {}
+
 def get_api_token():
 
     api_token_url = url + "/authentication/signin"
