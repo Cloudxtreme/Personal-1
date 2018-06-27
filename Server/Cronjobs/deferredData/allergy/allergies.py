@@ -1,56 +1,25 @@
 import requests, pprint, json 
 from termcolor import colored, cprint
+import SevOneCommon
 
 ip = "10.0.0.60"
 credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
 url = 'http://{}/api/v1'.format(ip)
 
-def get_api_token():
+responses = {}
+allergyPoints = ['Nose', 'Throat', 'UpperLung', 'LowerLung', 'Flonase', 'Inhailer', 
+'Tiredness', 'DrinksSinceUpdate', 'SmokeNightBefore']
 
-    api_token_url = url + "/authentication/signin"
-
-    header = {"Content-Type" : "application/json","Accept":"application/json"}
-
-    r = requests.post(api_token_url,data=json.dumps(credentials), headers=header)
-    api_token_json = r.json()
-    api_token = api_token_json["token"]
-    return api_token
-
-def getEpochTime():
-    """ SevOne requires epoch in millisecond """
-    import time
-    timestamp = int(time.time())
-    timestamp = str(timestamp) + '000'
-    return timestamp
-
-def getQuestions():
-    ''' Prompt to answer the questions
-
-        allergyPoints = [ 'Nose', 'Throat', 'UpperLung', 'LowerLung', 'Flonase', 
-                      'Inhailer', 'Tiredness', 'DrinksSinceUpdate' 'SmokeNightBefore']
-    '''
-
-    responseChoices = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
-    responses = {}
-
-    print("\n")
-    cprint("Allergy Input: ", 'red', attrs=['bold'])
-    print("\n")
-  
-    ###################
-    # Nose
-    ###################
+def getQuestion(topicName):
+    responseChoices = [str(x) for x in range(0,11)]
 
     while True:
-      Nose = str(input("Nose: "))
+      topicVar = str(input("{}: ".format(topicName)))
 
-      if Nose in responseChoices:
-          
-          ''' update dict with Nose value '''
-          cprint("\n[[ OK ]]\n", 'yellow')
-          responses.update({"Nose": Nose})
-          ''' break loop '''
-          break
+      if topicVar in responseChoices:
+          ''' update dict with value '''
+          cprint("[[ OK ]]\n", 'yellow')
+          return({topicName: topicVar})
       else:
           ''' If not in responses, ask again '''
           print("Incorrect Input")
@@ -58,167 +27,6 @@ def getQuestions():
           ''' continue loop '''
           continue
 
-    ###################
-    # Throat
-    ###################
-
-    while True:
-      Throat = str(input("Throat: "))
-
-      if Throat in responseChoices:
-          ''' update dict with Nose value '''
-          cprint("\n[[ OK ]]\n", 'yellow')
-          responses.update({"Throat": Throat})
-          ''' break loop '''
-          break
-      else:
-          ''' If not in responses, ask again '''
-          print("Incorrect Input")
-          
-          ''' continue loop '''
-          continue
-
-    ###################
-    # UpperLung
-    ###################
-
-    while True:
-      UpperLung = str(input("UpperLung: "))
-
-      if UpperLung in responseChoices:
-          ''' update dict with Nose value '''
-          cprint("\n[[ OK ]]\n", 'yellow')
-          responses.update({"UpperLung": UpperLung})
-          ''' break loop '''
-          break
-      else:
-          ''' If not in responses, ask again '''
-          print("Incorrect Input")
-          
-          ''' continue loop '''
-          continue
-
-    ###################
-    # LowerLung
-    ###################
-
-    while True:
-      LowerLung = str(input("LowerLung: "))
-
-      if LowerLung in responseChoices:
-          ''' update dict with Nose value '''
-          cprint("\n[[ OK ]]\n", 'yellow')
-          responses.update({"LowerLung": LowerLung})
-          ''' break loop '''
-          break
-      else:
-          ''' If not in responses, ask again '''
-          print("Incorrect Input")
-          
-          ''' continue loop '''
-          continue
-
-    ###################
-    # Flonase
-    ###################
-
-    while True:
-      Flonase = str(input("Flonase: "))
-
-      if Flonase in responseChoices:
-          ''' update dict with Nose value '''
-          cprint("\n[[ OK ]]\n", 'yellow')
-          responses.update({"Flonase": Flonase})
-          ''' break loop '''
-          break
-      else:
-          ''' If not in responses, ask again '''
-          print("Incorrect Input")
-          
-          ''' continue loop '''
-          continue
-
-    ###################
-    # Inhailer
-    ###################
-
-    while True:
-      Inhailer = str(input("Inhailer: "))
-
-      if Inhailer in responseChoices:
-          ''' update dict with Nose value '''
-          cprint("\n[[ OK ]]\n", 'yellow')
-          responses.update({"Inhailer": Inhailer})
-          ''' break loop '''
-          break
-      else:
-          ''' If not in responses, ask again '''
-          print("Incorrect Input")
-          
-          ''' continue loop '''
-          continue
-
-    ###################
-    # Tiredness
-    ###################
-
-    while True:
-      Tiredness = str(input("Tiredness: "))
-
-      if Tiredness in responseChoices:
-          ''' update dict with Nose value '''
-          cprint("\n[[ OK ]]\n", 'yellow')
-          responses.update({"Tiredness": Tiredness})
-          ''' break loop '''
-          break
-      else:
-          ''' If not in responses, ask again '''
-          print("Incorrect Input")
-          
-          ''' continue loop '''
-          continue
-
-    ###################
-    # Drinks Since Last Update
-    ###################
-
-    while True:
-      DrinksSinceUpdate = str(input("DrinksSinceUpdate: "))
-
-      if DrinksSinceUpdate in responseChoices:
-          ''' update dict with Nose value '''
-          cprint("\n[[ OK ]]\n", 'yellow')
-          responses.update({"DrinksSinceUpdate": DrinksSinceUpdate})
-          ''' break loop '''
-          break
-      else:
-          ''' If not in responses, ask again '''
-          print("Incorrect Input")
-          
-          ''' continue loop '''
-          continue
-
-    ###################
-    # SmokeNightBefore
-    ###################
-
-    while True:
-      SmokeNightBefore = str(input("SmokeNightBefore: "))
-
-      if SmokeNightBefore in responseChoices:
-          ''' update dict with Nose value '''
-          cprint("\n[[ OK ]]\n", 'yellow')
-          responses.update({"SmokeNightBefore": SmokeNightBefore})
-          ''' break loop '''
-          break
-      else:
-          ''' If not in responses, ask again '''
-          print("Incorrect Input")
-          
-          ''' continue loop '''
-          continue
-  
-    return responses
     
 def insertData(questionsDict):
     
@@ -261,6 +69,7 @@ def insertData(questionsDict):
         "Accept":"application/json",
         "X-AUTH-TOKEN":"{}".format(get_api_token())
         }
+
     currentEpochtime = int(getEpochTime())
     dataDict = [
                 {
@@ -308,15 +117,26 @@ def insertData(questionsDict):
                 }
               ]
 
-    print(dataDict)
-
     try:
       r = requests.post(post_indicatorData, headers=header,json=dataDict)
 
     except:
         print(r.text)
 
-questionsDict = getQuestions()
-print(insertData(questionsDict))
+
+# Run it
+if __name__ == '__main__':
+  try: 
+    for allergy in allergyPoints:
+      responses.update(getQuestion(allergy))
+
+  except:
+    print(Exception)
+
+  finally:
+    insertData(responses)
+    pprint.pprint(responses)
+
+
 
 
