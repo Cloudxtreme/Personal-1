@@ -131,7 +131,9 @@ if __name__ == '__main__':
 
   finally:
     insertData(responses)
-    pprint.pprint(responses)
+    cprint("Inserted!\n", 'yellow')
+    for key,value in responses.items():
+        print(key, value)
 
 
 
