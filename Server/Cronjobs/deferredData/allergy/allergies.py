@@ -2,10 +2,6 @@ import requests, pprint, json
 from termcolor import colored, cprint
 from SevOneCommon import get_api_token, getEpochTime
 
-ip = "10.0.0.60"
-credentials = {"name": "aElchert", "password": ";TuMhmYu3AiNw#2"}
-url = 'http://{}/api/v1'.format(ip)
-
 responses = {}
 allergyPoints = ['Nose', 'Throat', 'UpperLung', 'LowerLung', 'Flonase', 'Inhailer', 
 'Tiredness', 'DrinksSinceUpdate', 'SmokeNightBefore']
