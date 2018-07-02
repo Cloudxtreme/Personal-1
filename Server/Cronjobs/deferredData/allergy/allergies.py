@@ -1,7 +1,7 @@
 import requests, pprint, json 
 from termcolor import colored, cprint
 from SevOneCommon import *
-import pymysql.cursors
+import mysql.connector
 
 responses = {}
 allergyPoints = ['Nose', 'Throat', 'UpperLung', 'LowerLung', 'Flonase', 'Inhailer', 
@@ -14,14 +14,14 @@ def getQuestion(topicName):
       topicVar = str(input("{}: ".format(topicName)))
 
       if topicVar in responseChoices:
-          ''' update dict with value '''
+          # update dict with value
           cprint("[[ OK ]]\n", 'yellow')
           return({topicName: topicVar})
       else:
-          ''' If not in responses, ask again '''
+          # If not in responses, ask again
           print("Incorrect Input")
           
-          ''' continue loop '''
+          # Continue Loop
           continue
 
     
@@ -115,8 +115,8 @@ def insertData(questionsDict):
               ]
 
     try:
-      r = requests.post(post_indicatorData, headers=header,json=dataDict)
-
+      #r = requests.post(post_indicatorData, headers=header,json=dataDict)
+      print("the")
     except:
         print(r.text)
 
@@ -124,34 +124,55 @@ def insertData(questionsDict):
 # Run it
 if __name__ == '__main__':
 
-  ''' insert into mysql database 'allergies' '''
+  '''
+  +-------------------+--------------+------+-----+---------+-------+
+| Field             | Type         | Null | Key | Default | Extra |
++-------------------+--------------+------+-----+---------+-------+
+| Date              | datetime     | YES  |     | NULL    |       |
+| Nose              | varchar(2)   | YES  |     | NULL    |       |
+| Throat            | varchar(2)   | YES  |     | NULL    |       |
+| UpperLung         | varchar(2)   | YES  |     | NULL    |       |
+| LowerLung         | varchar(2)   | YES  |     | NULL    |       |
+| Flonase           | varchar(2)   | YES  |     | NULL    |       |
+| Inhailer          | varchar(2)   | YES  |     | NULL    |       |
+| Tiredness         | varchar(2)   | YES  |     | NULL    |       |
+| DrinksSinceUpdate | varchar(2)   | YES  |     | NULL    |       |
+| SmokeNightBefore  | varchar(2)   | YES  |     | NULL    |       |
+| Comments          | varchar(255) | YES  |     | NULL    |       |
++-------------------+--------------+------+-----+---------+-------+
+'''
 
-    connection = pymysql.connect(
-                host='localhost',
-                password='CuIeyy7j!!',
-                db='allergies',
-                charset='utf8mb4',
-                cursorclass=pymysql.cursors.DictCursor)
+  # Insert Data into SevOne
+  for allergy in allergyPoints:
+        responses.update(getQuestion(allergy))
 
-    comment = str(input("Comment: "))
+  # Inserts the data into SevOne via API
+  insertData(responses)
 
-    try:
-      with connection.cursor() as cursor:
-        for allergy in allergyPoints:
-          sql = "INSERT INTO 'allergies' (%s) VALUES (%s)"
-          cursor.execute(sql, (allergy, responses[allergy]))
-        cursor.execute(sql, "Comments", comment)
-        
-    finally:
-      connection.close()
+  # insert into mysql database 'allergies'
 
-    # Insert Data into SevOne 
-    insertData(responses)
-    cprint("Inserted!\n", 'yellow')
-    
-    # Print Values to screen
-    for key,value in responses.items():
-        print(key, value)
+  cnx = mysql.connector.connect(host='10.0.0.50', user='root', password='CuIeyy7j!!', database='allergies', buffered=True)
+  cursor = cnx.cursor()
+
+  comment = str(input("Comment: "))
+
+  responses.update({"Comment": comment})
+
+
+  sql = "INSERT INTO allergies \
+        (Date, Nose, Throat, UpperLung, LowerLung, Flonase, Inhailer, Tiredness, DrinksSinceUpdate, SmokeNightBefore, Comments) \
+        VALUES \
+        (%(Date)s, %(Nose)s, %(Throat)s, %(UpperLung)s,  %(LowerLung)s, %(Floanse)s, %(Inhailer)s, %(Tiredness)s, %(DrinksSinceUpdate)s, %(SmokeNightBefore)s, %(Comments)s)"
+
+  cursor.execute(sql, (allergy, responses))
+  cnx.commit()
+
+  cursor.close()
+  cnx.close()
+
+  #Print Values to screen
+  for key,value in responses.items():
+      print(key, value)
 
 
 
