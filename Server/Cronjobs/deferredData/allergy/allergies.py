@@ -159,15 +159,17 @@ if __name__ == '__main__':
 
   responses.update({"Comments": comments})
 
-
   sql = "INSERT INTO allergies \
         (Date, Nose, Throat, UpperLung, LowerLung, Flonase, Inhailer, Tiredness, DrinksSinceUpdate, SmokeNightBefore, Comments) \
         VALUES \
-        (NOW(), %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+        (NOW(), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
 
   dataDict = (responses['Nose'], responses['Throat'], responses['UpperLung'], responses['LowerLung'], \
         responses['Flonase'], responses['Inhailer'], responses['Tiredness'], responses['DrinksSinceUpdate'], \
         responses['SmokeNightBefore'], responses['Comments'])
+
+  # DEBUG  
+  #print("Data Dict: {}".format(dataDict))
 
   cursor.execute(sql, dataDict)
 
