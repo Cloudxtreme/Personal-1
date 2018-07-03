@@ -2,6 +2,7 @@ import requests, pprint, json
 from termcolor import colored, cprint
 from SevOneCommon import *
 import mysql.connector
+from datetime import datetime
 
 responses = {}
 allergyPoints = ['Nose', 'Throat', 'UpperLung', 'LowerLung', 'Flonase', 'Inhailer', 
@@ -154,17 +155,22 @@ if __name__ == '__main__':
   cnx = mysql.connector.connect(host='10.0.0.50', user='root', password='CuIeyy7j!!', database='allergies', buffered=True)
   cursor = cnx.cursor()
 
-  comment = str(input("Comment: "))
+  comments = str(input("Comments: "))
 
-  responses.update({"Comment": comment})
+  responses.update({"Comments": comments})
 
 
   sql = "INSERT INTO allergies \
         (Date, Nose, Throat, UpperLung, LowerLung, Flonase, Inhailer, Tiredness, DrinksSinceUpdate, SmokeNightBefore, Comments) \
         VALUES \
-        (%(Date)s, %(Nose)s, %(Throat)s, %(UpperLung)s,  %(LowerLung)s, %(Floanse)s, %(Inhailer)s, %(Tiredness)s, %(DrinksSinceUpdate)s, %(SmokeNightBefore)s, %(Comments)s)"
+        (NOW(), %s, %s, %s, %s, %s, %s, %s, %s, %s)"
 
-  cursor.execute(sql, (allergy, responses))
+  dataDict = (responses['Nose'], responses['Throat'], responses['UpperLung'], responses['LowerLung'], \
+        responses['Flonase'], responses['Inhailer'], responses['Tiredness'], responses['DrinksSinceUpdate'], \
+        responses['SmokeNightBefore'], responses['Comments'])
+
+  cursor.execute(sql, dataDict)
+
   cnx.commit()
 
   cursor.close()
@@ -173,7 +179,3 @@ if __name__ == '__main__':
   #Print Values to screen
   for key,value in responses.items():
       print(key, value)
-
-
-
-
