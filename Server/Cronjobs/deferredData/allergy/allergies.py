@@ -116,8 +116,7 @@ def insertData(questionsDict):
               ]
 
     try:
-      #r = requests.post(post_indicatorData, headers=header,json=dataDict)
-      print("the")
+      r = requests.post(post_indicatorData, headers=header,json=dataDict)
     except:
         print(r.text)
 
