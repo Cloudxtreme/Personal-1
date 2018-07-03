@@ -124,7 +124,13 @@ def insertData(questionsDict):
 # Run it
 if __name__ == '__main__':
 
-  ''' insert into mysql database 'allergies' '''
+    # Insert Data into SevOne
+    for allergy in allergyPoints:
+        responses.update(getQuestion(allergy))
+    
+    insertData(responses)
+
+    ''' insert into mysql database 'allergies' '''
 
     connection = pymysql.connect(
                 host='localhost',
@@ -144,10 +150,6 @@ if __name__ == '__main__':
         
     finally:
       connection.close()
-
-    # Insert Data into SevOne 
-    insertData(responses)
-    cprint("Inserted!\n", 'yellow')
     
     # Print Values to screen
     for key,value in responses.items():
