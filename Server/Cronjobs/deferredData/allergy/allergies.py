@@ -1,7 +1,8 @@
 import requests, pprint, json 
 from termcolor import colored, cprint
 from SevOneCommon import *
-import pymysql.cursors
+import mysql.connector
+from datetime import datetime
 
 responses = {}
 allergyPoints = ['Nose', 'Throat', 'UpperLung', 'LowerLung', 'Flonase', 'Inhailer', 
@@ -14,14 +15,14 @@ def getQuestion(topicName):
       topicVar = str(input("{}: ".format(topicName)))
 
       if topicVar in responseChoices:
-          ''' update dict with value '''
+          # update dict with value
           cprint("[[ OK ]]\n", 'yellow')
           return({topicName: topicVar})
       else:
-          ''' If not in responses, ask again '''
+          # If not in responses, ask again
           print("Incorrect Input")
           
-          ''' continue loop '''
+          # Continue Loop
           continue
 
     
@@ -115,8 +116,8 @@ def insertData(questionsDict):
               ]
 
     try:
-      r = requests.post(post_indicatorData, headers=header,json=dataDict)
-
+      #r = requests.post(post_indicatorData, headers=header,json=dataDict)
+      print("the")
     except:
         print(r.text)
 
@@ -124,37 +125,59 @@ def insertData(questionsDict):
 # Run it
 if __name__ == '__main__':
 
-    # Insert Data into SevOne
-    for allergy in allergyPoints:
+  '''
+  +-------------------+--------------+------+-----+---------+-------+
+| Field             | Type         | Null | Key | Default | Extra |
++-------------------+--------------+------+-----+---------+-------+
+| Date              | datetime     | YES  |     | NULL    |       |
+| Nose              | varchar(2)   | YES  |     | NULL    |       |
+| Throat            | varchar(2)   | YES  |     | NULL    |       |
+| UpperLung         | varchar(2)   | YES  |     | NULL    |       |
+| LowerLung         | varchar(2)   | YES  |     | NULL    |       |
+| Flonase           | varchar(2)   | YES  |     | NULL    |       |
+| Inhailer          | varchar(2)   | YES  |     | NULL    |       |
+| Tiredness         | varchar(2)   | YES  |     | NULL    |       |
+| DrinksSinceUpdate | varchar(2)   | YES  |     | NULL    |       |
+| SmokeNightBefore  | varchar(2)   | YES  |     | NULL    |       |
+| Comments          | varchar(255) | YES  |     | NULL    |       |
++-------------------+--------------+------+-----+---------+-------+
+'''
+
+  # Insert Data into SevOne
+  for allergy in allergyPoints:
         responses.update(getQuestion(allergy))
-    
-    insertData(responses)
 
-    ''' insert into mysql database 'allergies' '''
+  # Inserts the data into SevOne via API
+  insertData(responses)
 
-    connection = pymysql.connect(
-                host='localhost',
-                password='CuIeyy7j!!',
-                db='allergies',
-                charset='utf8mb4',
-                cursorclass=pymysql.cursors.DictCursor)
+  # insert into mysql database 'allergies'
 
-    comment = str(input("Comment: "))
+  cnx = mysql.connector.connect(host='10.0.0.50', user='root', password='CuIeyy7j!!', database='allergies', buffered=True)
+  cursor = cnx.cursor()
 
-    try:
-      with connection.cursor() as cursor:
-        for allergy in allergyPoints:
-          sql = "INSERT INTO 'allergies' (%s) VALUES (%s)"
-          cursor.execute(sql, (allergy, responses[allergy]))
-        cursor.execute(sql, "Comments", comment)
-        
-    finally:
-      connection.close()
-    
-    # Print Values to screen
-    for key,value in responses.items():
-        print(key, value)
+  comments = str(input("Comments: "))
 
+  responses.update({"Comments": comments})
 
+  sql = "INSERT INTO allergies \
+        (Date, Nose, Throat, UpperLung, LowerLung, Flonase, Inhailer, Tiredness, DrinksSinceUpdate, SmokeNightBefore, Comments) \
+        VALUES \
+        (NOW(), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
 
+  dataDict = (responses['Nose'], responses['Throat'], responses['UpperLung'], responses['LowerLung'], \
+        responses['Flonase'], responses['Inhailer'], responses['Tiredness'], responses['DrinksSinceUpdate'], \
+        responses['SmokeNightBefore'], responses['Comments'])
 
+  # DEBUG  
+  #print("Data Dict: {}".format(dataDict))
+
+  cursor.execute(sql, dataDict)
+
+  cnx.commit()
+
+  cursor.close()
+  cnx.close()
+
+  #Print Values to screen
+  for key,value in responses.items():
+      print(key, value)
