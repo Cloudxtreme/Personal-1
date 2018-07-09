@@ -156,7 +156,18 @@ if __name__ == '__main__':
 
   comments = str(input("Comments: "))
 
+  print("before update:")
+
+  for key,value in responses.items():
+    print(key, value)
+
   responses.update({"Comments": comments})
+
+  print("After update: ")
+
+  for key,value in responses.items():
+  print(key, value)
+
 
   #sql = "INSERT INTO allergies \
   #      (Date, Nose, Throat, UpperLung, LowerLung, Flonase, Inhailer, Tiredness, DrinksSinceUpdate, SmokeNightBefore, Comments) \
@@ -178,5 +189,5 @@ if __name__ == '__main__':
   #cnx.close()
 
   #Print Values to screen
-  for key,value in responses.items():
-      print(key, value)
+  # for key,value in responses.items():
+  #     print(key, value)
