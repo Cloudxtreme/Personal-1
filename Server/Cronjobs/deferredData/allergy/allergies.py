@@ -174,8 +174,8 @@ if __name__ == '__main__':
 
   #cnx.commit()
 
-  cursor.close()
-  cnx.close()
+  #cursor.close()
+  #cnx.close()
 
   #Print Values to screen
   for key,value in responses.items():
