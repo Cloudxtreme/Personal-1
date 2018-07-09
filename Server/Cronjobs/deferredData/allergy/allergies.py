@@ -166,7 +166,7 @@ if __name__ == '__main__':
   print("After update: ")
 
   for key,value in responses.items():
-  print(key, value)
+    print(key, value)
 
 
   #sql = "INSERT INTO allergies \
