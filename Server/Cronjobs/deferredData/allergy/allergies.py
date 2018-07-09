@@ -147,12 +147,12 @@ if __name__ == '__main__':
         responses.update(getQuestion(allergy))
 
   # Inserts the data into SevOne via API
-  #insertData(responses)
+  insertData(responses)
 
   # insert into mysql database 'allergies'
 
-  #cnx = mysql.connector.connect(host='10.0.0.50', user='root', password='CuIeyy7j!!', database='allergies', buffered=True)
-  #cursor = cnx.cursor()
+  cnx = mysql.connector.connect(host='10.0.0.50', user='root', password='CuIeyy7j!!', database='allergies', buffered=True)
+  cursor = cnx.cursor()
 
   comments = str(input("Comments: "))
 
@@ -169,10 +169,10 @@ if __name__ == '__main__':
     print(key, value)
 
 
-  #sql = "INSERT INTO allergies \
-  #      (Date, Nose, Throat, UpperLung, LowerLung, Flonase, Inhailer, Tiredness, DrinksSinceUpdate, SmokeNightBefore, Comments) \
-  #      VALUES \
-  #      (NOW(), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+  sql = "INSERT INTO allergies \
+       (Date, Nose, Throat, UpperLung, LowerLung, Flonase, Inhailer, Tiredness, DrinksSinceUpdate, SmokeNightBefore, Comments) \
+       VALUES \
+       (NOW(), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
 
   dataDict = (responses['Nose'], responses['Throat'], responses['UpperLung'], responses['LowerLung'], \
         responses['Flonase'], responses['Inhailer'], responses['Tiredness'], responses['DrinksSinceUpdate'], \
@@ -181,13 +181,13 @@ if __name__ == '__main__':
   # DEBUG  
   #print("Data Dict: {}".format(dataDict))
 
-  #cursor.execute(sql, dataDict)
+  cursor.execute(sql, dataDict)
 
-  #cnx.commit()
+  cnx.commit()
 
-  #cursor.close()
-  #cnx.close()
+  cursor.close()
+  cnx.close()
 
   #Print Values to screen
-  # for key,value in responses.items():
-  #     print(key, value)
+  for key,value in responses.items():
+      print(key, value)
