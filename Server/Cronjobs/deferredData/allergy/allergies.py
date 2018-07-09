@@ -189,5 +189,5 @@ if __name__ == '__main__':
   cnx.close()
 
   #Print Values to screen
-  for key,value in responses.items():
+  for key,value in sorted(responses.items()):
       print(key, value)
