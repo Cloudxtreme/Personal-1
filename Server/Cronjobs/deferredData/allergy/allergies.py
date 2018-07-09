@@ -147,18 +147,18 @@ if __name__ == '__main__':
         responses.update(getQuestion(allergy))
 
   # Inserts the data into SevOne via API
-  insertData(responses)
+  #insertData(responses)
 
   # insert into mysql database 'allergies'
 
-  cnx = mysql.connector.connect(host='10.0.0.50', user='root', password='CuIeyy7j!!', database='allergies', buffered=True)
-  cursor = cnx.cursor()
+  #cnx = mysql.connector.connect(host='10.0.0.50', user='root', password='CuIeyy7j!!', database='allergies', buffered=True)
+  #cursor = cnx.cursor()
 
   comments = str(input("Comments: "))
 
   responses.update({"Comments": comments})
 
-  sql = "INSERT INTO allergies \
+  #sql = "INSERT INTO allergies \
         (Date, Nose, Throat, UpperLung, LowerLung, Flonase, Inhailer, Tiredness, DrinksSinceUpdate, SmokeNightBefore, Comments) \
         VALUES \
         (NOW(), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
@@ -170,9 +170,9 @@ if __name__ == '__main__':
   # DEBUG  
   #print("Data Dict: {}".format(dataDict))
 
-  cursor.execute(sql, dataDict)
+  #cursor.execute(sql, dataDict)
 
-  cnx.commit()
+  #cnx.commit()
 
   cursor.close()
   cnx.close()
