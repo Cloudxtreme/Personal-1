@@ -157,7 +157,7 @@ if __name__ == '__main__':
   cursor = cnx.cursor()
 
   comments = str(input("Comments: "))
-  responses.update("Comments": comments)
+  responses.update({"Comments": comments})
 
   sql = "INSERT INTO allergies \
        (Date, Nose, Throat, UpperLung, LowerLung, Flonase, Inhailer, Tiredness, DrinksSinceUpdate, SmokeNightBefore, Comments) \
