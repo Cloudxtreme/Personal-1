@@ -149,6 +149,8 @@ if __name__ == '__main__':
   # Inserts the data into SevOne via API
   insertData(responses)
 
+  print("Inserted Data info SevOne API")
+
   # insert into mysql database 'allergies'
 
   cnx = mysql.connector.connect(host='10.0.0.50', user='root', password='CuIeyy7j!!', database='allergies', buffered=True)
