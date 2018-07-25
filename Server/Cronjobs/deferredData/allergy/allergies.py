@@ -121,6 +121,24 @@ def insertData(questionsDict):
         print(r.text)
 
 
+def getPollenData():
+  ''' uses pollen.com's api for values '''
+  pollenURL = 'https://www.claritinblueskyliving.com/webservice/allergyforecast.php?zip=17602'
+  r = requests.get(pollenURL)
+  pattern = r.text
+  # remove all the slashes in rawJson
+  allergyStripped = pattern.replace("\\", " ")
+  #remove the first two characters and then last two
+  rawJSON = allergyStripped[1:len(allergyStripped) - 1]
+  #convert string to  json object
+  jsonObject = json.loads(rawJSON)
+  # returns float from json
+  allergyValueFloat = jsonObject[0]['pollenForecast ']['forecast '][0]
+  # multiple float to int value
+  allergyValue  = int(allergyValueFloat * 10)
+  allergySources = jsonObject[0]['pollenForecast ']['pp ']
+  return([allergyValue, allergySources])
+
 # Run it
 if __name__ == '__main__':
 
@@ -149,7 +167,7 @@ if __name__ == '__main__':
   # Inserts the data into SevOne via API
   insertData(responses)
 
-  print("Inserted Data info SevOne API")
+  
 
   # insert into mysql database 'allergies'
 
