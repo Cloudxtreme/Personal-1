@@ -5,7 +5,7 @@ import mysql.connector
 from datetime import datetime
 
 responses = {}
-allergyPoints = ['Nose', 'Throat', 'UpperLung', 'LowerLung', 'Flonase', 'Inhailer', 
+allergyPoints = ['Nose', 'FaceInflamation', 'UpperLung', 'LowerLung', 'Flonase', 'Inhailer', 
 'Tiredness', 'DrinksSinceUpdate', 'SmokeNightBefore']
 
 def getQuestion(topicName):
@@ -39,26 +39,28 @@ def insertData(questionsDict):
 
     pluginIndicatorTypeId = {
         'Nose': 12925,
-        'Throat' : 12926,
+        'FaceInflamation' : 12926,
         'UpperLung': 12927,
         'LowerLung': 12928,
         'Flonase': 12929,
         'Inhailer': 12930,
         'Tiredness': 12931,
         'DrinksSinceUpdate': 12932,
-        'SmokeNightBefore': 12933
+        'SmokeNightBefore': 12933,
+        'PollenCount': 12934
       }
 
     indicatorId = {
       'Nose': 12028,
-      'Throat': 12029,
+      'FaceInflamation': 12029,
       'UpperLung': 12030,
       'LowerLung': 12031,
       'Flonase': 12032,
       'Inhailer': 12033,      
       'Tiredness': 12034,
       'DrinksSinceUpdate': 12035,
-      'SmokeNightBefore': 12036
+      'SmokeNightBefore': 12036,
+      'PollenCount': 12247
     }
 
     post_indicatorData = url + "/device-indicators/data"
@@ -78,8 +80,8 @@ def insertData(questionsDict):
                       "value": str(questionsDict['Nose'])
                     },
                     {
-                      "indicatorId": indicatorId['Throat'],
-                      "value": str(questionsDict['Throat'])
+                      "indicatorId": indicatorId['FaceInflamation'],
+                      "value": str(questionsDict['FaceInflamation'])
                     },
                     {
                       "indicatorId": indicatorId['UpperLung'],
@@ -108,7 +110,11 @@ def insertData(questionsDict):
                     {
                       "indicatorId": indicatorId['SmokeNightBefore'],
                       "value": str(questionsDict['SmokeNightBefore'])
-                    }
+                    }, 
+                    {
+                      "indicatorId": indicatorId['PollenCount'],
+                      "value": str(pollenData[0])
+                    },
                   ],
                   "objectId": deviceInfo['objectId'],
                   "timestamp": currentEpochtime
@@ -123,6 +129,7 @@ def insertData(questionsDict):
 
 def getPollenData():
   ''' uses pollen.com's api for values '''
+  cprint("[[ Getting Pollen.com Data ]]\n", 'green')
   pollenURL = 'https://www.claritinblueskyliving.com/webservice/allergyforecast.php?zip=17602'
   r = requests.get(pollenURL)
   pattern = r.text
@@ -137,54 +144,61 @@ def getPollenData():
   # multiple float to int value
   allergyValue  = int(allergyValueFloat * 10)
   allergySources = jsonObject[0]['pollenForecast ']['pp ']
+  cprint("[[ Pollen Data - OK ]]\n", 'green')
   return([allergyValue, allergySources])
 
 # Run it
 if __name__ == '__main__':
 
   '''
-  +-------------------+--------------+------+-----+---------+-------+
++-------------------+--------------+------+-----+---------+-------+
 | Field             | Type         | Null | Key | Default | Extra |
 +-------------------+--------------+------+-----+---------+-------+
-| Date              | datetime     | YES  |     | NULL    |       |
-| Nose              | varchar(2)   | YES  |     | NULL    |       |
-| Throat            | varchar(2)   | YES  |     | NULL    |       |
-| UpperLung         | varchar(2)   | YES  |     | NULL    |       |
-| LowerLung         | varchar(2)   | YES  |     | NULL    |       |
-| Flonase           | varchar(2)   | YES  |     | NULL    |       |
-| Inhailer          | varchar(2)   | YES  |     | NULL    |       |
-| Tiredness         | varchar(2)   | YES  |     | NULL    |       |
-| DrinksSinceUpdate | varchar(2)   | YES  |     | NULL    |       |
-| SmokeNightBefore  | varchar(2)   | YES  |     | NULL    |       |
+| Date              | datetime     | NO   |     | NULL    |       |
+| Nose              | varchar(2)   | NO   |     | 0       |       |
+| FaceInflamation   | varchar(2)   | NO   |     | 0       |       |
+| UpperLung         | varchar(2)   | NO   |     | 0       |       |
+| LowerLung         | varchar(2)   | NO   |     | 0       |       |
+| Flonase           | varchar(2)   | NO   |     | 0       |       |
+| Inhailer          | varchar(2)   | NO   |     | 0       |       |
+| Tiredness         | varchar(2)   | NO   |     | 0       |       |
+| DrinksSinceUpdate | varchar(2)   | NO   |     | 0       |       |
+| SmokeNightBefore  | varchar(2)   | NO   |     | 0       |       |
 | Comments          | varchar(255) | YES  |     | NULL    |       |
+| PollenCount       | varchar(5)   | YES  |     | NULL    |       |
+| PollenDetail      | varchar(255) | YES  |     | NULL    |       |
 +-------------------+--------------+------+-----+---------+-------+
 '''
 
-  # Insert Data into SevOne
+  # Ask each question
   for allergy in allergyPoints:
         responses.update(getQuestion(allergy))
 
-  # Inserts the data into SevOne via API
-  insertData(responses)
-
-  
-
-  # insert into mysql database 'allergies'
+#   # insert into mysql database 'allergies'
 
   cnx = mysql.connector.connect(host='10.0.0.50', user='root', password='CuIeyy7j!!', database='allergies', buffered=True)
   cursor = cnx.cursor()
 
+  # Get comment from user input
   comments = str(input("Comments: "))
   responses.update({"Comments": comments})
 
-  sql = "INSERT INTO allergies \
-       (Date, Nose, Throat, UpperLung, LowerLung, Flonase, Inhailer, Tiredness, DrinksSinceUpdate, SmokeNightBefore, Comments) \
-       VALUES \
-       (NOW(), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+  # Get Pollen data from Pollen.com
+  pollenData = getPollenData()
+  responses.update({'PollenCount': pollenData[0]})
+  responses.update({'PollenDetail': pollenData[1]})
 
-  dataDict = (responses['Nose'], responses['Throat'], responses['UpperLung'], responses['LowerLung'], \
+  # Inserts the data into SevOne via API
+  insertData(responses)
+
+  sql = "INSERT INTO allergies \
+       (Date, Nose, FaceInflamation, UpperLung, LowerLung, Flonase, Inhailer, Tiredness, DrinksSinceUpdate, SmokeNightBefore, Comments, PollenCount, PollenDetail) \
+       VALUES \
+       (NOW(), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+
+  dataDict = (responses['Nose'], responses['FaceInflamation'], responses['UpperLung'], responses['LowerLung'], \
         responses['Flonase'], responses['Inhailer'], responses['Tiredness'], responses['DrinksSinceUpdate'], \
-        responses['SmokeNightBefore'], responses['Comments'])
+        responses['SmokeNightBefore'], responses['Comments'], responses['PollenCount'], responses['PollenDetail'])
 
   # DEBUG  
   #print("Data Dict: {}".format(dataDict))
@@ -197,5 +211,7 @@ if __name__ == '__main__':
   cnx.close()
 
   #Print Values to screen
+  print("\n")
+  cprint("---- Responses ----\n", 'cyan', attrs=['bold'])
   for key,value in sorted(responses.items()):
       print(key, value)
