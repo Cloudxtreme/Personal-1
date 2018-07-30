@@ -32,7 +32,7 @@ chown aelchert $DIR/*.sql
 #adds sql backups to tar file
 cd $DIR
 tar rvf Booksread_Backup.tar booksread_$NOW.sql
-tar rvf allergies.tar allergies_$NOW.sql
+tar rvf Allergies_Backup.tar allergies_$NOW.sql
 
 # if [ $? -eq 0 ]; then
 #   echo -e "++ [mysqlBackup.sh] - $LOGDATE - Tar creation - Completed" >> $LOGFILE
