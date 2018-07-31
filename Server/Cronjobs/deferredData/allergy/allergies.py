@@ -169,6 +169,7 @@ if __name__ == '__main__':
 | PollenDetail      | varchar(255) | YES  |     | NULL    |       |
 +-------------------+--------------+------+-----+---------+-------+
 '''
+  print_cyan_on_red("---- Allergy Log ----\n")
 
   # Ask each question
   for allergy in allergyPoints:
