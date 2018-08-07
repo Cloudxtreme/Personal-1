@@ -16,17 +16,15 @@ PS1='\[\e[0;33m\][Server]\[\e[m\] \u \[\e[1;34m\][$(date +%k:%M:%S)]\[\e[m\]\[\e
 
 # GLOBAL VARIABLE
 NOW=$(date +"%m-%d-%Y")
-git="/home/aelchert/Git/Personal/"
-gitserver="/home/aelchert/Git/Personal/Server/"
+git="/home/adamschoonover/Git/Personal/"
+gitserver="/home/adamschoonover/Git/Personal/Server/"
 
-export SPOTIPY_CLIENT_ID='70be013bbce941b19cc1b0c22d66c6c3'
-export SPOTIPY_CLIENT_SECRET='7e4bfe34feb942cc8e1f92d7c1293e18'
-export SPOTIPY_REDIRECT_URI='http://spotify.elchert.net'
 
 alias nas='cd /mnt/NAS/ && ls'
 alias downloads='cd /mnt/NAS/Downloads/ && ls'
 alias ls=' ls -lhG --color=auto'
 alias vnc='sudo x11vnc -forever -auth guess -display :0'
+alias serverip='cat ~/Dropbox/Logs/ipaddress.txt'
 alias router='ssh adamschoonover@10.0.0.1'
 alias c="clear"
 alias cl="clear"
@@ -35,14 +33,8 @@ alias usenet="cd ~/Git/Personal/Server/Usenet && ls && sudo vagrant ssh"
 alias sevone='ssh root@10.0.0.60'
 alias gitadd='git add -A . && git commit -m "updates" && git push'
 alias gitupdate='git fetch && git merge'
-alias pihole='ssh aelchert@10.0.0.49'
-alias bookupdate='python /home/aelchert/Git/Personal/bookDatabase/bookInput.py'
-alias transmission='ssh 10.0.0.56'
-alias cent='ssh root@10.0.0.45'
-alias centos='ssh aelchert@10.0.0.45'
-alias al='python3 /home/aelchert/Git/Personal/Server/Cronjobs/deferredData/allergy/allergies.py'
-alias allergies='python3 /home/aelchert/Git/Personal/Server/Cronjobs/deferredData/allergy/allergies.py'
-alias cron='cd /home/aelchert/Git/Personal/Server/Cronjobs'
+
+alias bookupdate='python /home/adamschoonover/Git/Personal/Book-Database/book-input.py'
 
 ### COLORS ###
 
@@ -53,19 +45,19 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 ### BASH EDITS ###
 
-alias bashedit='sudo vim ~/.bashrc'
-alias editbash='sudo vim ~/.bashrc'
+alias bashedit='sudo nano ~/.bashrc'
+alias editbash='sudo nano ~/.bashrc'
 alias restartbash='source ~/.bashrc'
 alias bashrestart='source ~/.bashrc'
 
 ### LOCAL DATABASES ###
 
-alias mysqlbooks='sudo MYSQL_PS1="mysql booksread> " mysql -u root -p Booksread'
+alias mysqlbooks='sudo MYSQL_PS1="mysql booksread> " mysql -u root booksread'
 
 ### Convert Flac to Apple Lossless ###
-alias flac='bash /home/aelchert/Git/Personal/Server/flac-conversion.sh'
+alias flac='bash /home/adamschoonover/Git/Personal/Server/flac-conversion.sh'
 
-alias nginx='ssh aelchert@10.0.0.57'
+alias nginxedit='sudo vim /etc/nginx/sites-enabled/default'
 
 ### Colorize Man Pages ###
 man() {
@@ -79,6 +71,3 @@ man() {
         LESS_TERMCAP_us=$(printf "\e[1;32m") \
             man "$@"
 }
-alias tweets='cd /home/aelchert/Git/Personal/Scripts/twitterText'
-alias spotify='cd /home/aelchert/Git/Personal/Scripts/spotify'
-alias ubnt='ssh aElchert@10.0.0.1'

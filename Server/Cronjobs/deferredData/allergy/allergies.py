@@ -1,11 +1,11 @@
-import requests, pprint, json 
+import requests, pprint, json
 from termcolor import colored, cprint
 from SevOneCommon import *
 import mysql.connector
 from datetime import datetime
 
 responses = {}
-allergyPoints = ['Nose', 'FaceInflamation', 'UpperLung', 'LowerLung', 'Flonase', 'Inhailer', 
+allergyPoints = ['Nose', 'FaceInflamation', 'UpperLung', 'LowerLung', 'Flonase', 'Inhailer',
 'Tiredness', 'DrinksSinceUpdate', 'SmokeNightBefore']
 
 def getQuestion(topicName):
@@ -21,20 +21,20 @@ def getQuestion(topicName):
       else:
           # If not in responses, ask again
           print("Incorrect Input")
-          
+
           # Continue Loop
           continue
 
-    
+
 def insertData(questionsDict):
-    
-    deviceInfo = { 
-        'deviceId': 209, 
-        'objectId': 1384, 
-        'objectTypeId': 1586, 
+
+    deviceInfo = {
+        'deviceId': 209,
+        'objectId': 1384,
+        'objectTypeId': 1586,
         'pluginId': 10,
         'objectType': 1586,
-        'objectSubtypes': 1426  
+        'objectSubtypes': 1426
         }
 
     pluginIndicatorTypeId = {
@@ -56,7 +56,7 @@ def insertData(questionsDict):
       'UpperLung': 12030,
       'LowerLung': 12031,
       'Flonase': 12032,
-      'Inhailer': 12033,      
+      'Inhailer': 12033,
       'Tiredness': 12034,
       'DrinksSinceUpdate': 12035,
       'SmokeNightBefore': 12036,
@@ -110,7 +110,7 @@ def insertData(questionsDict):
                     {
                       "indicatorId": indicatorId['SmokeNightBefore'],
                       "value": str(questionsDict['SmokeNightBefore'])
-                    }, 
+                    },
                     {
                       "indicatorId": indicatorId['PollenCount'],
                       "value": str(pollenData[0])
@@ -169,7 +169,7 @@ if __name__ == '__main__':
 | PollenDetail      | varchar(255) | YES  |     | NULL    |       |
 +-------------------+--------------+------+-----+---------+-------+
 '''
-  print_cyan_on_red("---- Allergy Log ----\n")
+  cprint("---- Allergy Log ----\n", 'cyan', attrs=['bold'])
 
   # Ask each question
   for allergy in allergyPoints:
@@ -201,7 +201,7 @@ if __name__ == '__main__':
         responses['Flonase'], responses['Inhailer'], responses['Tiredness'], responses['DrinksSinceUpdate'], \
         responses['SmokeNightBefore'], responses['Comments'], responses['PollenCount'], responses['PollenDetail'])
 
-  # DEBUG  
+  # DEBUG
   #print("Data Dict: {}".format(dataDict))
 
   cursor.execute(sql, dataDict)
