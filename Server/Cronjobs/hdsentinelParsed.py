@@ -17,7 +17,7 @@ oldFileLocation = 'hds.txt'
 newFileLocation = '/home/aelchert/Dropbox/Logs/hardDriveReport.txt'
 
 # create report from HDSentienl and put in temp folder
-os.system('sudo HDSentinel > hds.txt')
+os.system('sudo hdsentinel > hds.txt')
 
 # parse temp file for lines not needed and write new file without them
 with open(oldFileLocation, 'r') as raw:
