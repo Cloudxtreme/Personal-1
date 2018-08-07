@@ -36,6 +36,9 @@ alias gitupdate='git fetch && git merge'
 
 alias bookupdate='python /home/adamschoonover/Git/Personal/Book-Database/book-input.py'
 
+alias al='python3 /home/aelchert/Git/Personal/Server/Cronjobs/deferredData/allergy/allergies.py'
+
+
 ### COLORS ###
 
 export TERM=xterm-color
@@ -45,8 +48,8 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 ### BASH EDITS ###
 
-alias bashedit='sudo nano ~/.bashrc'
-alias editbash='sudo nano ~/.bashrc'
+alias bashedit='sudo vim ~/.bashrc'
+alias editbash='sudo vim ~/.bashrc'
 alias restartbash='source ~/.bashrc'
 alias bashrestart='source ~/.bashrc'
 
