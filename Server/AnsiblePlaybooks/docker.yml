@@ -1,28 +1,11 @@
 # manage docker containers
 # assuming docker is already installed
 ---
-- hosts: serverLocal
+- hosts: serverRemote
   tasks:
     - name: install docker-py, required for anisble and docker-py
       pip:
         name: docker-py
-
-    # - name: Ghost Blogging Software
-    #   docker_container:
-    #     name: ghostBlog
-    #     image: ghost:latest
-    #     state: started
-    #     network_mode: bridge
-    #     restart_policy: always
-    #     ports:
-    #       - "8988:2368"
-    #     env:
-    #       PGID: "1000"
-    #       PUID: "1000"
-    #       TZ: "EST"
-    #     volumes:
-    #       - /opt/ghost/:/var/lib/ghost
-    #   tags: ghost
 
     - name: Sabnzbd image deployment
       docker_container:
@@ -102,79 +85,79 @@
           - /mnt/NAS/Movies:/movies
       tags: radarr
 
-    - name: Confirm Lychee Folders
-      file:
-        path: '{{ item }}'
-        state: directory
-        mode: 0777
-        owner: aelchert
-        recurse: yes
-      items:
-        - /opt/Lychee
-        - /opt/Lychee/uploads
-        - /opt/Lychee/data
-      tags: lychee
+    # - name: Confirm Lychee Folders
+    #   file:
+    #     path: '{{ item }}'
+    #     state: directory
+    #     mode: 0777
+    #     owner: aelchert
+    #     recurse: yes
+    #   items:
+    #     - /opt/Lychee
+    #     - /opt/Lychee/uploads
+    #     - /opt/Lychee/data
+    #   tags: lychee
 
-    - name: Pull lychee Image
-      docker_image:
-        name: neosar/lychee-docker
-        state: present
-      tags: lychee
+    # - name: Pull lychee Image
+    #   docker_image:
+    #     name: neosar/lychee-docker
+    #     state: present
+    #   tags: lychee
 
 
-    - name: Lychee image deployment
-      docker_container:
-        name: Lychee
-        image: neosar/lychee-docker
-        state: started
-        network_mode: bridge
-        restart_policy: always
-        ports:
-          - "9995:80"
-          - "3306:3306"
-        volumes:
-          - /opt/lychee/uploads/:/uploads/:rw
-          - /opt/lychee/data:/data/:rw
-      tags: lychee
+    # - name: Lychee image deployment
+    #   docker_container:
+    #     name: Lychee
+    #     image: neosar/lychee-docker
+    #     state: started
+    #     network_mode: bridge
+    #     restart_policy: always
+    #     ports:
+    #       - "9995:80"
+    #       - "3306:3306"
+    #     volumes:
+    #       - /opt/lychee/uploads/:/uploads/:rw
+    #       - /opt/lychee/data:/data/:rw
+    #   tags: lychee
 
-    - name: YouTransfer Install
-      docker_container:
-        name: YouTransfer
-        image: remie/youtransfer
-        state: started
-        network_mode: bridge
-        restart_policy: always
-        ports:
-          - "5000:5000"
-        volumes:
-          - /opt/youtransfer/uploads:/opt/youtransfer/uploads
-          - /opt/youtransfer/config:/opt/youtransfer/config
-      tags: youtransfer
+    # - name: YouTransfer Install
+    #   docker_container:
+    #     name: YouTransfer
+    #     image: remie/youtransfer
+    #     state: started
+    #     network_mode: bridge
+    #     restart_policy: always
+    #     ports:
+    #       - "5000:5000"
+    #     volumes:
+    #       - /opt/youtransfer/uploads:/opt/youtransfer/uploads
+    #       - /opt/youtransfer/config:/opt/youtransfer/config
+    #   tags: youtransfer
 
-    - name: Mylar Install
-      docker_container:
-        name: Mylar
-        image: linuxserver/mylar
-        state: started
-        network_mode: bridge
-        restart_policy: always
-        ports:
-          - "8090:8090"
-        volumes:
-          - /opt/mylar/config:/config
-          - /mnt/NAS/Downloads:/Downloads
-          - /mnt/NAS/Archive/Comics:/comics
-      tags: mylar
+    # - name: Mylar Install
+    #   docker_container:
+    #     name: Mylar
+    #     image: linuxserver/mylar
+    #     state: started
+    #     network_mode: bridge
+    #     restart_policy: always
+    #     ports:
+    #       - "8090:8090"
+    #     volumes:
+    #       - /opt/mylar/config:/config
+    #       - /mnt/NAS/Downloads:/Downloads
+    #       - /mnt/NAS/Archive/Comics:/comics
+    #   tags: mylar
 
-    - name: Portainer Install
-      docker_container:
-        name: Portainer
-        image: portainer/portainer
-        state: started
-        network_mode: bridge
-        restart_policy: always
-        ports: 
-          - "8666:9000"
-        volumes:
-          - /var/run/docker.sock:/var/run/docker.sock
-          - /opt/portainer:/data
+    # - name: Portainer Install
+    #   docker_container:
+    #     name: Portainer
+    #     image: portainer/portainer
+    #     state: started
+    #     network_mode: bridge
+    #     restart_policy: always
+    #     ports: 
+    #       - "8666:9000"
+    #     volumes:
+    #       - /var/run/docker.sock:/var/run/docker.sock
+    #       - /opt/portainer:/data
